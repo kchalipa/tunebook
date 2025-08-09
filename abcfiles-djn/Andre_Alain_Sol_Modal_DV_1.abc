@@ -1,0 +1,25 @@
+T:André Alain's Sol Modal DV 1
+R:Reel
+F:abcnotation.com
+S:uniqueKey: DNot-2018-11-02.001
+r:djnCollection: OGC, a
+M:2/2
+L:1/8
+K:G
+%
+%djnPotatoes: B z3 B z3 | B z3 B z3 | B z3 B z3 | B z3 B z3 |
+%
+|:[P:A] "Em"BGBc BAGA | Bdd!4!e dBGE | v"^***""Dm"(DE)=FG vFEDE | u"F"=F2 cF dFcF | $
+ "Em"B2 Bc BAGA | Bdd!4!e dBGE | "^***""Bm/D"DCB,A, B,2DF |1 "G/B"BdAF G2 A2 :|2 "G"BdAF G2 Bd ||
+|:[P:B] "G"g2 ga bgdB | "D"cdBc A3 G | FG EF DFAc | "G"BGBc d2 fa | $
+ "G"gfga bgdB | "D"cdBc A3 G | FGEF DFAc |1 "G"BGAF G2 Bd :|2 "G"BGAF G2 D2 |]
+
+Urtext = 
+|: A | DF/G/A DFA | dcB B2 A | DFA DFA | GFG E2 F |
+DFA DFA | dcB B2 A | Ace Ac/d/e | gfe d2 :|
+|: g | f2 f def | gfg ee/f/g | afd edc | B2 c A2 e |
+faf dd/e/f | gfg e2 g | afd edc | A2 c d2 :|
+
+ChangeLog:
+  2019-01-18 first measure was "Em"B2 Bc BAGA
+  2021-06-17 first measure was BBBc BAGA

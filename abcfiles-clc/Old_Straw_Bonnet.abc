@@ -1,0 +1,30 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752807675
+T:Old Straw Bonnet
+O:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:G
+%
+[P:A-part] 
+ef \
+|: "G" gdBd gbag | "F" =fcAc fga^f | "G" gdBd gabg | "D" agfd g2 ef |
+   "G" gdBd gbag | "F" =fcAc fga^f | "G" gdgb agfd | "C" gd (3(BdB) "D" G2 |1 ef :|2 (3(DEF) ||
+%
+[P:B-part]
+|: "G" GFGA BGBc | "G" dedc BGBd | "F" cA=Fc A=FAB | "F" cABG AG (3(DEF) |
+   "G" GFGA BGBc | "C" dedc BGE^C | "D" DEFA Bage | "D" dBAF "G" G2 (3(DEF) :|
+%
+[P:C-part] \
+K: Gmin \
+|: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
+   "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
+

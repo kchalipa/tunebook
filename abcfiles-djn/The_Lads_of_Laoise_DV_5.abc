@@ -1,0 +1,21 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2022-03-24.001
+r:djnCollection: OGC, a
+N:For Harold: L3M3 starts Em, not D.
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Edor
+%
+|:[P:A]"Em" EB,B,B, (EG)FE |"D" DA,A,A, D3 (F |"Em" E2) (FD) EFGA | B2 (e^c)"D" dcBA |$
+ "Em" EB,B,B, (EG)FE |"D" DA,A,A, D3 (F |"Em" E2) BE dEBE |1 "D"DEFD "Em"E4 :|2 "D"DEFA "Em"B4 || $
+%
+|:[P:B] "Em"eBBB egfe | "D"d2 fg afdf | "Em"e2 ef gfea | "D"afdf "Em"e3 B | $
+ "Em"dBBA G2 FG | EBBA B2 ef | "G"g2 ge "D"f2 fd |1 "Em"efed e4 :|2 "Em"efed B2 F2 |] $
+[P:Trans_Broue]"Em"efed e z3 |]
+%%writefields NSBD

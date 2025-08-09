@@ -1,0 +1,20 @@
+%abc
+I:abc-charset: utf-8
+S:uniqueKey: DNot-2021-10-08.004
+C:Dave Notman 2021-10-08
+R:Reel
+%
+I:linebreak $
+r:djnCollection: AltOGC, a
+N:The first two bars were drawn from Stourton Wake.  The B-part came to me after playing Banbury Bill,
+N:but I don't think there's much in common left.
+%
+M:2/2
+L:1/8
+K:D
+%
+|:[P:A] "G"B3 c d2 B2 | "D"AGFE D2 d2 | "C"g3 f e2 d2 | "G"Bc d2 "C"e2 ef | $
+ "Em"g2 f2 e2 de | "Bm"fedc B2 de | "C"gfed "G"B2 d2 |1 "A"e4 A4 :|2 e4 a4 || $
+|:[P:B] "D"fe d2 "G"B2 FG | "D"A2 {c/}d2 ("G"B2 A2 ) | "Em"gf e2 "Bm"d2 Bc | "D"de f2 "A"e2 ef | $
+ "G"gfed B2 ce | "G"dc B2 "D"A2 F2 | "Em"EF G2 GA B2 |1 "A"AB d2 e2 a2 :|2 AB d2 e2 A2 || $
+%%writefields NSBD

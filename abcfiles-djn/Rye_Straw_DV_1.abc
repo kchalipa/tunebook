@@ -1,0 +1,43 @@
+%I:abc-charset: utf-8
+C:Dave Notman 2017
+R:Reel
+%
+S:uniqueKey: DNot-2017-06-21.602
+B:Variation on Fiddlers Fakebook pg 241
+N:Drone on A or E as much as possible!!!
+r:djnCollection: AltOGC, a
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:D
+%
+|:[P:A] "A"e2 ef edBd | efgf edBd | e2 ef edBc | "D"dBAG [FA][DA] [EA]2 | $
+ "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 || $
+|:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "G"BcdB "D"AFDF | $
+ "A"E2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 "G"dBAG "A"[FA][DA] [EA]2 :|2 "G"ddBA "A"BABd |] $
+%%writefields NSBD
+
+ChangeLog:
+      [P:B2] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FEDD | "A"E2 AE "D"FEDd | "A"efed cA [Be]2 | $
+       "A"E2 AE "D"FE DD | "A"EGFE "D"FEFD | AGFE "D"FDFA | vduBvAu(G .[Af]2) v([Ae]2  :|
+
+Before 2020-06-11
+      |:[P:A] v"A"e2 ef edBd | efgf edBd | edef edBc | "D"dBAG FD [EA]2 | $
+       "A"e2 ef edBd | efgf "!! Here"edef | gfgf edfe |1 "D"dBAG FD [EA]2 :|2 "D"vduBvAu(F .[DA]2) v[EA]2 :| $
+      |:[P:B1] v"A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DD | "A"EE AE "D"FEDd | "A"efed cA [Be]2 | $
+       "A"E2 AE "D"FE DD | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 dBAG FD [EA]2 :|2 "A"efed cA [Be]2 |] $
+
+Before 2021-02-20:
+      |:[P:A] "A"e2 ef edBd | efgf edBd | e2 ef edBc | "D"dBAG [FA][DA] [EA]2 | $
+       "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF .[DA]2 [EA]2 :| $
+      |:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "A"efed [ce][Ae] [Be]2 | $
+       "A"A2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 dBAG [FA][DA] [EA]2 :|2 "A"efed [ce][Ae] [Be]2 |] $
+
+%x%textfont * 24
+%x%center Free Score!  Take One...
+%x%textfont * 14
+%x%text Download them all from https://davescontrascores.wordpress.com
+%x%vskip 0.5cm

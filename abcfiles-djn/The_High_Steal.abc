@@ -1,0 +1,28 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2021-06-22.006
+%r:djnSimilarTo: DNot
+B:Portland I pg 101
+r:djnScoreImage: ../tsi/Portland_1_Scans/P1_pg0101b.jpg
+r:djnCollection: AltOGC, a
+%r:djnScoreImage:
+N:Derived from the "The High Reel", from Portland I, by converting it to A-minor.
+N:Traditional Irish versions of "The High Reel" have a different A-part.
+N:Not sure which version of the A-part I like, so I have included both for now.
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Am
+%
+[P:A1] "Am"afed cAAB | cded cA AB | afed cAAB | "G"cBcd dB G2 | $
+ "Am"afed cAAB | cde^f "G"g2 fg | "D"a^f (3:2gfe fded | "Em"Bcdc B2 eg || $
+[P:A2] "Am"afed cAAB | cded cA AB | afed cAAB | "Em"Bcdc B2 eg | $
+ "Am"afed cAAB | cde^f "G"g2 fg | "D"a^f (3:2gfe fded | "Em"Bcdc B4 || $
+|:[P:B] "Am"(3cBA eA fAeA | cAaf ecAB | (3cBA eA fAeA | "Em"Bcdc BAGB | $
+ "Am"(3:2cBA eA fAeA | cde^f "G"g2 ^fg | "D" a^f (3:2gfe fded |1 "Em"Bcdc B4 :|2 "Em"Bcdc B2 eg |]
+%%writefields NSBD
+

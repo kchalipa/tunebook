@@ -1,0 +1,51 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2017-09-13.057
+%r:djnSimilarTo: DNot
+%r:djnScoreImage: ../tsi/
+r:djnCollection: MyTunes, a
+r:djnCollection: OGC, a
+N:Written 2015-03-24, significantly revised 2017-09-13
+N:Harold had B1,M4 Chords = A, E
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:A
+%
+%djnPotatoes: e z3 e z3 | e z3 e z3 | e z3 e z3 | e z3 e z3 |
+%
+[P:A1]"A" (eA)AA A2 cd | (eA)AA A2 de | fAeA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dBBB B2 Bc | d2 ee fedf |"A" edcf e2 cd || $
+[P:A2]"A" eAAA A2 cd | eAAA A2 de | fAeA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dedc B2 Bc |"E" dcde fefg |"A" a2 ab a2 cd ||$
+[P:B1]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 Bc | d2 "^*!!!*"d!4!e gfeg |"A" fedf e2 cd ||
+[P:B2]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 Bc | dcde defg | "A"aafg a2 cd |]
+%%writefields NSBD
+
+Here's the 2015-03-24 version.  Then I made changes to end of B1 and the ending
+of B2.
+[P=A1]"A" (eA)AA A2 cd | (eA)AA A2 de | (fA)eA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dBBB B2 cd | e2 ef gfeg |"A" fecf e2 cd || $
+[P=A2]"A" eAAA A2 cd | eAAA A2 de | fAeA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dedc B2 Bc |"E" dcde fefg |"A" a2 ab a2 cd ||$
+[P=B1]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 cd |1 e2 ef gfeg |"A" fedf e2 cd ||
+[P=B2]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 cd | e2 ee fefg |"A" a2 ab a2 cd |]
+
+Here's the 2017-09-13 version.  I changed B2 ending to make it unique.
+
+[P=A1]"A" (eA)AA A2 cd | (eA)AA A2 de | fAeA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dBBB B2 Bc | d2 ee fedf |"A" edcf e2 cd || $
+[P=A2]"A" eAAA A2 cd | eAAA A2 de | fAeA dAcA |"E" Bcdc B2 Bc |$
+ dBBB B2 Bc | dedc B2 Bc |"E" dcde fefg |"A" a2 ab a2 cd ||$
+[P=B1]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 Bc | d2 de "^*!!!*"gfeg |"A" fedf e2 cd ||
+[P=B2]"A" e2 A2"D" f2 gf |"A" e3 f e2 cd |"A" e2 A2"D" d2 ed |"A" c3 d c2 cd |$
+"A" cB A2"E" G2 A2 |"E" B3 c B2 Bc | d2 dc defg |"A" a2 ab a2 cd |]

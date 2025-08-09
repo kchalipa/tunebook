@@ -1,0 +1,26 @@
+%I:abc-charset: utf-8
+C:William Sheild
+R:Reel
+%
+S:uniqueKey: DNot-2017-05-25.373
+%r:djnSimilarTo: DNot
+B:Kentucky II, pg 16
+r:djnScoreImage: ../tsi/K/Morpeth_Rant.jpg
+r:djnCollection: OGC, a
+r:djnCollection: RH, a
+r:djnListRef: RH, Morpeth Rant
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:D
+%
+%djnPotatoes: d2 z2 d2 z2 | d2 z2 d2 z2 | d2 z2 d2 z2 | d2 z2 d2 (3ABc |
+%
+|:[P:A] "D" d2 AG FDFA |"G" BGBd"A" cAce |"D" f2 fd"G" gfed | "A" c2 e2 A2 (3ABc | $
+ "D" d2 AG FDFA |"G" BGBd"A" cAce | "D" f2 fd"G" gfed |1"A" A2 d2"D" d2 (3ABc :|2 "A" A2 d2"D" d2 fe || $
+|:[P:B]"D" dfaf dfaf |"Em" gfef g2 ef |"A" gfed cdeg | "D" fede f2 fe |$
+ "D" dfaf dfaf |"Em" gfef g2 ef |"A" gfed cdeg |1 "D" f2 d2 d2 fe :|2 f2 d2 d2 (3ABc |]
+%%writefields NSBD

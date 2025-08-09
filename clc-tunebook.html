@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=860" />
+<meta property="og:image" content="https://michaeleskin.com/abctools/img/abc-icon.png" />
+
+<title>ABC Transcription Tools Generated Website</title>
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        margin: 0px auto;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 24px;
+        margin-bottom: 0px;
+        color: #000000;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 24px;
+        color: #000000;
+    }
+
+    p {
+        color: #000000;
+    }
+
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #000000;
+    }
+    a:link {
+        color: #000000;
+    }
+    a:visited {
+        color: #000000;
+    }
+    a:hover {
+        color: #000000;
+    }
+    a:active {
+        color: #000000;
+    }
+
+    #footer1{
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        color: #000000;
+    }
+
+    #footer2{
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        color: #000000;
+    }
+
+    ul{
+        list-style-type:none;
+        padding:0px;
+        text-align:center;
+    }
+    
+    li{
+        margin-bottom: 16px;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">ABC Transcription Tools Generated Website</h1>
+        <h2 id="subtitle">Select a tune from the dropdown to load it into the frame below:</h2>
+        <hr style="margin-top:24px;margin-bottom:24px;width:500px;color:white;">
+        <div id="tuneShareLinkHolder"></div>
+    </div>
+
+    <script>
+
+    const tunes=[{"Name":"The Big Scioty","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXNIA7ACsAMxSBTRUAJwVdJi5mBYwqMTgpqgAymLgCKAAnnQO2ZgaQuQAdHQASrkaMMF0AHK580J4lEJwMRqooA3tnd0IqBPgYVvgSKgA8hZdo6gAglD4h-jKwbCUHV3CADR73zA-l9uj1xgAtXJUAAMUIqqAAUggLBcHBYVixNJIADwAKzE2VArigoiESFGOEgoxg5CYAD46AAxXIWUCgZQAegA7tzRqZRKBLLB8PhRkhwuyhCwxOzFChhqNJWI6ABZXI0dn0ADSuQA4gxFTj8AB9Z5MJC2LioOBQJjgcjyZX8AAi-FQyg0CFMwxwqChDudrpYQmF7s9vv9LtQlms5FDrT9IEdkaDwpCZFQADZ6ImA1GrDY01BM9mRuQjSIoEblFAhD0g2IANZG0RIBsmADaAAVsgy7eRYBpJAyhA2YCwEAgGwBdAAURSdAFEGagADp0AA+qAARDqd1RiJQmvcdcRUJv7sRL00qOQxGejweHjqFzr7xer8QqE6qGeN6gdQyOr3Ne5A-puW4OFuMBFK0MA3ne4G7sQx6vluTpbseL73juGGXqen6oNk64brkc6Lsua6ITuF6UO2pj7lQU50QxU7YehQhFCwqBCFQpiNJuphwIJqDkOQBHgZB0GwbxcC-gJQmydS4moFJKnwdhSEXqh6HHseGm4R+P5EXQXbZMQLhFgEKw4Mg+BTnQi7rjqP5Af+L73E5LnAc59xiOuyEnk+L7rluABUGE+f+X4LsRQHEK+vnIf5syKTeVD+VpQU6uux7tjqPw6lOwF5T8VDOVOxklV+jHru2xAwUUU6mIQqCmJKpjrjAPFcTx7b3FQcFTuuphFEIrXUh5xDtnBg3TTArHTQNjGLYNhDEXNU5CUt5CTSty2zExM37UtU5rRtW1wTt-kbTOG3TXAU4AJR7UxoGDcRADexBiAAvsh8VZTlkXOVV35DXVDVNS1bUsB1XVUD1VB9SdxEjbBYm7Udh3zagL0vWdB0XTeHl0FNB23Qd91PXjb01V9v3-Qlz7ZceVDeWB67AIqhBUKMUjRJAsCJP4vD6KQFDUNmwDMGwgucDoPB6AIwiiBI0hyCAigqGomjC6LytGBIZjRjYwvJM4rjuCAnjeL4lpJEEoThOIUQgDE8Rm44FtpEAA&format=noten&ssp=10&name=The_Big_Scioty&play=1"},{"Name":"The Black Mare of Fanad","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMMlQADHSY2ZgWMKjEUEJiANaoALJeTQhwqABiQkhC5HQO9RpjAHR0AErZGjDBdF3ZNAD09ABy2QCCGtNIpjCULACeqA5CONcaapIAfqh5m1QFdADKB+RCyjFKHAHncLKBQMp8NlNptQI11Ph8OBkDNrKZYUwkARtlQSnQANLZAAiDCELDEACt8AB9fDOJC2LioOBQJjgcYgLr8In8VDKB6maZ3Gqc7m8lhCRH8hCmVAi4BcnmoSzWcjS2XyxXiyX4EJkVAANnooqVKpseqghuNY3I1JEUGpylaFwlHWpoiQ7RMgwAogAfbIAIiJwaoqAAFGVfUTUIGAOKB-ZE31+4PBn2DOOofbEfaDVMholhyPR2PEHDxjP7VM+ivEH0+mM+uMpuhposRqON2MJpMp9sZrM5vMF9ODfax-bxnNiP1SWMh2wwMSochh33ZP1htNLldr7PEP1+ugBwMOQNPAC8YjK2Z7F+It7jo-2cZz2Zb-oHndLgfLlfHGs6wbJswxzY8zwva9bwneMHyfF9yDEIFyBHAdx0nadiFnKQ01XOBl1XMDiE3bdFwIvcwwI49T0XKihHvUwKNHch4FlMkhDgUdI3IXjmQYv8KyYs4gMDFgmkjFYmnE+AILo-jGOYnc2NQDiuOUuABKnYTTDnBdAzgchTmZXj9lI-TDOMwyRz9IA&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"The Black Mare of Fanad","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMMlQADHSY2ZgWMKjEUEJiANaoALJeTQhwqABiQkhC5LXZQgB07VPTqA1NAHLgSE0ACgirPqj9qABKCKZMmgCedA71GmNTdPvZGjDBdF3ZNAD09EvZAIIa10hTDBKCxTqgHEIcOCNGpJAA-VB5d5UAp0b6CVDqGA4SSidpNHAjMFhDT4cDISR7UAWcCSUBMNaoZStMRNEaoACiUMs1koq1Q1KaiBc1NQLC8aOyVMaqDg4FJaBGlHUiiQlE83nwU26QlMpjcqAAyiN8Mgmkx1JIHKhVvgYmMADSoADuNMsqH4qDxBOsMAdkpYTDQgoFDKatN2go0ztpTRD+EhMFuhuyThwLFWwNQJLJFN2AwsoFAynw2Xe70FltzSCm1lMFbD+E+VBKqCV+Z1eoNxqQprWdAA0tkACIMIQsMQAK3wAH1TQzbFxZVAmOBxiAuvxh57lDDTNcoTUN1vPeL8Phd0dUEfgJvt6geTZL6Zr-I76ehOeQmRUAA2ejHvej7kN+UB-gBYzkDOIhQDOzJCKc4odDOohIO0JgANrrL8hAaqAAC6dA-A6VAAD4AETDpRVBDMOqDkQA4oxgwcsOFFUT85A-IMqA-MQ3HsdRtH0UxDEseQFEOORAC8YgchyYj0Vy5FyQxHKkXQlFCYMdGMcxrGCZx3G8fxgyCcOHKDAxJliD8FE-ORXGDD89FUcONHEWRmluTRAAUZQsbponDix5mWdZfECVp7moP5gUiYxll2eRUmyfJunKRyYnqd5QlxaxCUMSF6nReFJlRW5SWoAxfFiPZjlwDAilaeQHnEKRGlYdkxC4V4BGaalYg0AlxA0IZw2RWZ0XESF1XiZJMlyQpSk4CpWXtQNi3kLZI3kMQDGGdtlBwE5YVWTZyUOU5LnRTRLAkRpKWLcNemjeN5VTW5M08dlElPWly3kcpqkbf9YjbTdTHEHtB1aZx4OyqdpXnbVl2OdxN0+WKD3AOOYiEFQUxSNEkCwIk-i8PopAUNQAHAMwbCk5wOg8HoAjCKIEjSHIICKCoaiaOTlPs0YEhmMB5PJM4rjuCAeG+EuSRBKE4TiFEIAxPEkuONLaRAA&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"Blackberry Blossom","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJQAMVHSY2cRQQmIA1iyaGgCeqA1q+Ep0DtmYGkLkAHR0AErZGjDBdACy2TQA9PQActkAghojSKYwlCxdDkI4qA4avagAfqh5K1QFdADK2XQA0tkA4gxCLGIAFb4AD6fSYSFsXFQcCgTHA5HkC34ABF+KhlFdTCNzpUkaj0SwhPh8JiEKZUHiQMi0ahLNZyGSKVTgDTCcT8CEyKgAGz0akEulWGxcqC8-mjcggkRQEHKRodIktEGiJDNEwAIm+GtM-wpGoAYgBiHAauC6uAAHw1Dg18AOqC1GvIxC232ttoAogbvp7HdqUZ7vltrVsNcQXd9HSiNVsxPBLXQnbqWPrjabzUIrTa7eaYP7na73Tnvb6C4Hg9aY8RgwaC98aNlE5bshrPabiFQYMRHcQ8oXu9b2+Guz3w-3IyG2x3R6gXQnxzq9aghAdyInpyPu72J8RB5vO9vF-Ps8PdQ7Y4XK1Jo+Ha-WqMGm1RbzWtnWnd8qJbLUA&format=noten&ssp=10&name=Blackberry_Blossom&play=1"},{"Name":"Brose and Butter","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJVJldJjZxBpqMKhCSJTETKAx6Q7ZmBpC5AB0dABK2fiiyqgAVuCmdACy2SUA9HIActkAghr9SKYwlCwAnqgOQjhnDfiSAH6oeStUBXQAytl0ANLZDnSowEIWGJpvgAPr4ZytPxwKBMcDkeQLfgAEX4qGUDVM-UuAAZESi0SwhDcMQhTKg8SAkajUJZrORSeTKcBqYTifgQmRUAA2ehUgm0qw2TlQHl8gbkUEiKCg5RQITHIliADWoNESGVJgAYgBxLaoZFa5EGo2oAA+qF1+sNxoAolQzubLXqTcbkbatU77Y6HGJ9TqtQ5UNkzX8AHpW1BbP1RmMWiMu6P+21B+ORpNR4hiJ3EB061A6mM6lPB0MFrbEVC24tVmsWvWV6u2qMR431iu15u2hNOiO243kB2Vrat0t-F251DkfUV-Xt1CT8iVsNiYhz8sLh3TzPrnU9wcLlumsumMNwJrEFaoUxlJ6oM8rGBXi2mFYPp+H1-3uArV9CZ-Xm+P4fpe163g674AU+kFTguV5bG+WorMiz4ALpAA&format=noten&ssp=10&name=Brose_and_Butter&play=1"},{"Name":"Brose and Butter","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJQUAbHSY2cQaajCoQkiUxEygMekO2ZgaQuQAdHQAStn4osqoAFbgpnQAstklAPRyAHLZAIIaA0imMJQsAJ6oDkI45434kgB+qHmrVAV0xNkbblCoAOIIAO6oABkqAAyshJAAiJwqWAxVCjGCqfCQawnSGoEJDKSoZRDKhUVAAYiodAAWtkqAAGKg4gBSCAsSHOFkuLE0kgAPDMxNlQK4oKJWkMcJAhkcmAA+OignbkITKGKUOCNK4WLrKfDZVarUAWAgEFHIIbWUy6phIAirGhUEp0ADSOxwDFQhFd7rdno9HpdADUEOJmjjEBocEIukdUCHcY0ECqYINwAcRsAhCwxDN8AB9fDONp+OBQJjgcjyRb8AAi-BjCFMAyuVLLlerLCEt2UjVMqEbIHLVdQlms5A7te7Tf7rduITIqCq9F7zYHVhs0++c4Yg3IWZEUCzyigQhOrbEAGss6IkCeTL7stJUPhhGF8ABeUkAH2yAB1amJJeRmtsYjbKgmBiFQwFvgOf4AUBqDkMQPyoJBoHQaggHAdsxBiEhIHEFQiE-IccEIag2SQWI-6oDARHUc05GUbRxGIW+dAUc0jEwAAenAXbIdxVCUOQRHwcx9HsTRRFiVRwkkVJHHcbxIH8YJMnMQAui6Xpad6Wl+gGYjNISHYGhoT6oHqzQsAgCAngA5JID5CHAcCoAeJzOKAIw3tQA6wHAz6TpIorkOQsDPqWH7fkIZQtDF0U4fF8WmDFkGJTF3EpagyVZTF2Vkd+ADaYi2WUYhlGpqBFSVZUVVVpXlThdU1ZVxX1bVyU-A1LFNQ1PW1a1zWQQV5AleQvUjWUY3tWUnUVW+b6FQNvVLf11VdS1a2rW1lUdV1i2bRt20FZxrUnetw2jeNl3TbNSFqUAA&format=noten&ssp=10&name=Brose_and_Butter&play=1"},{"Name":"da New Rigged Ship","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDQADCUAbHSY2eRCqAByMADuqABK4KamMJQAyhbgynQO2ZgaQuQAdHQd2RowwXQAstk0APT0TdkAghqTSL2ULACeqA5COBcaapIAfqh5G1QFdDsAMjBeSH2ocLdrgBRSgABW+GigOCESAANNISjI3sRxkpULskORNPhkKgAERdI7gI6ofqgVxHfB4hEyADM71R1wxWI0OKQAHJJEgEDF8NkGbtUOSppBwMgRKhFsF-oChRYYKhlFAhKdiaZUAg4HKFcqYqhwTENKgAGKTdRGzUm4lIbpeUAWeEAdSEQnw01QmHlQqYv1QYmCLEmvO1ku6pjVGqYaFakAsqF+7XwQnAUEkMMo0PwaEtjTg4HwQxJLAQQlA8NaQ0sIYQrV+RuUtyY5Cg50iUFTqEaBeGswA0ntyNYGEIWGIAFb4AD6OJ9ti4-ygTHA5HkK34ABF+IrbqZJtdyquN1uWK78A2EOqDyA15u-VYbOfL4fbyf8PgQmRUFV6Nej3frOQH5QF+P5TOQk4iFAk5KiqJ5iAA1pOohIPBJgwOqAA++K7DgeJCFQI6dr0mGdgRLBEfAqBYXiADieKmFQPT-KYQgkXi654nAVDkFQqA8ag2QYQA2v2OHgLEAC6dAYdkqB-NRux4mIuzKfiQJ5HixBUPJ2FKSpgp4gAFOpACUeJAtplAKXpqnmRpWk6XiiliFQuy8W5AlYSJ2QALxiFJ-booO6QyeixBUdhuFiFiYj4nRxDReFCm4bsxC7Maam4TRxoWRFTlRTFcWaYleU4UprnubxglAA&format=noten&ssp=10&name=da_New_Rigged_Ship&play=1"},{"Name":"Old Straw Bonnet","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIADHkAbIV0mNkA8hSoAMqgGkIA7qikSEjhdLXZmK3kAHR0AErZGjDBdACy2TQA9PQActkAghqtSKYwlCwAnqgOQjjHGmqSAH6oeYtUBXSN2XQA0tkA4gwMQixiAFb4AD6+GcSFsXFQcCgTHA5Hks34ABF+KhlBdTK0ziUEcjUSwhPh8OiEKZUDiQIiUahLNZyCSyRTgFT8YT8CEyKhyvRKXiaVYbByoFyeUJyOQgSIoEDlFAhAcCWIANZA0RIJUmADaAAUNoRPN4ALqoOjwVAAHToAB9sqgAEQfO2oUzkYiUUwEslW+0AMSdAF44GJ1mIoaYhAA9OCob0Op0ut3O35e+1Ip1CUxwd1UVBmq10DBx52u92emO+gNBkNhyPR2OO4se1AZrPlu0OeOUAAUAGYu27iABKVNOj45q1SXPR7JWnO9rtIgCiPuHVvzwDoOuyxH1XlAhuttqLHx9H3WnQ+xFD9ad5D2oeIl8osb9NPW-p9offPvWxDbr+DR9UHWD5UHnJcVxjAt0GPU9z0fK82w7VA73IB8PkXCMHDbNNUAg+CMxgHDb2IdYfXtBsxzAvsIOHGdvi3BxdyNC03ltD4cHAJBWJtCicHjAAaHMgN-YM2w4p0r1dGlSIjcj6341AqJEq9z1jJE8lvCMxDvFD-TEYg5KgwsJOdISL2A1TxMUqS-wMsicM0pSfSRUCXIceTUycpFsPndYBOIAT-NXScHUUj5zKRciZxzCKaBjQ0gA&format=noten&ssp=10&name=Old_Straw_Bonnet&play=1"},{"Name":"Queen of the West","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIAbHkADACsUoWFAMz0mNkAikwwMEioCHCooBYwqADqBKB0APLZmBpC5AB0dABK2RqNUHQAstk0APT0AHLZAIIao0imMJQsAJ6oDkI45xpqkgB+qADsq1TFdADK2XQA0tkAIgwGEIWGIAFb4AD6+GcSFsXFQcCgTHA5Hki34f34qGUN1MoyuhTRGKxLCE+HwOIQplQhJA6MxqEs1nIlOptOA9JJZPwITIqDy9DpxMZVhsvKg-MFY3IEJEUAhyigQhOpLEAGsIaIkGqTABtAAKO0Inm8AF1UAAxACiqAAPqgAER-B2oP4W7YW13ugA0nvtDu2LqtAHFtsHUCHtt7w-7nZbtuRPQ7gy7g8QYGI7Y64wm4JQAy6xGGbba6E6XW6PV6o37HYGI6Hw5Ho1ny-HE46U6g0xnW-XyFQEYO2wPGZRbaXgHQDdliMavKBzQXUBntpmrWuuq243mE+22q2u6ZB3BqQ6rS74OQuv6LyvyGJiHWXdtB2Jx2X66v15v0LGXbulDurYf6di6pikme9ZwEcmb-qgo5wIOo7WnatpAA&format=noten&ssp=10&name=Queen_of_the_West&play=1"},{"Name":"Salt Creek","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsAMwFBQCcRVIFdJjZAMoiaA4aMDAA1nQO2ZgaQuQAdHQAStktwXQAstk0APT0AHLZAIIavUimMJQsAJ6oDkI4expqkgB+qHkzVNUA0ssMQixiAFb4APr4zki2XKhwUExwOR5BN+AARfioZTHUy9Q4ABhB4MhLCE+Hw0IQplQiJAoIhqEs1nImOxuOA+JRaPwITIqAAbPQ8cjCVYbLSoAymX1yG8RFA3sooEJtqixG03qIkG0TABRABiqAA4gqlagAD7ZVAAbQACstCJ5vABdVAAIiWZtQSyoqAAekqltbbUtiBrzZbCa6xOawVbyLbyE71ealVbiEsALyO1ARmMhuhmsOxqNKxVm2VW2W2hXui1Wm32mOF115z1ib2+-22+AaqQeq2R0xwGDYlu2d2JzOoTZiN3552obOobLq9W2gdNmBCGCoUwbSghjPhpbkfuewvDseoOh67LEQ1eUCmgdCW1CISoM9Xlhlq1iADkj0fV5rtqXyabtvnc+-l4-VosE2jy-j2747qe56XteIFLuWT5PA+r49nAd6oE2cCmJeza1ku3a9uuBY0J2wDRHETRsuQ+DZGR8TWtaMxgsqyozLKtFoE6SyMfRsozEsQA&format=noten&ssp=10&name=Salt_Creek&play=1"},{"Name":"Shelder Geo","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDRSNCV0mNkAyhbB5JqoAOIwCHQA8tmYGkLkAHR0AErZGjDBdACy2TQA9PQActkAghp9SKYwlCwAnqgOQjgHGmqSAH6oeXNUBXS12XQA0tkAIgxCLGIAVvgA+vhnEhbFxUHAoExwOR5FN+K9+KhlKdTH1jgAGGFwhEsIT4fBIhCmVAYkCw+GoSzWcgEokk4Bk7G4-AhMioABs9FJWIpVhsLKg7M5-XIfxEUD+yigQl2OLEAGs-qIkHKTAAfbIAIleGpWAGZWqgAGItFbEVUahwagC8YioFJWqA1LQ1xBaLTNWp1xBWLSNr2NqqkjudK3I5DEju15Dt5GI2VVdqdOrDEc90dQsdVqro6ot1rETTgqFMQlMcFVMBt5lQMDE5lVNsLxdLMHN2oAenByP0wd3yNm842YESS2WK1WI7WxK280JO1tezB22I28nyMuMzR40A&format=noten&ssp=10&name=Shelder_Geo&play=1"},{"Name":"Smith's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVACcAMwypQWldJjZAMo4kBYA5JIASjDBdA7ZmBpC5AB0dG3ZGp1QdACy2TQA9PR12QBSCDAAnqhTYgDSMEj4bqiEqH1CB2KuLDCUcBpKqEKoAOow4OoaqABWQjiowsoYNJisU8ugADLgwbEQaoOhLUCuKCic6DRqgQY3JhzAB+XzEcxwTEOBKELAJjQ09w0c3BBBiGmIQnAsHWhOCSHC+AA+ixwKZuWSxNy4CyYHMpFRJVQ6AA5bIAQXIQmUMUo53VVPOphuqBYmwcv1QDnu+EkAAocJtPN5JKKNPhQAAaVCrDatVDqRRIcgASjoO2yABEGEKvjz8M4fX44FAmOByPIpvwg-xUMp7qZ+n8AAxJlNplhCM0ZhCmVB5kDJ1OoSzWcil8uV4DVwvF-AhMioABs9CrBdrVhsnagPb7A3IguR3OUUCE6yLYgA1tzREglyYANoABUVhBtoAAuubSua4KYAHqmX0AHToAB8AERBx9CKhXp5FuAwJ8AcUf5DwJQNzEOQT4vgqABiSqoMQYiAU+CqPnAQhwMBqGmPedDPq+QgfnqqE-o+-7kKYaGoCBYGPkhUEwXBCHUchQgwGIqA4eQVCoOe95YThZKoQR35-gBZHAWhxDgdR0GUPRRFId+tgUbYmHYS+-FwARqAnuaCpwb6wmAeRQESYxtEyfBcnIYBrHsZx5BiDxDB0Du2TEPuXhHthxA4I+xCQaBsH+Q5xEAUBSmgZJZmwRZiFMUZZE-l5Pn2XBgXEE6kEGWFlGRdJ0UMfJgGUDhcCcUJvHeQBYgBWZwnEFBQaoAAokG6VBpFTptU1qDSZZKFGYRFXJbplC1SF9WQY1LVtbFCqdU6QaQT1Sp9UVbEvqVXGYVhLkKu53haSEXiDL6h6qa+MADM0glESR2XkBFOHabpYi+qgik3PAqCxc9envRpNylbxamXeQ11frdoVGQ9VE0XlsmxWhLHrQBNCOcA0RxGgCpQAySBCBAYSDvW+DZJj8SwX8v6oEGczec1eRzAqeTk2g9PU7T9PM3MIYgDEFOc1TNN038TWM8zrPC+zUt-NzQZAA&format=noten&ssp=10&name=Smith's_Reel&play=1"},{"Name":"Westmoreland's Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDSyAGx0mNkA6gSgONbBQkjkAOSSAdZIyuDKMHQO2ZiaGgCeqACy1q4mAErZGjDBdFPZNAD09ABy2QCCGhqtpjCULJMOQjioDhpqkgB+qHmbVAV0AMojY5MzR+ATABpbIAEQYQhYYgAVvgAPr4ZxtPxwKBMcDkeRTfig-ioZT3UzHG4ABixOLxLCE+HwBIQplQZJA2NxqEs1nIdIZTOALMp1PwITIqAq9GZFLZVhsQqgIrFQnI5DhIigcOUUCE4ypYgA1nDREgdSYANoABQOhE83gAuvsAOIAHToAB9sgAiUFugBioP2oNQXr9XudboAojg3cRQ3biKho8Q7SHPT79l7UL6fSH9m79gAaByhvO3Qu50OoZ10D3e33+wOg4NhiNRmNxmOJnPV1Nx0EF51SDv1-ZiVBV8hUVD27LOqgd9Pjr3jqug8eg0POitm7LES1eUDWp2uqte8hiSip+shu1hvMF9MOVdJ70ns8+hvZ0MAPTbE7EMDEFdHVN9nTQMG3DSN41bBMs07NNQx7Nd+09OcAxXFdQynGdkOXVCUKEUx1zoTd9h3bxUAAChCLwADoAEprRdd1PTgcgFVQOAFTgENwJYGBTBYVA+JYAiqxYtiONsGCzjEWN7S9NdK09IDayDbim0g+N22zL07S7G9QwcGDB2HUdx3wqcGGiOI0AcKVyHwbIrPidNUDtFz9ictB-Tc4D9k2cEQBiZziBuNz-Q8wLrNQELXInCd-KAA&format=noten&ssp=10&name=Westmoreland's_Hornpipe&play=1"}];
+
+    // Populate the tunes div with options from JSON
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Select the div where the links will be inserted
+        const holder = document.getElementById('tuneShareLinkHolder');
+
+        // Create an unordered list element
+        const ul = document.createElement('ul');
+
+        // Loop through the tunes array and create list items with hyperlinks
+        tunes.forEach(tune => {
+          const li = document.createElement('li');
+          const link = document.createElement('a');
+
+          // Set the text and URL of the link
+          link.textContent = tune.Name;
+          link.href = tune.URL;
+          link.target = '_blank';  // Opens the link in a new tab
+          link.title = 'Click to play "'+tune.Name+'"';
+
+          // Append the link to the list item, and the list item to the ul
+          li.appendChild(link);
+          ul.appendChild(li);
+        });
+
+        holder.appendChild(ul);
+
+    });
+
+</script>
+
+</body>
+
+</html>

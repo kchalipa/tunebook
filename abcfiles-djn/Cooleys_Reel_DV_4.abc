@@ -1,0 +1,30 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2018-06-01.005
+%r:djnSimilarTo: DNot
+%r:djnScoreImage:
+r:djnCollection: OGC, a
+%r:djnMusescore: ../CheckOut/bsob/Cooleys_Reel_DV_#3.mscx
+N:Mostly Kentucky Contras Version 2016-08-07.001
+N:(1) Some versions have an Irish Roll here, and in other places in the B part.  Others
+N:have a straight BBB triplet.  Craobh Dugan had the BAB triplet.  Still too hard.
+N:replacing with 1/8 notes.
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Em
+%
+%djnPotatoes: E z3 E z3 | E z3 E z3 | E z3 E z3 | E z3 E z3 |
+%
+|:[P:A]"Em" EBBA B2 EB | (Bd)AB dBAG |"D" (FD)AD BDAD | (FD)FA BAFD |$
+ "Em" EBBA B2 EB | (Bd)AB defg |"D" afge dBAF |1 "D"(DE)FD "Em"E2 ED :|2 "D"(DE)FD "Em"E2 gf || $
+|:[P:B]"Em" veB"^(1)"BB efgf | eBBB (ge)dB |"D" AAF!4!A D!4!AF!0!A | BAFA defg |
+"Em" eBBB efgf | eBBB defg |"D" afge dBAF |1 "D"(DE)FD "Em"E2 gf :|2 "D"(DE)FD "Em"E2 ED |]
+%%writefields NSBD
+
+ChangeLog:
+  2018-07-11 Fix D->Em in both sets of 1/2 endings.

@@ -1,0 +1,37 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752938353
+T:Smith's Reel
+C:Trad.
+R:reel
+M:4/4
+S:Joey McKensie - Transcribed from a Weiser jam tape 1997  LL.B. 
+S:trillian.mit.edu/~jc/music/abc/mirror/LesterBailey/melnets_big_abc_file/12122
+N:Adapted and arranged by Cam Cross (my parts first, Joey's second)
+K:D
+[P:A-part](3(fg^g)\
+|"D"a2^ga bafe|"G"defd edBd|"D"AFAd Bcde|"A"fafd eafg|
+"D"aa^ga bafe|"G"dgfd edBd|"A"AFAd Bcde|"A"faec "D"d2 fg||
+"D"abaf bafe|"G"dgfd efdB|"D"AFAd Bcde|"A"fedf edfg|
+"D"abaf ba (3(ABc)|"G"defd efdB|"A"AFAd Bcde|"A"fdec "D"d2 dc||
+%
+[P:B-part]
+"Bm"BFBd BFBc|"G"defd edBd|"D"AFAd Bcde|"A"fafd egfe|
+"Bm"dcBc BFB,F|"G"defd edBd|"D"AFAd Bcde|"A"fded "D"f2 fe||
+"Bm"dcBd AFAd|"G"BAFD EDB,D|"D"A,B,DE FAde|"A"fafd eafe|
+"Bm"dABd AFAd|"G"BAFD EDB,D|"A"A,B,DF FAde|"A"fded "D"f2 fg||
+[P:A-part (var.)]
+"D"aead' bafe|"G"defd edBd|"D"(3(ABc) df edef |"A"(3(ABc) df edf2|
+"D"aead' bafe|"G"defd edBd|"A"AFAd Bcde|"A"fdec "D"d4||
+%
+%%text Alternative chords:
+%%text Bm G D/Bm E7/A7
+%%text Bm G D/Bm A7/D
+%%text D/Bm G D/Bm E7/A7
+%%text D/Bm G D/Bm A7/D
+

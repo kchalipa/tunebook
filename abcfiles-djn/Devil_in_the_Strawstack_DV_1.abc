@@ -1,0 +1,22 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2021-05-16.003
+%r:djnSimilarTo: DNot
+B:Portland I pg 67
+r:djnCollection: AltOGC, a
+%N:
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Gm
+%
+|:[P:A] "Gm"GFDF GFDF | "Gm"GFD"^**"G "F"ADFA | "Gm"GGDF GF d2- | "Dm"dcAc dcAF | 
+ "Gm"GFDF GFDF | "Gm"GFD"^**"G "F"ADFA | "Gm"GGDF GF d2- |1 "Dm"dcAD "Gm"G4 :|2  "Dm"dcAc "Gm"d4 ||$
+|:[P:B] "Gm"d[df] [dg]2 g2 gg | gagf d4 | "Dm"fdgd fdgf | dcAc d4 | $
+ "Gm"df g2 g2 gg | gagf d4 | "F"fAgA fAgf |1 "Dm"dcAF "Gm"G3 A :|2 "Dm"dcAD "Gm"G2 D2 |]
+%%writefields NSBD
+

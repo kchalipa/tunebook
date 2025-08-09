@@ -1,0 +1,25 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2020-06-09.001
+r:djnCollection: AltOGC, a
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Dmix
+%
+|:[P:A] "G"BGBd c2 BG | "Am/E"ABAG A2 cA | "D/F"d^cde d=cAF | "G/B"GAGF D3 E | $
+ "D"FEFG A2 (3:2gfe | dfe^c d3 A | "G"GAGF D2 DE |1 "G"(3:2GFE DE "D"D3 c :|2 (3:2GFE DE D2 de || $
+|:[P:B] "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gfgf gbaf | "G"gagf "D"d3 e | $
+ "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gagf d2 de |1 "D"dcAc d2 de :|2 dcAc d2 dc |]
+%%writefields NSBD
+
+ChangeLog:
+  2020-06-09 - revisit.  Nice work.  Checkpoint:
+      |:[P=A] BGBd c2 BG | ABAG A2 cA | dcde dcAF | GAGF D3 E | $
+       FEFG A2 (3:2gfe | dfe^c d2 AF | GAGF D2 DD |1 (3:2GFE DE D3 c :|2 (3:2GFE DE D2 de |: $
+      |:[P=B] fede f2 (3:2efg | abag fgaf | g2 gf gbaf | gagf d3 e | $
+       fede f2 (3:2efg | abag fgaf | gagf d2 dd |1 dcAc d2 de :|2 dcAc d2 dc |]

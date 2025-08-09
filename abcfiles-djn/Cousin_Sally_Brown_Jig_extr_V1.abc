@@ -1,0 +1,91 @@
+%abc-2.1
+I:abc-charset: utf-8
+S:uniqueKey: DNot-2022-01-08.002
+r:djnCollection: AltOGC, a
+R:Reel
+C:Marcus Martin; Dave Notman
+%
+B:Milliner-Koken pg 129
+S:djnSimilarTo: DNot-2019-10-18.001
+N:Squared tune from Milliner-Koken.  Changed many notes.  Converted to jig.
+%
+%
+%%score V1
+V:V1 clef=treble
+%
+I:linebreak $
+%
+M:6/8
+L:1/8
+K:Am
+%
+%djnPotatoes: [V:V1] c z2 A z2 | A z2 A z2 | 
+%
+% L1M1 L1M2
+[V:V1][P:A1] !f!"Am"A2B c2 A | E3 E2 D | \
+%_[V:V2][P:A1] !mp!A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L1M3 L1M4
+[V:V1] EEG E2 D | "F"C A,2-A,2 D | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | C,2 [F,A,C] C,2 [F,A,C] | \
+%
+% L1M5 L1M6
+[V:V1] "Am"E2 G !4!A2 G | E2 D C2 D | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L1M7 L1M8
+[V:V1] "G"EGG G2 !4!A | G3 E2 G || $
+%_[V:V2] B,,2 [D,G,B,] B,,2 [D,G,B,] | B,,2 [D,G,B,] B,,2 [D,G,B,] || $
+%
+%**********************************************
+% L2M1 L2M2
+[V:V1][P:A2] "Am"A2B c2 A | E3 E2 D | \
+%_[V:V2][P:A2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L2M3 L2M4
+[V:V1] "Am"E2 G E2 D | "F"C A,2-A,2 G, | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | C,2 [F,A,C] C,2 [F,A,C] | \
+%
+% L2M5 L2M6
+[V:V1] "Am"A,2 B, E2 G | E2 D C2 D | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L2M7 L2M8
+[V:V1] "Em"EEG E2 G | "Am"A3 c2B || $
+%_[V:V2] B,,2 [E,G,B,] B,,2 [E,G,B,] | A,,2 [E,A,C] A,,2 [E,A,C] || $
+%
+%**********************************************
+% L3M1 L3M2
+[V:V1][P:B1] "Am"A2 B c2 d | e3 e2 ^f | \
+%_[V:V2][P:B1] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L3M3 L3M4
+[V:V1] ezd c2 d | e A2- A2 e | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L3M5 L3M6
+[V:V1] "C"g2 e aze | g2 e c2 d | \
+%_[V:V2] C,2 [E,G,C] C,2 [E,G,C] | C,2 [E,G,C] C,2 [E,G,C] | \
+%
+% L3M7 L3M8
+[V:V1] "F"eaa a2 b | a3- a2 e || $
+%_[V:V2] C,2 [F,A,C] C,2 [F,A,C] | C,2 [F,A,C] C,2 [F,A,C] || $
+%
+%**********************************************
+% L4M1 L4M2
+[V:V1][P:B2] "Am"a2 b a2 g | e2 d c2 A | \
+%_[V:V2][P:B2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L4M3 L4M4
+[V:V1] e2 A c2 e | "G"d3 c2 B | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | B,,2 [D,G,B,] B,,2 [D,G,B,] | \
+%
+% L4M5 L4M6
+[V:V1] "Am"A2 B A2 G | E2 D C2 A, | \
+%_[V:V2] A,,2 [E,A,C] A,,2 [E,A,C] | A,,2 [E,A,C] A,,2 [E,A,C] | \
+%
+% L4M7 L4M8
+[V:V1] "Em"B,2 E G2 B | "Am"A3- A3 |]
+%_[V:V2] B,,2 [E,G,B,] B,,2 [E,G,B,] | A,,2 [E,A,C] A,,2 [E,A,C] |]
+%%writefields NSBD
+

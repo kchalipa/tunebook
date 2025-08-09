@@ -1,0 +1,20 @@
+T:Reel de la Broue DV 1
+R:Reel
+F:abcnotation.com
+S:uniqueKey: DNot-2018-05-25.004
+r:djnCollection: OGC, a
+N:Rating = 4
+M:2/2
+L:1/8
+K:D
+%
+%djnPotatoes: f z3 d z3 | d z3 d z3 |
+%
+|:[P:A] "D"{B/c/}dcdB A2 F!4!A | "G"GABB "A"A2Ac | "D"dcdB "A"ABAG | "Bm"FGFG "A"E3 A | $
+ "D"{B/c/}dcdB A2 F!4!A | "G"GABB "A"A2Ac | "D"dcdB "A"ABAG |1 "D"F z "A"E z "D"D4 :|2 F z E z D2 DE || $
+|:[P:B] "D"{D/E/}F2 (FD "A"E2) DE | "D"FAFD "A"E2 DE | "D"FAdB "A"ABAG | "D"FDFD "A"E2 DE | $
+ "D"{D/E/}F2 (FD "A"E2) DE | "D"FAFD "A"E2 DE | "D"FAdf "A"edcB |1 "A"AGFE "D"D2 DE :|2 AGFE !accent!D z3 || $
+
+ChangeLog:
+  2020-09-14 change "GABG A2AA" to "GABG A2Ac" in two places.  Add chords.
+  2022-06-12 change L1M2 and L2M2 GABG -> GABB

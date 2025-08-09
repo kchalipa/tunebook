@@ -1,0 +1,23 @@
+%abc-2.1
+I:abc-charset: utf-8
+R:Reel
+C:Trad.
+%
+S:uniqueKey: DNot-2022-04-24.001
+r:djnCollection: OGC, a
+%
+I:linebreak $
+%
+M:2/2
+L:1/8
+K:Gm
+%
+|:[P:A] "Gm"G2 D4 AB | G2 Bc d4 | "F"c2 A2 f2 c2 | "D7"A^FAB c4 | $
+ "Gm"B2 G2 d2 g2 | "D"^f4 d4 | "Cm"edcB "D"A2 c2 | B4 G4 :|| $
+|:[P:B] "Eb(Gm)"G2 Bc d2 Bc | d2 B2 G2 B2 | "F"A2 AB c2 AB | c2 A2 F2 [Af]2 | $
+ "Gm"d2 ga b2 ag | "D"a2 g2 ^f2 =ef | "Cm"g2 a2 "D"d2 ^f2 |1 "Gm"g6 B2 :|2 "Gm"g6 A2 |]
+%%writefields NSBD
+
+ChangeLog:
+  2022-05-22 fixed two accidentals on forth line.  Also, make Eb first choice for start of B-part.
+  2022-07-03 L1M2, make G a quarter note.

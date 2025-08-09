@@ -1,0 +1,29 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2017-09-28.252
+%r:djnSimilarTo: DNot
+B:Portland 2
+r:djnScoreImage: ../tsi/Portland_2/pg0050b.jpg
+r:djnCollection: Portland, a
+r:djnCollection: AltOGC, a
+%N:
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:A
+%
+%djnPotatoes: c z3 c z3 | c z3 c z3 | 
+%
+[P:A1] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
+ "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A"A2 AB || $
+[P:A2] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
+ "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A"a2 ag || $
+[P:B1] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
+ "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A" a2 ag ||
+[P:B2] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
+ "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A" A2 AB |]
+%%writefields NSBD

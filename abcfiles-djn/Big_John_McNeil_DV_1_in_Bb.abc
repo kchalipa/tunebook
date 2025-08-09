@@ -1,0 +1,27 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2021-04-05.004
+%r:djnSimilarTo: DNot
+B:New England Fiddler's Repertoire 3rd Ed. Rev.
+r:djnScoreImage: ../tsi/NEFR/NEFR_P04a.jpg
+r:djnCollection: AltOGC, a
+N:Mostly NEFR version, with a couple of minor changes.
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Bb
+%
+%djnPotatoes: Dz3 B,z3 | B,z3 B,z3 |
+%
+|:[P:A] "Bb"vB,B,DF (GF)DF | (BF)DF GFDF | B,B,DF (GF)DF | "Eb"(GB)AG "F7" FEDC | $
+ "Bb"B,B,DF (GF)DF | (BF)DF GFDC | "Bb"(B,D)CE "Eb"(DF)EG |1 "F7"(FA)ce "Bb"(d B3) :|2 "F7"(FA)ce "Bb"d2 de || $
+|:[P:B] "Bb" (fB)gB (fB)de | (fB)gB f2 ((3:2bag | fB)gB (fB)df | "Cm" (gf)ed "F"c2 de | $
+ "Bb" (fB)gB (fB)de | (fB)gB f2 ga | "Eb"(ba)gf "Cm" (gf)e"^***"d |1 "F" (ef)ga "Bb"b2 de :|2 "F7" (cB)AG (FE)DC ||]
+%%writefields NSBD
+
+ChangeLog:
+  2021-05-19 change L3M4 from (ef)ed... to (gf)ed...

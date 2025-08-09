@@ -1,0 +1,1 @@
+cat abcfiles-clc/*.abc > clc-tunebook.txt

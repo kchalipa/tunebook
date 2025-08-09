@@ -1,0 +1,30 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1753154299
+T: The Big Scioty
+C:Trad.
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http/www.glitchless.net/abc/contra.abc
+M: 4/4
+K: G
+[P:Fiddlers Fakebook](3DEF \
+| "G"G2Bd  BAGB | ABBB B2dc | BABd AGEG | ABBB B2D2 |
+| GFGA B2d2 | "C"e3g e2dc | "G"BAGG "D"AGEG | "G"ABBB B2 :|
+|: (3DEF \
+| "G"GABd [g2B2][g2B2] | "D"a3b a2ge | gfgf ddB2 | "C"e3g e2gf |
+| gfgf edB2 | e3g e2dc | "G"BABG "D"AGAG | "G"ABBB B2 :|
+[P:Burl Hammons]
+DE|G2 GA GEGA|G2 GA G2Ac|BAGB AGEG|"*"AG2A G2DE|
+GABG AcBA|Beef e2d2|BABG AGEG|AG[G,G]A [G,2G2]:|
+[G,2D2]|[B3g3]g- gabg|ea2b a2[A2e2]|g3a gedA|B[e2e2][ee] [e2e2][e2e2]-|
+[ee]fg2e2dA|B[e2e2][ee][e2e2][e2e2]-|[ee]fg2e2dA|B[ee]([ee][ef])[e2e2][d2e2]|
+{Bc}BABG AGEG|AG2A G2[G,2D2]|[B3g3]g- gabg|ea2b a2[A2e2]|
+g3g edBA|B[e2e2][ee] [e2e2][e2e2]-|[ee]fg2e2dA|
+B[ee]([ee][ef])[e2e2][d2e2]|{Bc}BABG AGEG|AG2A G2 ||

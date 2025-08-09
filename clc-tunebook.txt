@@ -1,0 +1,340 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1753154299
+T: The Big Scioty
+C:Trad.
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote, Scioty.
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http/www.glitchless.net/abc/contra.abc
+M: 4/4
+K: G
+[P:Fiddlers Fakebook](3DEF \
+| "G"G2Bd  BAGB | ABBB B2dc | BABd AGEG | ABBB B2D2 |
+| GFGA B2d2 | "C"e3g e2dc | "G"BAGG "D"AGEG | "G"ABBB B2 :|
+|: (3DEF \
+| "G"GABd [g2B2][g2B2] | "D"a3b a2ge | gfgf ddB2 | "C"e3g e2gf |
+| gfgf edB2 | e3g e2dc | "G"BABG "D"AGAG | "G"ABBB B2 :|
+[P:Burl Hammons]
+DE|G2 GA GEGA|G2 GA G2Ac|BAGB AGEG|"*"AG2A G2DE|
+GABG AcBA|Beef e2d2|BABG AGEG|AG[G,G]A [G,2G2]:|
+[G,2D2]|[B3g3]g- gabg|ea2b a2[A2e2]|g3a gedA|B[e2e2][ee] [e2e2][e2e2]-|
+[ee]fg2e2dA|B[e2e2][ee][e2e2][e2e2]-|[ee]fg2e2dA|B[ee]([ee][ef])[e2e2][d2e2]|
+{Bc}BABG AGEG|AG2A G2[G,2D2]|[B3g3]g- gabg|ea2b a2[A2e2]|
+g3g edBA|B[e2e2][ee] [e2e2][e2e2]-|[ee]fg2e2dA|
+B[ee]([ee][ef])[e2e2][d2e2]|{Bc}BABG AGEG|AG2A G2 ||%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752893820
+T:The Black Mare of Fanad
+C:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:Adapted from https://thesession.org/tunes/429
+K:D
+FE|:"D"D2 (3FED "G"ADFE|"D"DEFG ABAF|"D"D2 (3FED "Bm"GEFA|"Em"BEED EGFE|
+"D"D2 (3FED "G"ADFE|"D"DEFG ABAF|"D"DEFA "A"GABc|1 "D"dfec d2 FE:|2 "D"dfec d2 AB||
+|:"C"~=c3 A "G"~B3 G|"D"AGAB AGFE|"D"DE (3FED "Bm"GEFA|"Em"BEED E2 AB|
+"C"~=c3 A "G"~B3 G|"D"Adcd fdAF|"D"DEFA "A"GABc|1"D" dfec d2 AB:|2 "D"dfec d2 fe|
+|:"D"d2 fa "G"gfec|"D"defg abaf|"D"(3ddd fa "Bm"gfed|"Em"be (3eee beef|
+"D"d2 fa "G"gfec|"D"defg abaf|"D"defa "A"gfeg|1 "D"fdge fddA:|2 "D"fdge fdAF||
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752893820
+T:The Black Mare of Fanad
+T:a.k.a. The Nine Points of Roguery
+C:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+N:It seems like many versions of this tune place an Em chord in the fourth bar
+N:of the first and second parts. Maggie Sansone uses C instead, which I like more,
+N:but the tune is otherwise the same.
+S:Combined versions of https://thesession.org/tunes/429 and of Maggie Sansone
+K:D
+[P:A-part]
+A,2|"D"D2 FD "G"GFED|"D"AdAF ABAF|"D"D2 FD "G"GFEd|"C"=cEEc "Em"cEGE|
+"D"D2 FD "G"GFED|"D"AdAF ABAF|"D"DEFG ABcA|"A"dAFA "D"D2 A,2|
+"D"D2 (3FED "G"GDFE|"D"DEFG ABAF|"D"D2 (3FED "G"GEFA|"C"=cEED "Em"EGFE|
+"D"D2 (3FED "G"GDFE|"D"DEFG ABAF|"D"DEFA GABc|"A"dfec "D"d2 AB||
+[P:B-part]
+"C"=c4 "G"B4|"D"A4 ABAF|"D"DA,DF GFEd|"C"=cEEc "Em"cEGB|
+"C"=cdcA "G"BdBG|"D"Adcd fdAF|"D"DEFG ABcA|"A"dAFA "D"D2 b,2|
+"C"=c4 "G"B4|"D"A4 ABAF|"D"DA,DF GFEd|"C"=cEEc "Em"cEGB|
+"C"=cdcA "G"BdBG|"D"Adcd fdAF|"D"DEFG ABcA|"A"dAFA "D"D2 b,2|%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752893902
+T:Blackberry Blossom
+C:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:G
+"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DEGA|"A"BdBG "D"Acef|
+"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DEGA|"D"BGAF "G"G4:|
+|:"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBGA|"Em"B2eB dBef|"B7"gabg aged|
+"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBef|"Em"gage "A"dBGA|1 "D"BGAF "G"G2GA:|2 "D"BGAF "G"G2||
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752893913
+T:Brose and Butter
+C:Trad.
+R:slip jig
+M:9/8
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:C
+ FGA DFD DFD | FGA DFD E2 C | FGA DFD DEF | E2 C CcA GFC :|
+ ^FGA AcA AcA | ^FGA AcA GEC | ^FGA AcA ABc | B2 G GcA GEC :|
+ GAB EGE EGE | GAB EGE A^FD | GAB EGE E^FG | ^FED d2 B A^FD :|
+ GA B2 dA ABA | GA B2 dB ^cBA | GA B2 dA ABA | G^FG d2 B A^FD |
+ g^fe B/ g3/2 ^f/e/ | g/^f/e/ B g/ ^f/g/a/ | g/^f/e/ B/ g3/2 ^f/e/ | e/^f/e/ d B/ A/^F/D/ |]
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752893956
+T:Brose and Butter
+C:Trad.
+R:slip jig
+M:9/8
+N:Arranged by Cam Cross ~ 7/25
+B:Niel Gow & Sons "Complete Repository" v.1 p.22 #2
+Z:2021 John Chambers <jc:trillian.mit.edu>
+S:Adapted from https://thesession.org/tunes/429
+K:Am
+% - - - - - - - - - -
+% Voice 1 formatted for proofreading.
+V: 1 staves=2
+|:\
+Tc>de AcA Tc2A | c>de AcA dBG | Tc>de AcA ABc | TB2G Gge dBG :| cde ege ege | cde ege dBG |
+cde ege e^fg | T^f2d dge dBG || cde ege ege | cde ege dBG | cde ege e^fg | T^f2d dge dBG |]
+% - - - - - - - - - -
+% Voice 2 preserves the book's staff layout.
+V: 2 clef=bass middle=d
+|:\
+a3 a3 a3 | a3 a3 g3 | a3 a3 ^f3 | g3 g3 g3 :|\
+[c'3c3] [c'3c3] [c'3c3] | [c'3c3] [c'3c3] [g3G3] |
+[c'3c3] [c'3c3] [c'3c3] | [d'3d3] [d'3d3] [g3G3] ||\
+[c'3c3] [c'3c3] [c'3c3] | [c'3c3] [c'3c3] [g3G3] |\
+[c'3c3] [c'3c3] [^c'3^c3] | [d'3d3] [d'3d3] [g3G3] |]
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752894096
+T:da New Rigged Ship
+C:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+N:Learned from Ed Pearlman, 1985
+B:Tom Anderson "Ringing Strings" 1983
+N:Tom Anderson's notes:
+N:A traditional reel from the playing of the late Peter Fraser of Finnigarth, Waas. The tune celbrates the rigging out with new sails and mast of a fishing boat, which the owner proudly calls a ship.
+K:Ador
+eg | "Am"a2ab ageg | a2ab agef | "G"g2gg fgag | "D"f2d2 d2 :|[K:Amix]
+|: ed | "A"cAcA "E7"B2ed | "A"cAcA "(E7)"E2ed | "A"cAcA "E7"B2ed | "A"c2A2 A2 :| [K:=c]
+K: Ador
+|: AB | "Am"cdec "G"BcdB | "Am"ABAF "Em"GFE2 | "Am"cdec "G"BcdB | "Am"c2A2 A2 :|
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752807675
+T:Old Straw Bonnet
+O:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:G
+%
+[P:A-part] 
+ef \
+|: "G" gdBd gbag | "F" =fcAc fga^f | "G" gdBd gabg | "D" agfd g2 ef |
+   "G" gdBd gbag | "F" =fcAc fga^f | "G" gdgb agfd | "C" gd (3(BdB) "D" G2 |1 ef :|2 (3(DEF) ||
+%
+[P:B-part]
+|: "G" GFGA BGBc | "G" dedc BGBd | "F" cA=Fc A=FAB | "F" cABG AG (3(DEF) |
+   "G" GFGA BGBc | "C" dedc BGE^C | "D" DEFA Bage | "D" dBAF "G" G2 (3(DEF) :|
+%
+[P:C-part] \
+K: Gmin \
+|: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
+   "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1660510034
+T:Queen of the West
+O:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:D
+%
+[P:A-part] FE | "D" DFAF DFA,F | "A" EGAG EGA,G | "D" FAdF "G" GBec | "D" Adfd "A" cAGE |
+"D" DFAF DFA,F | "A" EGAG EGA,G | "D" FAdF "G" GBec | "A" d2 f2 "D" d2 cd ||
+%
+[P:B-part] "A" ecAc EAce  | "D" fdAd FAdf  | "G" g2 fg "E" efde | "E" edcB "A" A2 cd |
+"A" ecAc EAce  | "D" fdAd FAdf  | "G" gbag "A" fedc | "D" d2 f2 d2 FE ||
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1753559315
+T:Salt Creek
+C:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+K:A
+EF GEFG |: [P:A-part] "A" A2 ^GA A2 AB | "A" cABc "D" d2 dA | "G" BA=GA BAGA | 
+"G" BA=GF "E" E2 EF | "A" A2 ^GA A2 AB | "A" cABc "D" d2 ef |1 "A" =gfeg fedf | 
+"E" edcB "A" A2 E2 :||2 "A" =geae gged | "E" BAdB "A" A2 E2 || 
+[P:B-part] "A" a2 aa a2 ab | "A" c'abc' a2 e2 | "G" =g2 gg g2 ga | "G" b=gab g2 e2 | 
+"A" a2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef | "E" edcB "A" A4 | 
+%
+%%text Chords:
+%%text A A/D G G/E
+%%text A A/D A E/A
+
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752894149
+T:Shelder Geo
+O:Trad.
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:
+K:D
+|:"D"A3 G FGAB|"C"=c2 cA "G"BGGB|"D"ABAG FDFG|1 "G"Addc "D"d2 dB:|2 "G"Addc "D"d2 dB||
+|:"C"=cdef gagf|e=cgc ecgc|=cdef gage|"D"^fdad fdad|
+"C"=cdeg gagf|e=cgc ecce|"C"a^fge fde^c|"D"Add^c d4:|
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752938353
+T:Smith's Reel
+C:Trad.
+R:reel
+M:4/4
+S:Joey McKensie - Transcribed from a Weiser jam tape 1997  LL.B. 
+S:trillian.mit.edu/~jc/music/abc/mirror/LesterBailey/melnets_big_abc_file/12122
+N:Adapted and arranged by Cam Cross (my parts first, Joey's second)
+K:D
+[P:A-part](3(fg^g)\
+|"D"a2^ga bafe|"G"defd edBd|"D"AFAd Bcde|"A"fafd eafg|
+"D"aa^ga bafe|"G"dgfd edBd|"A"AFAd Bcde|"A"faec "D"d2 fg||
+"D"abaf bafe|"G"dgfd efdB|"D"AFAd Bcde|"A"fedf edfg|
+"D"abaf ba (3(ABc)|"G"defd efdB|"A"AFAd Bcde|"A"fdec "D"d2 dc||
+%
+[P:B-part]
+"Bm"BFBd BFBc|"G"defd edBd|"D"AFAd Bcde|"A"fafd egfe|
+"Bm"dcBc BFB,F|"G"defd edBd|"D"AFAd Bcde|"A"fded "D"f2 fe||
+"Bm"dcBd AFAd|"G"BAFD EDB,D|"D"A,B,DE FAde|"A"fafd eafe|
+"Bm"dABd AFAd|"G"BAFD EDB,D|"A"A,B,DF FAde|"A"fded "D"f2 fg||
+[P:A-part (var.)]
+"D"aead' bafe|"G"defd edBd|"D"(3(ABc) df edef |"A"(3(ABc) df edf2|
+"D"aead' bafe|"G"defd edBd|"A"AFAd Bcde|"A"fdec "D"d4||
+%
+%%text Alternative chords:
+%%text Bm G D/Bm E7/A7
+%%text Bm G D/Bm A7/D
+%%text D/Bm G D/Bm E7/A7
+%%text D/Bm G D/Bm A7/D
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752894186
+T:Westmoreland's Hornpipe
+C:Terry Morris
+R:reel
+M:4/4
+N:Arranged by Cam Cross ~ 7/25
+S:Terry Morris
+K:D
+[P:A-part]AG\
+|:"D"FDAD FADF|"Em"BEGB EGBG|"D"FDAF DAFD|"A"A,CEA, CEA,E |
+"D"FDAD FADF|"Em"BEGB EGBG|"A"FDAF EDCE|1"A"DFAc "D"d2 AG:|2"A" D2 F2 "D"D2 DE||
+[P:B-part]\
+|:"D"Fdcd AFDF|"G"EA,CE DCDE|"D"Fdcd AFDF|"A"E^GBG Acec|
+"D"dAFA DFAF|"Em"BEGB EGBG|"A"FDAF EDCE|1"D" D2 F2 D2 DE:|2"D" D2 F2 D2 ag||
+[P:A-part (var.)]
+|:"D"fdad fadf|"Em"begb egbg|"D"fdad fadf|"A"edcB AGFE|
+"D"AFAD FADF|"Em"BEGB EGBG|"A"FGAF A,CEC|"A"DFAc "D"d2 ag:|
+%
+%%text Chords:
+%%text D G D A
+%%text D G A A/D
+%%text Bm G D A
+%%text Bm G A A/D
+

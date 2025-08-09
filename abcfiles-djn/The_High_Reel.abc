@@ -1,0 +1,24 @@
+%I:abc-charset: utf-8
+R:Reel
+%
+S:uniqueKey: DNot-2017-07-06.033
+%r:djnSimilarTo: DNot
+B:Portland I pg 101
+r:djnScoreImage: ../tsi/Portland_1_Scans/P1_pg0101b.jpg
+r:djnCollection: Portland, a
+%r:djnScoreImage:
+%N:
+I:linebreak $
+%
+%P:AABB
+%%
+M:2/2
+L:1/8
+K:Amix
+%
+|:[P:A] "A"a2 ed cA A2 | cded cA A2 | a2 ed cA A2 | "G"Bcdc BG G2 | $
+ "A"a2 ed cA A2 | cdef "G"g2 fg | "D"af (3:2gfe fded | "G"Bcdc BG G2 :| $
+|:[P:B] "A"(3cBA eA fAeA | cAaf ecAB | (3cBA eA fAeA | "G"Bcdc BAGB | $
+ "A"(3:2cBA eAfAeA | cdef "G"g2 fg | "D" af (3:2gfe fded | "G"Bcdc BG G2 :|
+%%writefields NSBD
+
