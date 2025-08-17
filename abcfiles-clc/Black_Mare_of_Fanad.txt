@@ -7,16 +7,29 @@
 %%textfont       Courier
 X:1752893820
 T:The Black Mare of Fanad
+T:a.k.a. The Nine Points of Roguery
 C:Trad.
 R:reel
 M:4/4
-N:Arranged by Cam Cross ~ 7/25
-S:Adapted from https://thesession.org/tunes/429
+S:Maggie Sansone (Mist and Stone, 1990) plus bits of https://thesession.org/tunes/429
+S:and my own additions
+Z:Cam Cross
+N:It seems many versions of this tune place an Em chord in the fourth bar of both parts.
+N:Maggie goes to a C instead, and I like that.
 K:D
-FE|:"D"D2 (3FED "G"ADFE|"D"DEFG ABAF|"D"D2 (3FED "Bm"GEFA|"Em"BEED EGFE|
-"D"D2 (3FED "G"ADFE|"D"DEFG ABAF|"D"DEFA "A"GABc|1 "D"dfec d2 FE:|2 "D"dfec d2 AB||
-|:"C"~=c3 A "G"~B3 G|"D"AGAB AGFE|"D"DE (3FED "Bm"GEFA|"Em"BEED E2 AB|
-"C"~=c3 A "G"~B3 G|"D"Adcd fdAF|"D"DEFA "A"GABc|1"D" dfec d2 AB:|2 "D"dfec d2 fe|
-|:"D"d2 fa "G"gfec|"D"defg abaf|"D"(3ddd fa "Bm"gfed|"Em"be (3eee beef|
-"D"d2 fa "G"gfec|"D"defg abaf|"D"defa "A"gfeg|1 "D"fdge fddA:|2 "D"fdge fdAF||
-
+[P:A-part]
+A,2\
+|: "D" D2 FD "G" GFED | "D" AdAF ABAF | "D" D2 FD "Bm" GFEd | "C" =cEEc "Em" cEGE |
+   "D" D2 FD "G" ADFE | "D" DEFG ABAF | "D" DEFG ABcA | "A" dAFA "D" D2 A2 :|
+[P:B-part]
+|: "C" [G,=cE]4 "G" [G,BG]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
+   "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc  | "A" dfec "D" d2 A2 :|
+[P:A-part var]
+|: "D" d2 fd "G" gefg | "D" [fa]3 [fd'] agfe | "D" dAdf "Bm" gfed' | "C" =c'eec' "Em" bddA |
+   "D" d2 fa "G" gfec | "D" defg abaf        | "D" defa gfeg       | "A" fdge "D" fdAB :|
+[P:B-part var]
+|: "C" [A,G=c]4 "G" [B,GB]4 | "D" [A,DA]5 A GF | "D" D5 G AB   | "C" =c4 "Em" cEGB |
+   "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc | "A" dfec "D" d2 A2 :|
+%%text Chords:
+%%text A-part ~ D/G D D/Bm C/Em | D/G D D A/D
+%%text B-part ~ C/G D D/Bm C/Em | C/G D D A/D

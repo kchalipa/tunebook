@@ -1,1 +1,1 @@
-cat abcfiles-clc/*.abc > clc-tunebook.txt
+cat abcfiles-clc/*.txt > clc-tunebook.txt
