@@ -10,16 +10,21 @@ T:Salt Creek
 C:Trad.
 R:reel
 M:4/4
-N:Arranged by Cam Cross ~ 7/25
+S:An online intro to mandolin tutorial
+N:VERY similar to Salt River, but the B-part is different
+Z:Cam Cross
 K:A
-EF GEFG |: [P:A-part] "A" A2 ^GA A2 AB | "A" cABc "D" d2 dA | "G" BA=GA BAGA | 
-"G" BA=GF "E" E2 EF | "A" A2 ^GA A2 AB | "A" cABc "D" d2 ef |1 "A" =gfeg fedf | 
-"E" edcB "A" A2 E2 :||2 "A" =geae gged | "E" BAdB "A" A2 E2 || 
-[P:B-part] "A" a2 aa a2 ab | "A" c'abc' a2 e2 | "G" =g2 gg g2 ga | "G" b=gab g2 e2 | 
-"A" a2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef | "E" edcB "A" A4 | 
+%
+[P:A-part] 
+E2\
+|: "A" A2 ^GA A2 AB  | "A" cABc "D" d2 dA |  "G" BA=GA BAGA |
+   "G" BA=GF "E" E2 EF | "A" A2 ^GA A2 AB |  "A" cABc "D" d2 ef 
+|1 "A" =gfeg fedf |   "E" edcB "A" A2 E2 :|2 "A" =geae gged | "E" BAdB "A" A2 E2 || 
+%
+[P:B-part] 
+|: "A" a2 aa a2 ab | "A" c'abc' a2 e2 | "G" =g2 gg g2 ga | "G" b=gab g2 e2  | 
+   "A" a2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef   | "E" edcB "A" A4 :| 
 %
 %%text Chords:
-%%text A A/D G G/E
-%%text A A/D A E/A
-
-
+%%text A-part ~ A A/D G G/E | A A/D A E/A
+%%text B-part ~ A A G G | A A A E/A

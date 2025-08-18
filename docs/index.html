@@ -5,7 +5,7 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=860" />
+<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
 <meta property="og:image" content="https://michaeleskin.com/abctools/img/abc-icon.png" />
 
 <title>ABC Transcription Tools Generated Website</title>
@@ -14,33 +14,164 @@
 
     body {
         font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 95vh;
+        margin: 0;
         background-color: #FFFFFF;
-        margin: 0px;
-        padding: 0px;
     }
 
-    .container {
-        margin: 0px auto;
+    #viewer {
+        width: 95%;
+        height: 80%;
         text-align: center;
-        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
     }
 
-    h1 {
-        font-size: 24px;
+    #viewer img {
+        max-width: 100%;
+        max-height: 100%;
+        cursor: pointer;
+        background:white;
+        padding: 0px 0px 24px 0px
+    }
+
+    #controls {
+        margin-top: 32px;
+    }
+
+    #prev::after {
+        content: 'Previous';
+    }
+
+    #next::after {
+       content: 'Next';
+    }
+
+    button {
+        margin: 7px;
+        padding: 10px 20px;
+        font-size: 14px;
+        border-radius: 0px;
+        color:black;
+        background:white;
+        -webkit-appearance: none;
+    }
+
+    select{
+        display:inline;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%238C98F2'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+        background-size: 12px;
+        background-position: calc(100% - 10px) center;
+        background-repeat: no-repeat;
+        background-color: #efefef;
+        color:black;
+        font-size:12pt;
+        font-family:"Arial";
+        height:40px;
+        width:300px;
+        padding-left:10px;
+        margin:7px;
+    }
+
+    #title {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    #subtitle {
+        font-size: 1.5em;
+        color: #000000;
         margin-top: 24px;
-        margin-bottom: 0px;
-        color: #000000;
     }
 
-    h2 {
-        font-size: 18px;
-        margin-top: 18px;
-        margin-bottom: 24px;
-        color: #000000;
+    #image_gallery{
+        display:none;
     }
 
-    p {
-        color: #000000;
+    #print_title{
+        display:none;
+    }
+
+    #print_subtitle{
+        display:none;
+    }
+
+    @media print {
+
+        .hidden-print {
+            display: none !important;
+        }
+
+        body {
+            display:block !important;
+            background-color: white !important;
+            background-image: none !important;
+            justify-content: unset !important;
+            height: auto !important;
+            margin: 0;
+        }
+
+        body, html {
+            margin: 0 !important;;
+            padding: 0 !important;;
+            width: 100% !important;;
+        }
+
+        #print_title {
+          display:block;
+          font-family: Arial, sans-serif;
+          font-size: 24px;
+          color: black;
+          text-align: center;
+          margin-top: 32vh;
+          font-size: 1.9em;
+        }
+
+        #print_subtitle {
+          display:block;
+          font-family: Arial, sans-serif;
+          font-size: 18px;
+          margin-top: 24px;
+          color: black;
+          text-align: center;
+          font-size: 1.25em;
+          page-break-after: always;
+        }
+
+        #image_gallery{
+          display:block;
+        }
+
+        .image-container {
+          width: 100%;
+          border: 0px !important;
+          margin: 0px !important;
+          padding: 0px !important;
+          text-align: center;
+        }
+
+        .image-container img {
+          max-width: 100%;
+          width: 100% !important;
+          height: auto;
+          cursor: pointer;
+          border: 0px !important;
+          margin: 0px !important;
+          padding: 0px !important;
+          background: white;
+        }
+
     }
 
     a {
@@ -61,28 +192,51 @@
         color: #000000;
     }
 
-    #footer1{
-        font-size: 18px;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        color: #000000;
+    * {
+      touch-action: manipulation;
     }
 
-    #footer2{
-        font-size: 18px;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        color: #000000;
-    }
+    @media screen and (max-width: 45rem) {
 
-    ul{
-        list-style-type:none;
-        padding:0px;
-        text-align:center;
-    }
-    
-    li{
-        margin-bottom: 16px;
+        #viewer {
+            margin-top: 0px;
+        }
+
+        #first, #last {
+            display: none;
+        }
+
+        #prev, #next {
+            width: 40px;
+            padding: 10px;
+        }
+
+        #prev::after {
+            content: '←';
+        }
+
+        #next::after {
+            content: '→';
+        }
+
+        #controls {
+            width: 90svw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #tuneselector {
+            display: flex;
+            width: 70%;
+            padding-right: 32px;
+        }
+
+        #website_help {
+            left: 16px;
+            top: 20px;
+        }
+
     }
 
 </style>
@@ -91,47 +245,301 @@
 
 <body>
 
-    <div class="container">
-        <h1 id="title">ABC Transcription Tools Generated Website</h1>
-        <h2 id="subtitle">Select a tune from the dropdown to load it into the frame below:</h2>
-        <hr style="margin-top:24px;margin-bottom:24px;width:500px;color:white;">
-        <div id="tuneShareLinkHolder"></div>
+    <div class="hidden-print" id="viewer">
+        <div id="title" style="display:none;">ABC Transcription Tools Generated Website</div>
+        <div id="subtitle" style="display:none;">Select a tune from the dropdown to load it into the frame below:</div>
+        <img id="image" src="" title="" alt="SVG Viewer" />
     </div>
+
+    <div class="hidden-print" id="controls">
+        <button id="first">First</button>
+        <button id="prev"></button>
+        <select id="tuneselector" title="Select a tune from the list"></select>
+        <button id="next"></button>
+        <button id="last">Last</button>
+    </div>
+
+    <div id="print_title">ABC Transcription Tools Generated Website</div>
+    <div id="print_subtitle">Select a tune from the dropdown to load it into the frame below:</div>
+    <div id="image_gallery"></div>
 
     <script>
 
-    const tunes=[{"Name":"The Big Scioty","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXNIA7ACsAMxSBTRUAJwVdJi5mBYwqMTgpqgAymLgCKAAnnQO2ZgaQuQAdHQASrkaMMF0AHK580J4lEJwMRqooA3tnd0IqBPgYVvgSKgA8hZdo6gAglD4h-jKwbCUHV3CADR73zA-l9uj1xgAtXJUAAMUIqqAAUggLBcHBYVixNJIADwAKzE2VArigoiESFGOEgoxg5CYAD46AAxXIWUCgZQAegA7tzRqZRKBLLB8PhRkhwuyhCwxOzFChhqNJWI6ABZXI0dn0ADSuQA4gxFTj8AB9Z5MJC2LioOBQJjgcjyZX8AAi-FQyg0CFMwxwqChDudrpYQmF7s9vv9LtQlms5FDrT9IEdkaDwpCZFQADZ6ImA1GrDY01BM9mRuQjSIoEblFAhD0g2IANZG0RIBsmADaAAVsgy7eRYBpJAyhA2YCwEAgGwBdAAURSdAFEGagADp0AA+qAARDqd1RiJQmvcdcRUJv7sRL00qOQxGejweHjqFzr7xer8QqE6qGeN6gdQyOr3Ne5A-puW4OFuMBFK0MA3ne4G7sQx6vluTpbseL73juGGXqen6oNk64brkc6Lsua6ITuF6UO2pj7lQU50QxU7YehQhFCwqBCFQpiNJuphwIJqDkOQBHgZB0GwbxcC-gJQmydS4moFJKnwdhSEXqh6HHseGm4R+P5EXQXbZMQLhFgEKw4Mg+BTnQi7rjqP5Af+L73E5LnAc59xiOuyEnk+L7rluABUGE+f+X4LsRQHEK+vnIf5syKTeVD+VpQU6uux7tjqPw6lOwF5T8VDOVOxklV+jHru2xAwUUU6mIQqCmJKpjrjAPFcTx7b3FQcFTuuphFEIrXUh5xDtnBg3TTArHTQNjGLYNhDEXNU5CUt5CTSty2zExM37UtU5rRtW1wTt-kbTOG3TXAU4AJR7UxoGDcRADexBiAAvsh8VZTlkXOVV35DXVDVNS1bUsB1XVUD1VB9SdxEjbBYm7Udh3zagL0vWdB0XTeHl0FNB23Qd91PXjb01V9v3-Qlz7ZceVDeWB67AIqhBUKMUjRJAsCJP4vD6KQFDUNmwDMGwgucDoPB6AIwiiBI0hyCAigqGomjC6LytGBIZjRjYwvJM4rjuCAnjeL4lpJEEoThOIUQgDE8Rm44FtpEAA&format=noten&ssp=10&name=The_Big_Scioty&play=1"},{"Name":"The Black Mare of Fanad","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMMlQADHSY2ZgWMKjEUEJiANaoALJeTQhwqABiQkhC5HQO9RpjAHR0AErZGjDBdF3ZNAD09ABy2QCCGtNIpjCULACeqA5CONcaapIAfqh5m1QFdADKB+RCyjFKHAHncLKBQMp8NlNptQI11Ph8OBkDNrKZYUwkARtlQSnQANLZAAiDCELDEACt8AB9fDOJC2LioOBQJjgcYgLr8In8VDKB6maZ3Gqc7m8lhCRH8hCmVAi4BcnmoSzWcjS2XyxXiyX4EJkVAANnooqVKpseqghuNY3I1JEUGpylaFwlHWpoiQ7RMgwAogAfbIAIiJwaoqAAFGVfUTUIGAOKB-ZE31+4PBn2DOOofbEfaDVMholhyPR2PEHDxjP7VM+ivEH0+mM+uMpuhposRqON2MJpMp9sZrM5vMF9ODfax-bxnNiP1SWMh2wwMSochh33ZP1htNLldr7PEP1+ugBwMOQNPAC8YjK2Z7F+It7jo-2cZz2Zb-oHndLgfLlfHGs6wbJswxzY8zwva9bwneMHyfF9yDEIFyBHAdx0nadiFnKQ01XOBl1XMDiE3bdFwIvcwwI49T0XKihHvUwKNHch4FlMkhDgUdI3IXjmQYv8KyYs4gMDFgmkjFYmnE+AILo-jGOYnc2NQDiuOUuABKnYTTDnBdAzgchTmZXj9lI-TDOMwyRz9IA&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"The Black Mare of Fanad","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMMlQADHSY2ZgWMKjEUEJiANaoALJeTQhwqABiQkhC5LXZQgB07VPTqA1NAHLgSE0ACgirPqj9qABKCKZMmgCedA71GmNTdPvZGjDBdF3ZNAD09EvZAIIa10hTDBKCxTqgHEIcOCNGpJAA-VB5d5UAp0b6CVDqGA4SSidpNHAjMFhDT4cDISR7UAWcCSUBMNaoZStMRNEaoACiUMs1koq1Q1KaiBc1NQLC8aOyVMaqDg4FJaBGlHUiiQlE83nwU26QlMpjcqAAyiN8Mgmkx1JIHKhVvgYmMADSoADuNMsqH4qDxBOsMAdkpYTDQgoFDKatN2go0ztpTRD+EhMFuhuyThwLFWwNQJLJFN2AwsoFAynw2Xe70FltzSCm1lMFbD+E+VBKqCV+Z1eoNxqQprWdAA0tkACIMIQsMQAK3wAH1TQzbFxZVAmOBxiAuvxh57lDDTNcoTUN1vPeL8Phd0dUEfgJvt6geTZL6Zr-I76ehOeQmRUAA2ejHvej7kN+UB-gBYzkDOIhQDOzJCKc4odDOohIO0JgANrrL8hAaqAAC6dA-A6VAAD4AETDpRVBDMOqDkQA4oxgwcsOFFUT85A-IMqA-MQ3HsdRtH0UxDEseQFEOORAC8YgchyYj0Vy5FyQxHKkXQlFCYMdGMcxrGCZx3G8fxgyCcOHKDAxJliD8FE-ORXGDD89FUcONHEWRmluTRAAUZQsbponDix5mWdZfECVp7moP5gUiYxll2eRUmyfJunKRyYnqd5QlxaxCUMSF6nReFJlRW5SWoAxfFiPZjlwDAilaeQHnEKRGlYdkxC4V4BGaalYg0AlxA0IZw2RWZ0XESF1XiZJMlyQpSk4CpWXtQNi3kLZI3kMQDGGdtlBwE5YVWTZyUOU5LnRTRLAkRpKWLcNemjeN5VTW5M08dlElPWly3kcpqkbf9YjbTdTHEHtB1aZx4OyqdpXnbVl2OdxN0+WKD3AOOYiEFQUxSNEkCwIk-i8PopAUNQAHAMwbCk5wOg8HoAjCKIEjSHIICKCoaiaOTlPs0YEhmMB5PJM4rjuCAeG+EuSRBKE4TiFEIAxPEkuONLaRAA&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"Blackberry Blossom","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJQAMVHSY2cRQQmIA1iyaGgCeqA1q+Ep0DtmYGkLkAHR0AErZGjDBdACy2TQA9PQActkAghojSKYwlCxdDkI4qA4avagAfqh5K1QFdADK2XQA0tkA4gxCLGIAFb4AD6fSYSFsXFQcCgTHA5HkC34ABF+KhlFdTCNzpUkaj0SwhPh8JiEKZUHiQMi0ahLNZyGSKVTgDTCcT8CEyKgAGz0akEulWGxcqC8-mjcggkRQEHKRodIktEGiJDNEwAIm+GtM-wpGoAYgBiHAauC6uAAHw1Dg18AOqC1GvIxC232ttoAogbvp7HdqUZ7vltrVsNcQXd9HSiNVsxPBLXQnbqWPrjabzUIrTa7eaYP7na73Tnvb6C4Hg9aY8RgwaC98aNlE5bshrPabiFQYMRHcQ8oXu9b2+Guz3w-3IyG2x3R6gXQnxzq9aghAdyInpyPu72J8RB5vO9vF-Ps8PdQ7Y4XK1Jo+Ha-WqMGm1RbzWtnWnd8qJbLUA&format=noten&ssp=10&name=Blackberry_Blossom&play=1"},{"Name":"Brose and Butter","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJVJldJjZxBpqMKhCSJTETKAx6Q7ZmBpC5AB0dABK2fiiyqgAVuCmdACy2SUA9HIActkAghr9SKYwlCwAnqgOQjhnDfiSAH6oeStUBXQAytl0ANLZDnSowEIWGJpvgAPr4ZytPxwKBMcDkeQLfgAEX4qGUDVM-UuAAZESi0SwhDcMQhTKg8SAkajUJZrORSeTKcBqYTifgQmRUAA2ehUgm0qw2TlQHl8gbkUEiKCg5RQITHIliADWoNESGVJgAYgBxLaoZFa5EGo2oAA+qF1+sNxoAolQzubLXqTcbkbatU77Y6HGJ9TqtQ5UNkzX8AHpW1BbP1RmMWiMu6P+21B+ORpNR4hiJ3EB061A6mM6lPB0MFrbEVC24tVmsWvWV6u2qMR431iu15u2hNOiO243kB2Vrat0t-F251DkfUV-Xt1CT8iVsNiYhz8sLh3TzPrnU9wcLlumsumMNwJrEFaoUxlJ6oM8rGBXi2mFYPp+H1-3uArV9CZ-Xm+P4fpe163g674AU+kFTguV5bG+WorMiz4ALpAA&format=noten&ssp=10&name=Brose_and_Butter&play=1"},{"Name":"Brose and Butter","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJQUAbHSY2cQaajCoQkiUxEygMekO2ZgaQuQAdHQAStn4osqoAFbgpnQAstklAPRyAHLZAIIaA0imMJQsAJ6oDkI45434kgB+qHmrVAV0xNkbblCoAOIIAO6oABkqAAyshJAAiJwqWAxVCjGCqfCQawnSGoEJDKSoZRDKhUVAAYiodAAWtkqAAGKg4gBSCAsSHOFkuLE0kgAPDMxNlQK4oKJWkMcJAhkcmAA+OignbkITKGKUOCNK4WLrKfDZVarUAWAgEFHIIbWUy6phIAirGhUEp0ADSOxwDFQhFd7rdno9HpdADUEOJmjjEBocEIukdUCHcY0ECqYINwAcRsAhCwxDN8AB9fDONp+OBQJjgcjyRb8AAi-BjCFMAyuVLLlerLCEt2UjVMqEbIHLVdQlms5A7te7Tf7rduITIqCq9F7zYHVhs0++c4Yg3IWZEUCzyigQhOrbEAGss6IkCeTL7stJUPhhGF8ABeUkAH2yAB1amJJeRmtsYjbKgmBiFQwFvgOf4AUBqDkMQPyoJBoHQaggHAdsxBiEhIHEFQiE-IccEIag2SQWI-6oDARHUc05GUbRxGIW+dAUc0jEwAAenAXbIdxVCUOQRHwcx9HsTRRFiVRwkkVJHHcbxIH8YJMnMQAui6Xpad6Wl+gGYjNISHYGhoT6oHqzQsAgCAngA5JID5CHAcCoAeJzOKAIw3tQA6wHAz6TpIorkOQsDPqWH7fkIZQtDF0U4fF8WmDFkGJTF3EpagyVZTF2Vkd+ADaYi2WUYhlGpqBFSVZUVVVpXlThdU1ZVxX1bVyU-A1LFNQ1PW1a1zWQQV5AleQvUjWUY3tWUnUVW+b6FQNvVLf11VdS1a2rW1lUdV1i2bRt20FZxrUnetw2jeNl3TbNSFqUAA&format=noten&ssp=10&name=Brose_and_Butter&play=1"},{"Name":"da New Rigged Ship","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDQADCUAbHSY2eRCqAByMADuqABK4KamMJQAyhbgynQO2ZgaQuQAdHQd2RowwXQAstk0APT0TdkAghqTSL2ULACeqA5COBcaapIAfqh5G1QFdDsAMjBeSH2ocLdrgBRSgABW+GigOCESAANNISjI3sRxkpULskORNPhkKgAERdI7gI6ofqgVxHfB4hEyADM71R1wxWI0OKQAHJJEgEDF8NkGbtUOSppBwMgRKhFsF-oChRYYKhlFAhKdiaZUAg4HKFcqYqhwTENKgAGKTdRGzUm4lIbpeUAWeEAdSEQnw01QmHlQqYv1QYmCLEmvO1ku6pjVGqYaFakAsqF+7XwQnAUEkMMo0PwaEtjTg4HwQxJLAQQlA8NaQ0sIYQrV+RuUtyY5Cg50iUFTqEaBeGswA0ntyNYGEIWGIAFb4AD6OJ9ti4-ygTHA5HkK34ABF+IrbqZJtdyquN1uWK78A2EOqDyA15u-VYbOfL4fbyf8PgQmRUFV6Nej3frOQH5QF+P5TOQk4iFAk5KiqJ5iAA1pOohIPBJgwOqAA++K7DgeJCFQI6dr0mGdgRLBEfAqBYXiADieKmFQPT-KYQgkXi654nAVDkFQqA8ag2QYQA2v2OHgLEAC6dAYdkqB-NRux4mIuzKfiQJ5HixBUPJ2FKSpgp4gAFOpACUeJAtplAKXpqnmRpWk6XiiliFQuy8W5AlYSJ2QALxiFJ-booO6QyeixBUdhuFiFiYj4nRxDReFCm4bsxC7Maam4TRxoWRFTlRTFcWaYleU4UprnubxglAA&format=noten&ssp=10&name=da_New_Rigged_Ship&play=1"},{"Name":"Old Straw Bonnet","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIADHkAbIV0mNkA8hSoAMqgGkIA7qikSEjhdLXZmK3kAHR0AErZGjDBdACy2TQA9PQActkAghqtSKYwlCwAnqgOQjjHGmqSAH6oeYtUBXSN2XQA0tkA4gwMQixiAFb4AD6+GcSFsXFQcCgTHA5Hks34ABF+KhlBdTK0ziUEcjUSwhPh8OiEKZUDiQIiUahLNZyCSyRTgFT8YT8CEyKhyvRKXiaVYbByoFyeUJyOQgSIoEDlFAhAcCWIANZA0RIJUmADaAAUNoRPN4ALqoOjwVAAHToAB9sqgAEQfO2oUzkYiUUwEslW+0AMSdAF44GJ1mIoaYhAA9OCob0Op0ut3O35e+1Ip1CUxwd1UVBmq10DBx52u92emO+gNBkNhyPR2OO4se1AZrPlu0OeOUAAUAGYu27iABKVNOj45q1SXPR7JWnO9rtIgCiPuHVvzwDoOuyxH1XlAhuttqLHx9H3WnQ+xFD9ad5D2oeIl8osb9NPW-p9offPvWxDbr+DR9UHWD5UHnJcVxjAt0GPU9z0fK82w7VA73IB8PkXCMHDbNNUAg+CMxgHDb2IdYfXtBsxzAvsIOHGdvi3BxdyNC03ltD4cHAJBWJtCicHjAAaHMgN-YM2w4p0r1dGlSIjcj6341AqJEq9z1jJE8lvCMxDvFD-TEYg5KgwsJOdISL2A1TxMUqS-wMsicM0pSfSRUCXIceTUycpFsPndYBOIAT-NXScHUUj5zKRciZxzCKaBjQ0gA&format=noten&ssp=10&name=Old_Straw_Bonnet&play=1"},{"Name":"Queen of the West","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIAbHkADACsUoWFAMz0mNkAikwwMEioCHCooBYwqADqBKB0APLZmBpC5AB0dABK2RqNUHQAstk0APT0AHLZAIIao0imMJQsAJ6oDkI45xpqkgB+qADsq1TFdADK2XQA0tkAIgwGEIWGIAFb4AD6+GcSFsXFQcCgTHA5Hki34f34qGUN1MoyuhTRGKxLCE+HwOIQplQhJA6MxqEs1nIlOptOA9JJZPwITIqDy9DpxMZVhsvKg-MFY3IEJEUAhyigQhOpLEAGsIaIkGqTABtAAKO0Inm8AF1UAAxACiqAAPqgAER-B2oP4W7YW13ugA0nvtDu2LqtAHFtsHUCHtt7w-7nZbtuRPQ7gy7g8QYGI7Y64wm4JQAy6xGGbba6E6XW6PV6o37HYGI6Hw5Ho1ny-HE46U6g0xnW-XyFQEYO2wPGZRbaXgHQDdliMavKBzQXUBntpmrWuuq243mE+22q2u6ZB3BqQ6rS74OQuv6LyvyGJiHWXdtB2Jx2X66v15v0LGXbulDurYf6di6pikme9ZwEcmb-qgo5wIOo7WnatpAA&format=noten&ssp=10&name=Queen_of_the_West&play=1"},{"Name":"Salt Creek","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsAMwFBQCcRVIFdJjZAMoiaA4aMDAA1nQO2ZgaQuQAdHQAStktwXQAstk0APT0AHLZAIIavUimMJQsAJ6oDkI4expqkgB+qHkzVNUA0ssMQixiAFb4APr4zki2XKhwUExwOR5BN+AARfioZTHUy9Q4ABhB4MhLCE+Hw0IQplQiJAoIhqEs1nImOxuOA+JRaPwITIqAAbPQ8cjCVYbLSoAymX1yG8RFA3sooEJtqixG03qIkG0TABRABiqAA4gqlagAD7ZVAAbQACstCJ5vABdVAAIiWZtQSyoqAAekqltbbUtiBrzZbCa6xOawVbyLbyE71ealVbiEsALyO1ARmMhuhmsOxqNKxVm2VW2W2hXui1Wm32mOF115z1ib2+-22+AaqQeq2R0xwGDYlu2d2JzOoTZiN3552obOobLq9W2gdNmBCGCoUwbSghjPhpbkfuewvDseoOh67LEQ1eUCmgdCW1CISoM9Xlhlq1iADkj0fV5rtqXyabtvnc+-l4-VosE2jy-j2747qe56XteIFLuWT5PA+r49nAd6oE2cCmJeza1ku3a9uuBY0J2wDRHETRsuQ+DZGR8TWtaMxgsqyozLKtFoE6SyMfRsozEsQA&format=noten&ssp=10&name=Salt_Creek&play=1"},{"Name":"Shelder Geo","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDRSNCV0mNkAyhbB5JqoAOIwCHQA8tmYGkLkAHR0AErZGjDBdACy2TQA9PQActkAghp9SKYwlCwAnqgOQjgHGmqSAH6oeXNUBXS12XQA0tkAIgxCLGIAVvgA+vhnEhbFxUHAoExwOR5FN+K9+KhlKdTH1jgAGGFwhEsIT4fBIhCmVAYkCw+GoSzWcgEokk4Bk7G4-AhMioABs9FJWIpVhsLKg7M5-XIfxEUD+yigQl2OLEAGs-qIkHKTAAfbIAIleGpWAGZWqgAGItFbEVUahwagC8YioFJWqA1LQ1xBaLTNWp1xBWLSNr2NqqkjudK3I5DEju15Dt5GI2VVdqdOrDEc90dQsdVqro6ot1rETTgqFMQlMcFVMBt5lQMDE5lVNsLxdLMHN2oAenByP0wd3yNm842YESS2WK1WI7WxK280JO1tezB22I28nyMuMzR40A&format=noten&ssp=10&name=Shelder_Geo&play=1"},{"Name":"Smith's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVACcAMwypQWldJjZAMo4kBYA5JIASjDBdA7ZmBpC5AB0dG3ZGp1QdACy2TQA9PR12QBSCDAAnqhTYgDSMEj4bqiEqH1CB2KuLDCUcBpKqEKoAOow4OoaqABWQjiowsoYNJisU8ugADLgwbEQaoOhLUCuKCic6DRqgQY3JhzAB+XzEcxwTEOBKELAJjQ09w0c3BBBiGmIQnAsHWhOCSHC+AA+ixwKZuWSxNy4CyYHMpFRJVQ6AA5bIAQXIQmUMUo53VVPOphuqBYmwcv1QDnu+EkAAocJtPN5JKKNPhQAAaVCrDatVDqRRIcgASjoO2yABEGEKvjz8M4fX44FAmOByPIpvwg-xUMp7qZ+n8AAxJlNplhCM0ZhCmVB5kDJ1OoSzWcil8uV4DVwvF-AhMioABs9CrBdrVhsnagPb7A3IguR3OUUCE6yLYgA1tzREglyYANoABUVhBtoAAuubSua4KYAHqmX0AHToAB8AERBx9CKhXp5FuAwJ8AcUf5DwJQNzEOQT4vgqABiSqoMQYiAU+CqPnAQhwMBqGmPedDPq+QgfnqqE-o+-7kKYaGoCBYGPkhUEwXBCHUchQgwGIqA4eQVCoOe95YThZKoQR35-gBZHAWhxDgdR0GUPRRFId+tgUbYmHYS+-FwARqAnuaCpwb6wmAeRQESYxtEyfBcnIYBrHsZx5BiDxDB0Du2TEPuXhHthxA4I+xCQaBsH+Q5xEAUBSmgZJZmwRZiFMUZZE-l5Pn2XBgXEE6kEGWFlGRdJ0UMfJgGUDhcCcUJvHeQBYgBWZwnEFBQaoAAokG6VBpFTptU1qDSZZKFGYRFXJbplC1SF9WQY1LVtbFCqdU6QaQT1Sp9UVbEvqVXGYVhLkKu53haSEXiDL6h6qa+MADM0glESR2XkBFOHabpYi+qgik3PAqCxc9envRpNylbxamXeQ11frdoVGQ9VE0XlsmxWhLHrQBNCOcA0RxGgCpQAySBCBAYSDvW+DZJj8SwX8v6oEGczec1eRzAqeTk2g9PU7T9PM3MIYgDEFOc1TNN038TWM8zrPC+zUt-NzQZAA&format=noten&ssp=10&name=Smith's_Reel&play=1"},{"Name":"Westmoreland's Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDSyAGx0mNkA6gSgONbBQkjkAOSSAdZIyuDKMHQO2ZiaGgCeqACy1q4mAErZGjDBdFPZNAD09ABy2QCCGhqtpjCULJMOQjioDhpqkgB+qHmbVAV0AMojY5MzR+ATABpbIAEQYQhYYgAVvgAPr4ZxtPxwKBMcDkeRTfig-ioZT3UzHG4ABixOLxLCE+HwBIQplQZJA2NxqEs1nIdIZTOALMp1PwITIqAq9GZFLZVhsQqgIrFQnI5DhIigcOUUCE4ypYgA1nDREgdSYANoABQOhE83gAuvsAOIAHToAB9sgAiUFugBioP2oNQXr9XudboAojg3cRQ3biKho8Q7SHPT79l7UL6fSH9m79gAaByhvO3Qu50OoZ10D3e33+wOg4NhiNRmNxmOJnPV1Nx0EF51SDv1-ZiVBV8hUVD27LOqgd9Pjr3jqug8eg0POitm7LES1eUDWp2uqte8hiSip+shu1hvMF9MOVdJ70ns8+hvZ0MAPTbE7EMDEFdHVN9nTQMG3DSN41bBMs07NNQx7Nd+09OcAxXFdQynGdkOXVCUKEUx1zoTd9h3bxUAAChCLwADoAEprRdd1PTgcgFVQOAFTgENwJYGBTBYVA+JYAiqxYtiONsGCzjEWN7S9NdK09IDayDbim0g+N22zL07S7G9QwcGDB2HUdx3wqcGGiOI0AcKVyHwbIrPidNUDtFz9ictB-Tc4D9k2cEQBiZziBuNz-Q8wLrNQELXInCd-KAA&format=noten&ssp=10&name=Westmoreland's_Hornpipe&play=1"}];
+    const tunes=[{"Name":"The Big Scioty","Filename":"The Big Scioty.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXNIA7ACsAMxSBTRUAJwVdJi5mBYwqMTgpqgAymLgCKAAnjW5ABT4LRaECKMxMACUdA51GkLkAHR0AEq5GjDBdAByuTtCeJRCcDEaqKAN7Z3dCKir4GHn4EioAPIWXUuoAIJQ+Hd8MpgrBKB0usIADTXCEwFYALVyDkOqAcGjUkgA7pALKgQl5wEIIMhJCweqgAFLjV4OCyHFiaSQAHgAVmJsqBXFBREIkEscJAljByEwAHx0ACyuRoAHp6ABpXIAcQYDCELDELPwAH0AUwkLYuKg4FAmOByPIJfwACL8VDKdGmBY4VAABktNrtLCE+CBjrdHttqEs1nIDoQrXdICtQe9vpCZFQADZ6NHPcGrDYE1Bk6nFuRtSIoNrlFAhD1vWIANba0RIKsmADaAAVsj9CJ5vABdOjWgBiAB06AAfXIAIiVY9QSqoxCV6B+SrnqGHqAnU8XSvnM9Q5DEGFX66ai+IvyVAFFrQe15PUNalT9TzuBkUBtbz32piu6BgjzuH00S6UIeDhTgM5DTFsqAwFQqCmI0h7WlOe7EJQYjED8+7oIhU5zj8fY3lOO6NkqkJUNaVBdqg2TDqqLbZMQHZeKAPajoRcGwaYQioN6XErmuSGoEIsFCNxwlCdx-FjoJ4nqkJrTClJ544GBEFTFBMHQXA-E-ugY7KVOphwHxRmKSBU7Cqh0GcY02ECch6FoRhWFSYJeEEX+sEkWRFFUTRdGtu2nZoPiGhLKx463v+PzTueAGHlFsEATOmHXkeGFLmecVpbei5UDFM7vjpv5RY+86YRhdljqBTRbNpMHkLBaVuWVWXzlVuVbgVXmkeRlHUbRwB0PRjHBXiXjhSOkVTo2xBFKYRRdqYhBweqrQ4dBwksEJVCNj8VAwVRG0Ldx8HkDFh4GU0jaHTdVE3ZRD1doQtG-ldd3GQdVDnVJNXEHdAx3Y2cBdlMT2No1R32agADexBiAAvhhy6LtlCUbil067b1vkDaqIAxPEqKZuQ+DZNEcRoEFzGoAAftODPbnZ7UOHe04U0To00-T85Xleyn8QLrNXkqwDqmIhBUEsUjRJAsCJP4vD6KQFDUKmwDMGwcucDoPB6AIwiiBI0hyCAigqGomgK0rBtGBIZghjYCvJM4rjuCAwW+EaSRBKE4TiFEBOU87jiu2kQA&format=noten&ssp=10&name=The_Big_Scioty&play=1"},{"Name":"The Black Mare of Fanad","Filename":"The Black Mare of Fanad.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMMlQADHSY2ZgWMKjEUEJiANaoALJeTQhwqABiQkhC5LXZQgB07VPTqA1NAHLgSE0ACgirPqj9qABKCKZMmgCedA71GmNTdPvZGjDBdF3ZNAD09ADK2T2mpm5UF8RvhkE0ABRdcD4NAjShfUBggA00hKJSqAEpUMooExJCxIJI9hZQKBlPhsu93qBGup8PhwMgptZTNSmGt8J8qCU6D84agcKddgB3JCoMbkSCMpAmABa2QcQhwqAcGjUJiW2UEqHUMBwkhwIyFYQ0DOQRIGNOhqFA7KaOLaTRGqAAosrLNZKKsbY1UIgXDTUCwvLsBiwEIHPN58LdNX8AU1TAgCDaEOKVahVjCYGMUfz+KhRO0mjShKBbgBpbIAEQYDCELDEACt8AB9UHs2xcP248DjEBdfjVgvKNWma7KmoDocF4P00dHVBT4CD4eoD02BemJfyVezoT0kJkVAANno07XG-IR6gp-PEtbIigrYdp2DHVboiQ7RMAG11tkACChBRqAAC6dCAUiVAADp0AAPtkqAAETVshqDVlQQzVihADi6G4YMLo4fBKFoaggHkIBgwUcQ1GoKRqHoZh2EocQOAEURlCMQ46EALxiC6LpiChbroYJuEugxdAYExGFYYMOHIfhFHVkRDFkcxLqDLhtH0Yx5HVtpumAcQYiARpyGAehVGDBZcksYBWHZPBdb-tkxAgV44EIUhyG8agv64UiAkumBNB4ehv7EEiuHEOFlnkb+UF2Qlpn6ZpGFQWpqCES63EoQFoXCaJHHri6cXSbJRViOQ5mRc05DELpSSJVZdWUHAtlJAZWl2blpkiZZ1moLYMAiXJ5BYU5qAuW5AHAaBqAhF4EGIZlU1+pQynoaY8Dbr1gVwEIYFlEd5AAORgeKphwE0h1UbYbFlbdMCXZZNUXU8YgXaV6EsOQVFVegk1YcdDWvSJD37eKwYDK1bWjfAQioK926tYxI1dXtmVdaZs2ucAdDuZ5S0rRoa1+QFyWxQJCU7YFMXNQlh009WgFgQUo0UTRh3VlzUEDRgPH8WIEXIWJ5WVa51WixVE0qc11YxRjmUpZRW30f4fPGbR9WYzZ1H2YZ03OYT0RxGgDhWDYFIW-EFFed4qAAH4Ye8uk4dW7zsSq7xuhp3uexhFHvLWIAxA7pPea7fvB97vsOP7yqkUn8eh+HDZiIQVBTFI0SQLAiT+Lw+ikBQ1DnsAzBsIXnA6DwegCMIogSNIcggIoKhqJoxel83RgSGYV7F8kziuO4ICgb43ZJEEoThOIUQR5bo+OOPaRAA&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"Blackberry Blossom","Filename":"Blackberry Blossom.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnADMJQAMVHSY2cRQQmIA1iyaGgCeqA1q+Ep0DtmYGkLkAHR0AErZGjDBdACy2TQA9PQActkA6vwACqgAfqhQCD6oCHCopggIlJ7ekqAIqKPkAIR0AFrZDkI4qA4NL06ABlbJ0ADS2QA4gwGEIWGIAFb4AD6fSYSFsXFQcCgTHA5HkC34ABF+KhlEDTCN-pViWSKSwhPh8FSEKZUPSQCTyahLNZyOzOdzgLymSz8CEyKgAGz0HmM-lWGzSqByhWvVEiKCo5SNDrMlqo0RIZomABE0ItpgRnItADEAMQ4C1wW1wAA+FocFvgphgqCtFvIxAAgtDvb6AKIO6HRoPW0nR6Fh71hi3EUPQoOki1hsTwT10YO2lj252u91CL0+v3uwPB0MRqMW2PxxMW5Op7154iph2d6E0bLF4B0T3ZNuu4hUGDEIPEPIh4jz73RmdzheZ5fZtPTzNb1Chos7m12l4B8jFg+z+eL3er4jrzf3s8n2sb88BoMZveeqRc0zAchyoVNRyoID+zDQdg2hKhPTHaI4jQBwVXIfBwRAGJ4lQMNCHuNAjmhFZKwBFYcwcCi8JWUlUE9VASLIqjKOo0kKOQ3DiAIrwiNQDcViXficEEvJhO6MSGIEoTpLEgSw1QdjoSAA&format=noten&ssp=10&name=Blackberry_Blossom&play=1"},{"Name":"New Rigged Ship, da","Filename":"New Rigged Ship da.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDQADCUAbHSY2QByMADuqABK4KamMJQAyhbgygA0qORRDtmYGkLkAHR0rdkaMMF0ALLZNAD09ABa2Q5COKgOGmomPdmrQp1uqD1CSPjIMKgAFKvg+GgPvaDPw1ISiVygBKYYiJ6oRSPJhQCBIUyoUAWF4AKQQFiQxwshxYmkkAEFiA5jmRYGIIMhBnQLk1+pYoZACKhMEpUASkOR8cg3u0EeAEXdQK4EfgASUZABmEFzerZAnKTxLFBQACeqHw-TgPlQeNATWWWIAItZwA9UD9UB9YmRVeQzVicAguZIEHB2TNUAAFITgDSSA1QKCoJqQCx3FEUTSoADiMAQcwA0vLyNYGAwhCwxAArfAAfSeTE5fjgUCY4HI8lW-CN-FQylOpimR3KVZrdZYQnw+AbCERrZA1drUKsNl7-bbw873ZCZFQVXog-bI+s5FnwYXGfI5DzIigeeUUCEqs7YgA1nnREgzyYYKYADp0AA+2VQACICW+LVRMxauoin2-X9rngVBALfGMv1MKhOlQOBTGuMCpHfI0vzgKhyCoEYsLvVBsifLC31QuCMKwzDUG6MCn3TZMCRwcBYmfV8Py-MQCTY98AFE8i-YgqEo8DPyhdiCS4njUE4-jKEE1iRLE3ipKQ98hLEKgCSw9SKMofDCJUtSNI04gqJolM0xfZScFYrkxHfSDUGIMRyCMwTLPZYgCQAMS41yYw8ySwIsqyYBsiDeMc5zAqhfT2UMvDqOAaI4jQBxR3IfBskS+J2UIJU0AAP3ZQqY1QI04sytBiByrx8vZTZuNq+qCTqvJCvw8rjiq7xUAKujNmK3rOKOXr+qOfCgA&format=noten&ssp=10&name=New_Rigged_Ship,_da&play=1"},{"Name":"Old Straw Bonnet","Filename":"Old Straw Bonnet.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIADHkAbIV0mNkA8hSoAMqgGkIA7qikSEjhdLXZmK3kAHR0AErZGjDBdACy2TQA9PQActkAghqtSKYwlCwAnqgOQjjHGmqSAH6oeYtUBXSN2XQA0tkA4gwMQixiAFb4AD6+GcSFsXFQcCgTHA5Hks34ABF+KhlBdTK0ziUEcjUSwhPh8OiEKZUDiQIiUahLNZyCSyRTgFT8YT8CEyKhyvRKXiaVYbByoFyeUJyOQgSIoEDlFAhAcCWIANZA0RIJUmADaAAUNoRPN4ALqoOjwVAAHToAB9sqgAEQfO2oUzkYiUUwEslW+0AMSdAF44GJ1mIoaYhAA9OCob0Op0ut3O35e+1Ip1CUxwd1UVBmq10DBx52u92emO+gNBkNhyPR2OO4se1AZrPlu0OeOUAAUAGYu27iABKVNOj45q1SXPR7JWnO9rtIgCiPuHVvzwDoOuyxH1XlAhuttqLHx9H3WnQ+xFD9ad5D2oeIl8osb9NPW-p9offPvWxDbr+DR9UHWD5UHnJcVxjAt0GPU9z0fK82w7VA73IB8PkXCMHDbNNUAg+CMxgHDb2IdYfXtBsxzAvsIOHGdvi3BxdyNC03ltD4cHAJBWJtCicHjAAaHMgN-YM2w4p0r1dGlSIjcj6341AqJEq9z1jJE8lvCMxDvFD-TEYg5KgwsJOdISL2A1TxMUqS-wMsicM0pSfSRUCXIceTUycpFsPndYBOIAT-NXScHUUj5zKRciZxzCKaBjA8NxAGJ4mOAVyHwF5kriNB1mYtAbjcpS8LycsitAjTFi+bLUp3A0CuKoryLK448Lwqrohy458tQQqzg4pSzg0sr+qG0rKo4oA&format=noten&ssp=10&name=Old_Straw_Bonnet&play=1"},{"Name":"Queen of the West","Filename":"Queen of the West.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIAbHkADACsUoWFAMz0mNkAikwwMEioCHCooBYwqADqBKB0APLZmBpC5AB0dABK2RqNUHQAstk0APT0AFrZDkI4qA4aaiYA0tkAIgwMQixiAFb4APr4zki2XKhwUEzg5PKL-Gd+KhlIdTKM9oU-gCgSwhPh8CCEKZUJCQP9AahLNZyIjkajgOiYXD8CEyKg8vQ0dDMVYbKSoOTKWNyA8RFAHsooEIAJ6wsQAaweoiQ-JMAG0AArZACChE83gAunQAGIAUVQAB06AAfbKoABEZ31qDOyulypNZoANBb-NqDdLjaqAOLS52oF3Sq3upLoe0Go2oM3kC3653G53EGBiVDaugYQ3G6W2Sj6x2Yt3q2MB42m82Wr2233+tNO13uz3e7Px9CJoPJ0Ph1CR6N+qQO43kKgfbt1rtB9XZbW99P9uC9wP9sSUbVxyXZYhyrygJW6juoaPSmOqrddJL2utwcjJ+u2X0YEtN0zduDI-Wq43wchdOMJh8b8hiYjr6Xd6fZ0sNzELcPV3c8-VrQMjxPYM2mrBMr1hO90zgGBPzbHNUDHbsp0ofwhwnTsbxwmgLyVYBojiNAHFpch8GySj4lQWV5TQAA-E1mJNVZ3TOVZpWzM4uL491pVWC4QBiJjF1Y1AOIEoTnVWdVVX47MFObNSziAA&format=noten&ssp=10&name=Queen_of_the_West&play=1"},{"Name":"Salt Creek","Filename":"Salt Creek.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsAMwFBQCcRVIFdJjZAMoiaA4aMDAA1nQO2ZgaQuQAdHQAStktwXQAstk0APT0ddkAgkioyKJIMKjgKBoIqKB7OEJI5GTb+0wHriJ0AHLZAGoAokMAmqj4uOBQXvt7DVA0ENwGENAAaVAsS77CybYiETzeLaScjgOBwTQwFB0ABa2QcQhwqGaahMAGklgwGEIWGIAFb4AD6+GcJz8cCgTHA5HkE34ABF+KhlLtTL0iQAGXkCoUsIT4fAihCmVBSkB8wWoSzWchKlVq4Aa2Xy-AhMioABs9HVMq1VhsZqglutfXIjJEUEZyh+AE85WI2oz1m0TABtAAKSwRXlAAF1UHQnlQADp0AA+2VQACJFlnUIsqKgAHoAcUW+cLi2I6DT2dzWqrYmz-Lz5EL5HLtezJbzxEWAF4y6g+0O03QMFme8OByWAGLZp55pOoJ7z2s5vMF4tDrdV1BdjcN4hNrMt1Bt1DwBNpqR1vP90wYlUY2z7ieLy-kMTVw9b5fZNNC0PB8YCETZTFMGBKHXD8+3IH96z-Qs01rKkI2yeFETja9M0PIRCyEIRUHw4iWDfQ8xAAchpKjiMLGBkO7e9TELCDUBY9iiPXKcWAfGl2Pows33HdA8IIoiSP49d6yomjKLoy84HI+sHzgUwiMfK8awXPMoO-O98xoVAAITYBojiJp7XIfBsnM+J82jJEAD983zGZ+VQEtPJmJ433LRZ3Ncp4ZkWOy0EwmNUBc-zPNi2sYvLYLQuAGjCCofopGiSBYESfxeH0UgKGoa1gGYNhss4HQeD0ARhFECRpDkEBFBUNRNFy-LaqMCQzG1GxcuSZxXHcEAsN8LgklQIJQnCcQohAGJ4gGxwhrSIA&format=noten&ssp=10&name=Salt_Creek&play=1"},{"Name":"Shelder Geo","Filename":"Shelder Geo.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDRSNCV0mNkAyhbB5JqoAOIwCHQA8tmYGkLkAHR0AErZGjDBdACy2TQA9PQAWtkOQjioDhpqJgBy2QAKQuAakgDuwVCop5AWqDswp6jD4KamMJT14Mp0ANLZACIMBhCFhiABW+AA+vhnEhbFxUHAoExwOR5FN+P9+KhlFtTH11gAGdGY7EsIT4fC4hCmVDEkAYrGoSzWcjU2n04CMskU-AhMioABs9AZpOZVhs-MuwuB5HIkJEUEhyigQgAnuSxABrSGiJBakwAbX22QAgoRPN4ALp0AA+2VQACJ-o7UKaqG6WqgAGItU3EVC2p0OV0AXjEHrEpqdLVdxBaLQDQedrv9pq93v+vsDMdTcrETpd5A95AD2VtQON2WIFq8oBt9uDYbETTgqFMQlMbeTIdQMHD5j7YkHPebrfbnZg6GTLtQAD04OR+oil5QKxhHb3w01aR2uznN67+8OCzAxGIp6PUEIF28VzA5wWZ3nyI-UOQaKhy0CQDF4hsJXIfBsmiOI0HNS00AAP1Qf4NjmL04JaOY4PLVBQP-GtINQGCHA2fDUNtIA&format=noten&ssp=10&name=Shelder_Geo&play=1"},{"Name":"Smith's Reel","Filename":"Smith's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVACcAMwypQWldJjZAMo4kBYA5JIASjDBdA7ZmBpC5AB0dG3ZGp1QdACy2TQA9PR12QBSCDAAnqhTYgDSMEj4bqiEqH1CB2KuLDCUcBpKqEKoAOow4OoaqABWQjiowsoYNJisU8ugADLgwbEQaoOhLUCuKCic6DRqgQY3JhzAB+XzEcxwTEOBKELAJjQ09w0c3BBBiGmIQnAsHWhOCSHC+AA+ixwKZuWSxNy4CyYHMpFRJVQ6AA5bIAQXIQmUMUo53VVPOphuqBYmwcv1QDnu+EkAAocJtPN5JKKNPhQAAaVCrDatVDqRRIcgASjoO2yABEGAwhV8efhnD6-HAoExwOR5FN+EH+KhlPdTP0-gAGZOp9MsIRmzMIUyofMgFNp1CWazkMsVqvAGtFkv4EJkVAANno1cLdasNi7UF7-YG5EFyO5yigQnWxbEAGtuaIkMuTABtAAKisINtAAF1zaVzXBTAA9Uy+gA+AB06AAiINPx5Ua9PYtwIG31BPgBxN9yHgSgbmISg-xfN8FQAMSVf9iBwN9iDEEDUCggBRPI3zgIQ4EoJ8FRw1AYHwitb2fV9HiET89Xw39-yA1ByFMAjSPICCMP-ai4IQp8kJQtDGKIki8JgMQeOAqhUAvDDKOgx5v3on90Cg5jWPY0DiG4xS+MIwTUFQ9CsLEm44H-Yi33MiiqLfMl8Po1BT3NBVUN9XSNNA0iCJ0qDePggzkKM4TdKs2SQMkxTyBk8hJNvSjgDoXdsmIA8vGPZ9DOIWCuJy1C1KY4DvPAyhdIChD0AE4LjJE7DcPwwjwpgNjfyy4K4oK-KnVgzziq0ziyv8mDAowaqhJMyyxJAwjqLgGTVIS9rgLELj9MKwCULgoNUEwoNiCdHbhtQBUnQOoNMMQ4LArqsTGqm6yGIw5aWLcyh1r6oztt2-bDvKmCzsO3rxtQG6wum3VFPm2SKMS5K9wVdLvGckIvEGX0jzoW9sikx4yPIZoVJEryBq446XLcsQPJB2wOPgXT6ucs9Kep8LafMmTKLG6ihHxwnv2J-qwMG-6TtGkHavB3DItx8gaFQbI4ZAGJ4lQOpcDnIF6xsfBsmiOI0ERw9UBxVAdoAs2Tu482rYVOYQ2Vg2jKRtBTaQ1ALZ2hVuPdi3vbth2wCdhUoAZJAhAgMIhwbXX9dVo2MpNoy-k9uZ3ewuZiJ9lOzbTv5iPtuO0DS43TaDPOPdz9O8kzsE-3L32q-zmugyAA&format=noten&ssp=10&name=Smith's_Reel&play=1"},{"Name":"Westmoreland's Hornpipe","Filename":"Westmoreland's Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?lzw=KTAuEtQGwUwMwPYDtQAJ0YCrgLYwM4C0AQglACaoBMALAFAj4CuARhNPMmutnkQJKgAhlHABjfKgCMADgbAxCHAAcE+GACdEKLLgKFBI8fnkBzMQAsEG8tu4YAwgiYbwm+cqEbQ+OxgwAEjBQAG4wEGJC8qAwAB6gfv7oTi5uGnR0ABoAXFIA7ACsVDIAnDSyAGx0mNkA6gSgONbBQkjkAOSSAdZIyuDKMHQO2ZiaGgCeqACy1q4mAErZGjDBdFPZNAD09ABa2Q5COKgOGmomAMojY5MzGnN0ANLZACIMDEIsYgBW+AD6+M42n44FAmOByPIpvxnvxUMpTqYNIdUAAGSHQ2EsIT4fDwhCmVHomGoSzWch4glokBQ4lYnEhMioCr0akYklWGwMqBMllCcjkX4iKC-ZRQITjLFiADWv1ESClJgA2gAFbIAQUInm8AF01QBxAA6dAAPtlUAAiZ7m1AAMWeauetodNtQxotAFEcNbiO69cRUL7iHrXRarbb7S6I463Ra1da1QAaBzuxPHFMJ92uugYS3Wu0Op3PF1u82e72BgN+4MluPhtUu93PZOuqSx61FtViUPW8hUVD61DZY19821559m0jsPj1DPTPG41vFXZYiarygbVG03d23kMSUetFkPmvXWgOJ5tNufHsM2vcHu3F9Cj63ugB6Vf7YhgYkXObD5D1mqs42vWx5lqgPp+pWQboDWeYRgGTbzq2uazhOfYzteQ5Tu2GHoagQgEguS6qhqWpoAAFCEXgAHQAJTaiaZpoXA5B8qgcB8nA4FeqgLAwKYLCoIJLDETubEcVxthwW2Il7v6+o2vO2bPmGQGOqBR4lhBUH+oG1ZyTaepgRe7oOMeY6gV2aG9oRBJDm8IAxPExwcuQ+DZNEcRoOR66oAAfrOAZHI6wFuo6nr9v2myvM5PmQWu3iBcFwZhSGkVHMBzxAA&format=noten&ssp=10&name=Westmoreland's_Hornpipe&play=1"}];
 
-    // Populate the tunes div with options from JSON
+    // Set this to false to disable state persistence
+    var gAllowStatePersistence = true;
+
+    // Mobile gesture state variables
+    var gPlayerTouchStartX = 0;
+    var gPlayerTouchStartY = 0;
+    var gPlayerTouchStartTime = 0;
+    const gPlayerSwipeThreshold = 50;
+
+    function isIOS() {
+        if (/iPad|iPhone|iPod/.test(navigator.platform)) {
+            return true;
+        } else {
+            return navigator.maxTouchPoints &&
+                navigator.maxTouchPoints > 2 &&
+                /MacIntel/.test(navigator.platform);
+        }
+    }
+
+    function isIPad() {
+        return (
+            (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform))
+            ||
+            (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /iPad/.test(navigator.platform))
+        );
+    }
+
+    function isAndroid(){
+        if (/Android/i.test(navigator.userAgent)) {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    // Populate the image lightbox from JSON
     document.addEventListener('DOMContentLoaded', () => {
 
-        // Select the div where the links will be inserted
-        const holder = document.getElementById('tuneShareLinkHolder');
+        let currentIndex = 0;
 
-        // Create an unordered list element
-        const ul = document.createElement('ul');
+        // DOM elements
+        const imageElement = document.getElementById("image");
+        const firstButton = document.getElementById("first");
+        const prevButton = document.getElementById("prev");
+        const nextButton = document.getElementById("next");
+        const lastButton = document.getElementById("last");
+        const tuneSelector = document.getElementById("tuneselector");
+        const viewerElem = document.getElementById("viewer");
+        const titleElement = document.getElementById("title");
+        const subtitleElement = document.getElementById("subtitle");
 
-        // Loop through the tunes array and create list items with hyperlinks
-        tunes.forEach(tune => {
-          const li = document.createElement('li');
-          const link = document.createElement('a');
+        tunes.unshift({"Name":"Title Page","Filename":null,"URL":null});
 
-          // Set the text and URL of the link
-          link.textContent = tune.Name;
-          link.href = tune.URL;
-          link.target = '_blank';  // Opens the link in a new tab
-          link.title = 'Click to play "'+tune.Name+'"';
 
-          // Append the link to the list item, and the list item to the ul
-          li.appendChild(link);
-          ul.appendChild(li);
+        var gIsIOS = false;
+        if (isIOS()) {
+           gIsIOS = true;
+        }
+
+        var gIsIPad = false;
+        if (isIPad()) {
+           gIsIPad = true;
+        }
+
+        var gIsAndroid = false;
+        if (isAndroid()){
+            gIsAndroid = true;
+        }
+
+        if (gIsIPad){
+            viewerElem.style.marginTop = "0px";
+        }
+
+        // Function to update the viewer with the selected image
+        function selectTune() {
+            currentIndex = parseInt(tuneSelector.value);
+            if (isNaN(currentIndex)){
+                currentIndex = 0;
+            }
+            updateViewer();
+        }
+
+        // Function to update the viewer with the current image
+        function updateViewer() {
+            if (currentIndex == 0) {
+                titleElement.style.display = "block";
+                subtitleElement.style.display = "block";
+                imageElement.style.display = "none";
+                tuneSelector.value = currentIndex;
+            } else {
+                titleElement.style.display = "none";
+                subtitleElement.style.display = "none";
+                imageElement.style.display = "block";
+                imageElement.src = tunes[currentIndex].Filename;
+                imageElement.alt = tunes[currentIndex].Name;
+                imageElement.title = 'Click to play "'+tunes[currentIndex].Name+'"';
+                tuneSelector.value = currentIndex;
+            }
+            // Save last tune
+            if (gAllowStatePersistence){
+                if (window.localStorage){
+                    localStorage.lastTuneIndex_SYMXNEV = currentIndex;
+                }
+            }
+        }
+
+        // Event listener for the image click to open the hyperlink in a new tab
+        imageElement.addEventListener("click", () => {
+            if (tunes[currentIndex].URL){
+               window.open(tunes[currentIndex].URL, "_blank");
+            }
         });
 
-        holder.appendChild(ul);
+        // Event listeners for buttons
+        firstButton.addEventListener("click", () => {
+            currentIndex = 0;
+            updateViewer();
+        });
+
+        prevButton.addEventListener("click", () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateViewer();
+            }
+        });
+
+        nextButton.addEventListener("click", () => {
+            if (currentIndex < tunes.length - 1) {
+                currentIndex++;
+                updateViewer();
+            }
+        });
+
+        lastButton.addEventListener("click", () => {
+            currentIndex = tunes.length - 1;
+            updateViewer();
+        });
+
+        const selectElement = document.getElementById('tuneselector');
+        selectElement.onchange=selectTune;
+
+        tunes.forEach((tune, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = tune.Name;
+            selectElement.appendChild(option);
+        });
+
+        // Select the div where the images will be inserted
+        gallery = document.getElementById('image_gallery');
+
+        // Loop through the array and create img elements for printing
+        tunes.forEach(item => {
+
+          if (!item.URL){
+              return;
+          }
+
+          // Create a div to hold each image
+          const div = document.createElement('div');
+          div.classList.add('image-container');
+
+          // Create an link
+          const link = document.createElement('a');
+          link.href = item.URL;
+          link.target = '_blank';
+          link.title = 'Click to play "'+item.Name+'"';
+
+          // Create an img element
+          const img = document.createElement('img');
+          img.src = item.Filename;
+          img.alt = item.Name;
+          img.setAttribute('width', '2400');
+
+          // Apppend the image to the link
+          link.appendChild(img);
+
+          // Append the link to the tune image div
+          div.appendChild(link);
+
+          // Append the div to the gallery
+          gallery.appendChild(div);
+
+        });
+
+         // Restore state
+        if (gAllowStatePersistence){
+
+            if (window.localStorage){
+
+                currentIndex = localStorage.lastTuneIndex_SYMXNEV;
+
+                if (currentIndex){
+                    currentIndex = parseInt(currentIndex);
+                    if (isNaN(currentIndex)){
+                        curentIndex = 0;
+                    }
+                }
+                else{
+                    currentIndex = 0;
+                }
+
+                // Initialize the viewer
+                updateViewer();
+
+            }
+
+        }
+        else {
+
+            // Initialize the viewer
+            updateViewer();
+
+        }
+
+        if (gIsAndroid || gIsIOS){
+
+            var elems = [viewerElem];
+
+            elems.forEach(elem => {
+
+                if (elem){
+
+                    elem.addEventListener('touchstart', (e) => {
+
+                        // Capture information for swipe detect
+                        const touch = e.touches[0];
+                        gPlayerTouchStartX = touch.clientX;
+                        gPlayerTouchStartY = touch.clientY;
+                        gPlayerTouchStartTime = Date.now();
+
+                    });
+
+                    elem.addEventListener('touchend', (e) => {
+
+                        // Check for horizontal swipe
+                        const touch = e.changedTouches[0];
+                        const deltaX = touch.clientX - gPlayerTouchStartX;
+                        const deltaY = touch.clientY - gPlayerTouchStartY;
+                        const timeElapsed = Date.now() - gPlayerTouchStartTime;
+
+                        // Check for horizontal swipe
+                        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > gPlayerSwipeThreshold && timeElapsed < 1000) {
+
+                            if (deltaX > 0) {
+
+                                // Swipe left detected, go to previous tune
+                                if (prevButton) {
+
+                                    prevButton.click();
+
+                                }
+
+                            } else {
+
+                                // Swipe right detected, go to next tune
+                                if (nextButton) {
+
+                                    nextButton.click();
+
+                                }
+
+                            }
+                        }
+                    });
+                }
+            });
+        }
 
     });
 
-</script>
+    </script>
 
 </body>
 

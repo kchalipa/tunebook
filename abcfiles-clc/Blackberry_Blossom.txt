@@ -10,11 +10,18 @@ T:Blackberry Blossom
 C:Trad.
 R:reel
 M:4/4
-N:Arranged by Cam Cross ~ 7/25
+N:WIP ~ lots of good parts to add!
+Z:Cam Cross
 S:
 K:G
+%
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DEGA|"A"BdBG "D"Acef|
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DEGA|"D"BGAF "G"G4:|
+%
 |:"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBGA|"Em"B2eB dBef|"B7"gabg aged|
 "Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBef|"Em"gage "A"dBGA|1 "D"BGAF "G"G2GA:|2 "D"BGAF "G"G2||
+%
+%%text Chords:
+%%text A-part ~ G/F#m C/G C/G A/D | G/F#m C/G C/G D/G
+%%text B-part ~ Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G
 

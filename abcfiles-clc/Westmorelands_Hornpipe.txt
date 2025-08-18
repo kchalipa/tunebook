@@ -10,22 +10,24 @@ T:Westmoreland's Hornpipe
 C:Terry Morris
 R:reel
 M:4/4
-N:Arranged by Cam Cross ~ 7/25
+Z:Cam Cross
 S:Terry Morris
 K:D
+%
 [P:A-part]AG\
-|:"D"FDAD FADF|"Em"BEGB EGBG|"D"FDAF DAFD|"A"A,CEA, CEA,E |
-"D"FDAD FADF|"Em"BEGB EGBG|"A"FDAF EDCE|1"A"DFAc "D"d2 AG:|2"A" D2 F2 "D"D2 DE||
+|: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |
+   "D" FDAD FADF | "Em" BEGB EGBG | "A" FDAF EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
+%
 [P:B-part]\
-|:"D"Fdcd AFDF|"G"EA,CE DCDE|"D"Fdcd AFDF|"A"E^GBG Acec|
-"D"dAFA DFAF|"Em"BEGB EGBG|"A"FDAF EDCE|1"D" D2 F2 D2 DE:|2"D" D2 F2 D2 ag||
+|: "D" Fdcd AFDF | "G"  EA,CE DCDE | "D" Fdcd AFDF |  "A" E^GBG Acec|
+   "D" dAFA DFAF | "Em" BEGB EGBG  | "A" FDAF EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
+%
 [P:A-part (var.)]
-|:"D"fdad fadf|"Em"begb egbg|"D"fdad fadf|"A"edcB AGFE|
-"D"AFAD FADF|"Em"BEGB EGBG|"A"FGAF A,CEC|"A"DFAc "D"d2 ag:|
+|: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
+   "D" AFAD FADF | "Em" BEGB EGBG | "A" FGAF A,CEC | "A" DFAc "D" d2 ag :|
 %
 %%text Chords:
-%%text D G D A
-%%text D G A A/D
-%%text Bm G D A
-%%text Bm G A A/D
+%%text A-part ~ D Em D A | D Em A A/D
+%%text B-part ~ D G D A | D Em A D
+
 

@@ -27,4 +27,10 @@ ef \
 K: Gmin \
 |: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
    "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
+%
+%%text Chords:
+%%text A-part ~ G F G D7 | G F G D7/G
+%%text B-part ~ G G F F  | G C D D/G
+%%text C-part ~ Gm Gm Gm D7 | Gm Gm D7 D7/Gm
+
 

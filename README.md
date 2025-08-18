@@ -19,6 +19,7 @@ On significant updates, I run the `clc-tunebook` through the HTML generator on M
 
 ## Changelog
 
+- 08/18/25: Ran through the whole set and cleaned up for consistency
 - 08/17/25: Reconfigured the directories
 - 08/09/25: Added tunebook link
 - 08/09/25: Initial commit

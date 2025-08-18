@@ -17,19 +17,24 @@ Z:Cam Cross
 N:It seems many versions of this tune place an Em chord in the fourth bar of both parts.
 N:Maggie goes to a C instead, and I like that.
 K:D
+%
 [P:A-part]
 A,2\
 |: "D" D2 FD "G" GFED | "D" AdAF ABAF | "D" D2 FD "Bm" GFEd | "C" =cEEc "Em" cEGE |
    "D" D2 FD "G" ADFE | "D" DEFG ABAF | "D" DEFG ABcA | "A" dAFA "D" D2 A2 :|
+%
 [P:B-part]
-|: "C" [G,=cE]4 "G" [G,BG]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
+|: "C" [G,=cE]4 "G" [B,GB]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
    "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc  | "A" dfec "D" d2 A2 :|
+%
 [P:A-part var]
 |: "D" d2 fd "G" gefg | "D" [fa]3 [fd'] agfe | "D" dAdf "Bm" gfed' | "C" =c'eec' "Em" bddA |
    "D" d2 fa "G" gfec | "D" defg abaf        | "D" defa gfeg       | "A" fdge "D" fdAB :|
+%
 [P:B-part var]
-|: "C" [A,G=c]4 "G" [B,GB]4 | "D" [A,DA]5 A GF | "D" D5 G AB   | "C" =c4 "Em" cEGB |
-   "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc | "A" dfec "D" d2 A2 :|
+|: "C" [A,G=c]4 "G" [B,BG]4 | "D" [A,DA]5 d AF | "D" D5 A, GA   | "C" =c4 "Em" cEGB |
+   "C" =cEGc "G" BGDB,      | "D" A,FAd fdAF     | "D" DEFG ABcA | "A" dAFA "D" D2 A2 :|
+%
 %%text Chords:
 %%text A-part ~ D/G D D/Bm C/Em | D/G D D A/D
 %%text B-part ~ C/G D D/Bm C/Em | C/G D D A/D

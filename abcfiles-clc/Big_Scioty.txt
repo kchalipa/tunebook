@@ -14,19 +14,24 @@ N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote.
 Z: Cam Cross with variations by John Chambers <jc:trillian.mit.edu>
 M: 4/4
 K: G
+%
 [P:A-part]
 DF\
 |: "G" G2BG  AGBG | "G" AGGG G2 dc   | "G" BAGB AGED   | "G" DGAB G2 (3(DEF) |
    "G" G2 GA BGBd | "C" (de)ee e2 ge | "D" dcBd cBAc   | "D" BGAF "G" G2 [G,2D2] :|
+%
 [P:B-part]
 |: "G" g2 ga baga | "D" a2 aa a2 aa  | "D" a2 ab ag ed | "Em" (de)ee e2 ef | 
    "Em" gfga gfed | "C" edBd e2 ge   | "D" dcBd cBAc   | "D" BGAF "G" G2 [G,2D2] :|
+%
 [P:A-part var.]
 |: "G" G2 GA GEGA | "G" G2 GA G2Ac   | "G" BAGB AGEG   | "G" AG2A G2DE | 
    "G" GABG AcBA  | "C" Beef e2d2    | "D" BABG AGEG   | "G" AGGA G2 [G,2D2] :|
+%
 [P:B-part var.]
 |: "G" [B3g3]g- gabg | "D" ea2b a2[A2e2] | "D" g3a gedA | "Em" B[e2][e] [e2][e2]-|
    "Em" [e]fg2e2dA | "C" B[e]([e][f])[e2][d2] | "D" {Bc}BABG AGEG | "G" AG2A G2[G,2D2] :|
+%
 %%text Chords:
 %%text A-part ~ G G G G  | G  C D G
 %%text B-part ~ G D D Em | Em C D G

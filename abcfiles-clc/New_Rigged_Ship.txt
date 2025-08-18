@@ -1,0 +1,32 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1752894096
+T:New Rigged Ship, da
+C:Trad.
+R:reel
+M:4/4
+Z:Cam Cross
+S:Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
+S:which cites Tom Anderson (Ringing Strings, 1983).
+N:Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
+K:Ador
+%
+eg\
+|: "A" a2ab ageg | a2ab agef | "G" g2gg fgag |1 "D" f2d2 d2 eg :|2 "D" f2d2 d2 ed ||
+%
+K:Amix
+|: "A" cAcA "E7" B2ed | "A" cAcA "E7" E2ed | "A" cAcA "E7" B2ed |1 "A" c2A2 A2 ed :|2 "A" c2A2 A2 AB ||
+%
+K:Ador
+|: "Am" cdec "G" BcdB | "Am" ABAF "Em" GFE2 | "Am" cdec "G" BcdB | "Am" c2A2 A2 AB :|
+%
+%%text Chords:
+%%text A-part ~ A A G D :|
+%%text B-part ~ A/E7 A/E7 A/E7 A :|
+%%text C-part ~ Am/G Am/Em Am/G Am :|
+
