@@ -7,7 +7,7 @@
 %%textfont       Courier
 X:1752894149
 T:Shelder Geo
-O:Trad.
+C:Trad.
 R:reel
 M:4/4
 Z:Cam Cross

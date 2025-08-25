@@ -22,8 +22,8 @@ E2\
 |1 "A" =gfeg fedf |   "E" edcB "A" A2 E2 :|2 "A" =geae gged | "E" BAdB "A" A2 E2 || 
 %
 [P:B-part] 
-|: "A" a2 aa a2 ab | "A" c'abc' a2 e2 | "G" =g2 gg g2 ga | "G" b=gab g2 e2  | 
-   "A" a2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef   | "E" edcB "A" A4 :| 
+|: "A" [ae]2 aa a2 ab | "A" c'abc' a2 e2 | "G" [=ge]2 gg g2 ga | "G" b=gab g2 e2  | 
+   "A" [ae]2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef      | "E" edcB "A" A4 :| 
 %
 %%text Chords:
 %%text A-part ~ A A/D G G/E | A A/D A E/A

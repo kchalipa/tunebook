@@ -1,0 +1,34 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1756153504
+T: Saratoga Hornpipe
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Based on versions by Chris Daring and Terry Morris
+M: 4/4
+K: F
+%
+[P:A-part]
+AB|:\
+"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFA | "G" Gc=Bd "C" c_BA=B |
+"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "G" Bcdf "C" cdeg | "F" f2 a2 f2 AB |
+"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFD | "G" Gc=Bd "C" c_BA=B |
+"F" c=BcA "Bb" d_Baf | "F" cAFA cAdc | "G" fegf "C" afga | "F" bgec f2 ef |
+%
+[P:B-part]
+"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "A7" fgef defg |
+"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" d^cde fdfg |
+"Dm" aAgA fAeA | "Dm" fAeA dAfA | "A7" eA^ce agfe | "A7" fgef defg |
+"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" df_df c2 AB :|
+%
+%%text Chords:
+%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
+%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
+%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 A7
+%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C

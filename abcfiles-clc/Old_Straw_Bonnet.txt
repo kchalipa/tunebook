@@ -7,7 +7,7 @@
 %%textfont       Courier
 X:1752807675
 T:Old Straw Bonnet
-O:Trad.
+C:Trad.
 R:reel
 M:4/4
 N:Arranged by Cam Cross ~ 7/25

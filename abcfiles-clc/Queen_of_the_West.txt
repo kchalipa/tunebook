@@ -7,7 +7,7 @@
 %%textfont       Courier
 X:1660510034
 T:Queen of the West
-O:Trad.
+C:Trad.
 R:reel
 M:4/4
 Z:Cam Cross
