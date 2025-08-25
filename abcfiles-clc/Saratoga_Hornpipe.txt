@@ -25,7 +25,7 @@ AB|:\
 "Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "A7" fgef defg |
 "Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" d^cde fdfg |
 "Dm" aAgA fAeA | "Dm" fAeA dAfA | "A7" eA^ce agfe | "A7" fgef defg |
-"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" df_df c2 AB :|
+"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" df_df "C" c2 AB :|
 %
 %%text Chords:
 %%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
