@@ -237,11 +237,11 @@ E2\
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1756153504
-T: Saratoga Hornpipe
+T: Saratoga Hornpipe (1)
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: Based on versions by Chris Daring and Terry Morris
+S: Based on versions by Chris Daring, Terry Morris, and Christine King
 M: 4/4
 K: F
 %
@@ -249,20 +249,58 @@ K: F
 AB|:\
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFA | "G" Gc=Bd "C" c_BA=B |
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "G" Bcdf "C" cdeg | "F" f2 a2 f2 AB |
-"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFD | "G" Gc=Bd "C" c_BA=B |
+"F" c=BcA "Bb" d_Bfd | "F" cAFA c2Ac | "Bb" BAGB "F" AGFD | "G" Gc=Bd "C" c_BA=B |
 "F" c=BcA "Bb" d_Baf | "F" cAFA cAdc | "G" fegf "C" afga | "F" bgec f2 ef |
 %
 [P:B-part]
 "Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "A7" fgef defg |
-"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" d^cde fdfg |
-"Dm" aAgA fAeA | "Dm" fAeA dAfA | "A7" eA^ce agfe | "A7" fgef defg |
-"Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "Dm" df_df "C" c2 AB :|
+"Dm" aAgA fAeA | "Dm" AfAg fedf | "A7" eA^ce agfe | "Dm" d^cde fdfg |
+"Dm" AaAg AfAe | "Dm" Aefg fedf | "A7" eA^ce agfe | "A7" fgef defg |
+"Dm" aA2a gA2g | "Dm" fA2f ed^cd | "A7" eA^ce agfe | "Dm" df_df "C" c2 AB :|
 %
 %%text Chords:
 %%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
 %%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
 %%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 A7
-%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C%abc-2.1
+%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1756219514
+T: Saratoga Hornpipe (2)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Based on versions by Tom Weisgerber
+M: 4/4
+K: F
+%
+[P:A-part]
+AB|:\
+"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFA | "G" Gc=Bd "C" c_BA=B |
+"F" c=BcA "Bb" d_Bfd | "F" cAFA cAdA | "G" =Bceg "C" bgeg | "F" fbag fcAB |
+"F" c=BcA "Bb" d_Bfd | "F" cAFA [Fc]3 d/2c/2 | "Bb" BAGB "F" AGFA | "G" GFED "C" CDEG |
+"F" ABcA "Bb" d_Bfd | "F" cAFA cAdc | "G" =Bceg "C" bgeg | "F" [fA]2 [ac]2 [fc]2 fg |
+%
+[P:B-part]
+"Dm" aAgA fAeA | "Dm" dAeA fAgA | "A7" ae^ce ae^ce | "A7" abga fg (3(efg)|
+"Dm" aAgA fAeA | "Dm" fAeg fedf | "A7" eA^ce agfe | "Dm" d^cec d2 (3(efg) |
+"Dm" aAAa gAAg | "Dm" fAAf eAAf | "A7" eA^ce agfe | "A7" fgef defg |
+"Dm" a2 (3(gag) f2 e2 | "Dm" fefg fedf | "A7" eA^ce agfe | "Dm" de_de "C" c2 AB :|
+%
+%%text Chords:
+%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
+%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
+%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 A7
+%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C
+
+
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
