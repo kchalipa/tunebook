@@ -1,0 +1,26 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1758443799
+T: The Blackbird (Step Dance)
+C: Trad.
+R: reel
+Z: Cam Cross
+N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
+N: of it yet; it seems to cut the final phrase by half (seems to fit the step dance form), though
+N: I've seen versions (e.g. DJN) that extend it to a regular 8 bars. I have no idea about the
+N: chording, either -- definitely still a WIP!
+M: 4/4
+K: Dmix
+%
+dc\
+|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
+|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
+   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
+|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
+   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|

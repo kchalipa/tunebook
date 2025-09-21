@@ -1,0 +1,12 @@
+
+X:2
+T: Ori's Tune
+S: https://thesession.org/tunes/1310
+R: reel
+M: 4/4
+L: 1/8
+K: Dmajor
+|: ebaC:|
+|c ec c c  |aaaa CC aaaa|BBBB ccc f |
+
+

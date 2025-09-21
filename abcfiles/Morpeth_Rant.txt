@@ -1,0 +1,30 @@
+
+X:1757531548
+T: Morpeth Rant, The
+S: https://thesession.org/tunes/1310
+R: reel
+M: 4/4
+L: 1/8
+K: Dmajor
+|:A|d2AG FDFA|BGBd cAce|d2f2 gfed|c2e2 e2Ac|
+d2AG FDFA|BGBd cAce|d2f2 gfec|A2d2 d3:|
+|:A|dfaf dfaf|gfef g2ef|gfed cABc|defg f2A2|
+dfaf dfaf|gfef g2ef|gfed cABc|d2f2 d3:|
+
+Good version:
+https://youtu.be/ogZMXmpvqh4?feature=shared
+
+X:1757531552
+T: Old Morpeth Rant, The
+S: https://thesession.org/tunes/7198
+R: reel
+M: 4/4
+L: 1/8
+K: Gmajor
+|:DF|G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|F2A2 AcBA|
+G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|D2G2 G2:|
+|:Bd|gfed B2GB|cBAG F2D2|E2CE cBAG|F2D2 D2GF|
+E2CE cBAG|F2DF dcBA|Ggfg ecAF|A2G2 G2:|
+
+Good version here:
+https://youtu.be/1WT4h3pW4Ww?feature=shared

@@ -1,0 +1,42 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1758382483
+T: Money Musk
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible, Tom Wiesgerber, and John Chambers
+N: I really like this song. It's got great drive, and its musicality really shines with the 
+N: rhythm. The core of the tune is to play part A twice and part B twice, and to finish with 
+N: either the C-Part (2x) or the D-Part (2x), although some play both. Lots of variations!
+M: 4/4
+K: Amaj
+%
+[P:A-part (2 variations)]
+f|\
+"A" eAcA "D" eAdf | "A" eAcA "E7" Bcdf | "A" eAcA "D" ceea | "E7" fdBe "A" cAAf ||
+"A" eAcf "D" ecdf | "A" eAcA "E7" Bcdf | "A" eAcd "D" eage | "E7" fdBe "A" cAAg ||
+%
+[P:B-part (2 variations)]
+"A" aega eaca | "A" aedb "E7" caBg | "A" aega eaca | "E7" fdBe "A" cAAg ||
+"A" aeea caea | "A" aeda "E7" caBa | "A" aefa eafa | "E7" caBa "A" cAAg ||
+%
+[P:C-part (4 variations)]
+"A" ac'ea c'ee'e | "Bm" gbeg "E7" bed'e | "A" ac'ea "D" c'ee'e | "E7" gbeg "A" a2 eg ||
+"A" aAea e'aba   | "Bm" gGeg "E7" befg  | "A" aAea "D" c'aba   | "E7" gfdB "A" A2 eg ||
+"A" agaf eace    | "Bm" dBcA "E7" BAFA  | "A" agaf "D" eac'a   | "E7" babc' "A" a2 ab ||
+"A" acea c'aba   | "Bm" gBeg "E7" befg  | "A" acea "D" c'aba   | "E7" gfec "A" A2 cB ||
+%
+[P:D-part]
+|: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
+%
+%%text Chords:
+%%text A-part ~ A/D A/E A/D E/A
+%%text B-part ~ A A/E7 A E7/A
+%%text C-part ~ A Bm/E7 A/D E/A
+%%text D-part ~ A/D A/E A/D E/A

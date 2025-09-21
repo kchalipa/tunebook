@@ -1,0 +1,43 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1757437278
+T:Kitchen Girl
+C:Trad.
+R:reel
+M:4/4
+S:Kentucky Open Band Contra Tunes, with some original variations
+N:Changes keys between A mixolydian and A minor. Kinda fun! I've jotted down some
+N:ideas in the 'var.' parts.
+Z:Cam Cross
+K:Amix
+%
+[P:A-part] 
+|: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E" g2 e2 e2 eg |
+   "A" abaf "G" gagf | "A" efed cdef | "G" g2 d2 "E" efed | "A" c2 A2 A4 :|
+%
+%
+[P:B-part] 
+K:Amin
+|: "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" A2 AA c2 d2 | "E7" e3 g e4 |
+   "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" c2 Ac "G" BA G2 | "Am" A4 A4 :|
+%
+%
+[P:A-part var.] 
+|: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E" e^def e=deg |
+   "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E" Bdge | "A" dcBc A2 AB :|
+%
+%
+[P:B-part var.] 
+K:Amin
+|: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
+   "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
+%
+%
+%%text Chords:
+%%text A-part ~ A/G A A E | A/G A G/E A
+%%text B-part ~ Am/G Am Am E7 | Am/G Am Am G/Am

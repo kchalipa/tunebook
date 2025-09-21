@@ -1,0 +1,33 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1758406756
+T: Blackbird Hornpipe
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Amanda Kerr
+N: Another new tune for me.  Seems to have a lot in common with The Blackbird (set dance?), 
+N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
+N: chords and fine-tuning the arrangement.
+M: 4/4
+K: D
+[P:A-part] 
+AG|\
+"D" FEFG AFD2 | "D" defd dcAF  | "G" G2AF GFDE  | "C" FGAF GBAG |
+"D" FEFG AFDA | "D" defd dcAF  | "C" Ad=cA GBAG | "D" F2D2 D2 AG |
+"D" FEFA GFD2 | "D" defe dcAF  | "G" G2 GF GFDE  | "C" FGAF G2 AG |
+"D" EFFA GFDA | "D" defe d=cAG | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 |
+%
+[P:B-part] 
+"D" agfa gfec | "G" dcdf ecA2 | "D" agfa gfeg  | "A7" fdgf e2 fg |
+"D" afge fdec | "G" dcde fdAG | "C" Ad=cA GBAG | "D" F2D2 D2 fg |
+% my version
+"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfde  | "A7" fdgf egfg |
+"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D4 |
+
+% Check out the version by Padraig McGovern; Peter Carberry

@@ -108,6 +108,180 @@ K:G
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1758406756
+T: Blackbird Hornpipe
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Amanda Kerr
+N: Another new tune for me.  Seems to have a lot in common with The Blackbird (set dance?), 
+N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
+N: chords and fine-tuning the arrangement.
+M: 4/4
+K: D
+[P:A-part] 
+AG|\
+"D" FEFG AFD2 | "D" defd dcAF  | "G" G2AF GFDE  | "C" FGAF GBAG |
+"D" FEFG AFDA | "D" defd dcAF  | "C" Ad=cA GBAG | "D" F2D2 D2 AG |
+"D" FEFA GFD2 | "D" defe dcAF  | "G" G2 GF GFDE  | "C" FGAF G2 AG |
+"D" EFFA GFDA | "D" defe d=cAG | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 |
+%
+[P:B-part] 
+"D" agfa gfec | "G" dcdf ecA2 | "D" agfa gfeg  | "A7" fdgf e2 fg |
+"D" afge fdec | "G" dcde fdAG | "C" Ad=cA GBAG | "D" F2D2 D2 fg |
+% my version
+"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfde  | "A7" fdgf egfg |
+"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D4 |
+
+% Check out the version by Padraig McGovern; Peter Carberry
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1758443799
+T: The Blackbird (Step Dance)
+C: Trad.
+R: reel
+Z: Cam Cross
+N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
+N: of it yet; it seems to cut the final phrase by half (seems to fit the step dance form), though
+N: I've seen versions (e.g. DJN) that extend it to a regular 8 bars. I have no idea about the
+N: chording, either -- definitely still a WIP!
+M: 4/4
+K: Dmix
+%
+dc\
+|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
+|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
+   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
+|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
+   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X:1757437278
+T:Kitchen Girl
+C:Trad.
+R:reel
+M:4/4
+S:Kentucky Open Band Contra Tunes, with some original variations
+N:Changes keys between A mixolydian and A minor. Kinda fun! I've jotted down some
+N:ideas in the 'var.' parts.
+Z:Cam Cross
+K:Amix
+%
+[P:A-part] 
+|: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E" g2 e2 e2 eg |
+   "A" abaf "G" gagf | "A" efed cdef | "G" g2 d2 "E" efed | "A" c2 A2 A4 :|
+%
+%
+[P:B-part] 
+K:Amin
+|: "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" A2 AA c2 d2 | "E7" e3 g e4 |
+   "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" c2 Ac "G" BA G2 | "Am" A4 A4 :|
+%
+%
+[P:A-part var.] 
+|: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E" e^def e=deg |
+   "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E" Bdge | "A" dcBc A2 AB :|
+%
+%
+[P:B-part var.] 
+K:Amin
+|: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
+   "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
+%
+%
+%%text Chords:
+%%text A-part ~ A/G A A E | A/G A G/E A
+%%text B-part ~ Am/G Am Am E7 | Am/G Am Am G/Am
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1758382483
+T: Money Musk
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible, Tom Wiesgerber, and John Chambers
+N: I really like this song. It's got great drive, and its musicality really shines with the 
+N: rhythm. The core of the tune is to play part A twice and part B twice, and to finish with 
+N: either the C-Part (2x) or the D-Part (2x), although some play both. Lots of variations!
+M: 4/4
+K: Amaj
+%
+[P:A-part (2 variations)]
+f|\
+"A" eAcA "D" eAdf | "A" eAcA "E7" Bcdf | "A" eAcA "D" ceea | "E7" fdBe "A" cAAf ||
+"A" eAcf "D" ecdf | "A" eAcA "E7" Bcdf | "A" eAcd "D" eage | "E7" fdBe "A" cAAg ||
+%
+[P:B-part (2 variations)]
+"A" aega eaca | "A" aedb "E7" caBg | "A" aega eaca | "E7" fdBe "A" cAAg ||
+"A" aeea caea | "A" aeda "E7" caBa | "A" aefa eafa | "E7" caBa "A" cAAg ||
+%
+[P:C-part (4 variations)]
+"A" ac'ea c'ee'e | "Bm" gbeg "E7" bed'e | "A" ac'ea "D" c'ee'e | "E7" gbeg "A" a2 eg ||
+"A" aAea e'aba   | "Bm" gGeg "E7" befg  | "A" aAea "D" c'aba   | "E7" gfdB "A" A2 eg ||
+"A" agaf eace    | "Bm" dBcA "E7" BAFA  | "A" agaf "D" eac'a   | "E7" babc' "A" a2 ab ||
+"A" acea c'aba   | "Bm" gBeg "E7" befg  | "A" acea "D" c'aba   | "E7" gfec "A" A2 cB ||
+%
+[P:D-part]
+|: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
+%
+%%text Chords:
+%%text A-part ~ A/D A/E A/D E/A
+%%text B-part ~ A A/E7 A E7/A
+%%text C-part ~ A Bm/E7 A/D E/A
+%%text D-part ~ A/D A/E A/D E/A
+
+X:1757531548
+T: Morpeth Rant, The
+S: https://thesession.org/tunes/1310
+R: reel
+M: 4/4
+L: 1/8
+K: Dmajor
+|:A|d2AG FDFA|BGBd cAce|d2f2 gfed|c2e2 e2Ac|
+d2AG FDFA|BGBd cAce|d2f2 gfec|A2d2 d3:|
+|:A|dfaf dfaf|gfef g2ef|gfed cABc|defg f2A2|
+dfaf dfaf|gfef g2ef|gfed cABc|d2f2 d3:|
+
+Good version:
+https://youtu.be/ogZMXmpvqh4?feature=shared
+
+X:1757531552
+T: Old Morpeth Rant, The
+S: https://thesession.org/tunes/7198
+R: reel
+M: 4/4
+L: 1/8
+K: Gmajor
+|:DF|G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|F2A2 AcBA|
+G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|D2G2 G2:|
+|:Bd|gfed B2GB|cBAG F2D2|E2CE cBAG|F2D2 D2GF|
+E2CE cBAG|F2DF dcBA|Ggfg ecAF|A2G2 G2:|
+
+Good version here:
+https://youtu.be/1WT4h3pW4Ww?feature=shared
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X:1752894096
 T:New Rigged Ship, da
 C:Trad.
