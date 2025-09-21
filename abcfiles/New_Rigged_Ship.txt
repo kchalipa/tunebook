@@ -6,7 +6,7 @@
 %%partsfont      Helvetica
 %%textfont       Courier
 X:1752894096
-T:New Rigged Ship, da
+T:da New Rigged Ship
 C:Trad.
 R:reel
 M:4/4

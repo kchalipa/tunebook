@@ -168,7 +168,7 @@ dc\
 %%partsfont      Helvetica
 %%textfont       Courier
 X:1757437278
-T:Kitchen Girl
+T:The Kitchen Girl
 C:Trad.
 R:reel
 M:4/4
@@ -190,6 +190,7 @@ K:Amin
 %
 %
 [P:A-part var.] 
+K:Amix
 |: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E" e^def e=deg |
    "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E" Bdge | "A" dcBc A2 AB :|
 %
@@ -247,7 +248,7 @@ f|\
 %%text D-part ~ A/D A/E A/D E/A
 
 X:1757531548
-T: Morpeth Rant, The
+T: The Morpeth Rant
 S: https://thesession.org/tunes/1310
 R: reel
 M: 4/4
@@ -262,7 +263,7 @@ Good version:
 https://youtu.be/ogZMXmpvqh4?feature=shared
 
 X:1757531552
-T: Old Morpeth Rant, The
+T: The Old Morpeth Rant
 S: https://thesession.org/tunes/7198
 R: reel
 M: 4/4
@@ -283,7 +284,7 @@ https://youtu.be/1WT4h3pW4Ww?feature=shared
 %%partsfont      Helvetica
 %%textfont       Courier
 X:1752894096
-T:New Rigged Ship, da
+T:da New Rigged Ship
 C:Trad.
 R:reel
 M:4/4

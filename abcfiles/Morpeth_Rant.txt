@@ -1,6 +1,6 @@
 
 X:1757531548
-T: Morpeth Rant, The
+T: The Morpeth Rant
 S: https://thesession.org/tunes/1310
 R: reel
 M: 4/4
@@ -15,7 +15,7 @@ Good version:
 https://youtu.be/ogZMXmpvqh4?feature=shared
 
 X:1757531552
-T: Old Morpeth Rant, The
+T: The Old Morpeth Rant
 S: https://thesession.org/tunes/7198
 R: reel
 M: 4/4

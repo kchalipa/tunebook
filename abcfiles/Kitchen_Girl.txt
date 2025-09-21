@@ -6,7 +6,7 @@
 %%partsfont      Helvetica
 %%textfont       Courier
 X:1757437278
-T:Kitchen Girl
+T:The Kitchen Girl
 C:Trad.
 R:reel
 M:4/4
@@ -28,6 +28,7 @@ K:Amin
 %
 %
 [P:A-part var.] 
+K:Amix
 |: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E" e^def e=deg |
    "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E" Bdge | "A" dcBc A2 AB :|
 %
