@@ -17,13 +17,13 @@ K:D
 %
 [P:A-part](3(fg^g)|\
 "D" a2^ga bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "E7" fafd "A7" eafg |
-"D" aa^ga bafe | "G" dgfd edBd | "D" AFAd "Bm" Bcde | "A7" faec "D" d2 fg ||
+"D" aa^ga bafe | "G" dgfd edBd | "D" AFAd "Bm" Bcde | "A7" faec "D" d2 fg |
 "D" abaf bafe  | "G" dgfd efdB | "D" AFAd "Bm" Bcde | "E7" fedf "A7" edfg |
 "D" abaf ba (3(ABc) | "G" defd efdB | "D" AFAd "Bm" Bcde | "A7" fdec "D" d2 dc ||
 %
 [P:B-part]
 "Bm" BFBd BFBc  | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
-"Bm" dcBc BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe ||
+"Bm" dcBc BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
 "Bm" dcBd AFAd  | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
 "Bm" dABd AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
 %

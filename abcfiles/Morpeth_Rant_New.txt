@@ -1,0 +1,32 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759096488
+T: The Morpeth Rant
+C: William Sheild
+R: reel
+Z: Cam Cross 
+S: DJN and Stewart Hardy
+N: Bow the triplets for an extra punch!
+M: 4/4
+K: Dmaj
+%
+[P:A-part] (3ABc|:\
+"D" d2 AG FDFA | "G" BGBd "A" cAce | "D" f2 fd "G" gfed | "A" c2 e2 e2 (3ABc | 
+"D" d2 AG FDFA | "G" BGBd "A" cAce | "D" fdef  "G" gfed | "A" A2 d2 "D" d2 (3ABc |
+"D" d2 AG {FG}FDFA | "G" BGBd "A" cAce | "D" dfaf "G" bagf | "A" gfed cdeg | 
+"D" fdAF DFAd | "G" BGBd "A" cAce | "D" dfaf "G" gfed | "A" AD [dF]4 "D" fe || 
+%
+[P:B-part]
+"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cdeg | "D" fede f2 fe |
+"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cAag | "D" fedc d2 fe |
+"D" dfaf bfaf | "Em" geBe [eg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
+"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed ceag | "D" fedc dABc :|
+%
+%%text Chords:
+%%text A-part ~ D G/A D/G A | D G/A D/G A/D 
+%%text B-part ~ D Em A D | D Em A D

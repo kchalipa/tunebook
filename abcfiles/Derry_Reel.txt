@@ -1,0 +1,24 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759098370
+T: The Derry Reel
+C: Eugene O'Donnell
+R: reel
+Z: DJN
+M: 4/4
+K: A
+%
+[P:A1] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
+ "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A"A2 AB || $
+[P:A2] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
+ "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A"a2 ag || $
+[P:B1] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
+ "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A" a2 ag ||
+[P:B2] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
+ "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A" A2 AB |]
+ 

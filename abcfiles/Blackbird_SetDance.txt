@@ -6,14 +6,14 @@
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758443799
-T: The Blackbird (Step Dance)
+T: The Blackbird (Set Dance)
 C: Trad.
 R: reel
 Z: Cam Cross
 N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
-N: of it yet; it seems to cut the final phrase by half (seems to fit the step dance form), though
-N: I've seen versions (e.g. DJN) that extend it to a regular 8 bars. I have no idea about the
-N: chording, either -- definitely still a WIP!
+N: of it yet; each part seems to end in a measure of 2/4 instead of the usual 4/4.  Must be to fit
+N: the set-dance form, but I don't know much about that. I have no idea about the chords, either.
+N: Definitely a WIP!
 M: 4/4
 K: Dmix
 %

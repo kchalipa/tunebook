@@ -1,0 +1,23 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759092974
+T: The Blackbird (DJN version)
+C: Trad.
+R: reel
+Z: Cam Cross
+S: DJN
+N: This is another verison of The Blackbird transcribed by my uncle.  He seems to have 
+N: resolved the unusual 7.5 measures of the versions I've found to a regular 8 bars, 
+N: perhaps to make it more condusive to other forms besides the step-dance.
+M: 4/4
+K: Dmix
+%
+|:[P:A] "G"BGBd c2 BG | "Am/E"ABAG A2 cA | "D/F"d^cde d=cAF | "G/B"GAGF D3 E | $
+ "D"FEFG A2 (3:2gfe | dfe^c d3 A | "G"GAGF D2 DE |1 "G"(3:2GFE DE "D"D3 c :|2 (3:2GFE DE D2 de || $
+|:[P:B] "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gfgf gbaf | "G"gagf "D"d3 e | $
+ "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gagf d2 de |1 "D"dcAc d2 de :|2 dcAc d2 dc |]

@@ -1,0 +1,21 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759097834
+T: Rye Straw
+C: Trad.
+N: Arranged by DJN. There are LOTS of versions of this song worth checking out!
+R: reel
+M: 4/4
+K: Dmaj
+%
+|:[P:A] "A"e2 ef edBd | efgf edBd | e2 ef edBc | "D"dBAG [FA][DA] [EA]2 | $
+ "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 || $
+|:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "G"BcdB "D"AFDF | $
+ "A"E2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 "G"dBAG "A"[FA][DA] [EA]2 :|2 "G"ddBA "A"BABd |] $
+%
+% See https://youtu.be/QllLceBq2p8?feature=shared

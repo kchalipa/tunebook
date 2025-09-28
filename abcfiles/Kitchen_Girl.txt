@@ -17,8 +17,8 @@ Z:Cam Cross
 K:Amix
 %
 [P:A-part] 
-|: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E" g2 e2 e2 eg |
-   "A" abaf "G" gagf | "A" efed cdef | "G" g2 d2 "E" efed | "A" c2 A2 A4 :|
+|: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E7" g2 e2 e2 eg |
+   "A" abaf "G" gagf | "A" efed cdef | "G" g2 d2 "E7" efed | "A" c2 A2 A4 :|
 %
 %
 [P:B-part] 
@@ -29,8 +29,8 @@ K:Amin
 %
 [P:A-part var.] 
 K:Amix
-|: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E" e^def e=deg |
-   "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E" Bdge | "A" dcBc A2 AB :|
+|: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E7" e^def e=deg |
+   "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E7" Bdge | "A" dcBc A2 AB :|
 %
 %
 [P:B-part var.] 
@@ -40,5 +40,7 @@ K:Amin
 %
 %
 %%text Chords:
-%%text A-part ~ A/G A A E | A/G A G/E A
+%%text A-part ~ A/G A A E7 | A/G A G/E7 A
 %%text B-part ~ Am/G Am Am E7 | Am/G Am Am G/Am
+
+%% Check this for inspiration: https://youtu.be/912wUcMXG_0?feature=shared
