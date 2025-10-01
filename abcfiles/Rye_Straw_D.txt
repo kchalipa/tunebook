@@ -1,0 +1,28 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759264360
+T: Rye Straw (D)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Darol Anger (https://www.youtube.com/watch?v=QllLceBq2p8)
+N: See also https://youtu.be/upmh_iiI0XY?si=sfpFNMuRlEIi7bLd
+M: 4/4
+K: D
+[P:A-part] 
+|:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
+"A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
+%
+[P:B-part] 
+|:"A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
+"A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
+%
+[P:C-part] 
+"D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc |
+"D" defg afgf | "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf |
+"A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||

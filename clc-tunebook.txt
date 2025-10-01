@@ -319,7 +319,7 @@ K: Dmaj
 [P:B-part]
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cdeg | "D" fede f2 fe |
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cAag | "D" fedc d2 fe |
-"D" dfaf bfaf | "Em" geBe [eg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
+"D" dfaf bfaf | "Em" geBe [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
 %%text Chords:
@@ -445,10 +445,37 @@ FE \
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1759264360
+T: Rye Straw (D)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Darol Anger (https://www.youtube.com/watch?v=QllLceBq2p8)
+N: See also https://youtu.be/upmh_iiI0XY?si=sfpFNMuRlEIi7bLd
+M: 4/4
+K: D
+[P:A-part] 
+|:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
+"A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
+%
+[P:B-part] 
+|:"A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
+"A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
+%
+[P:C-part] 
+"D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc |
+"D" defg afgf | "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf |
+"A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1759097834
 T: Rye Straw
-C: Trad.
-N: Arranged by DJN. There are LOTS of versions of this song worth checking out!
+C: Trad. + Dave Notman
+N: A version of Rye Straw heavily modified by Dave Notman.
 R: reel
 M: 4/4
 K: Dmaj
@@ -457,8 +484,32 @@ K: Dmaj
  "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 || $
 |:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "G"BcdB "D"AFDF | $
  "A"E2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 "G"dBAG "A"[FA][DA] [EA]2 :|2 "G"ddBA "A"BABd |] $
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759264360
+T: Rye Straw (G)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Doc Roberts
+N: Doc's version first, followed by a few variations I've heard.
+N: Note about the chords - this can easily follow a straight G pattern, but I kind of like the 
+N: "rocking" pattern between G and C on the A part that I've heard in other versions.
+M: 4/4
+K: G
+[P:A-part] 
+|: "G" DB,DE "C" G2 G2 | "G" DB,DG "C" ECEC | "G" DB,DE "C" GABc | "D" dedc "G" BG [BG]2  | 
+   "G" G,B,DE "C" GAGD | "G" G,B,DG "C" EC[EC]2 | "G" G,B,DE "C" GABc | "D" dedc "G" BG [BG]2  |
 %
-% See https://youtu.be/QllLceBq2p8?feature=shared%abc-2.1
+[P:B-part] 
+|: "G" d3d d2B2 | "C" c2 d2 ecec | "D" d2ge =fedf | "G" ecdc BG [BG]2 |
+   "G" Bd2 B d2 B(c | "C" [cE])Bcd e^d=dc | "D" d2 [dg]2 =f^fed | "G" BGAc BG [BG]2 :|
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics

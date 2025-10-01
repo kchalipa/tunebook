@@ -24,7 +24,7 @@ K: Dmaj
 [P:B-part]
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cdeg | "D" fede f2 fe |
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cAag | "D" fedc d2 fe |
-"D" dfaf bfaf | "Em" geBe [eg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
+"D" dfaf bfaf | "Em" geBe [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
 "D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
 %%text Chords:
