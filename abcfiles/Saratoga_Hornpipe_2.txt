@@ -12,7 +12,7 @@ R: reel
 Z: Cam Cross 
 S: Based on versions by Tom Weisgerber
 M: 4/4
-K: F
+K: Fmaj
 %
 [P:A-part]
 AB|:\

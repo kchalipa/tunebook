@@ -1,0 +1,33 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1760211998
+T: Saint Anne's Reel
+C: Trad.
+R: reel
+M: 4/4
+S: A combination of two versions at thesession.org/tunes/103
+Z: Cam Cross
+N: A rather jaunty tune, with a nice melody. Something to explore?
+K: Dmaj
+%
+[P:A-part] 
+de|\
+"D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2GA BcdB | "D" A2F2 F2de |
+"D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2d2 "A" cdec | "D" d2de d2 de |
+"D" f2 fg "A" fedB | "D" A2 [FA]A [AD]A[AF]A | "G" B2 [GB]B [DB]B[GB]B | "D" A2 [FA]A [DA]A[FA]A |
+"D" f2 fg "A" fedB | "D" A2 [FA]A [DA]A[FA]A | "G" BGed "A" cABc | "D" eddc d2 ag ||
+%
+[P:B-part] 
+"D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB Aceg | "D" b2a2 a2g2 |
+"D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB ABce | "D" f2 d2 d2 de |
+"D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |
+"D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Aceg | "D" fddc d2 d2 ||
+%
+%%text Chords:
+%%text A-part ~ D/A D G D | D/A/ D G/A D
+%%text B-part ~ D G A D | D G A D

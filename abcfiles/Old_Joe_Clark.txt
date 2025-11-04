@@ -1,0 +1,30 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759581014
+T: Old Joe Clark
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: This is a popular bluegrass tune. Here is a simple version I got from a mandolin lesson.
+N: Will work with this more in the future.
+K: Amix
+%
+[P:A-part] 
+"A" e2f2 g2f2 | "A" efed c4 | "A" e2f2 g2f2  | "E" e8 | 
+"A" e2f2 g2f2 | "A" efed c4 | "A" cBAc "G" BA G2 | "A" A8 :|
+%
+[P:B-part] 
+"A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
+"A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
+%
+%%text Chords:
+%%text A-part ~ A A A E | A A A/G A
+%%text B-part ~ A A A G | A A A/G A
+
+

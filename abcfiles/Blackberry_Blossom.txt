@@ -5,15 +5,14 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752893902
-T:Blackberry Blossom
-C:Trad.
-R:reel
-M:4/4
-N:WIP ~ lots of good parts to add!
-Z:Cam Cross
-S:
-K:G
+X: 1752893902
+T: Blackberry Blossom
+C: Trad.
+R: reel
+M: 4/4
+N: WIP ~ lots of good parts to add!
+Z: Cam Cross
+K: Gmaj
 %
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"A"BdBG "D"Adef|
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"D"BGAF "G"G4:|

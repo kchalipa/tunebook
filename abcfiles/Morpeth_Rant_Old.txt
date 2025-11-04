@@ -1,15 +1,27 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1759096619
 T: The Old Morpeth Rant
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: https://thesession.org/tunes/7198
-N: Apparently has nothing to do with the (New) Morpeth Rant, besides a shared name.
+S: thesession.org/tunes/7198
+N: Apparently has little to do with the (New) Morpeth Rant, besides a shared name.
+N: For a great version, see https://youtu.be/1WT4h3pW4Ww?feature=shared
+N: I still need to work out the chords, maybe with the help of the above link.
 M: 4/4
 K: Gmaj
-|:DF|G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|F2A2 AcBA|
-G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|D2G2 G2:|
-|:Bd|gfed B2GB|cBAG F2D2|E2CE cBAG|F2D2 D2GF|
-E2CE cBAG|F2DF dcBA|Ggfg ecAF|A2G2 G2:|
-% Good version here:
-% https://youtu.be/1WT4h3pW4Ww?feature=shared
+%
+|:DF|\
+G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | F2A2 AcBA |
+G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | D2G2 G2 :|
+%
+|:Bd|\
+gfed B2GB | cBAG F2D2 | E2CE cBAG | F2D2 D2GF |
+E2CE cBAG | F2DF dcBA | Ggfg ecAF | A2G2 G2 :|
+

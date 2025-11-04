@@ -5,14 +5,14 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894186
-T:Westmoreland's Hornpipe
-C:Terry Morris
-R:reel
-M:4/4
-Z:Cam Cross
-S:Terry Morris
-K:D
+X: 1752894186
+T: Westmoreland's Hornpipe
+C: Terry Morris
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Terry Morris
+K: Dmaj
 %
 [P:A-part]AG\
 |: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |

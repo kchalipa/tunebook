@@ -13,7 +13,8 @@ Z: Cam Cross
 S: Darol Anger (https://www.youtube.com/watch?v=QllLceBq2p8)
 N: See also https://youtu.be/upmh_iiI0XY?si=sfpFNMuRlEIi7bLd
 M: 4/4
-K: D
+K: Dmaj
+%
 [P:A-part] 
 |:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
 "A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|

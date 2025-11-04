@@ -1,0 +1,29 @@
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1762030934
+T: Blackbird Hornpipe (2)
+C: Trad.
+R: hornpipe
+Z: Cam Cross 
+M: 4/4
+N: This is another version of the Blackbird Hornpipe that is clearly related to the first version
+N: I transcribed.  This is a little more repetitive, but in a good way!  Perhaps good as a reference.
+N: Chording remains basic / uncertain.
+S: From a version performed by Padraig McGovern and Peter Carberry, originally in B.
+K: Dmaj
+[P:A-part] 
+fe|\
+|: "D" dcAF GF D2 | (3EFG AB "C" =c3 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 (3ABc |
+dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
+[P:B-part] 
+|: "D" d2 (3efg ad fa | "G" {ga}gfga gfdA | "D" d2 (3efg abag | {fg}f2 d2 d2 (3efg |
+"D" ag (3fga g2 fe | "G" dcde fd (3efe | "D" dcAF GBAG | F2 D2 D3 A :|
+[P:C-part]
+|: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
+"D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|

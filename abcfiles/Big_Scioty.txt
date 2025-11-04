@@ -10,10 +10,11 @@ T: The Big Scioty
 T: (sigh-oh-tee)
 C: Trad.
 R: reel
+S: Adapted from trillian.mit.edu/~jc/music/abc/Contra/reel/BigScioto3_G.abc
 N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote.
-Z: Cam Cross with variations by John Chambers <jc:trillian.mit.edu>
+Z: Cam Cross 
 M: 4/4
-K: G
+K: Gmaj
 %
 [P:A-part]
 DF\

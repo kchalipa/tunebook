@@ -1,0 +1,37 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1760025996
+T: Opera Reel 
+C: Trad.
+R: reel
+S: KY Contra Tunes and some online variants
+Z: Cam Cross
+N: This is interesting! Basically the usual A and B parts, but each part seems to have distinct
+N: variations on each. Also neat that the A part resolves on the dominant instead of the tonic.
+M: 4/4
+K: Dmaj
+%
+[P:A-part (1)]
+A,2|:\
+"D" D2D2 FEFA | "D" D2DF  "A" EDB,A, | "D" D2D2   FEFA | "G" BdAF "A" EDCE |
+"D" D2DD FDFA | "D" DA,DF "A" EDB,G, | "D" A,B,DE FEFA | "G" BdAF "A" E2Bc ||
+[P:A-part (2)]
+"D" d2d2 dAFA | "D" d2d2 "A" egfe | "D" d2dc dAFA | "G" BdAF "A" E2 (3ABc |
+"D" dcec dAFA | "D" Adcd "A" egfe | "D" dfed BAFA | "G" BdAF "A" E2fg ||
+[P:B-part (1)]
+"D" a3 f "A" g2ge | "D" fafe "G" dcBA | "D" afaf "G" gfge | "A" faec "D" d2 fg|
+"D" agfg "A" gfeg | "D" faec "G" dcBA | "D" a2fa "G" gfeg | "A" faec "D" d2Bc||
+[P:B-part (2)]
+"D" defd "A" efge | "D" faec "G" dcBA | "D" defd "G" efge | "A" faec "D" d2 (3ABc |
+"D" defd "A" efge | "D" faec "G" dcBA | "D" afdf "G" gecA | "A" dfec "D" d4  :|
+%
+%%text Chords:
+%%text A-part ~ D D/A D G/A x2
+%%text B-part ~ D/A D/G D/G A/D x2
+
+

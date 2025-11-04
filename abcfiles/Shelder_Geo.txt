@@ -5,17 +5,17 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894149
-T:Shelder Geo
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-N:Pairs well with New Rigged Ship
-K:D
+X: 1752894149
+T: Shelder Geo
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: Pairs well with New Rigged Ship
+K: Dmaj
 %
 [P:A-part]
-|: "D" A2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Addc "D"d2 dB :|
+|: "D" A2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Addc "D" d2 dB :|
 %
 [P:B-part]
 |: "C" =cdef gagf | "C" e=cgc ecgc | "C" =cdef gage  | "D" ^fdad fdad |

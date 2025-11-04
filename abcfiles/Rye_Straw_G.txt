@@ -16,9 +16,10 @@ N: Note about the chords - this can easily follow a straight G pattern, but I ki
 N: "rocking" pattern between G and C on the A part that I've heard in other versions.
 M: 4/4
 K: G
+%
 [P:A-part] 
 |: "G" DB,DE "C" G2 G2 | "G" DB,DG "C" ECEC | "G" DB,DE "C" GABc | "D" dedc "G" BG [BG]2  | 
-   "G" G,B,DE "C" GAGD | "G" G,B,DG "C" EC[EC]2 | "G" G,B,DE "C" GABc | "D" dedc "G" BG [BG]2  |
+   "G" G,B,DE "C" GAGD | "G" G,B,DG "C" EC[EC]2 | "G" G,B,DE "C" GABc | "D" dedc "G" BG [BG]2  :|
 %
 [P:B-part] 
 |: "G" d3d d2B2 | "C" c2 d2 ecec | "D" d2ge =fedf | "G" ecdc BG [BG]2 |

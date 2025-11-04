@@ -22,11 +22,11 @@ K: Dmaj
 "D" fdAF DFAd | "G" BGBd "A" cAce | "D" dfaf "G" gfed | "A" AD [dF]4 "D" fe || 
 %
 [P:B-part]
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cdeg | "D" fede f2 fe |
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cAag | "D" fedc d2 fe |
-"D" dfaf bfaf | "Em" geBe [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed ceag | "D" fedc dABc :|
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed cdeg | "D" fede f2 fe |
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed cAag | "D" fedc d2 fe |
+"D" dfaf bfaf | "G" geBe "Em" [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
 %%text Chords:
 %%text A-part ~ D G/A D/G A | D G/A D/G A/D 
-%%text B-part ~ D Em A D | D Em A D
+%%text B-part ~ D G/Em A D | D G/Em A D

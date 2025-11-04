@@ -5,13 +5,14 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1660510034
-T:Queen of the West
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-K:D
+X: 1660510034
+T: Queen of the West
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: One of the first fiddle tunes I learned!
+K: Dmaj
 %
 [P:A-part]
 FE \

@@ -5,15 +5,15 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1753559315
-T:Salt Creek
-C:Trad.
-R:reel
-M:4/4
-S:An online intro to mandolin tutorial
-N:VERY similar to Salt River, but the B-part is different
-Z:Cam Cross
-K:A
+X: 1753559315
+T: Salt Creek
+C: Trad.
+R: reel
+M: 4/4
+S: An online intro to mandolin tutorial
+N: VERY similar to Salt River, but the B-part is different
+Z: Cam Cross
+K: Amaj
 %
 [P:A-part] 
 E2\

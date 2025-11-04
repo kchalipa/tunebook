@@ -12,7 +12,7 @@ R: reel
 Z: Cam Cross 
 S: Based on versions by Chris Daring, Terry Morris, and Christine King
 M: 4/4
-K: F
+K: Fmaj
 %
 [P:A-part]
 AB|:\

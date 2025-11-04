@@ -6,28 +6,31 @@
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758406756
-T: Blackbird Hornpipe
+T: Blackbird Hornpipe (1)
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: Amanda Kerr, Randal Bays + Dave Marshall
+S: Amanda Kerr, Randal Bays + Dave Marshall (with my own licks added)
 N: Another new tune for me.  Seems to have a lot in common with The Blackbird (set dance?), 
 N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
 N: chords and fine-tuning the arrangement. One interesting feature is a "slippery" C, sometimes
 N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
-K: D
+K: Dmaj
 [P:A-part] 
 AG|\
-"D" F2FG AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
-"D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GBAG | "D" F2D2 D2 AG |
+"D" F2EF AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
+"D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GcAG | "D" F2D2 D2 AG |
 "D" EFFA GFD2      | "D" defe d=cAF      | "G" (G2 G)F GFD2 | "C" FGAF G=cAG |
 "D" (3(FAF) DA GFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
 %
 [P:B-part] 
-"D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 fg |
-"D" afge fdec | "G" dcde fdAG  | "C" Ad=cA GBAG | "D" F2D2 D2 fg |
-"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfde  | "A7" fdgf egfg |
-"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D4 |]
+"D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 (3(fg^g) |
+"D" afge fdec | "G" dcde fdAG  | "C" Ad=cA GcAG | "D" F2D2 D2 fg |
+"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfed  | "A7" fdgf egfg |
+"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D2 FG ||
+%
+[P:B-part (low)]
+|: "D" A2FA G2EG | "G" FEDF ECA,D   | "D" A2FA GFEG  | "A7" FDGF EF G^G |
+"D" A2FA GFEC | "G" DCDE FDA,G,  | "C" A,D=CA, G,CB,A, | "D" G,A,B,=C D2 FG :|
 
-% Check out the version by Padraig McGovern; Peter Carberry

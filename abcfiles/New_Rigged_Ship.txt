@@ -5,16 +5,16 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894096
-T:da New Rigged Ship
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-S:Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
-S:which cites Tom Anderson (Ringing Strings, 1983).
-N:Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
-K:Ador
+X: 1752894096
+T: da New Rigged Ship
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
+S: which cites Tom Anderson (Ringing Strings, 1983).
+N: Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
+K: Ador
 %
 eg\
 |: "A" a2ab ageg | a2ab agef | "G" g2gg fgag |1 "D" f2d2 d2 eg :|2 "D" f2d2 d2 ed ||

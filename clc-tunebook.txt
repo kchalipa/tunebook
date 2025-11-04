@@ -5,15 +5,57 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1760203499
+T: The Twenty-Eighth of January
+C: Trad.
+R: reel
+M: 4/4
+S: KY Contra Tunes and thesession.org/tunes/15717 for the base
+Z: Cam Cross
+N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb progression
+N: found in many Celtic tunes, but the A-part uses the "Dorian vamp," pretty unusual in fiddle tunes
+N: but a staple in classic rock. For that reason, I think it's perhaps a more "jammy" tune than a melodic
+N: one; and one version I looked at had a G-F-Em-Am windup that gave it a little more of a bluesy
+N: punch. The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate how I imagine
+N: the tune in a jam setting.
+K: Ador
+%
+[P:A-part]
+"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
+"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
+%
+[P:B-part]
+"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
+"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
+%
+[P:A-part (var.)]
+"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
+"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
+%
+[P:B-part (var.]
+"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
+"Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
+%
+%%text Chords:
+%%text A-part ~ Am/D Am/D Am/G F/Em | Am/D Am/D Am/G Em/Am
+%%text B-part ~ Am Am G G | Am Am Gm Em/Am
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1753154299
 T: The Big Scioty
 T: (sigh-oh-tee)
 C: Trad.
 R: reel
+S: Adapted from trillian.mit.edu/~jc/music/abc/Contra/reel/BigScioto3_G.abc
 N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote.
-Z: Cam Cross with variations by John Chambers <jc:trillian.mit.edu>
+Z: Cam Cross 
 M: 4/4
-K: G
+K: Gmaj
 %
 [P:A-part]
 DF\
@@ -41,18 +83,18 @@ DF\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752893820
-T:The Black Mare of Fanad
-T:a.k.a. The Nine Points of Roguery
-C:Trad.
-R:reel
-M:4/4
-S:Maggie Sansone (Mist and Stone, 1990) plus bits of https://thesession.org/tunes/429
-S:and my own additions
-Z:Cam Cross
-N:It seems many versions of this tune place an Em chord in the fourth bar of both parts.
-N:Maggie goes to a C instead, and I like that.
-K:D
+X: 1752893820
+T: The Black Mare of Fanad
+T: a.k.a. The Nine Points of Roguery
+C: Trad.
+R: reel
+M: 4/4
+S: Maggie Sansone (Mist and Stone, 1990) plus bits of thesession.org/tunes/429 and my
+S: own additions.
+Z: Cam Cross
+N: It seems many versions of this tune place an Em chord in the fourth bar of both parts.
+N: Maggie goes to a C instead, and I like that.
+K: Dmaj
 %
 [P:A-part]
 A,2\
@@ -63,11 +105,11 @@ A,2\
 |: "C" [G,=cE]4 "G" [B,GB]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
    "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc  | "A7" dfec "D" d2 A2 :|
 %
-[P:A-part var]
+[P:A-part (var.)]
 |: "D" d2 fd "G" gefg | "D" [fa]3 [fd'] agfe | "D" dAdf "Bm" gfed' | "C" =c'eec' "Em" bddA |
    "D" d2 fa "G" gfec | "D" defg abaf        | "D" defa gfeg       | "A7" fdge "D" fdAB :|
 %
-[P:B-part var]
+[P:B-part (var.)]
 |: "C" [A,G=c]4 "G" [B,BG]4 | "D" [A,DA]5 d AF | "D" D5 A, GA   | "C" =c4 "Em" cEGB |
    "C" =cEGc "G" BGDB,      | "D" A,FAd fdAF     | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
 %
@@ -81,15 +123,14 @@ A,2\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752893902
-T:Blackberry Blossom
-C:Trad.
-R:reel
-M:4/4
-N:WIP ~ lots of good parts to add!
-Z:Cam Cross
-S:
-K:G
+X: 1752893902
+T: Blackberry Blossom
+C: Trad.
+R: reel
+M: 4/4
+N: WIP ~ lots of good parts to add!
+Z: Cam Cross
+K: Gmaj
 %
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"A"BdBG "D"Adef|
 "G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"D"BGAF "G"G4:|
@@ -109,31 +150,35 @@ K:G
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758406756
-T: Blackbird Hornpipe
+T: Blackbird Hornpipe (1)
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: Amanda Kerr, Randal Bays + Dave Marshall
+S: Amanda Kerr, Randal Bays + Dave Marshall (with my own licks added)
 N: Another new tune for me.  Seems to have a lot in common with The Blackbird (set dance?), 
 N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
 N: chords and fine-tuning the arrangement. One interesting feature is a "slippery" C, sometimes
 N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
-K: D
+K: Dmaj
 [P:A-part] 
 AG|\
-"D" F2FG AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
-"D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GBAG | "D" F2D2 D2 AG |
+"D" F2EF AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
+"D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GcAG | "D" F2D2 D2 AG |
 "D" EFFA GFD2      | "D" defe d=cAF      | "G" (G2 G)F GFD2 | "C" FGAF G=cAG |
 "D" (3(FAF) DA GFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
 %
 [P:B-part] 
-"D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 fg |
-"D" afge fdec | "G" dcde fdAG  | "C" Ad=cA GBAG | "D" F2D2 D2 fg |
-"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfde  | "A7" fdgf egfg |
-"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D4 |]
+"D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 (3(fg^g) |
+"D" afge fdec | "G" dcde fdAG  | "C" Ad=cA GcAG | "D" F2D2 D2 fg |
+"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfed  | "A7" fdgf egfg |
+"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D2 FG ||
+%
+[P:B-part (low)]
+|: "D" A2FA G2EG | "G" FEDF ECA,D   | "D" A2FA GFEG  | "A7" FDGF EF G^G |
+"D" A2FA GFEC | "G" DCDE FDA,G,  | "C" A,D=CA, G,CB,A, | "D" G,A,B,=C D2 FG :|
 
-% Check out the version by Padraig McGovern; Peter Carberry
+
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -141,22 +186,27 @@ AG|\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X: 1759092974
-T: The Blackbird (DJN version)
+X: 1762030934
+T: Blackbird Hornpipe (2)
 C: Trad.
-R: reel
-Z: Cam Cross
-S: DJN
-N: This is another verison of The Blackbird transcribed by my uncle.  He seems to have 
-N: resolved the unusual 7.5 measures of the versions I've found to a regular 8 bars, 
-N: perhaps to make it more condusive to other forms besides the step-dance.
+R: hornpipe
+Z: Cam Cross 
 M: 4/4
-K: Dmix
-%
-|:[P:A] "G"BGBd c2 BG | "Am/E"ABAG A2 cA | "D/F"d^cde d=cAF | "G/B"GAGF D3 E | $
- "D"FEFG A2 (3:2gfe | dfe^c d3 A | "G"GAGF D2 DE |1 "G"(3:2GFE DE "D"D3 c :|2 (3:2GFE DE D2 de || $
-|:[P:B] "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gfgf gbaf | "G"gagf "D"d3 e | $
- "D"fede f2 (3:2efg | "A"abag "D"f3 a | "G"gagf d2 de |1 "D"dcAc d2 de :|2 dcAc d2 dc |]
+N: This is another version of the Blackbird Hornpipe that is clearly related to the first version
+N: I transcribed.  This is a little more repetitive, but in a good way!  Perhaps good as a reference.
+N: Chording remains basic / uncertain.
+S: From a version performed by Padraig McGovern and Peter Carberry, originally in B.
+K: Dmaj
+[P:A-part] 
+fe|\
+|: "D" dcAF GF D2 | (3EFG AB "C" =c3 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 (3ABc |
+dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
+[P:B-part] 
+|: "D" d2 (3efg ad fa | "G" {ga}gfga gfdA | "D" d2 (3efg abag | {fg}f2 d2 d2 (3efg |
+"D" ag (3fga g2 fe | "G" dcde fd (3efe | "D" dcAF GBAG | F2 D2 D3 A :|
+[P:C-part]
+|: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
+"D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -190,39 +240,46 @@ dc\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X: 1759098370
+X: 1762287681
 T: The Derry Reel
-C: Eugene O'Donnell
+C: Eugene O'Donnell?
 R: reel
-Z: DJN
 M: 4/4
-K: A
+S: Cobbled from two versions found at thesession.org/tunes/7671
+N: I really like the B-part! 
+Z: Cam Cross
+K: Amaj
 %
-[P:A1] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
- "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A"A2 AB || $
-[P:A2] "A"c3B ABcA | "E"B2 cB AFEF | "A" ABce a2 ge | "D"(3:2fga ec "E"B2 AB | $
- "A"c3 B ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A"a2 ag || $
-[P:B1] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
- "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fece | "E"fefg "A" a2 ag ||
-[P:B2] "F#m"f3 e ceag | "E"geBe geag | "F#m"f3 e ceag | "E"gfeg "F#m"f2 fg | $
- "A"aecB ABcA | "E"B2 cB AFEF | "A"ABce fecA | "E"BAGB "A" A2 AB |]
- %abc-2.1
+[P:A-part] 
+"A" c3B AecA | "E" BEcB AFEF | "A" ABce aAgA | "D" faec BEAB | 
+"A" c3B AecA | "E" BEcB AFEF | "A" ABce afec | "E" (3B=cB GB "A" A^de=d |
+"A" c3B ABcA | "E" BAcB AFEF | "A" ABce aege | "D" (3fga ec ~B2AB
+"A" c3B ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" fdge "A" a2ag ||
+%
+[P:B-part] 
+"F#m" f2af cfaf | "E" geBe gbag | "F#m" f2af cfaf | "E" gfeg "F#m" fbag |
+"A" aece AecA | "E" BEcB AFEF | "A" ABce fece | "E" fAgA "A" a2ga |
+"F#m" f2fe cfaf | "E" geBe (3gab ag | "F#m" f2fe cfaf | "E" gfeg "F#m" f2 (3efg | 
+"A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" AGAB :|
+%%text Chords:
+%%text A-part ~ A E A D | A E A E/A
+%%text B-part ~ F#m E F#m E/F#m | A E A E/A%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1757437278
-T:The Kitchen Girl
-C:Trad.
-R:reel
-M:4/4
-S:Kentucky Open Band Contra Tunes, with some original variations
-N:Changes keys between A mixolydian and A minor. Kinda fun! I've jotted down some
-N:ideas in the 'var.' parts.
-Z:Cam Cross
-K:Amix
+X: 1757437278
+T: The Kitchen Girl
+C: Trad.
+R: reel
+M: 4/4
+S: Kentucky Open Band Contra Tunes, with some original variations
+N: Changes keys between A mixolydian and A minor. Kinda fun! I've jotted down some
+N: ideas in the 'var.' parts.
+Z: Cam Cross
+K: Amix
 %
 [P:A-part] 
 |: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E7" g2 e2 e2 eg |
@@ -235,13 +292,13 @@ K:Amin
    "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" c2 Ac "G" BA G2 | "Am" A4 A4 :|
 %
 %
-[P:A-part var.] 
+[P:A-part (var.)] 
 K:Amix
 |: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E7" e^def e=deg |
    "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E7" Bdge | "A" dcBc A2 AB :|
 %
 %
-[P:B-part var.] 
+[P:B-part (var.)] 
 K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
@@ -263,7 +320,7 @@ T: Money Musk
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: The Fiddler's Bible, Tom Wiesgerber, and John Chambers
+S: The Fiddler's Bible for the base, plus variations by Tom Wiesgerber
 N: I really like this song. It's got great drive, and its musicality really shines with the 
 N: rhythm. The core of the tune is to play part A twice and part B twice, and to finish with 
 N: either the C-Part (2x) or the D-Part (2x), although some play both. Lots of variations!
@@ -271,18 +328,18 @@ M: 4/4
 K: Amaj
 %
 [P:A-part (2 variations)]
-f|\
-"A" eAcA "D" eAdf | "A" eAcA "E7" Bcdf | "A" eAcA "D" ceea | "E7" fdBe "A" cAAf ||
-"A" eAcf "D" ecdf | "A" eAcA "E7" Bcdf | "A" eAcd "D" eage | "E7" fdBe "A" cAAg ||
+f|:\
+"A" eAcA "D" eAdf | "A" eAcA "E7" Bcdf | "A" eAcA "D" ceea | "E7" fdBe "A" cAAf |
+"A" eAcf "D" ecdf | "A" eAcA "E7" Bcdf | "A" eAcd "D" eage | "E7" fdBe "A" cAAg :|
 %
 [P:B-part (2 variations)]
-"A" aega eaca | "A" aedb "E7" caBg | "A" aega eaca | "E7" fdBe "A" cAAg ||
-"A" aeea caea | "A" aeda "E7" caBa | "A" aefa eafa | "E7" caBa "A" cAAg ||
+"A" aega eaca | "A" aedb "E7" caBg | "A" aega eaca | "E7" fdBe "A" cAAg |
+"A" aeea caea | "A" aeda "E7" caBa | "A" aefa eafa | "E7" caBa "A" cAAg :|
 %
 [P:C-part (4 variations)]
-"A" ac'ea c'ee'e | "Bm" gbeg "E7" bed'e | "A" ac'ea "D" c'ee'e | "E7" gbeg "A" a2 eg ||
-"A" aAea e'aba   | "Bm" gGeg "E7" befg  | "A" aAea "D" c'aba   | "E7" gfdB "A" A2 eg ||
-"A" agaf eace    | "Bm" dBcA "E7" BAFA  | "A" agaf "D" eac'a   | "E7" babc' "A" a2 ab ||
+"A" ac'ea c'ee'e | "Bm" gbeg "E7" bed'e | "A" ac'ea "D" c'ee'e | "E7" gbeg "A" a2 eg |
+"A" aAea e'aba   | "Bm" gGeg "E7" befg  | "A" aAea "D" c'aba   | "E7" gfdB "A" A2 eg |
+"A" agaf eace    | "Bm" dBcA "E7" BAFA  | "A" agaf "D" eac'a   | "E7" babc' "A" a2 ab |
 "A" acea c'aba   | "Bm" gBeg "E7" befg  | "A" acea "D" c'aba   | "E7" gfec "A" A2 cB ||
 %
 [P:D-part]
@@ -317,29 +374,14 @@ K: Dmaj
 "D" fdAF DFAd | "G" BGBd "A" cAce | "D" dfaf "G" gfed | "A" AD [dF]4 "D" fe || 
 %
 [P:B-part]
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cdeg | "D" fede f2 fe |
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed cAag | "D" fedc d2 fe |
-"D" dfaf bfaf | "Em" geBe [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
-"D" dfaf dfaf | "Em" gfef g2 ef | "A" gfed ceag | "D" fedc dABc :|
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed cdeg | "D" fede f2 fe |
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed cAag | "D" fedc d2 fe |
+"D" dfaf bfaf | "G" geBe "Em" [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
+"D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
 %%text Chords:
 %%text A-part ~ D G/A D/G A | D G/A D/G A/D 
-%%text B-part ~ D Em A D | D Em A D
-X: 1759096619
-T: The Old Morpeth Rant
-C: Trad.
-R: reel
-Z: Cam Cross 
-S: https://thesession.org/tunes/7198
-N: Apparently has nothing to do with the (New) Morpeth Rant, besides a shared name.
-M: 4/4
-K: Gmaj
-|:DF|G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|F2A2 AcBA|
-G2DB, G,B,DB,|G,CEC G,B,DG|B2AB cBAG|D2G2 G2:|
-|:Bd|gfed B2GB|cBAG F2D2|E2CE cBAG|F2D2 D2GF|
-E2CE cBAG|F2DF dcBA|Ggfg ecAF|A2G2 G2:|
-% Good version here:
-% https://youtu.be/1WT4h3pW4Ww?feature=shared
+%%text B-part ~ D G/Em A D | D G/Em A D
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -347,16 +389,43 @@ E2CE cBAG|F2DF dcBA|Ggfg ecAF|A2G2 G2:|
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894096
-T:da New Rigged Ship
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-S:Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
-S:which cites Tom Anderson (Ringing Strings, 1983).
-N:Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
-K:Ador
+X: 1759096619
+T: The Old Morpeth Rant
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: thesession.org/tunes/7198
+N: Apparently has little to do with the (New) Morpeth Rant, besides a shared name.
+N: For a great version, see https://youtu.be/1WT4h3pW4Ww?feature=shared
+N: I still need to work out the chords, maybe with the help of the above link.
+M: 4/4
+K: Gmaj
+%
+|:DF|\
+G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | F2A2 AcBA |
+G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | D2G2 G2 :|
+%
+|:Bd|\
+gfed B2GB | cBAG F2D2 | E2CE cBAG | F2D2 D2GF |
+E2CE cBAG | F2DF dcBA | Ggfg ecAF | A2G2 G2 :|
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1752894096
+T: da New Rigged Ship
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
+S: which cites Tom Anderson (Ringing Strings, 1983).
+N: Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
+K: Ador
 %
 eg\
 |: "A" a2ab ageg | a2ab agef | "G" g2gg fgag |1 "D" f2d2 d2 eg :|2 "D" f2d2 d2 ed ||
@@ -379,14 +448,44 @@ K:Ador
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752807675
-T:Old Straw Bonnet
-C:Trad.
-R:reel
-M:4/4
-N:Arranged by Cam Cross ~ 7/25
-S:
-K:G
+X: 1759581014
+T: Old Joe Clark
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: This is a popular bluegrass tune. Here is a simple version I got from a mandolin lesson.
+N: Will work with this more in the future.
+K: Amix
+%
+[P:A-part] 
+"A" e2f2 g2f2 | "A" efed c4 | "A" e2f2 g2f2  | "E" e8 | 
+"A" e2f2 g2f2 | "A" efed c4 | "A" cBAc "G" BA G2 | "A" A8 :|
+%
+[P:B-part] 
+"A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
+"A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
+%
+%%text Chords:
+%%text A-part ~ A A A E | A A A/G A
+%%text B-part ~ A A A G | A A A/G A
+
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1752807675
+T: Old Straw Bonnet
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: Great tune; this is the basic way I play it.
+K: Gmaj
 %
 [P:A-part] 
 ef \
@@ -397,7 +496,7 @@ ef \
 |: "G" GFGA BGBc | "G" dedc BGBd | "F" cA=Fc A=FAB | "F" cABG AG (3(DEF) |
    "G" GFGA BGBc | "C" dedc BGE^C | "D" DEFA Bage | "D" dBAF "G" G2 (3(DEF) :|
 %
-[P:C-part] \
+[P:C-part]
 K: Gmin \
 |: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
    "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
@@ -415,13 +514,51 @@ K: Gmin \
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1660510034
-T:Queen of the West
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-K:D
+X: 1760025996
+T: Opera Reel 
+C: Trad.
+R: reel
+S: KY Contra Tunes and some online variants
+Z: Cam Cross
+N: This is interesting! Basically the usual A and B parts, but each part seems to have distinct
+N: variations on each. Also neat that the A part resolves on the dominant instead of the tonic.
+M: 4/4
+K: Dmaj
+%
+[P:A-part (1)]
+A,2|:\
+"D" D2D2 FEFA | "D" D2DF  "A" EDB,A, | "D" D2D2   FEFA | "G" BdAF "A" EDCE |
+"D" D2DD FDFA | "D" DA,DF "A" EDB,G, | "D" A,B,DE FEFA | "G" BdAF "A" E2Bc ||
+[P:A-part (2)]
+"D" d2d2 dAFA | "D" d2d2 "A" egfe | "D" d2dc dAFA | "G" BdAF "A" E2 (3ABc |
+"D" dcec dAFA | "D" Adcd "A" egfe | "D" dfed BAFA | "G" BdAF "A" E2fg ||
+[P:B-part (1)]
+"D" a3 f "A" g2ge | "D" fafe "G" dcBA | "D" afaf "G" gfge | "A" faec "D" d2 fg|
+"D" agfg "A" gfeg | "D" faec "G" dcBA | "D" a2fa "G" gfeg | "A" faec "D" d2Bc||
+[P:B-part (2)]
+"D" defd "A" efge | "D" faec "G" dcBA | "D" defd "G" efge | "A" faec "D" d2 (3ABc |
+"D" defd "A" efge | "D" faec "G" dcBA | "D" afdf "G" gecA | "A" dfec "D" d4  :|
+%
+%%text Chords:
+%%text A-part ~ D D/A D G/A x2
+%%text B-part ~ D/A D/G D/G A/D x2
+
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1660510034
+T: Queen of the West
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: One of the first fiddle tunes I learned!
+K: Dmaj
 %
 [P:A-part]
 FE \
@@ -453,7 +590,8 @@ Z: Cam Cross
 S: Darol Anger (https://www.youtube.com/watch?v=QllLceBq2p8)
 N: See also https://youtu.be/upmh_iiI0XY?si=sfpFNMuRlEIi7bLd
 M: 4/4
-K: D
+K: Dmaj
+%
 [P:A-part] 
 |:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
 "A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
@@ -502,9 +640,10 @@ N: Note about the chords - this can easily follow a straight G pattern, but I ki
 N: "rocking" pattern between G and C on the A part that I've heard in other versions.
 M: 4/4
 K: G
+%
 [P:A-part] 
 |: "G" DB,DE "C" G2 G2 | "G" DB,DG "C" ECEC | "G" DB,DE "C" GABc | "D" dedc "G" BG [BG]2  | 
-   "G" G,B,DE "C" GAGD | "G" G,B,DG "C" EC[EC]2 | "G" G,B,DE "C" GABc | "D" dedc "G" BG [BG]2  |
+   "G" G,B,DE "C" GAGD | "G" G,B,DG "C" EC[EC]2 | "G" G,B,DE "C" GABc | "D" dedc "G" BG [BG]2  :|
 %
 [P:B-part] 
 |: "G" d3d d2B2 | "C" c2 d2 ecec | "D" d2ge =fedf | "G" ecdc BG [BG]2 |
@@ -516,15 +655,47 @@ K: G
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1753559315
-T:Salt Creek
-C:Trad.
-R:reel
-M:4/4
-S:An online intro to mandolin tutorial
-N:VERY similar to Salt River, but the B-part is different
-Z:Cam Cross
-K:A
+X: 1760211998
+T: Saint Anne's Reel
+C: Trad.
+R: reel
+M: 4/4
+S: A combination of two versions at thesession.org/tunes/103
+Z: Cam Cross
+N: A rather jaunty tune, with a nice melody. Something to explore?
+K: Dmaj
+%
+[P:A-part] 
+de|\
+"D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2GA BcdB | "D" A2F2 F2de |
+"D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2d2 "A" cdec | "D" d2de d2 de |
+"D" f2 fg "A" fedB | "D" A2 [FA]A [AD]A[AF]A | "G" B2 [GB]B [DB]B[GB]B | "D" A2 [FA]A [DA]A[FA]A |
+"D" f2 fg "A" fedB | "D" A2 [FA]A [DA]A[FA]A | "G" BGed "A" cABc | "D" eddc d2 ag ||
+%
+[P:B-part] 
+"D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB Aceg | "D" b2a2 a2g2 |
+"D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB ABce | "D" f2 d2 d2 de |
+"D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |
+"D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Aceg | "D" fddc d2 d2 ||
+%
+%%text Chords:
+%%text A-part ~ D/A D G D | D/A/ D G/A D
+%%text B-part ~ D G A D | D G A D%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1753559315
+T: Salt Creek
+C: Trad.
+R: reel
+M: 4/4
+S: An online intro to mandolin tutorial
+N: VERY similar to Salt River, but the B-part is different
+Z: Cam Cross
+K: Amaj
 %
 [P:A-part] 
 E2\
@@ -553,7 +724,7 @@ R: reel
 Z: Cam Cross 
 S: Based on versions by Chris Daring, Terry Morris, and Christine King
 M: 4/4
-K: F
+K: Fmaj
 %
 [P:A-part]
 AB|:\
@@ -588,7 +759,7 @@ R: reel
 Z: Cam Cross 
 S: Based on versions by Tom Weisgerber
 M: 4/4
-K: F
+K: Fmaj
 %
 [P:A-part]
 AB|:\
@@ -617,17 +788,17 @@ AB|:\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894149
-T:Shelder Geo
-C:Trad.
-R:reel
-M:4/4
-Z:Cam Cross
-N:Pairs well with New Rigged Ship
-K:D
+X: 1752894149
+T: Shelder Geo
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+N: Pairs well with New Rigged Ship
+K: Dmaj
 %
 [P:A-part]
-|: "D" A2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Addc "D"d2 dB :|
+|: "D" A2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Addc "D" d2 dB :|
 %
 [P:B-part]
 |: "C" =cdef gagf | "C" e=cgc ecgc | "C" =cdef gage  | "D" ^fdad fdad |
@@ -645,15 +816,14 @@ K:D
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752938353
-T:Smith's Reel
-C:Trad.
-R:reel
-M:4/4
-S:Joey McKensie - Transcribed from a Weiser jam tape 1997  LL.B. 
-S:trillian.mit.edu/~jc/music/abc/mirror/LesterBailey/melnets_big_abc_file/12122
-N:Adapted and arranged by Cam Cross (my parts first, Joey's second)
-K:D
+X: 1752938353
+T: Smith's Reel
+C: Trad.
+R: reel
+M: 4/4
+S: Joey McKensie
+N: Adapted and arranged by Cam Cross (my parts first, Joey's second)
+K: Dmaj
 %
 [P:A-part](3(fg^g)|\
 "D" a2^ga bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "E7" fafd "A7" eafg |
@@ -685,14 +855,14 @@ K:D
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752894186
-T:Westmoreland's Hornpipe
-C:Terry Morris
-R:reel
-M:4/4
-Z:Cam Cross
-S:Terry Morris
-K:D
+X: 1752894186
+T: Westmoreland's Hornpipe
+C: Terry Morris
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Terry Morris
+K: Dmaj
 %
 [P:A-part]AG\
 |: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |

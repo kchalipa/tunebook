@@ -1,0 +1,41 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1760203499
+T: The Twenty-Eighth of January
+C: Trad.
+R: reel
+M: 4/4
+S: KY Contra Tunes and thesession.org/tunes/15717 for the base
+Z: Cam Cross
+N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb progression
+N: found in many Celtic tunes, but the A-part uses the "Dorian vamp," pretty unusual in fiddle tunes
+N: but a staple in classic rock. For that reason, I think it's perhaps a more "jammy" tune than a melodic
+N: one; and one version I looked at had a G-F-Em-Am windup that gave it a little more of a bluesy
+N: punch. The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate how I imagine
+N: the tune in a jam setting.
+K: Ador
+%
+[P:A-part]
+"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
+"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
+%
+[P:B-part]
+"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
+"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
+%
+[P:A-part (var.)]
+"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
+"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
+%
+[P:B-part (var.]
+"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
+"Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
+%
+%%text Chords:
+%%text A-part ~ Am/D Am/D Am/G F/Em | Am/D Am/D Am/G Em/Am
+%%text B-part ~ Am Am G G | Am Am Gm Em/Am

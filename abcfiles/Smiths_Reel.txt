@@ -5,15 +5,14 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X:1752938353
-T:Smith's Reel
-C:Trad.
-R:reel
-M:4/4
-S:Joey McKensie - Transcribed from a Weiser jam tape 1997  LL.B. 
-S:trillian.mit.edu/~jc/music/abc/mirror/LesterBailey/melnets_big_abc_file/12122
-N:Adapted and arranged by Cam Cross (my parts first, Joey's second)
-K:D
+X: 1752938353
+T: Smith's Reel
+C: Trad.
+R: reel
+M: 4/4
+S: Joey McKensie
+N: Adapted and arranged by Cam Cross (my parts first, Joey's second)
+K: Dmaj
 %
 [P:A-part](3(fg^g)|\
 "D" a2^ga bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "E7" fafd "A7" eafg |
