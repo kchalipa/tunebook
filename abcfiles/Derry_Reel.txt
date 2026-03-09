@@ -26,6 +26,9 @@ K: Amaj
 "A" aece AecA | "E" BEcB AFEF | "A" ABce fece | "E" fAgA "A" a2ga |
 "F#m" f2fe cfaf | "E" geBe (3gab ag | "F#m" f2fe cfaf | "E" gfeg "F#m" f2 (3efg | 
 "A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" AGAB :|
-%%text Chords:
-%%text A-part ~ A E A D | A E A E/A
-%%text B-part ~ F#m E F#m E/F#m | A E A E/A
+%
+%%text A-part == | B-part ======== |
+%%text A E A D · | F#m E F#m E/F#m |
+%%text A E A E/A | A · E A · E/A · |
+%
+

@@ -25,6 +25,7 @@ E2\
 |: "A" [ae]2 aa a2 ab | "A" c'abc' a2 e2 | "G" [=ge]2 gg g2 ga | "G" b=gab g2 e2  | 
    "A" [ae]2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef      | "E" edcB "A" A4 :| 
 %
-%%text Chords:
-%%text A-part ~ A A/D G G/E | A A/D A E/A
-%%text B-part ~ A A G G | A A A E/A
+%%text A-part ==== | B-part ==
+%%text A A/D G G/E | A A G G
+%%text A A/D A E/A | A A A E/A
+%

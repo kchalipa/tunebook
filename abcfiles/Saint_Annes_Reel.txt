@@ -28,6 +28,7 @@ de|\
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Aceg | "D" fddc d2 d2 ||
 %
-%%text Chords:
-%%text A-part ~ D/A D G D | D/A/ D G/A D
-%%text B-part ~ D G A D | D G A D
+%%text A-part ==== | B-part=
+%%text D/A D G · D | D G A D
+%%text D/A D G/A D | D G A D
+%

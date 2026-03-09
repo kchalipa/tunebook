@@ -30,8 +30,7 @@ A,2|:\
 "D" defd "A" efge | "D" faec "G" dcBA | "D" defd "G" efge | "A" faec "D" d2 (3ABc |
 "D" defd "A" efge | "D" faec "G" dcBA | "D" afdf "G" gecA | "A" dfec "D" d4  :|
 %
-%%text Chords:
-%%text A-part ~ D D/A D G/A x2
-%%text B-part ~ D/A D/G D/G A/D x2
-
-
+%%text A-part ==== | B-part ========
+%%text D D/A D G/A | D/A D/G D/G A/D
+%%text D D/A D G/A | D/A D/G D/G A/D
+%

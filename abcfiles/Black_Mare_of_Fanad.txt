@@ -35,6 +35,7 @@ A,2\
 |: "C" [A,G=c]4 "G" [B,BG]4 | "D" [A,DA]5 d AF | "D" D5 A, GA   | "C" =c4 "Em" cEGB |
    "C" =cEGc "G" BGDB,      | "D" A,FAd fdAF     | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
 %
-%%text Chords:
-%%text A-part ~ D/G D D/Bm C/Em | D/G D D A7/D
-%%text B-part ~ C/G D D/Bm C/Em | C/G D D A7/D
+%%text A-part ======== | B-part ======== 
+%%text D/G D D/Bm C/Em | C/G D D/Bm C/Em 
+%%text D/G D D ·· A7/D | C/G D D ·· A7/D 
+%

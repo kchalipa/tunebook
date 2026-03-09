@@ -36,6 +36,7 @@ K: Ador
 "Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
 "Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
 %
-%%text Chords:
-%%text A-part ~ Am/D Am/D Am/G F/Em | Am/D Am/D Am/G Em/Am
-%%text B-part ~ Am Am G G | Am Am Gm Em/Am
+%%text A-part ============= | B-part ============= 
+%%text Am/D Am/D Am/G F/Em ·| Am/D Am/D Am/G Em/Am 
+%%text Am · Am · Gm · Em/Am | Am · Am · G ·· G ···  
+%

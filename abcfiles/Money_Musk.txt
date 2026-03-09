@@ -36,7 +36,8 @@ f|:\
 |: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
 %
 %%text Chords:
-%%text A-part ~ A/D A/E A/D E/A
-%%text B-part ~ A A/E7 A E7/A
-%%text C-part ~ A Bm/E7 A/D E/A
-%%text D-part ~ A/D A/E A/D E/A
+%%text A-part | A/D A/E · A/D E/A· :|
+%%text B-part | A · A/E7 ·A · E7/A :|
+%%text C-part | A · Bm/E7 A/D E/A· :|
+%%text D-part | A/D A/E · A/D E/A· :|
+%

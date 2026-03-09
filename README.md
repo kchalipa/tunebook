@@ -12,8 +12,7 @@ This is a small and perpetually unfinished project in which I will be collecting
 
 This GitHub repository contains the following files:
 
-- `abcfiles-clc`: The ABC source files that go into the library
-- `abcfiles-djn`: My uncle's ABC source files -- there for my reference, but not included in the tunebook
+- `abcfiles`: The ABC source files that go into the library ('alts' and 'wip' contain working files and do not figure into the final product)
 - `cat-tunebook.txt`: The script I run to concatenate all my source files into a single file
 - `clc-tunebook.txt`: The output of the above script
 
@@ -21,6 +20,7 @@ On significant updates, I run the `clc-tunebook` through the HTML generator on M
 
 ## Changelog
 
+- 03/09/26: A number of new tunes added and cleaned up, changing chord chart format
 - 08/18/25: Ran through the whole set and cleaned up for consistency
 - 08/17/25: Reconfigured the directories
 - 08/09/25: Added tunebook link

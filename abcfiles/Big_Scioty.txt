@@ -33,6 +33,7 @@ DF\
 |: "G" [B3g3]g- gabg | "D" ea2b a2[A2e2] | "D" g3a gedA | "Em" B[e2][e] [e2][e2]-|
    "Em" [e]fg2e2dA | "C" B[e]([e][f])[e2][d2] | "D" {Bc}BABG AGEG | "G" AG2A G2[G,2D2] :|
 %
-%%text Chords:
-%%text A-part ~ G G G G  | G  C D G
-%%text B-part ~ G D D Em | Em C D G
+%%text A-part =| B-part = 
+%%text G G G G | G D D Em 
+%%text G C D G | Em C D G 
+%

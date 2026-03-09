@@ -23,8 +23,7 @@ K: Amix
 "A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
 "A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
 %
-%%text Chords:
-%%text A-part ~ A A A E | A A A/G A
-%%text B-part ~ A A A G | A A A/G A
-
-
+%%text A-part == | B-part ==
+%%text A A A · E | A A A · G
+%%text A A A/G A | A A A/G A
+%

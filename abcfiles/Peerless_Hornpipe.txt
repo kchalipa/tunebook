@@ -1,0 +1,31 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1772914944
+T: Peerless Hornpipe
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible
+N: Just a breezy hornpipe in C.
+M: 4/4
+K: Cmaj
+%
+[P:A-part] 
+|:\
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" ecfe | "C" dcBA "G7" G2 (3(GAB) |
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
+%
+[P:B-part]
+|:\
+"G" dBGB dBgf | "C" ecGc ecag | "D7" ^fdAd fdba | "G" gafg "G7" efde |
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
+%%
+%%text A-part ====== | B-part =====
+%%text G C/G G/Am D7 | G D7 C/Am D7
+%%text G C/G D7 D7/G | C D7 G/D7 D7/G
+%

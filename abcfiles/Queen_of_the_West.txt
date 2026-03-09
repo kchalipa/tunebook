@@ -24,8 +24,7 @@ FE \
    "E" edcB "A" A2 cd | "A" ecAc EAce         |  "D" fdAd FAdf  | 
    "G" gbag "A" fedc  |1 "D" d2 f2 d2 cd     :|2 "D" d2 f2 d4   |]
 %
-%%text Chords:
-%%text A-part ~ D A D/G D/A | D A D/G A/D
-%%text B-part ~ A D G/E E/A | A D G/A D
-
-
+%%text A-part ==== | B-part ====
+%%text D A D/G D/A | A D G/E E/A
+%%text D A D/G A/D | A D G/A D
+%

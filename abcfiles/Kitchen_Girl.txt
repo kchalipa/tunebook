@@ -38,9 +38,9 @@ K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
 %
+%%text A-part ====== | B-part ======
+%%text A/G A A ·· E7 | Am/G Am Am E7
+%%text A/G A G/E7 A· | Am/G Am Am G/Am
 %
-%%text Chords:
-%%text A-part ~ A/G A A E7 | A/G A G/E7 A
-%%text B-part ~ Am/G Am Am E7 | Am/G Am Am G/Am
-
 %% Check this for inspiration: https://youtu.be/912wUcMXG_0?feature=shared
+%

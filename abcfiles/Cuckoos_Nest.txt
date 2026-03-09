@@ -1,0 +1,35 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759096619
+T: Cuckoo's Nest
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: CLC
+N: Interestingly, the Fiddler's Bible reverses the order of parts.
+M: 4/4
+K: Dmaj
+%
+[P:A-part] 
+Ac|:\
+"D" d2 dc dfed | "A7" c2A2 A2AB | "C" =c2cB cedc | "G" B2G2 G2FG |
+"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" (Ad)(dc) dfed | "A7" (3(cdc) Ac ecAB | "C" =cGEG cedc | "G" BGDB, G,2 FG |
+"D" AGFD FAde | "D" fdAF "G" G2FG | "D" AFED "A7" EFGE | "D" F(DDE)  D2 (3(DEF) |
+%
+[P:B-part] 
+"D" AFDF AFDF | "D" AGFE D2EF | "C" GE=CE GECE | "C" GFED =C2FG |
+"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" AFDA, DFAF | "D" AGFE DCDE | "C" GE=CG, CEGE | "C" G=cAG E=CEG |
+"D" AFDA, DFAe | "D" fdAF "G" GDFG | "D" AFDF "A7" EFGE | "D" F(DDE)  D2 (3(ABc) :|
+%%
+%%text A-part ===== | B-part =====
+%%text D A7· C ·· G | D D · C ·· C
+%%text D D/G D/A7 D | D D/G D/A7 D
+%
+

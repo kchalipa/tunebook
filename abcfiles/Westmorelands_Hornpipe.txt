@@ -26,8 +26,7 @@ K: Dmaj
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
    "D" AFAD FADF | "Em" BEGB EGBG | "A" FGAF A,CEC | "A" DFAc "D" d2 ag :|
 %
-%%text Chords:
-%%text A-part ~ D Em D A | D Em A A/D
-%%text B-part ~ D G D A | D Em A D
-
-
+%%text A-part === | B-part =
+%%text D Em D A · | D G· D A
+%%text D Em A A/D | D Em A D
+%

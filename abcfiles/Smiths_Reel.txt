@@ -10,8 +10,9 @@ T: Smith's Reel
 C: Trad.
 R: reel
 M: 4/4
-S: Joey McKensie
-N: Adapted and arranged by Cam Cross (my parts first, Joey's second)
+S: Me, Joey McKensie
+N: Adapted and arranged by Cam Cross (my parts first, Joey's second).
+N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it sounds a little off.
 K: Dmaj
 %
 [P:A-part](3(fg^g)|\
@@ -21,19 +22,16 @@ K: Dmaj
 "D" abaf ba (3(ABc) | "G" defd efdB | "D" AFAd "Bm" Bcde | "A7" fdec "D" d2 dc ||
 %
 [P:B-part]
-"Bm" BFBd BFBc  | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
-"Bm" dcBc BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
-"Bm" dcBd AFAd  | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
-"Bm" dABd AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
+"Bm" BFBd BFBc      | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
+"D" dcBc "Bm" BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
+"Bm" dcBd AFAd      | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
+"D" dABd "Bm" AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
 %
 [P:A-part (var.)]
 |: "D" aead' bafe | "G" defd edBd | "D" (3(ABc) "Bm" df edef | "E7" (3(ABc) "A7" df edf2 |
    "D" aead' bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "A7" fdec "D" d4 :|
 %
-%%text Simple chords:
-%%text A-part ~ D G D A | D G A A/D
-%%text B-part ~ Bm G D A | Bm G A A/D
-%%text Alternative chords:
-%%text A-part ~ Bm G D/Bm E7/A7 | Bm G D/Bm A7/D
-%%text B-part ~ D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D
-
+%%text A-part == | B-part === | ········ | A-part ======= | B-part ==========
+%%text D G D A · | Bm G D A · | ·· OR ·· | D G D/Bm E7/A7 | D/Bm G D/Bm E7/A7
+%%text D G A A/D | Bm G A A/D | ········ | D G D/Bm A7/D· | D/Bm G D/Bm A7/D
+%

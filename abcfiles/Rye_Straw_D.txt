@@ -16,14 +16,19 @@ M: 4/4
 K: Dmaj
 %
 [P:A-part] 
-|:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
-"A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
+|: "A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
+   "A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
 %
 [P:B-part] 
-|:"A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
-"A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
+|: "A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
+   "A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
 %
 [P:C-part] 
 "D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc |
 "D" defg afgf | "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf |
 "A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||
+%
+%%text A-part ======== | B-part ==== | C-part ====
+%%text A/D A/D A/D E/A | A D A · G/D | D G D A
+%%text A/D A/D A/D E/A | A D A/D E/A | D G A D A/D
+%

@@ -5,47 +5,6 @@
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X: 1760203499
-T: The Twenty-Eighth of January
-C: Trad.
-R: reel
-M: 4/4
-S: KY Contra Tunes and thesession.org/tunes/15717 for the base
-Z: Cam Cross
-N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb progression
-N: found in many Celtic tunes, but the A-part uses the "Dorian vamp," pretty unusual in fiddle tunes
-N: but a staple in classic rock. For that reason, I think it's perhaps a more "jammy" tune than a melodic
-N: one; and one version I looked at had a G-F-Em-Am windup that gave it a little more of a bluesy
-N: punch. The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate how I imagine
-N: the tune in a jam setting.
-K: Ador
-%
-[P:A-part]
-"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
-"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
-%
-[P:B-part]
-"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
-"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
-%
-[P:A-part (var.)]
-"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
-"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
-%
-[P:B-part (var.]
-"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
-"Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
-%
-%%text Chords:
-%%text A-part ~ Am/D Am/D Am/G F/Em | Am/D Am/D Am/G Em/Am
-%%text B-part ~ Am Am G G | Am Am Gm Em/Am
-%abc-2.1
-%%titlefont      Times-Bold 24
-%%subtitlefont   Times-Italics 18
-%%composerfont   Times-Italics
-%%gchordfont     Courier
-%%partsfont      Helvetica
-%%textfont       Courier
 X: 1753154299
 T: The Big Scioty
 T: (sigh-oh-tee)
@@ -74,9 +33,11 @@ DF\
 |: "G" [B3g3]g- gabg | "D" ea2b a2[A2e2] | "D" g3a gedA | "Em" B[e2][e] [e2][e2]-|
    "Em" [e]fg2e2dA | "C" B[e]([e][f])[e2][d2] | "D" {Bc}BABG AGEG | "G" AG2A G2[G,2D2] :|
 %
-%%text Chords:
-%%text A-part ~ G G G G  | G  C D G
-%%text B-part ~ G D D Em | Em C D G%abc-2.1
+%%text A-part =| B-part = 
+%%text G G G G | G D D Em 
+%%text G C D G | Em C D G 
+%
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
@@ -113,9 +74,10 @@ A,2\
 |: "C" [A,G=c]4 "G" [B,BG]4 | "D" [A,DA]5 d AF | "D" D5 A, GA   | "C" =c4 "Em" cEGB |
    "C" =cEGc "G" BGDB,      | "D" A,FAd fdAF     | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
 %
-%%text Chords:
-%%text A-part ~ D/G D D/Bm C/Em | D/G D D A7/D
-%%text B-part ~ C/G D D/Bm C/Em | C/G D D A7/D
+%%text A-part ======== | B-part ======== 
+%%text D/G D D/Bm C/Em | C/G D D/Bm C/Em 
+%%text D/G D D ·· A7/D | C/G D D ·· A7/D 
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -138,10 +100,10 @@ K: Gmaj
 |:"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBGA|"Em"B2eB dBef|"B7"gabg aged|
 "Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBef|"Em"gage "A"dBGA|1 "D"BGAF "G"G2GA:|2 "D"BGAF "G"G2||
 %
-%%text Chords:
-%%text A-part ~ G/F#m C/G C/G A/D | G/F#m C/G C/G D/G
-%%text B-part ~ Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G
-
+%%text A-part ========== | B-part ============
+%%text G/F#m C/G C/G A/D | Em/B7 Em/B7 Em · B7 
+%%text G/F#m C/G C/G D/G | Em/B7 Em/B7 Em/A D/G 
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -150,7 +112,7 @@ K: Gmaj
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758406756
-T: Blackbird Hornpipe (1)
+T: Blackbird Hornpipe
 C: Trad.
 R: reel
 Z: Cam Cross 
@@ -177,8 +139,11 @@ AG|\
 [P:B-part (low)]
 |: "D" A2FA G2EG | "G" FEDF ECA,D   | "D" A2FA GFEG  | "A7" FDGF EF G^G |
 "D" A2FA GFEC | "G" DCDE FDA,G,  | "C" A,D=CA, G,CB,A, | "D" G,A,B,=C D2 FG :|
-
-
+%
+%%text A-part =| B-part = 
+%%text D D G C | D G D A7 
+%%text D D C D | D G C D· 
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -186,53 +151,34 @@ AG|\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X: 1762030934
-T: Blackbird Hornpipe (2)
-C: Trad.
-R: hornpipe
-Z: Cam Cross 
-M: 4/4
-N: This is another version of the Blackbird Hornpipe that is clearly related to the first version
-N: I transcribed.  This is a little more repetitive, but in a good way!  Perhaps good as a reference.
-N: Chording remains basic / uncertain.
-S: From a version performed by Padraig McGovern and Peter Carberry, originally in B.
-K: Dmaj
-[P:A-part] 
-fe|\
-|: "D" dcAF GF D2 | (3EFG AB "C" =c3 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 (3ABc |
-dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
-[P:B-part] 
-|: "D" d2 (3efg ad fa | "G" {ga}gfga gfdA | "D" d2 (3efg abag | {fg}f2 d2 d2 (3efg |
-"D" ag (3fga g2 fe | "G" dcde fd (3efe | "D" dcAF GBAG | F2 D2 D3 A :|
-[P:C-part]
-|: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
-"D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
-%abc-2.1
-%%titlefont      Times-Bold 24
-%%subtitlefont   Times-Italics 18
-%%composerfont   Times-Italics
-%%gchordfont     Courier
-%%partsfont      Helvetica
-%%textfont       Courier
-X: 1758443799
-T: The Blackbird (Set Dance)
+X: 1759096619
+T: Cuckoo's Nest
 C: Trad.
 R: reel
-Z: Cam Cross
-N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
-N: of it yet; each part seems to end in a measure of 2/4 instead of the usual 4/4.  Must be to fit
-N: the set-dance form, but I don't know much about that. I have no idea about the chords, either.
-N: Definitely a WIP!
+Z: Cam Cross 
+S: CLC
+N: Interestingly, the Fiddler's Bible reverses the order of parts.
 M: 4/4
-K: Dmix
+K: Dmaj
 %
-dc\
-|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
-   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
-|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
-   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
-|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
-   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+[P:A-part] 
+Ac|:\
+"D" d2 dc dfed | "A7" c2A2 A2AB | "C" =c2cB cedc | "G" B2G2 G2FG |
+"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" (Ad)(dc) dfed | "A7" (3(cdc) Ac ecAB | "C" =cGEG cedc | "G" BGDB, G,2 FG |
+"D" AGFD FAde | "D" fdAF "G" G2FG | "D" AFED "A7" EFGE | "D" F(DDE)  D2 (3(DEF) |
+%
+[P:B-part] 
+"D" AFDF AFDF | "D" AGFE D2EF | "C" GE=CE GECE | "C" GFED =C2FG |
+"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" AFDA, DFAF | "D" AGFE DCDE | "C" GE=CG, CEGE | "C" G=cAG E=CEG |
+"D" AFDA, DFAe | "D" fdAF "G" GDFG | "D" AFDF "A7" EFGE | "D" F(DDE)  D2 (3(ABc) :|
+%%
+%%text A-part ===== | B-part =====
+%%text D A7· C ·· G | D D · C ·· C
+%%text D D/G D/A7 D | D D/G D/A7 D
+%
+
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -261,9 +207,47 @@ K: Amaj
 "A" aece AecA | "E" BEcB AFEF | "A" ABce fece | "E" fAgA "A" a2ga |
 "F#m" f2fe cfaf | "E" geBe (3gab ag | "F#m" f2fe cfaf | "E" gfeg "F#m" f2 (3efg | 
 "A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" AGAB :|
-%%text Chords:
-%%text A-part ~ A E A D | A E A E/A
-%%text B-part ~ F#m E F#m E/F#m | A E A E/A%abc-2.1
+%
+%%text A-part == | B-part ======== |
+%%text A E A D · | F#m E F#m E/F#m |
+%%text A E A E/A | A · E A · E/A · |
+%
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1772921022
+T: Gin Rickshaw
+C: Trad.
+R: reel
+M: 4/4
+N: One of my favorite hornpipes.
+S: Me
+Z: Cam Cross
+K: Dmaj
+%
+[P:A-part] (3(ABc)|:\
+"D" d2d2 dAdf | "Em" e2e2 eAce | "D" fafd "G" egec | "D" dfed "A7" cBAc |
+"D" d2d2 dAdf | "Em" e2e2 eAce | "D" fafd "A7" egec | "D" d2f2 dABc |
+"D" d2d2 dAdf | "Em" (3edc B3 ded | "D" fafd "G" egec | "D" defg "A7" a2 Ac |
+"D" d2dc dAdf | "Em" ecAc EAce | "D" faba "A7" gfec | "D" dfec d2 (3(A^G=G) ||
+%
+[P:B-part] 
+"D" FdAF dAFD | "G" GdBG dBGD | "D"  FdAF dAFA | "A7" GAFA EECE |
+"D" FdAF dAFD | "G" GABG dBGB | "A7" Aceg bgec | "D"  dfec dBAG |
+"D" FdAF dAFA | "G" GdBG dBGB | "D"  FddF dAFA | "A7" GAFA E2E=F |
+"D" FdAF dAFA | "G" (3Bcd BG dBGB | "A7" Acea fecA | "D"  dfec d2 (3(ABc) :||
+%
+%
+%%text A-part ===== | B-part =
+%%text D Em D/G D/A | D G D A7
+%%text D Em D/G A/D | D G A7 D
+%
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
@@ -303,12 +287,13 @@ K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
 %
+%%text A-part ====== | B-part ======
+%%text A/G A A ·· E7 | Am/G Am Am E7
+%%text A/G A G/E7 A· | Am/G Am Am G/Am
 %
-%%text Chords:
-%%text A-part ~ A/G A A E7 | A/G A G/E7 A
-%%text B-part ~ Am/G Am Am E7 | Am/G Am Am G/Am
-
-%% Check this for inspiration: https://youtu.be/912wUcMXG_0?feature=shared%abc-2.1
+%% Check this for inspiration: https://youtu.be/912wUcMXG_0?feature=shared
+%
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
@@ -346,10 +331,11 @@ f|:\
 |: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
 %
 %%text Chords:
-%%text A-part ~ A/D A/E A/D E/A
-%%text B-part ~ A A/E7 A E7/A
-%%text C-part ~ A Bm/E7 A/D E/A
-%%text D-part ~ A/D A/E A/D E/A
+%%text A-part | A/D A/E · A/D E/A· :|
+%%text B-part | A · A/E7 ·A · E7/A :|
+%%text C-part | A · Bm/E7 A/D E/A· :|
+%%text D-part | A/D A/E · A/D E/A· :|
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -379,9 +365,10 @@ K: Dmaj
 "D" dfaf bfaf | "G" geBe "Em" [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
 "D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
-%%text Chords:
-%%text A-part ~ D G/A D/G A | D G/A D/G A/D 
-%%text B-part ~ D G/Em A D | D G/Em A D
+%%text A-part ====== | B-part ===
+%%text D G/A D/G A7· | D G/Em A D
+%%text D G/A D/G A/D | D G/Em A D
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -396,19 +383,26 @@ R: reel
 Z: Cam Cross 
 S: thesession.org/tunes/7198
 N: Apparently has little to do with the (New) Morpeth Rant, besides a shared name.
-N: For a great version, see https://youtu.be/1WT4h3pW4Ww?feature=shared
-N: I still need to work out the chords, maybe with the help of the above link.
 M: 4/4
 K: Gmaj
 %
-|:DF|\
-G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | F2A2 AcBA |
-G2DB, G,B,DB, | G,CEC G,B,DG | B2AB cBAG | D2G2 G2 :|
+[P:A-part] 
+DF|:\
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "Am" cBAG | "D7" F2A2 AcBA |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "D7" cBAG | D2G2 "G" G2 (3(DEF) |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "Am" cBAG | "D7" FAAG AcBA |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | BGAB "D7" cBAG | DFAF "G" G2 Bd ||
 %
-|:Bd|\
-gfed B2GB | cBAG F2D2 | E2CE cBAG | F2D2 D2GF |
-E2CE cBAG | F2DF dcBA | Ggfg ecAF | A2G2 G2 :|
-
+[P:B-part]
+"G" gfed B2GB | "D7" cBAG F2D2 | "C" E2CE "Am" cBAG | "D7" F2D2 D2GF |
+"C" E2CE cBAG | "D7" F2DF dcBA | "G" Ggfg "D7" ecAF | A2G2 "G" G2 Bd |
+"G" gfed BGAB | "D7" cBAG F2D2 | "C" ECEG "Am" cBAG | "D7" FDDE D2GF |
+"C" ECEG cBAG | "D7" FDFA dcBA | "G" Ggfg "D7" ecAF | GFAF "G" G2 D2 :|
+%%
+%%text A-part ====== | B-part =====
+%%text G C/G G/Am D7 | G D7 C/Am D7
+%%text G C/G D7 D7/G | C D7 G/D7 D7/G
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -417,30 +411,63 @@ E2CE cBAG | F2DF dcBA | Ggfg ecAF | A2G2 G2 :|
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1752894096
-T: da New Rigged Ship
+T: New Reel
+C: Dale Morris
+R: reel
+M: 4/4
+Z: Cam Cross
+N: A somewhat mysterious tune I found amongst the practice / lesson tapes from Dale 
+N: Morris that my teacher passed on to me. I only have it down as "New Reel" (was it 
+N: Dale's composition?), but it might be a traditional tune.
+K: Gmix
+%
+[P:A-part]
+"G" G,2g2 "F" [fA]3 e | "C" dedc  "G" B2Bd | "C" c2Bd cBcd | "D" fedc "G" BGG2 |
+"G" G,g2A "F" f2 fe | "C" dedc "G" BGBd | "C" (3(cdc) Bd cABe | "D" f^fed "G" BG[BG]2 :|
+[P:B-part]
+"G" G,B,D^F G3 D | "F" FEFG AGFG | "G" D^FGA Bdea | "D" f2ed "G" BG G2 |
+"G" G,B, (3(DE^F G2) GE | "F" FEFG AGEF | "D" GECE GBcd | eafd "G" BG [BG]2 :|
+%
+%%text A-part ====== | B-part ==
+%%text G/F C/G C D/G | G F G D/G
+%%text G/F C/G C D/G | G F D D/G
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1752894096
+T: da New Rigged Ship (+ Shelder Geo)
 C: Trad.
 R: reel
 M: 4/4
 Z: Cam Cross
-S: Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC Collection,
-S: which cites Tom Anderson (Ringing Strings, 1983).
+S: Maggie Sansone (Mist and Stone, 1990), also consulting the John Chambers ABC
+S: Collection, which cites Tom Anderson (Ringing Strings, 1983).
 N: Apparently shifts between Dorian and Mixolydian modes of A. Pairs well with Shelder Geo.
 K: Ador
 %
+[P:New Rigged Ship]
 eg\
-|: "A" a2ab ageg | a2ab agef | "G" g2gg fgag |1 "D" f2d2 d2 eg :|2 "D" f2d2 d2 ed ||
+|: "A" a2ab ageg | a2ab agef | "G" g2[DG,]g fgag | "D" f2d2 d2 eg |
+   "A" a2ab ageg | a2ab agef | "G" gdeg fgag | "D" f2d2 d2 ed |
 %
-K:Amix
-|: "A" cAcA "E7" B2ed | "A" cAcA "E7" E2ed | "A" cAcA "E7" B2ed |1 "A" c2A2 A2 ed :|2 "A" c2A2 A2 AB ||
+|: "A" ^cAcA "E7" [Be]2ed | "A" ^cAcA "E7" [EA,]2ed | "A" ^cAcA "E7" B2ed |1 "A" ^c2A2 A2 ed :|2 "A" ^c2A2 A2 AB ||
 %
-K:Ador
-|: "Am" cdec "G" BcdB | "Am" ABAF "Em" GFE2 | "Am" cdec "G" BcdB | "Am" c2A2 A2 AB :|
+|: "Am" cdec "G" BcdB | "Am" ABAF "Em" GEFG | "Am" cdec "G" BcdB | "Am" c2A2 A4 :|
+[P:Shelder Geo]
+|: "D" [DA]2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Add^c "D" d2 dB :|
+|: "C" =cdef gagf | "C" e=cgc ecgc | "C" =cdef gage  | "D" ^fdad fdad |
+   "C" =cdeg gagf | "C" e=cgc ecce | "C" a^fge fde^c | "D" Add^c d4 :|
 %
 %%text Chords:
-%%text A-part ~ A A G D :|
-%%text B-part ~ A/E7 A/E7 A/E7 A :|
+%%text A-part ~ A ·· A ··· G ·· D· :|
+%%text B-part ~ A/E7 A/E7· A/E7 A· :|
 %%text C-part ~ Am/G Am/Em Am/G Am :|
-
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -466,11 +493,10 @@ K: Amix
 "A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
 "A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
 %
-%%text Chords:
-%%text A-part ~ A A A E | A A A/G A
-%%text B-part ~ A A A G | A A A/G A
-
-
+%%text A-part == | B-part ==
+%%text A A A · E | A A A · G
+%%text A A A/G A | A A A/G A
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -501,12 +527,10 @@ K: Gmin \
 |: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
    "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
 %
-%%text Chords:
-%%text A-part ~ G F G D7 | G F G D7/G
-%%text B-part ~ G G F F  | G C D D/G
-%%text C-part ~ Gm Gm Gm D7 | Gm Gm D7 D7/Gm
-
-
+%%text A-part === | B-part == | C-part ====
+%%text G F G D7 · | G G F F · | Gm Gm Gm⠀D7
+%%text G F G D7/G | G C D D/G | Gm Gm D7 D7/Gm
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -539,11 +563,41 @@ A,2|:\
 "D" defd "A" efge | "D" faec "G" dcBA | "D" defd "G" efge | "A" faec "D" d2 (3ABc |
 "D" defd "A" efge | "D" faec "G" dcBA | "D" afdf "G" gecA | "A" dfec "D" d4  :|
 %
-%%text Chords:
-%%text A-part ~ D D/A D G/A x2
-%%text B-part ~ D/A D/G D/G A/D x2
-
-
+%%text A-part ==== | B-part ========
+%%text D D/A D G/A | D/A D/G D/G A/D
+%%text D D/A D G/A | D/A D/G D/G A/D
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1772914944
+T: Peerless Hornpipe
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible
+N: Just a breezy hornpipe in C.
+M: 4/4
+K: Cmaj
+%
+[P:A-part] 
+|:\
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" ecfe | "C" dcBA "G7" G2 (3(GAB) |
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
+%
+[P:B-part]
+|:\
+"G" dBGB dBgf | "C" ecGc ecag | "D7" ^fdAd fdba | "G" gafg "G7" efde |
+"C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
+%%
+%%text A-part ====== | B-part =====
+%%text G C/G G/Am D7 | G D7 C/Am D7
+%%text G C/G D7 D7/G | C D7 G/D7 D7/G
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -570,11 +624,10 @@ FE \
    "E" edcB "A" A2 cd | "A" ecAc EAce         |  "D" fdAd FAdf  | 
    "G" gbag "A" fedc  |1 "D" d2 f2 d2 cd     :|2 "D" d2 f2 d4   |]
 %
-%%text Chords:
-%%text A-part ~ D A D/G D/A | D A D/G A/D
-%%text B-part ~ A D G/E E/A | A D G/A D
-
-
+%%text A-part ==== | B-part ====
+%%text D A D/G D/A | A D G/E E/A
+%%text D A D/G A/D | A D G/A D
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -593,35 +646,22 @@ M: 4/4
 K: Dmaj
 %
 [P:A-part] 
-|:"A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
-"A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
+|: "A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
+   "A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
 %
 [P:B-part] 
-|:"A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
-"A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
+|: "A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
+   "A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
 %
 [P:C-part] 
 "D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc |
 "D" defg afgf | "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf |
-"A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||%abc-2.1
-%%titlefont      Times-Bold 24
-%%subtitlefont   Times-Italics 18
-%%composerfont   Times-Italics
-%%gchordfont     Courier
-%%partsfont      Helvetica
-%%textfont       Courier
-X: 1759097834
-T: Rye Straw
-C: Trad. + Dave Notman
-N: A version of Rye Straw heavily modified by Dave Notman.
-R: reel
-M: 4/4
-K: Dmaj
+"A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||
 %
-|:[P:A] "A"e2 ef edBd | efgf edBd | e2 ef edBc | "D"dBAG [FA][DA] [EA]2 | $
- "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 || $
-|:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "G"BcdB "D"AFDF | $
- "A"E2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 "G"dBAG "A"[FA][DA] [EA]2 :|2 "G"ddBA "A"BABd |] $
+%%text A-part ======== | B-part ==== | C-part ====
+%%text A/D A/D A/D E/A | A D A · G/D | D G D A
+%%text A/D A/D A/D E/A | A D A/D E/A | D G A D A/D
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -648,6 +688,11 @@ K: G
 [P:B-part] 
 |: "G" d3d d2B2 | "C" c2 d2 ecec | "D" d2ge =fedf | "G" ecdc BG [BG]2 |
    "G" Bd2 B d2 B(c | "C" [cE])Bcd e^d=dc | "D" d2 [dg]2 =f^fed | "G" BGAc BG [BG]2 :|
+%
+%%text A-part ======== | B-part=
+%%text G/C G/C G/C D/G | G C D G
+%%text G/C G/C G/C D/G | G C D G
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -678,9 +723,11 @@ de|\
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Aceg | "D" fddc d2 d2 ||
 %
-%%text Chords:
-%%text A-part ~ D/A D G D | D/A/ D G/A D
-%%text B-part ~ D G A D | D G A D%abc-2.1
+%%text A-part ==== | B-part=
+%%text D/A D G · D | D G A D
+%%text D/A D G/A D | D G A D
+%
+%abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
 %%composerfont   Times-Italics
@@ -707,9 +754,10 @@ E2\
 |: "A" [ae]2 aa a2 ab | "A" c'abc' a2 e2 | "G" [=ge]2 gg g2 ga | "G" b=gab g2 e2  | 
    "A" [ae]2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef      | "E" edcB "A" A4 :| 
 %
-%%text Chords:
-%%text A-part ~ A A/D G G/E | A A/D A E/A
-%%text B-part ~ A A G G | A A A E/A
+%%text A-part ==== | B-part ==
+%%text A A/D G G/E | A A G G
+%%text A A/D A E/A | A A A E/A
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -718,97 +766,44 @@ E2\
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1756153504
-T: Saratoga Hornpipe (1)
+T: Saratoga Hornpipe
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: Based on versions by Chris Daring, Terry Morris, and Christine King
+S: Assembled from versions by Chris Daring, Terry Morris, Christine King, and Tom Weisgerber
+N: Great tune. So many great ways to play it.
 M: 4/4
 K: Fmaj
 %
 [P:A-part]
-AB|:\
+AB|\
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFA | "G" Gc=Bd "C" c_BA=B |
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "G" Bcdf "C" cdeg | "F" f2 a2 f2 AB |
 "F" c=BcA "Bb" d_Bfd | "F" cAFA c2Ac | "Bb" BAGB "F" AGFD | "G" Gc=Bd "C" c_BA=B |
-"F" c=BcA "Bb" d_Baf | "F" cAFA cAdc | "G" fegf "C" afga | "F" bgec f2 ef |
+"F" c=BcA "Bb" d_Baf | "F" cAFA cAdc | "G" fegf "C" afga | "F" bgec f2 ef ||
 %
 [P:B-part]
 "Dm" aAgA fAeA | "Dm" fAgA fedf | "A7" eA^ce agfe | "A7" fgef defg |
 "Dm" aAgA fAeA | "Dm" AfAg fedf | "A7" eA^ce agfe | "Dm" d^cde fdfg |
 "Dm" AaAg AfAe | "Dm" Aefg fedf | "A7" eA^ce agfe | "A7" fgef defg |
-"Dm" aA2a gA2g | "Dm" fA2f ed^cd | "A7" eA^ce agfe | "Dm" df_df "C" c2 AB :|
-%
-%%text Chords:
-%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
-%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
-%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 A7
-%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C
-
-%abc-2.1
-%%titlefont      Times-Bold 24
-%%subtitlefont   Times-Italics 18
-%%composerfont   Times-Italics
-%%gchordfont     Courier
-%%partsfont      Helvetica
-%%textfont       Courier
-X: 1756219514
-T: Saratoga Hornpipe (2)
-C: Trad.
-R: reel
-Z: Cam Cross 
-S: Based on versions by Tom Weisgerber
-M: 4/4
-K: Fmaj
+"Dm" aA2a gA2g | "Dm" fA2f ed^cd | "A7" eA^ce agfe | "Dm" df_df "C" c2 AB ||
 %
 [P:A-part]
-AB|:\
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdc | "Bb" BAGB "F" AGFA | "G" Gc=Bd "C" c_BA=B |
 "F" c=BcA "Bb" d_Bfd | "F" cAFA cAdA | "G" =Bceg "C" bgeg | "F" fbag fcAB |
 "F" c=BcA "Bb" d_Bfd | "F" cAFA [Fc]3 d/2c/2 | "Bb" BAGB "F" AGFA | "G" GFED "C" CDEG |
-"F" ABcA "Bb" d_Bfd | "F" cAFA cAdc | "G" =Bceg "C" bgeg | "F" [fA]2 [ac]2 [fc]2 fg |
+"F" ABcA "Bb" d_Bfd | "F" cAFA cAdc | "G" =Bceg "C" bgeg | "F" [fA]2 [ac]2 [fc]2 fg ||
 %
 [P:B-part]
 "Dm" aAgA fAeA | "Dm" dAeA fAgA | "A7" ae^ce ae^ce | "A7" abga fg (3(efg)|
 "Dm" aAgA fAeA | "Dm" fAeg fedf | "A7" eA^ce agfe | "Dm" d^cec d2 (3(efg) |
 "Dm" aAAa gAAg | "Dm" fAAf eAAf | "A7" eA^ce agfe | "A7" fgef defg |
-"Dm" a2 (3(gag) f2 e2 | "Dm" fefg fedf | "A7" eA^ce agfe | "Dm" de_de "C" c2 AB :|
+"Dm" a2 (3(gag) f2 e2 | "Dm" fefg fedf | "A7" eA^ce agfe | "Dm" de_de "C" c2 AB ||
 %
-%%text Chords:
-%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
-%%text A-part ~ F/Bb F B/F G/C | F/Bb F G/C F
-%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 A7
-%%text B-part ~ Dm Dm A7 A7 | Dm Dm A7 Dm/C
-
-
-%abc-2.1
-%%titlefont      Times-Bold 24
-%%subtitlefont   Times-Italics 18
-%%composerfont   Times-Italics
-%%gchordfont     Courier
-%%partsfont      Helvetica
-%%textfont       Courier
-X: 1752894149
-T: Shelder Geo
-C: Trad.
-R: reel
-M: 4/4
-Z: Cam Cross
-N: Pairs well with New Rigged Ship
-K: Dmaj
+%%text A-part ======= | B-part =========
+%%text F/Bb F B/F G/C | Dm Dm A7 A7 (3x)
+%%text F/Bb F G/C F · | Dm Dm A7 Dm/C
 %
-[P:A-part]
-|: "D" A2 AG FGAB | "C" =c2 cA "G" BGGB | "D" ABAG FDFG | "G" Addc "D" d2 dB :|
-%
-[P:B-part]
-|: "C" =cdef gagf | "C" e=cgc ecgc | "C" =cdef gage  | "D" ^fdad fdad |
-   "C" =cdeg gagf | "C" e=cgc ecce | "C" a^fge fde^c | "D" Add^c d4 :|
-%
-%%text Chords:
-%%text A-part ~ D C/G D G/D :| 
-%%text B-part ~ C C C D :| 
-
-
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -821,8 +816,9 @@ T: Smith's Reel
 C: Trad.
 R: reel
 M: 4/4
-S: Joey McKensie
-N: Adapted and arranged by Cam Cross (my parts first, Joey's second)
+S: Me, Joey McKensie
+N: Adapted and arranged by Cam Cross (my parts first, Joey's second).
+N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it sounds a little off.
 K: Dmaj
 %
 [P:A-part](3(fg^g)|\
@@ -832,22 +828,61 @@ K: Dmaj
 "D" abaf ba (3(ABc) | "G" defd efdB | "D" AFAd "Bm" Bcde | "A7" fdec "D" d2 dc ||
 %
 [P:B-part]
-"Bm" BFBd BFBc  | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
-"Bm" dcBc BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
-"Bm" dcBd AFAd  | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
-"Bm" dABd AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
+"Bm" BFBd BFBc      | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
+"D" dcBc "Bm" BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
+"Bm" dcBd AFAd      | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
+"D" dABd "Bm" AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
 %
 [P:A-part (var.)]
 |: "D" aead' bafe | "G" defd edBd | "D" (3(ABc) "Bm" df edef | "E7" (3(ABc) "A7" df edf2 |
    "D" aead' bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "A7" fdec "D" d4 :|
 %
-%%text Simple chords:
-%%text A-part ~ D G D A | D G A A/D
-%%text B-part ~ Bm G D A | Bm G A A/D
-%%text Alternative chords:
-%%text A-part ~ Bm G D/Bm E7/A7 | Bm G D/Bm A7/D
-%%text B-part ~ D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D
-
+%%text A-part == | B-part === | ········ | A-part ======= | B-part ==========
+%%text D G D A · | Bm G D A · | ·· OR ·· | D G D/Bm E7/A7 | D/Bm G D/Bm E7/A7
+%%text D G A A/D | Bm G A A/D | ········ | D G D/Bm A7/D· | D/Bm G D/Bm A7/D
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1760203499
+T: The Twenty-Eighth of January
+C: Trad.
+R: reel
+M: 4/4
+S: KY Contra Tunes and thesession.org/tunes/15717 for the base
+Z: Cam Cross
+N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb progression
+N: found in many Celtic tunes, but the A-part uses the "Dorian vamp," pretty unusual in fiddle tunes
+N: but a staple in classic rock. For that reason, I think it's perhaps a more "jammy" tune than a melodic
+N: one; and one version I looked at had a G-F-Em-Am windup that gave it a little more of a bluesy
+N: punch. The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate how I imagine
+N: the tune in a jam setting.
+K: Ador
+%
+[P:A-part]
+"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
+"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
+%
+[P:B-part]
+"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
+"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
+%
+[P:A-part (var.)]
+"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
+"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
+%
+[P:B-part (var.]
+"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
+"Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
+%
+%%text A-part ============= | B-part ============= 
+%%text Am/D Am/D Am/G F/Em ·| Am/D Am/D Am/G Em/Am 
+%%text Am · Am · Gm · Em/Am | Am · Am · G ·· G ···  
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -876,8 +911,7 @@ K: Dmaj
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
    "D" AFAD FADF | "Em" BEGB EGBG | "A" FGAF A,CEC | "A" DFAc "D" d2 ag :|
 %
-%%text Chords:
-%%text A-part ~ D Em D A | D Em A A/D
-%%text B-part ~ D G D A | D Em A D
-
-
+%%text A-part === | B-part =
+%%text D Em D A · | D G· D A
+%%text D Em A A/D | D Em A D
+%
