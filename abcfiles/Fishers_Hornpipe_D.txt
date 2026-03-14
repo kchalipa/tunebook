@@ -1,0 +1,35 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773483966
+T: Fisher's Hornpipe (D)
+C: Trad.
+R: reel
+M: 4/4
+N: This is commonly played in either D or F major.  Here are some examples of it in D, 
+N: sourced and adapted from various transcriptions at https://thesession.org/tunes/872.
+Z: Cam Cross
+K: Dmaj
+%
+[P:A-part] 
+(3ABc|:\
+"D" dAFA "G" GBAG | "D" FDFD "G" GBAG | "D" FEDF "G" GBAG | "D" FdAF "A" EABc |
+"D" dAFD "G" GBAG | "D" (3FED EF "G" GBAG | "A" FAdf gecd | "D" (3efe dc d2 (3ABc |
+"D" dAFA "G" GBAG | "D" FEFA "G" dFGE | "D" FAdc "G" dcBA | "D" BGEF "A" GABc |
+"D" dAFD "G" GBAG | "D" FEFA "G" dFGE | "A" FAdf gfec | "D" d2 f2 d2 cd ||
+%
+[P:B-part]
+"A" ecAc efge | "D" fdAd fgaf | "A" ecAc efgf | "A" edcB A2 dc |
+"G" BGDG BcdB | "D" AFDA BcdB | "A" AdcB AGFE | "D" DdAF Dfgf |
+"A" ecAc ef (3gfe | "D" fdAd fagf | "A" ecAc eagf | "A" (3efe (3dcB A2 dc|
+"G" BGDG B2 (3dcB | "D" AFDF AFdA | "A" BdcB AGFE | "D" (3DED CE D2 Ac :|
+%
+%
+%%text A-part ======== | B-part = 
+%%text D/G D/G D/G D/A | A D A A
+%%text D/G D/G A · D · | G D A D
+%

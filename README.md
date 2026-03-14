@@ -20,6 +20,7 @@ On significant updates, I run the `clc-tunebook` through the HTML generator on M
 
 ## Changelog
 
+- 03/14/26: Added some tunes I've been learning in Durham
 - 03/09/26: A number of new tunes added and cleaned up, changing chord chart format
 - 08/18/25: Ran through the whole set and cleaned up for consistency
 - 08/17/25: Reconfigured the directories
