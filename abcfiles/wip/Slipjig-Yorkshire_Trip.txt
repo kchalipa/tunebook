@@ -1,0 +1,27 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774649085
+T: The Yorkshire Trip
+T: Danish Slipjig
+C: Trad.
+R: slipjig
+Z: Cam Cross
+S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
+M: 9/8
+K: Gmaj
+[P:A-part]
+%
+[P:B-part]
+%
+[P:C-part]
+%
+%%text Chords:
+%%text A-part: G/G/C G/G/D G/G/C D :|
+%%text B-part: C/G/G C/D/D C/G/G D :|
+%%text C-part: Em ·· D ··· C ··· D :|
+%

@@ -1,0 +1,28 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774471871
+T: Sally Growler
+C: Trad.
+R: reel
+M: 4/4
+K: Gmaj
+%
+[P:A-part]
+ef|:\
+"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" DGBd | "A" ^cbaf "D" defa |
+"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" dBGA | "D" BdAF "G" G2ef :|
+%
+[P:B-part]
+"G" gdBd GBdg | "G" bgdg Bdgb | "D7" afdf Adfa | "D7" c'afd cAFf |
+"G" gdBd GBdg | "G" bgdg Bdgb | "D7" afd^c =cdfa | "G" g2 (3(gaf) gdef :|
+%
+%
+%%text A-part ====== | B-part === 
+%%text G C/G C/G A/D | G G D7 D7
+%%text G C/G C/G D/G | G G D7 G
+%

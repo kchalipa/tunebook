@@ -1,0 +1,29 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773528837
+T: Rackety Jack's Reel
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible
+N: Simple and fun!
+M: 4/4
+K: Gmaj
+%
+[P:A-part] 
+"G" DGB2 cBAB | "C" dBcA BGFG | "G" DGB2 cBAB | "D" dBcA BGFE |
+"G" DGB2 cBAB | "C" dBcA BGFG | "D" DGB2 cBAB | "D" dBcA "G" BGG2 :|
+%
+[P:B-part]
+"G" gdBd gdBd | "C" eafa gfed | "G" cBcd edef | "D" gfge d^def |
+"G" gdBd gdBd | "C" eafa gfed | "D" cBcd edef | "D" gdcA "G" G2B2 :|
+%%
+%%text Chords:
+%%text G C G D
+%%text G C D D/G
+%

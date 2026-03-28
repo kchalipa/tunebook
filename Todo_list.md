@@ -6,9 +6,7 @@
 - Dusty Miller
 - Leather Britches
 - Cattle in the Cane
-- Whiskey Before Breakfast
 - Say Old Man
-- Good for the Tongue / Randall's / Bees Wings
 - Forked Deer
 
 ### To learn
@@ -18,9 +16,14 @@
 - Snowflake
 - Bill Cheatum
 - Hell Amongst the Yearlings
-- Herman's Hornpipe
+- Herman's Hornpipe* {good!}
 - Hot Springs
 - Red Lion Hornpipe
 - Snowshoes
-- Democratic Hornpipe
 - Cripple Creek
+- Brenda Stubbert
+
+### Waltzes
+
+- Waltz for Polle (Wals voor Polle. Vals para Pol Ranson)
+- SÍ BHEAG SÍ MHÓR

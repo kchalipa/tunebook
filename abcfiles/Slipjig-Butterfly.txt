@@ -1,0 +1,31 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774646603
+T: The Butterfly
+C: Tommy Potts
+R: slipjig
+Z: Cam Cross
+S: The Good Tune
+N: I've modified the bowing to something that makes more sense to me. But of course this is just a
+N: model to be played with.
+M: 9/8
+K: Ador
+[P:A-part]
+"Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
+%
+[P:B-part]
+"C" (B2c) (e2f) (fg2) | "Bm" (B2d) (g2e) dBA | "Am7" (B2c) (e2f) (g2a) | "D" (b2a) (g2e) dBA :|
+%
+[P:C-part]
+"G" B3 (B2A) G2A | "G" B3 (BA)B "D" dBA | "G" B3 (B2A) G2A | "C" B2d (g2e) "D" dBA :|
+%
+%%text Chords:
+%%text A-part: Em/D Em/Bm Em/D C/D :|
+%%text B-part: C ·· Bm ·· Am · D · :|
+%%text C-part: G ·· G/D · G ·· C/D :|
+%

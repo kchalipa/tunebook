@@ -184,6 +184,38 @@ Ac|:\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1773532536
+T: The Democratic Hornpipe
+T: a.k.a. Galway Bay
+C: Trad.
+R: reel
+N: A really interesting tune with a lot of movement. Also frequently played in Gm, but 
+N: I don't want the guitarists to murder me. Chording is still tentative.
+M: 4/4
+Z: The Fiddler's Bible (transposed to Em)
+K: Emin
+%
+[P:A-part]
+EF|:\
+"Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
+"Em" E2EF GFGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
+%
+[P:B-part]
+"Em" edB^d efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDB, |
+"G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
+%
+%
+%%text A-part === | B-part ======
+%%text Em Em G G· | Em· Em· G· D
+%%text Em D B7 Em | G/D G/D B7 Em
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1762287681
 T: The Derry Reel
 C: Eugene O'Donnell?
@@ -741,6 +773,64 @@ FE \
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1773528837
+T: Rackety Jack's Reel
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: The Fiddler's Bible
+N: Simple and fun!
+M: 4/4
+K: Gmaj
+%
+[P:A-part] 
+"G" DGB2 cBAB | "C" dBcA BGFG | "G" DGB2 cBAB | "D" dBcA BGFE |
+"G" DGB2 cBAB | "C" dBcA BGFG | "D" DGB2 cBAB | "D" dBcA "G" BGG2 :|
+%
+[P:B-part]
+"G" gdBd gdBd | "C" eafa gfed | "G" cBcd edef | "D" gfge d^def |
+"G" gdBd gdBd | "C" eafa gfed | "D" cBcd edef | "D" gdcA "G" G2B2 :|
+%%
+%%text Chords:
+%%text G C G D
+%%text G C D D/G
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773615941
+T: The Rights of Man
+C: Trad.
+R: reel
+N: Popularly paired with The Democratic Hornpipe.
+M: 4/4
+Z: https://thesession.org/tunes/83
+K: Emin
+%
+[P:A-part]
+GA|:\
+"Em" B2A2 G2F2 | EFGA  B2ef | "G" gfed "D" edBd | "C" cBAG "Bm" A2GA |
+"Em" BcAB GAFG | EFGA  B2ef | "G" gfed "D" Bgfg | "Em" e2 E2 E2 GA :|
+[P:B-part]
+"G" babg "Em" efga | "G" babg "Em" egfe | "D" d^cde fefg | "Bm" afdf a2gf |
+"C" edef gfga | "Am" bgaf "Em" gfef | "Am" gfed "D" Bgfg | "Em" e2 E2 E2 ga :|
+%
+%
+%%text A-part ======= | B-part ===========
+%%text Em Em G/D C/Bm | G/Em G/Em· D ·· Bm
+%%text Em Em G/D Em · | C ·· Am/Em Am/D Em
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1759264360
 T: Rye Straw (D)
 C: Trad.
@@ -840,25 +930,26 @@ de|\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
-X: 1773446070
+X: 1774471871
 T: Sally Growler
 C: Trad.
 R: reel
 M: 4/4
-Z: Cam Cross
 K: Gmaj
 %
-[P:A-part] 
+[P:A-part]
 ef|:\
-"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" DGBd | "A" ^cbaf "D7" defa |
-"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" dBGA  | "D7" BdAF "G" G2 ef :|
-[P:B-part]
-"G" gdBd GBdg | "G" bgdg Bdgb | "A" afdf Adfa | "D7" c'afd cAFf |
-"G" gdBd GBdg | "G" bgdg Bdgb | "A" afd_d cefa| "D7" g2 b2 "G" gdef :|
+"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" DGBd | "A" ^cbaf "D" defa |
+"G" g2f2 e2d2 | "C" cBce "G" dBGD | "C" EGce "G" dBGA | "D" BdAF "G" G2ef :|
 %
-%%text A-part ======= | B-part ===
-%%text G C/G C/G A/D7 | G G A D7
-%%text G C/G C/G D7/G | G G A D7/G
+[P:B-part]
+"G" gdBd GBdg | "G" bgdg Bdgb | "D7" afdf Adfa | "D7" c'afd cAFf |
+"G" gdBd GBdg | "G" bgdg Bdgb | "D7" afd^c =cdfa | "G" g2 (3(gaf) gdef :|
+%
+%
+%%text A-part ====== | B-part === 
+%%text G C/G C/G A/D | G G D7 D7
+%%text G C/G C/G D/G | G G D7 G
 %
 %abc-2.1
 %%titlefont      Times-Bold 24
@@ -944,6 +1035,42 @@ AB|\
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1774303809
+T: Shetland Set
+T: da Ferry Reel, Lay Dee at Dee, and Miss Spencie's Reel
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: See, e.g. Aly Bain and Tom Anderson, "The Silver Bow: The Fiddle Music of Shetland"
+S: (2016). The same set is played by Jennifer Wrigley.
+N: Some Shetland reels. I was originally going to list these separately, but they seem often to 
+N: be grouped in a set.
+K: Dmaj
+%
+[P:Ferry Reel]
+"D" vd2u(dA) d2d2  | "D" efed c2A2         | "G" BcdB ABAF         | "Em" G2E2 E3 A        |
+"D" vd2u(dA) d2d2  | "D" efed c2A2         | "G" BcdB "A" AGFE     | "D" D2d2 d2A2        :|
+"D" f2(fd) f2(fd)  | "D" fgag fedf         | "A" e2(ec) e2(ec)     | "A" efed cBAg         |
+"Bm" f2(fd) f2(fd) | "G" fgag fedf         | "A" efgf edcB         | "D" A2d2 d2A2        :|
+%
+[P:Lay Dee at Dee]
+"D" defe d2d2      | "D" ABAG FED2         | "D" ud2ef gfed        | "A" v(ef)ued cBA2     |
+"D" defe d2d2      | "D" ABAG FED2         | "A" d2ef gfec         | "D" e2d2 d3e         :|
+"D" vf2u(df) afdf  | "D" afdf (fg2) f      | "A" e2ce Aece         | "A" edcB A2e2         |
+"Bm" vf2u(df) afdf | "G" afdf (fg2) f      | "A" efgf edcB         | "D" A2d2 d2A2        :|
+%
+[P:Miss Spencie's Reel]
+"D" d2(AG) FDDF    | "C" E=CEG [E=c]2 (GA) | "G" B2(AG) FDFG       | "D" Ad(dc) d2 Ac     :|
+"D" fafd fafd      | "A" egec egec         | "D" fafd fafd         | "A" egec "D" d3e     :|
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1773443758
 T: The Silver Spear
 C: Trad.
@@ -971,6 +1098,43 @@ K: Dmaj
 %%text D G/A G/D G/A 
 %
 
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774300851
+T: Sleep Soond i da Moarnin'
+T: Sleep Sound in the Morning
+C: Trad.
+R: reel
+M: 4/4
+S: Maggie Sansone (Mist and Stone, 1990)
+N: Maggie pairs this with New Rigged Ship and Shelder Geo. I was pleased to see it pop up
+N: in Pete Loud's collection of Northumbrian tunes.
+N: Note on the B-part variant: I don't know why, but I always want to play the last C of the rising 
+N: run as a C#. I know it's out of the key, but I think it sounds awesome.
+Z: Cam Cross
+K: Gmaj
+%
+[P:A-part]
+"Am" ea2 ^ga2 ef | "G" gedB "Em" GABG | "Am" eaa^g a2 ef | "G" gedB "Am" A2 BG |
+"Am" Aa2 ^ga2 ef | "G" gedB "Em" GABG | "Am" Aeab af ef | "G" gedB "Am" A3 B ||
+%
+[P:B-part]
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" cAeA cAeA | "G" BAGB "Am" A2AB |
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" ABcd efga | "G" gedB "Am" A2zB |
+[P:B-part (var.]
+"Am" ceec ecAc | "G" BcdB GABG | "Am" AecA eAcA | "G" BAGB "Am" ABcA |
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" AB^cd efga | "G" gedB "Am" A2 z2 :|
+%
+%
+%%text A-part ======== | B-part =====
+%%text Am G/Em Am G/Am | Am G Am G/Am
+%%text Am G/Em Am G/Am | Am G Am G/Am
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -1111,4 +1275,107 @@ K: Dmaj
 %%text A-part === | B-part =
 %%text D Em D A · | D G· D A
 %%text D Em A A/D | D Em A D
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773528439
+T: Whiskey Before Breakfast
+C: Trad.
+R: reel
+Z: Cam Cross 
+N: Classic, beautiful tune. Rough transcription of how I like to play it. 
+M: 4/4
+K: Dmaj
+%
+[P:A-part] 
+"D" D2F2 FA2(A | "D" A)BAG FDEF | "G" G2BG "D" F2AF | "Em" EDEF "A" EA,CE |
+"D" DEFG A2FG  | "D" ABAG  FDEF | "G" GABG "D" FAFD | "A7" EDCE "D" D3E :|
+%
+[P:B-part]
+"D" DFAc     d2Ac | "D" defd     dcBA | "Em" (B e2)B eBef| "A7" gfed cABc |
+"D" d2fd "A" c2ec | "G" BABc "D" dAFA | "G" GABG "D" F2AF | "A" EDEF "D" DGFE :|
+%
+[P:A-part]
+"D" DFDF ADF(A  | "D" A)BAG FDEF | "G" GABG "D" F2 (3AGF | "Em" EDEF "A" EA,CE |
+"D" DFAF [Fd]3A | "D" ABAG  FEDF | "G" GABG     FdAF     | "A7" EDCE "D" DGFE :|
+%
+[P:B-part]
+"D" (3DEF (3ABc dAFA | "D" dfed cBAF  | "Em" EB,G,B, EBef | "A7" gfed cABc |
+"D" dafd "A" caec | "G" BABc "D" dBAF | "G" GdBG "D" FdAF | "A" EA,CE "D" D4 :|
+%%
+%%text A-part ===== | B-part =======
+%%text D D G/D Em/A | D · D · Em· A7
+%%text D D G/D A7/D | D/A G/D G/D A/D
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774476646
+T: Brose and Butter + Cuzle Together
+C: Trad.
+R: slipjig
+Z: Cam Cross 
+S: Bonnie Rideout - Scottish Fire (2000) and 
+S: Alasdair Fraser and Natalie Haas - Fire & Grace (2004).
+N: Bonnie plays this on the viola and it sounds awesome.  I've transposed it up a fifth to work
+N: on the fiddle. Another interesting thing is that she switches between A dorian (with a C natural)
+N: - which seems to be the standard - and mixolydian (C sharp). She combines B&B with Cuzle 
+N: Together, another slipjig also in Amix (as well as Elsie Marly, but I'll leave that out for now).
+N: This is supplemented with a version in Edor by Fraser and Haas, with a nice B-part.
+M: 9/8
+K: Ador
+|: "Am" v(cde) uAcA vAu(cA) | v(cde) AcA "G" B2G    | "Am" v(cde) uAcA vAu(Bc) | "G" B2G Gge dBG      :|
+|: "C" v(cde) uege veu(ge)  | v(cde) ege "G" dv(BG) |  "C" u(cde) ege veu(fg)  | "D" f2d dge "G" dBG  :|
+K: Amix
+[P:Bonnie's variation] 
+|: "A" cde AcA AcA          | cde AcA "G" B2G       | "A" cde AcA ABc          | "G" B2G Gge dBG      :|
+|: "A" cde ege ege          | cde ege "G" dBG       | "A" cde ege efg          | "D" f2d dge "G" dBG  :|
+[P:Cuzle Together]
+|: "A" c2(e e)cf e2A        | c2(e e)ce "G" g2B     | "A" c2(e e)ce aeg        | "D" fdf ece "G" g3   :|
+|: "A" a2(a a)ec a2e        | a2(a a)ec "G" g2e     | "A" a2(a a)ec aeg        | "D" fdf ece "G" g3   :|
+[P:B&B Alasdair Fraser]
+K: Edor
+|: "Em" GAB EGE EGE         | GAB EGE "D" AFD       | "Em" GAB EGE EFG         | "D" FED d2B AFD      :|
+|: "G" GAB2 dA ABA          | GAB2 dB "A" ^cBA      |  "G" GAB2 dA ABA         | "D" GFG ^cdB AFD     :|
+|: "Em" gfe B2g2 fe         | gfe B2g "D" fga       | "Em" gfe B2g2 fe         | "D" efe d2B AGE      :|
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774646603
+T: The Butterfly
+C: Tommy Potts
+R: slipjig
+Z: Cam Cross
+S: The Good Tune
+N: I've modified the bowing to something that makes more sense to me. But of course this is just a
+N: model to be played with.
+M: 9/8
+K: Ador
+[P:A-part]
+"Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
+%
+[P:B-part]
+"C" (B2c) (e2f) (fg2) | "Bm" (B2d) (g2e) dBA | "Am7" (B2c) (e2f) (g2a) | "D" (b2a) (g2e) dBA :|
+%
+[P:C-part]
+"G" B3 (B2A) G2A | "G" B3 (BA)B "D" dBA | "G" B3 (B2A) G2A | "C" B2d (g2e) "D" dBA :|
+%
+%%text Chords:
+%%text A-part: Em/D Em/Bm Em/D C/D :|
+%%text B-part: C ·· Bm ·· Am · D · :|
+%%text C-part: G ·· G/D · G ·· C/D :|
 %
