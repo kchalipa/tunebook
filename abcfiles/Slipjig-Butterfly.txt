@@ -27,5 +27,5 @@ K: Ador
 %%text Chords:
 %%text A-part: Em/D Em/Bm Em/D C/D :|
 %%text B-part: C ·· Bm ·· Am · D · :|
-%%text C-part: G ·· G/D · G ·· C/D :|
+%%text C-part: G ·· G/D · G ·· C/D :| (The Gs can be substituted for Ems if preferred)
 %

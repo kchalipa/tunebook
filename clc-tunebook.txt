@@ -1319,6 +1319,32 @@ K: Dmaj
 %%gchordfont     Courier
 %%partsfont      Helvetica
 %%textfont       Courier
+X: 1758443799
+T: The Blackbird (Set Dance)
+C: Trad.
+R: hornpipe
+Z: Cam Cross
+N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
+N: of it yet; each part seems to end in a measure of 2/4 instead of the usual 4/4.  Must be to fit
+N: the set-dance form, but I don't know much about that. I have no idea about the chords, either.
+N: Definitely a WIP!
+M: 4/4
+K: Dmix
+%
+dc\
+|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
+|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
+   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
+|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
+   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
 X: 1774476646
 T: Brose and Butter + Cuzle Together
 C: Trad.
@@ -1377,5 +1403,39 @@ K: Ador
 %%text Chords:
 %%text A-part: Em/D Em/Bm Em/D C/D :|
 %%text B-part: C ·· Bm ·· Am · D · :|
-%%text C-part: G ·· G/D · G ·· C/D :|
+%%text C-part: G ·· G/D · G ·· C/D :| (The Gs can be substituted for Ems if preferred)
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774649085
+T: The Yorkshire Trip
+T: a.k.a. Danish Slipjig
+C: Trad.
+R: slipjig
+Z: Cam Cross
+S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
+N: A very nice slipjig; the sixteenth notes in the first part give it a distinctive touch.
+M: 9/8
+K: Gmaj
+[P:A-part]
+"G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
+"G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
+%
+[P:B-part]
+"C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D2(d A)FD |
+"C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D3 (ABc) ||
+%
+[P:C-part]
+"Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE D2c |
+"Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE DEF :|
+%
+%%text Chords:
+%%text A-part: G/G/C G/G/D G/G/C D :|
+%%text B-part: C/G/G C/D/D C/G/G D :|
+%%text C-part: Em ·· D ··· C ··· D :|
 %
