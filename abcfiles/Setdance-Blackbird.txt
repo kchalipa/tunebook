@@ -10,17 +10,23 @@ T: The Blackbird (Set Dance)
 C: Trad.
 R: hornpipe
 Z: Cam Cross
-N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
-N: of it yet; each part seems to end in a measure of 2/4 instead of the usual 4/4.  Must be to fit
-N: the set-dance form, but I don't know much about that. I have no idea about the chords, either.
-N: Definitely a WIP!
+S: Bobby Gardiner, Memories of Claire (1996) with my own variations.
+N: Really interesting tune I stumbled upon.  Unusually (as far as I know), each part ends with an 
+N: extra two beats.  Has a strong melodic sympathy with the Blackbird Hornpipe, though I think 
+N: it sounds better when slowed down (as Bobby Gardiner plays it). Repeats are intentional.
+N: Chords still tentative.
 M: 4/4
 K: Dmix
 %
-dc\
-|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
-   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
-|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
-   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
-|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
-   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+[P:A-part]
+dc|"G" BGBd c2BG | "Am" AGFG ABcA | "D" d2fe dcAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 ||
+   "G" [BG]3G [Ec]2BG | "Am" ABAG ABcA | "D" d^cfe d=cAF | "G" GAGF D2DE |
+   "D" FEFG Adfe | "D" d^cde d=cAF | "G" (3(GFG) AF "D" D2D2 | [M:2/4] D2de ||
+%
+[P:B-part]
+|: "D" fede [df]2[dg]2 | "A" [Aa]2ag "D" fgaf | "G" g2(3(agf) gbaf  | "G" gagf "D" d^cde |
+   "D" fede fAgA | "A" abag "D" fgaf | "G" gagf "D" [Dd]4 | [M:2/4] zefg ||
+   "D" abag fgaf | "G" gage f2(3(efe) | "C" dcAB cBcd  | "C" efge "G" a2[Aa]2 |
+   "D" AaAG FGAB | "C" c2ec d^cAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+%

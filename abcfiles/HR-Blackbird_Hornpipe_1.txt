@@ -6,7 +6,7 @@
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758406756
-T: Blackbird Hornpipe
+T: Blackbird Hornpipe (1)
 C: Trad.
 R: reel
 Z: Cam Cross 
@@ -22,7 +22,7 @@ AG|\
 "D" F2EF AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
 "D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GcAG | "D" F2D2 D2 AG |
 "D" EFFA GFD2      | "D" defe d=cAF      | "G" (G2 G)F GFD2 | "C" FGAF G=cAG |
-"D" (3(FAF) DA GFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
+"D" (3(FGF) DF AFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
 %
 [P:B-part] 
 "D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 (3(fg^g) |

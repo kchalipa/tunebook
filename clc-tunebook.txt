@@ -110,7 +110,7 @@ K: Gmaj
 %%partsfont      Helvetica
 %%textfont       Courier
 X: 1758406756
-T: Blackbird Hornpipe
+T: Blackbird Hornpipe (1)
 C: Trad.
 R: reel
 Z: Cam Cross 
@@ -126,7 +126,7 @@ AG|\
 "D" F2EF AFD2      | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
 "D" FEFG AFDA      | "D" defd {de}dcAF  | "C" Ad=cA GcAG | "D" F2D2 D2 AG |
 "D" EFFA GFD2      | "D" defe d=cAF      | "G" (G2 G)F GFD2 | "C" FGAF G=cAG |
-"D" (3(FAF) DA GFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
+"D" (3(FGF) DF AFDA| "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
 %
 [P:B-part] 
 "D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 (3(fg^g) |
@@ -142,6 +142,62 @@ AG|\
 %%text D D G C | D G D A7 
 %%text D D C D | D G C D· 
 %
+
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1762030934
+T: Blackbird Hornpipe (2)
+C: Trad.
+R: hornpipe
+Z: Cam Cross 
+M: 4/4
+N: This is another version of the Blackbird Hornpipe that is clearly related to the first version
+N: I transcribed.  This is a little more repetitive, but in a good way!  Perhaps good as a reference.
+N: Chording remains basic / uncertain.
+S: From a version performed by Padraig McGovern and Peter Carberry, originally in B.
+K: Dmaj
+[P:A-part] 
+fe|\
+|: "D" dcAF GF D2 | (3EFG AB "C" =c3 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 (3ABc |
+dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
+[P:B-part] 
+|: "D" d2 (3efg ad fa | "G" {ga}gfga gfdA | "D" d2 (3efg abag | {fg}f2 d2 d2 (3efg |
+"D" ag (3fga g2 fe | "G" dcde fd (3efe | "D" dcAF GBAG | F2 D2 D3 A :|
+[P:C-part]
+|: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
+"D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776523426
+T: Brenda Stubbert's Reel
+C: Jerry Holland
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Ashley MacIssac, Hi™ How Are You Today? (1995)
+N: Ashley plays it in Bb, but the standard key is A (Dorian). He also adds a third part, but I'm
+N: leaving it out because it's pretty repetitive and not standard.
+K: Ador
+%
+[P:A-part]           |:\
+   "Am" A2(BA) GAAB  | "Am" A2(BA) "C" eddB | "G" G2(BA) BGGA | "G"  (B^c) (BA) BGGB   |
+   "Am" A2(BA) GAAB  | "Am" A2(BA) "C" edda | "G" gedB   GABd | "Em" e2 (dB) "Am"eAAB :|
+%
+[P:B-part]           |:\
+   "Am" A2a2   A2g2  | "Am" Aage "C" ageg   | "G" G2(BA) BGGA | "G" (B^c) (BA) BGGB    |
+[1 "Am" A2a2  A2g2   | "Am" Aage "C" agea   | "G" gedB GABd   | "Em" e2(dB) "Am" eAAB :|]
+[2 "Am" A2(BA) GAAB  | "Am" A2(BA) "C" edda | "G" gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
+
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18
@@ -198,10 +254,10 @@ K: Emin
 [P:A-part]
 EF|:\
 "Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
-"Em" E2EF GFGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
+"Em" E2EF GAGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
 %
 [P:B-part]
-"Em" edB^d efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDB, |
+"Em" edBd efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDF |
 "G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
 %
 %
@@ -366,23 +422,26 @@ T: The Humours of Tulla
 C: Trad.
 R: reel
 S: Adapted from versions at https://thesession.org/tunes/141
-N: A fun tune I was shown in Durham!
+N: A fun tune I was shown in Durham! First comes the basic melody, then my variations.
+N: The G and Em chords are fairly interchangeable.  I mix and match them in this arrangement.
+N: The ~ signs mark Irish rolls, meaning you need to do something like bow triplets to make it more
+N: interesting. Or fiddle through it, like I have in the second half of the B-part.
 Z: Cam Cross 
 M: 4/4
 K: Dmaj
 %
 [P:A-part]
-"D" d2Ad BdAB | "D" d2fd "G" edBc | "D" d2Ad BdAd | "G" faba "A" feef |
-"D" d2Ad BdAB | "D" d2fd "G" edBc | "D" d2Ad BdAd | "G" (3Bcd ef "A" g2 fg||
+"D" d2Ad BdAB | "D" ~d2fd "Em" edBA | "D" d2Ad BdAd | "G" Bdef "A7" g2fe |
+"D" dBAd BdAB | "D" defd "Em" edBc | "D" d2Ad BdAd | "G" (3Bcd ef "A7" gefg ||
 %
 [P:B-part]
-"D" af f2 df f2 | "D" af f2 "A" ge e2 | "D" af f2 dfed | "G" (3Bcd ef "A" g2fg |
-"D" af f2 df f2 | "D" af f2 "A" ge e2 | "D" af f2 dfed | "G" (3Bcd ef "A" g2 fe :|
+"D" af ~f2 df ~f2 | "D" af ~f2 "G" g2fg | "D" af ~f2 dfed | "G" (3Bcd ef "A7" g2fg |
+"D" afdf bfdf | "D" afdf "G" geBA | "D" afdf edBc | "G" defa "A7" [dg]2fe :|
 %
 %
-%%text A-part ==== | B-part ====
-%%text D D/G D G/A | D D/A D G/A
-%%text D D/G D G/A | D D/A D G/A
+%%text A-part ====== | B-part ====
+%%text D D/Em D G/A7 | D D/G D G/A7
+%%text D D/Em D G/A7 | D D/G D G/A7
 %
 
 %abc-2.1
@@ -540,6 +599,31 @@ DF|:\
 %%text A-part ====== | B-part =====
 %%text G C/G G/Am D7 | G D7 C/Am D7
 %%text G C/G D7 D7/G | C D7 G/D7 D7/G
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776527480
+T: The Mortgage Reel
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: https://thesession.org/tunes/2047
+N: Tune I learned in Durham! Could pair with Brenda Stubbert's Reel.
+K: Amaj
+%
+AB\
+|: "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" BFBc BFBc | "E7" dBcA BAFA |
+   "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" dBcA BAFE | "E7" EFAB "A" A2AB :|
+%
+|: "A" c2Bc ~e2ce | "D" fafe "A" c2BA | "Bm" ~B2AB "A"  c2Bc | "E"  ecBA "D" F2AB | 
+[1 "A" c2Bc ~e2ce | "D" fafe "A" c2BA | "Bm" ~B2AB "E7" cBAF | "E7" EFAB "A" A2AB :|
+[2 "A" AFEF ~A2AB | "A" cBce "D" ~f2af | "A" e2cA  "Bm" BcAF | "E7" EFAB "A" A2A2 ||
 %
 %abc-2.1
 %%titlefont      Times-Bold 24
@@ -836,27 +920,52 @@ T: Rye Straw (D)
 C: Trad.
 R: reel
 Z: Cam Cross 
-S: Darol Anger (https://www.youtube.com/watch?v=QllLceBq2p8)
-N: See also https://youtu.be/upmh_iiI0XY?si=sfpFNMuRlEIi7bLd
+S: Todd Phillips + Darol Anger, In the Pines (1995) [with many modifications]
+N: Rye Straw seems to have a zillion variations. The core of this version draws from Darol 
+N: Anger's arrangement, where he seems to mash the 16 bars of one of its usual B-parts to create a 
+N: 'bridge' C-part of 10 bars. It's pretty neat!
 M: 4/4
 K: Dmaj
 %
 [P:A-part] 
 |: "A" E2EG "D" FDFA | "A" EDEG "D" FEDF | "A" EDEG "D" FGAc | "E" eged "A" =c^cAF |
-   "A" EDEG "D" FDFA | "A" EDEG "D" FEDF | "A" [A,E]3G "D" FD (3(FGA) | "E" AcAD "A" =F^FAD :|
+   "A" EDEG "D" FGAF | "A" EDEG "D" [A,F]2 (3(GFD) | "A" EDEG "D" FEDF | "E" AcAD "A" =F^FAD :|
 %
 [P:B-part] 
-|: "A" A3 c ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDDF | 
-   "A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 A2 :|
+|: "A" A2 Ac ecAc | "D" dcde fgaf | "A" ecAc efec | "G" dcBA "D" FDA,D | 
+   "A" EFAc ecAc | "D" dAde fedf | "A" efab "D" afed | "E" cAB^G "A" A2 Ac :|
 %
 [P:C-part] 
-"D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc |
-"D" defg afgf | "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf |
-"A" (3(ef^g) ab afed | "A" cAB^G "D" A2 A2 ||
+"D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc | "D" defg agfd |
+"G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf | "A" e2 ef afed  | "A" cAB^G "D" A4 !D.C.! |]
 %
 %%text A-part ======== | B-part ==== | C-part ====
 %%text A/D A/D A/D E/A | A D A · G/D | D G D A
-%%text A/D A/D A/D E/A | A D A/D E/A | D G A D A/D
+%%text A/D A/D A/D E/A | A D A/D E/A | D G A D [A A/D]
+%
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776439883
+T: Rye Straw (variant parts)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Nick Pynn, The Devil's Fiddler (2007)
+N: These are the parts for Rye Straw that seem to be compressed by Darol Anger — mostly 
+N: here for my reference.
+M: 4/4
+K: Dmaj
+%
+[P:A-part] 
+"D" d2fg afdf | "G" gfeg fd [fd]2  | "D" defg afdf | "A" gfed cA [cA]2 :|
+%
+[P:B-part] 
+"A" ce2f edBc | "D" ddeg fd [fd]2 | "A" ce2f edBc | "D" dBAG FD D2 :|
 %
 %abc-2.1
 %%titlefont      Times-Bold 24
@@ -1324,20 +1433,26 @@ T: The Blackbird (Set Dance)
 C: Trad.
 R: hornpipe
 Z: Cam Cross
-N: Really interesting tune I stumbled upon, maybe in the Irish repertoire? I can't make much sense
-N: of it yet; each part seems to end in a measure of 2/4 instead of the usual 4/4.  Must be to fit
-N: the set-dance form, but I don't know much about that. I have no idea about the chords, either.
-N: Definitely a WIP!
+S: Bobby Gardiner, Memories of Claire (1996) with my own variations.
+N: Really interesting tune I stumbled upon.  Unusually (as far as I know), each part ends with an 
+N: extra two beats.  Has a strong melodic sympathy with the Blackbird Hornpipe, though I think 
+N: it sounds better when slowed down (as Bobby Gardiner plays it). Repeats are intentional.
+N: Chords still tentative.
 M: 4/4
 K: Dmix
 %
-dc\
-|: "G" B2Bd cABG | "Am" F2FG ABcA | "D" d^cde d=cAF | "G" GAGF D^CDE |
-   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 :| 
-|: "D" fede fdgd | "A" a2ag "D" fgaf | "G" g2gf gbaf  | "G" gagf "D" d^cde |
-   "D" fede fdgd | "A" a2ag "D" fgaf | "G" gagf "D" d2d^c | [M:2/4] defg :|
-|: "D" a2ag fgaf | "G" g2ge f2fe | "C" dcAB cBcd  | "G" efgb afdB |
-   "D" A2AG FADB | "C" c2ec dcAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+[P:A-part]
+dc|"G" BGBd c2BG | "Am" AGFG ABcA | "D" d2fe dcAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "G" GAGF "D" D2D^C | [M:2/4] D2A2 ||
+   "G" [BG]3G [Ec]2BG | "Am" ABAG ABcA | "D" d^cfe d=cAF | "G" GAGF D2DE |
+   "D" FEFG Adfe | "D" d^cde d=cAF | "G" (3(GFG) AF "D" D2D2 | [M:2/4] D2de ||
+%
+[P:B-part]
+|: "D" fede [df]2[dg]2 | "A" [Aa]2ag "D" fgaf | "G" g2(3(agf) gbaf  | "G" gagf "D" d^cde |
+   "D" fede fAgA | "A" abag "D" fgaf | "G" gagf "D" [Dd]4 | [M:2/4] zefg ||
+   "D" abag fgaf | "G" gage f2(3(efe) | "C" dcAB cBcd  | "C" efge "G" a2[Aa]2 |
+   "D" AaAG FGAB | "C" c2ec d^cAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+%
 %abc-2.1
 %%titlefont      Times-Bold 24
 %%subtitlefont   Times-Italics 18

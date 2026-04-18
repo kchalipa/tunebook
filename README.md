@@ -20,6 +20,7 @@ On significant updates, I run the `clc-tunebook` through the HTML generator on M
 
 ## Changelog
 
+- 04/18/26: More tunes added, including some slip jigs
 - 03/28/26: Added some more tunes; changed the naming system so as to group the tunes by kind
 - 03/14/26: Added some tunes I've been learning in Durham
 - 03/09/26: A number of new tunes added and cleaned up, changing chord chart format

@@ -19,10 +19,10 @@ K: Emin
 [P:A-part]
 EF|:\
 "Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
-"Em" E2EF GFGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
+"Em" E2EF GAGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
 %
 [P:B-part]
-"Em" edB^d efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDB, |
+"Em" edBd efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDF |
 "G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
 %
 %

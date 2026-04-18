@@ -1,0 +1,27 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776523426
+T: Brenda Stubbert's Reel
+C: Jerry Holland
+R: reel
+M: 4/4
+Z: Cam Cross
+S: Ashley MacIssac, Hi™ How Are You Today? (1995)
+N: Ashley plays it in Bb, but the standard key is A (Dorian). He also adds a third part, but I'm
+N: leaving it out because it's pretty repetitive and not standard.
+K: Ador
+%
+[P:A-part]           |:\
+   "Am" A2(BA) GAAB  | "Am" A2(BA) "C" eddB | "G" G2(BA) BGGA | "G"  (B^c) (BA) BGGB   |
+   "Am" A2(BA) GAAB  | "Am" A2(BA) "C" edda | "G" gedB   GABd | "Em" e2 (dB) "Am"eAAB :|
+%
+[P:B-part]           |:\
+   "Am" A2a2   A2g2  | "Am" Aage "C" ageg   | "G" G2(BA) BGGA | "G" (B^c) (BA) BGGB    |
+[1 "Am" A2a2  A2g2   | "Am" Aage "C" agea   | "G" gedB GABd   | "Em" e2(dB) "Am" eAAB :|]
+[2 "Am" A2(BA) GAAB  | "Am" A2(BA) "C" edda | "G" gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
+
