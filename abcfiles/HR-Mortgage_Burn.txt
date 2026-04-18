@@ -1,0 +1,32 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776527480
+T: The Mortgage Burn 
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: https://thesession.org/tunes/2047
+N: Tune I learned in Durham! Could pair with Brenda Stubbert's Reel.
+K: Amaj
+%
+AB\
+|: "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" BFBc BFBc | "E" dBcA BAFA |
+   "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" dBcA BAFE | "E" EFAB "A" A2AB :|
+%
+|: "A" c2Bc eAce | "D" fafe "A" c2BA | "Bm" B2AB "A" cABc | "E"  ecBA "D" F2AB | 
+[1 "A" cABc eAce | "D" fafe "A" cBAc | "Bm" B2AB "E" cBAF | "E" EFAB "A" A2AB :|
+[2 "A" AFEF AFAB | "A" cBce "D" f2af | "A" ecAc "Bm" BcAF | "E" EFAB "A" A2A2 ||
+%
+%%
+%%text A-part ==== | B-part =======
+%%text A A Bm E7 · | A D/A Bm/A E/D
+%%text A A Bm E7/A | A D/A Bm/E E/A
+%%text · · · · · · | A D/A Bm/A E/D
+%%text · · · · · · | A A/D A/Bm E/A
+%
