@@ -1,0 +1,29 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776895667
+T: Miller's Reel
+C: Trad.
+R: reel
+Z: Cam Cross 
+N: Great tune, one of my favorites. Basically a simple version of the way I play it.
+M: 4/4
+K: Amaj
+%
+[P:A-part]
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | "E" BEcB AFEC |
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | "E" ecB^G "A" A2c2 :|
+%
+[P:B-part]
+"A" a2ec Aceg | "B7" b2f^d Bdfd | "E" efge bege | "B7" fe^df e=dcB |
+"A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | "E" cBAG "A" A2c2 :|
+%
+%
+%%text A-part ====== | B-part ==
+%%text A/D E/A E E · | A B7 E B7
+%%text A/D E/A E E/A | A D E E/A
+%
