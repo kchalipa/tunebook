@@ -573,7 +573,7 @@ A,2\
    "D" D2 FD "G" ADFE | "D" DEFG ABAF | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
 %
 [P:B-part]
-|: "C" [G,=cE]4 "G" [B,GB]4 | "D" [A,FA] ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
+|: "C" [G,=cE]4 "G" [B,GB]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
    "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc  | "A7" dfec "D" d2 A2 :|
 %
 [P:A-part (var.)]
@@ -586,7 +586,6 @@ A,2\
 %
 %%text Chords: D/G D D/Bm C/Em | D/G D D A7/D :|   C/G D D/Bm C/Em | C/G D D A7/D :|
 %
-
 X: 1759581014
 T: Old Joe Clark
 C: Trad.
