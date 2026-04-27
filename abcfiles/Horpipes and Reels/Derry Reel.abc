@@ -1,0 +1,24 @@
+%abc-2.1
+X: 1762287681
+T: The Derry Reel
+C: Eugene O'Donnell?
+Z: Cam Cross
+R: reel
+M: 4/4
+N: Cobbled from two versions found at thesession.org/tunes/7671. I really like the B-part!
+K: Amaj
+%
+[P:A-part] 
+"A" c3B AecA | "E" BEcB AFEF | "A" ABce aAgA | "D" faec BEAB | 
+"A" c3B AecA | "E" BEcB AFEF | "A" ABce afec | "E" (3B=cB GB "A" A^de=d |
+"A" c3B ABcA | "E" BAcB AFEF | "A" ABce aege | "D" (3fga ec ~B2AB
+"A" c3B ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" fdge "A" a2ag ||
+%
+[P:B-part] 
+"F#m" f2af cfaf | "E" geBe gbag | "F#m" f2af cfaf | "E" gfeg "F#m" fbag |
+"A" aece AecA | "E" BEcB AFEF | "A" ABce fece | "E" fAgA "A" a2ga |
+"F#m" f2fe cfaf | "E" geBe (3gab ag | "F#m" f2fe cfaf | "E" gfeg "F#m" f2 (3efg | 
+"A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" AGAB :|
+%
+%%text Chords: A E A D | A E A E/A :|   F#m E F#m E/F#m | A E A E/A :|
+%

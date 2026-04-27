@@ -1,0 +1,33 @@
+%abc-2.1
+X: 1758382483
+T: Money Musk
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: _The Fiddler's Bible_ for the base, plus variations by Tom Wiesgerber.
+N: Great tune with oodles of variations!  Choose your favorite version(s) of A, B, and C,
+N: then play: Ax2 > Bx2 > Cx2 or D (some play both) > repeat from the top. 
+M: 4/4
+K: Amaj
+%
+[P:A-part (2 variations)]
+f|:\
+"A" eAcA "D" eAdf | "A" eAcA "E7" Bcdf | "A" eAcA "D" ceea | "E7" fdBe "A" cAAf ||
+"A" eAcf "D" ecdf | "A" eAcA "E7" Bcdf | "A" eAcd "D" eage | "E7" fdBe "A" cAAg ||
+%
+[P:B-part (2 variations)]
+"A" aega eaca | "A" aedb "E7" caBg | "A" aega eaca | "E7" fdBe "A" cAAg ||
+"A" aeea caea | "A" aeda "E7" caBa | "A" aefa eafa | "E7" caBa "A" cAAg ||
+%
+[P:C-part (4 variations)]
+"A" ac'ea c'ee'e | "Bm" gbeg "E7" bed'e | "A" ac'ea "D" c'ee'e | "E7" gbeg "A" a2 eg ||
+"A" aAea e'aba   | "Bm" gGeg "E7" befg  | "A" aAea "D" c'aba   | "E7" gfdB "A" A2 eg ||
+"A" agaf eace    | "Bm" dBcA "E7" BAFA  | "A" agaf "D" eac'a   | "E7" babc' "A" a2 ab ||
+"A" acea c'aba   | "Bm" gBeg "E7" befg  | "A" acea "D" c'aba   | "E7" gfec "A" A2 cB ||
+%
+[P:D-part]
+|: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
+%
+%%text A-part: A/D A/E A/D E/A :|   B-part: A  A/E7 A  E7/A :|   
+%%text C-part: A Bm/E7 A/D E/A :|   D-part: A/D A/E A/D E/A :|
+%

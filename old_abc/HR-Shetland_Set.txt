@@ -1,0 +1,36 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774303809
+T: Shetland Set
+T: da Ferry Reel, Lay Dee at Dee, and Miss Spencie's Reel
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+S: See, e.g. Aly Bain and Tom Anderson, "The Silver Bow: The Fiddle Music of Shetland"
+S: (2016). The same set is played by Jennifer Wrigley.
+N: Some Shetland reels. I was originally going to list these separately, but they seem often to 
+N: be grouped in a set.
+K: Dmaj
+%
+[P:Ferry Reel]
+"D" vd2u(dA) d2d2  | "D" efed "Bm" c2A2    | "G" BcdB ABAF     | "Em" G2E2 "A" E3 A        |
+"D" vd2u(dA) d2d2  | "D" efed "Bm" c2A2    | "G" BcdB AGFE     | "A" D2d2 "D" d2A2        :|
+"D" f2(fd) f2(fd)  | "D" fgag "G" fedf     | "A" e2(ec) e2(ec) | "A" efed "Bb0" cBAg       |
+"Bm" f2(fd) f2(fd) | "G" fgag fedf         | "A" efgf edcB     | "D" A2d2 d2A2        :|
+%
+[P:Lay Dee at Dee]
+"D" defe d2d2      | "D" ABAG FED2         | "D" ud2ef gfed    | "A" v(ef)ued cBA2     |
+"D" defe d2d2      | "D" ABAG FED2         | "A" d2ef gfec     | "D" e2d2 d3e         :|
+"D" vf2u(df) afdf  | "D" afdf (fg2) f      | "A" e2ce Aece     | "A" edcB A2e2         |
+"Bm" vf2u(df) afdf | "G" afdf (fg2) f      | "A" efgf edcB     | "D" A2d2 d2A2        :|
+%
+[P:Miss Spencie's Reel]
+"D" d2(AG) FDDF    | "C" E=CEG [E=c]2 (GA) | "G" B2(AG) FDFG   | "D" Ad(dc) d2 Ac     :|
+"D" fafd fafd      | "A" egec egec         | "D" fafd fafd     | "A" egec "D" d3e     :|
+%

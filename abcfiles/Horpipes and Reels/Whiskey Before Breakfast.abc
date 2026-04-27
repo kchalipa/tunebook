@@ -1,0 +1,29 @@
+%abc-2.1
+X: 1773528439
+T: Whiskey Before Breakfast
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Cam Cross
+N: Classic, beautiful tune. Rough transcription of how I like to play it. 
+M: 4/4
+K: Dmaj
+%
+[P:A-part] 
+"D" D2F2 FA2(A | "D" A)BAG FDEF | "G" G2BG "D" F2AF | "Em" EDEF "A" EA,CE |
+"D" DEFG A2FG  | "D" ABAG  FDEF | "G" GABG "D" FAFD | "A7" EDCE "D" D3E :|
+%
+[P:B-part]
+"D" DFAc     d2Ac | "D" defd     dcBA | "Em" (B e2)B eBef| "A7" gfed cABc |
+"D" d2fd "A" c2ec | "G" BABc "D" dAFA | "G" GABG "D" F2AF | "A" EDEF "D" DGFE :|
+%
+[P:A-part]
+"D" DFDF ADF(A  | "D" A)BAG FDEF | "G" GABG "D" F2 (3AGF | "Em" EDEF "A" EA,CE |
+"D" DFAF [Fd]3A | "D" ABAG  FEDF | "G" GABG     FdAF     | "A7" EDCE "D" DGFE :|
+%
+[P:B-part]
+"D" (3DEF (3ABc dAFA | "D" dfed cBAF  | "Em" EB,G,B, EBef | "A7" gfed cABc |
+"D" dafd "A" caec | "G" BABc "D" dBAF | "G" GdBG "D" FdAF | "A" EA,CE "D" D4 :|
+%%
+%%text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
+%

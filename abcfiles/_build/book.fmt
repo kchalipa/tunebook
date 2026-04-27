@@ -1,0 +1,13 @@
+infoline 1
+writefields CSN
+breaklimit  0.6
+leftmargin  2cm
+rightmargin 2cm
+
+historyfont    Courier 11.0
+titlefont      Times-Bold 24.0
+subtitlefont   Times-Italic 18.0
+composerfont   Times-Italic 14.0
+gchordfont     Courier 12.0
+partsfont      Helvetica 12.0
+textfont       Courier 11.0

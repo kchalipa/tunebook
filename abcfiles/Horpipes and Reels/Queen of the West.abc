@@ -1,0 +1,21 @@
+%abc-2.1
+X: 1660510034
+T: Queen of the West
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+K: Dmaj
+%
+[P:A-part]
+FE \
+|: "D" DFAF DFA,F     | "A" EGAG EGA,G        |  "D" FAdF "G" GBec |
+   "D" Adfd "A" cAGE  | "D" DFAF DFA,F        |  "A" EGAG EGA,G | 
+   "D" FAdF "G" GBec  |1 "A" d2 f2 "D" d2 FE :|2 "A" d2 f2 "D" d2 cd ||
+[P:B-part]
+|: "A" ecAc EAce      | "D" fdAd FAdf         |  "G" g2 fg "E" efde |
+   "E" edcB "A" A2 cd | "A" ecAc EAce         |  "D" fdAd FAdf  | 
+   "G" gbag "A" fedc  |1 "D" d2 f2 d2 cd     :|2 "D" d2 f2 d4   |]
+%
+%%text Chords: D A D/G D/A | D A D/G A/D :|   A D G/E E/A | A D G/A D :|
+%

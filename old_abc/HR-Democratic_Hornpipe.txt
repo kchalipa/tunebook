@@ -1,0 +1,32 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773532536
+T: The Democratic Hornpipe
+T: a.k.a. Galway Bay
+C: Trad.
+R: hornpipe
+N: A really interesting tune with a lot of movement. Also frequently played in Gm, but 
+N: I don't want the guitarists to murder me. Chording is still tentative.
+M: 4/4
+Z: The Fiddler's Bible (transposed to Em)
+K: Emin
+%
+[P:A-part]
+EF|:\
+"Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
+"Em" E2EF GAGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
+%
+[P:B-part]
+"Em" edBd efge | edBd EDB,D | "G" GFGA BAB^c | "D" dABG FEDF |
+"G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
+%
+%
+%%text A-part === | B-part ======
+%%text Em Em G G· | Em· Em· G· D
+%%text Em D B7 Em | G/D G/D B7 Em
+%

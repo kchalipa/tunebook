@@ -1,0 +1,113 @@
+zsh script
+==========
+
+Script written by U-M GPT 5.2 (I know nothing about zsh script). 
+
+Install instructions
+--------------------
+
+1) Create the script
+mkdir -p ~/bin
+nano or vim ~/bin/abc2pdfbook
+Paste your working script contents (see below), then save.
+
+2) Make it executable
+chmod +x ~/bin/abc2pdfbook
+
+3) Ensure ~/bin is on your PATH (zsh)
+Run:
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+4) Run it
+From your top-level tunes folder:
+abc2pdfbook
+
+
+Usage
+-----
+
+Running this code will scan all files and subdirectories for .abc files, concatenate them into a single file, create the formatting (.fmt) templates, place it all in a _build folder, and output the PDF in your working directory.  If you run the command with no arguments (just `abc2pdfbook`) in your working directory, it will output the tunebook as All-Tunes.pdf.
+
+It has two arguments:
+
+1. /path/to/directory
+2. <filename>
+
+If you're in your main working directory and want to specify the name, write: 
+
+abc2pdfbook . MyBook.pdf
+
+Or, from anywhere, specifying the tunes folder:
+
+abc2pdfbook /path/to/tunes MyBook.pdf
+
+If the filename has spaces, quote it:
+
+abc2pdfbook . "My Tunes Book.pdf"
+
+
+The script
+----------
+
+#!/bin/zsh
+set -euo pipefail
+setopt null_glob
+
+usage() {
+  print "Usage: ${0:t} [path-to-tunes-folder] [output.pdf]"
+  exit 2
+}
+
+(( $# > 2 )) && usage
+
+tunes_dir="${1:-.}"
+out_pdf="${2:-All-Tunes.pdf}"
+
+cd "$tunes_dir" || { print "Could not cd to: $tunes_dir"; exit 2; }
+
+mkdir -p _build
+
+fmt="_build/book.fmt"
+out_abc="_build/All-Tunes.abc"
+out_ps="_build/All-Tunes.ps"
+
+command -v abcm2ps >/dev/null || { print "Missing abcm2ps (brew install abcm2ps)"; exit 1; }
+command -v ps2pdf  >/dev/null || { print "Missing ps2pdf (brew install ghostscript)"; exit 1; }
+
+cat > "$fmt" <<'EOF'
+infoline 1
+writefields CSN
+breaklimit  0.6
+leftmargin  2cm
+rightmargin 2cm
+
+historyfont    Courier 12.0
+titlefont      Times-Bold 24.0
+subtitlefont   Times-Italic 18.0
+composerfont   Times-Italic 14.0
+gchordfont     Courier 12.0
+partsfont      Helvetica 13.0
+textfont       Courier 12.0
+EOF
+
+: > "$out_abc"
+print -r -- "%abc-2.1" >> "$out_abc"
+print -r -- "" >> "$out_abc"
+
+for f in **/*.abc **/*.ABC; do
+  [[ -f "$f" ]] || continue
+  [[ "$f" == "_build/"* ]] && continue
+
+  sed -E '
+    /^%abc-[0-9.]+[[:space:]]*$/d;
+    /^[[:space:]]*%%(writefields|infoline)\b/d;
+    /^[[:space:]]*I:(writefields|infoline)\b/d
+  ' "$f" >> "$out_abc"
+
+  print -r -- "" >> "$out_abc"
+done
+
+abcm2ps -F "$fmt" "$out_abc" -O "$out_ps"
+ps2pdf "$out_ps" "$out_pdf"
+print "Wrote $tunes_dir/$out_pdf"

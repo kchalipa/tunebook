@@ -1,0 +1,35 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773443758
+T: The Silver Spear
+C: Trad.
+R: reel
+S: Adapted from versions at https://thesession.org/tunes/182
+N: A fun tune I was shown in Durham!
+N: Popularly paired with Maid Behind the Bar
+Z: Cam Cross 
+M: 4/4
+K: Dmaj
+%
+[P:A-part]
+"D" FA A2 BAFA | "G" dfed "A" BcdA | "D" F A2 F BAFA  | "G" dfed "A" B2 A2 |
+"D" FA AF BAFA | "G" dfed "A" Bdef | "G" g3e "D" f3e | "G" dfed "A" B2 A2 |
+"D" F A2 F BAFA | "G" dfed "A" BcdA | "D" FA A2 BAFA  | "G" dfed "A" BdBA |
+"D" FAdF BAFA | "G" dfed "A" Bdef | "G" gage "D" fafe | "G" dfed "A" B2 A2 ||
+%
+[P:B-part]
+"D" f2 af bfaf | "G" gfed "A" Bcde | "D" fa a2 bfaf | "G" gfed "A" B2 A2 |
+"D" fa2 f bfaf | "G" gfed "A" Bdef | "G" g3 e "D" f3 e | "G" dfed "A" B2 A2 |
+"D" f2 af bfaf | "G" gfed "A" Bcde | "D" fa a2 bfaf | "G" gfed "A" B2 A2 |
+"D" fa2 f bfaf | "G" gfed "A" Bdef | "G" g3 e "D" f3 e | "G"dfed "D" B2 AG :|
+%
+%%text A-/B-parts == 
+%%text D G/A D · G/A  
+%%text D G/A G/D G/A 
+%
+

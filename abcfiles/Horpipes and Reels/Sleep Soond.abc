@@ -1,0 +1,29 @@
+%abc-2.1
+X: 1774300851
+T: Sleep Soond i da Moarnin'
+T: Sleep Sound in the Morning
+C: Trad.
+R: reel
+M: 4/4
+S: Maggie Sansone, _Mist and Stone_ (1990). 
+N: Note on the B-part variant: I don't know why, but I always want to play the last C of the rising 
+N: run as a C#. I know it's out of the key, but I think it sounds awesome.
+Z: Cam Cross
+K: Gmaj
+%
+[P:A-part]
+"Am" ea2 ^ga2 ef | "G" gedB "Em" GABG | "Am" eaa^g a2 ef | "G" gedB "Am" A2 BG |
+"Am" Aa2 ^ga2 ef | "G" gedB "Em" GABG | "Am" Aeab af ef | "G" gedB "Am" A3 B ||
+%
+[P:B-part]
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" cAeA cAeA | "G" BAGB "Am" A2AB |
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" ABcd efga | "G" gedB "Am" A2zB |
+[P:B-part (var.]
+"Am" ceec ecAc | "G" BcdB GABG | "Am" AecA eAcA | "G" BAGB "Am" ABcA |
+"Am" cAeA cAeA | "G" BcdB G2AB | "Am" AB^cd efga | "G" gedB "Am" A2 z2 :|
+%
+%
+%%text A-part ======== | B-part =====
+%%text Am G/Em Am G/Am | Am G Am G/Am
+%%text Am G/Em Am G/Am | Am G Am G/Am
+%

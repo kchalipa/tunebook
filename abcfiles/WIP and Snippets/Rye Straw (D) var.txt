@@ -1,0 +1,18 @@
+%abc-2.1
+X: 1776439883
+T: Rye Straw (variant parts)
+C: Trad.
+R: reel
+Z: Cam Cross 
+S: Nick Pynn, _The Devil's Fiddler_ (2007)
+N: These are the parts for Rye Straw that seem to be compressed by Darol Anger - mostly 
+N: here for my reference.
+M: 4/4
+K: Dmaj
+%
+[P:A-part] 
+"D" d2fg afdf | "G" gfeg fd [fd]2  | "D" defg afdf | "A" gfed cA [cA]2 :|
+%
+[P:B-part] 
+"A" ce2f edBc | "D" ddeg fd [fd]2 | "A" ce2f edBc | "D" dBAG FD D2 :|
+%

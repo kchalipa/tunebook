@@ -1,0 +1,23 @@
+%abc-2.1
+X: 1776899514
+T: Hummingbird Reel
+C: Trad.
+R: reel
+Z: Cam Cross 
+M: 4/4
+K: Amaj
+%
+[P:A-part]AB|:\
+"A" c2a2 "E" B2b2 | "A" A2ce agfe | "E" E2GB eBcd | "E" cBAc BGAB |
+"A" c2a2 "E" B2b2 | "A" A2ce agfe | "E" E2GB eBcd | "A" cBAG A2AB |
+"A" Acea "E" B^dfb | "A" Aceg afeF | "E" E2GB eBcd | "E" {cd}cBAc BGAB |
+"A" caac "E" B2bB | "A" A2 (3(efg) agfe | "E" E2GB eBcd | "A" cBAG A2FD ||
+%
+[P:B-part]
+"A" EFED CDCB, | "A" A,CEA cBAF | "E" EGBe gagf | "E" efed cBAF |
+"A" EFED CDCB, | "A" A,CEA cBAF | "E" EGB^d efe=d | "A" cBAG A2E2 | 
+"A" EFED CDCB, | "A" A,CEA cBAF | "E" E2GB eBcd | "E" {cd}cBAc BAFD |
+"A" EFED CDCB, | "A" A,CEA cBAF | "E" EEGB eBcd | "A" cBAG A2AB :| 
+%
+%%text Chords: A/E A E E | A/E A E A :|   A A E E | A A E A :|
+%

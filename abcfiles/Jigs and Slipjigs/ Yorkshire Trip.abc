@@ -1,0 +1,27 @@
+%abc-2.1
+X: 1774649085
+T: The Yorkshire Trip
+T: a.k.a. Danish Slipjig
+C: Trad.
+R: slipjig
+Z: Cam Cross
+S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
+N: A very nice slipjig; the sixteenth notes in the first part give it a distinctive touch.
+M: 9/8
+K: Gmaj
+[P:A-part]
+"G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
+"G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
+%
+[P:B-part]
+"C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D2(d A)FD |
+"C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D3 (ABc) ||
+%
+[P:C-part]
+"Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE D2c |
+"Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE DEF :|
+%
+%%text A-part: G/G/C G/G/D G/G/C D :|
+%%text B-part: C/G/G C/D/D C/G/G D :|
+%%text C-part: Em ·· D ··· C ··· D :|
+%

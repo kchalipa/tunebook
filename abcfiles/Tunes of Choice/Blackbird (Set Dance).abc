@@ -1,0 +1,26 @@
+%abc-2.1
+X: 1758443799
+T: The Blackbird (Set Dance)
+C: Trad.
+R: set dance
+Z: Cam Cross
+S: Bobby Gardiner, _Memories of Claire_ (1996) with my own variations.
+N: Lovely tune!  Unusually (as far as I know), each part ends with an extra two beats.  
+N: Has a strong melodic sympathy with the Blackbird Hornpipe.  D mixolydian.
+N: Best played slow and syncopated (see Bobby Gardiner's version).  Repeats are intentional.
+N: Chords still tentative.
+M: 4/4
+K: Dmix
+%
+[P:A-part]
+dc|"G" BGBd c2BG | "Am" AGFG ABcA | "D" d2fe dcAF | "G" GAGF D^CDE |
+   "D" FEFG A2fe | "D" defe dcAF | "A5" GAGF "D" D2D^C | [M:2/4] D2A2 ||
+   "G" [BG]3G [Ec]2BG | "Am" ABAG ABcA | "D" d^cfe d=cAF | "G" GAGF D2DE |
+   "D" FEFG Adfe | "D" d^cde d=cAF | "G" (3(GFG) AF "D" D2D2 | [M:2/4] D2de ||
+%
+[P:B-part]
+|: "D" fede [df]2[dg]2 | "A" [Aa]2ag "D" fgaf | "G" g2(3(agf) gbaf  | "G" gagf "D" d^cde |
+   "D" fede fAgA | "A" abag "D" fgaf | "G" gagf "D" [Dd]4 | [M:2/4] zefg ||
+   "D" abag fgaf | "G" gage f2(3(efe) | "C" dcAB cBcd  | "C" efge "G" a2[Aa]2 |
+   "D" AaAG FGAB | "C" c2ec d^cAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
+%

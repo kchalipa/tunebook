@@ -1,0 +1,31 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1777135992
+T: The Old Morpeth Rant (Bb)
+C: Trad.
+R: rant
+Z: Cam Cross 
+S: thesession.org/tunes/7198
+N: Apparently has little to do with the (New) Morpeth Rant, besides a shared name.
+M: 4/4
+K: Bbmaj
+%
+[P:A-part] 
+FA|:\
+"Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | d2cd "Cm" edcB | "F7" A2c2 cedc |
+"Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | d2cd "F7" edcB | F2B2 "Bb" B2 (3(FGA) |
+"Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | d2cd "Cm" edcB | "F7" AccB cedc |
+"Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | dBcd "F7" edcB | FAcA "Bb" B2 df ||
+%
+[P:B-part]
+"Bb" bagf d2Bd | "F7" edcB A2F2 | "Eb" G2EG "Cm" edcB | "F7" A2F2 F2BA |
+"Eb" G2EG edcB | "F7" A2FA fedc | "Bb" Bbab "F7" gecA | c2B2 "Bb" B2 df |
+"Bb" bagf dBcd | "F7" edcB A2F2 | "Eb" GEGB "Cm" edcB | "F7" AFFG F2BA |
+"Eb" GEGB edcB | "F7" AFAc fedc | "Bb" Bbab "F7" gecA | BAcA "Bb" B2 F2 :|
+%
+%

@@ -1,0 +1,42 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773483937
+T: Fisher's Hornpipe (F)
+C: Trad.
+R: hornpipe
+M: 4/4
+N: This is commonly played in either D or F major.  Here's the F version as I learned it, along
+N: with a nice variation on the A-part I found at https://thesession.org/tunes/872.
+Z: Cam Cross
+K: Fmaj
+%
+[P:A-part] 
+cde|:\
+"F" fcAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "F" AfcA "C" GcAc |
+"F" fcAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "C" ABcd efge | "F" f2 a2 f2 ef :|
+%
+[P:B-part] 
+|:\
+"C" gece gebg | "F" afcf afba | "C" gece gaba | "C" gfed cABc |
+"Bb" dBFB dBfd | "F" cAFA =BcAc | "C" bgec =Bceg | "F" fa^ga f2 ce :|
+%
+[P:A-part (var.)] 
+|:\
+"F" fcAc "Bb" BdcB | "F" AFcF "Bb" BdcB | "F" AFcF "Bb" BABG | "F" AGAF "C" G2fe |
+"F" fcAc "Bb" BdcB | "F" AFcF "Bb" BdcB | "C" ABcd ebge | "F" f2fe fgfe :|
+%
+[P:C-part]
+|:\
+"F" c'd'c'b afac' | "Bb" bd'2b d'c'bc' | "F" abc'a d'c'ba | "C" efge c2 (3ABc |
+"Bb" dBFB dBfd | "F" cAFA =BcAc | "C" bgec =Bceg | "F" f2a2 f2 ef :|
+%
+%
+%%text A-part =========== | B-part = | C-part =
+%%text F/Bb F/Bb F/Bb F/C | C· F C C | F Bb F C
+%%text F/Bb F/Bb C ·· F · | Bb F C F | Bb F C F
+%

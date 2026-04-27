@@ -1,0 +1,23 @@
+%abc-2.1
+X: 1772921022
+T: Gin Rickshaw
+C: Trad.
+R: reel
+M: 4/4
+Z: Cam Cross
+K: Dmaj
+%
+[P:A-part] (3(ABc)|:\
+"D" d2d2 dAdf | "Em" e2e2 eAce | "D" fafd "G" egec | "D" dfed "A7" cBAc |
+"D" d2d2 dAdf | "Em" e2e2 eAce | "D" fafd "A7" egec | "D" d2f2 dABc |
+"D" d2d2 dAdf | "Em" (3edc B3 ded | "D" fafd "G" egec | "D" defg "A7" a2 Ac |
+"D" d2dc dAdf | "Em" ecAc EAce | "D" faba "A7" gfec | "D" dfec d2 (3(A^G=G) ||
+%
+[P:B-part] 
+"D" FdAF dAFD | "G" GdBG dBGD | "D"  FdAF dAFA | "A7" GAFA EECE |
+"D" FdAF dAFD | "G" GABG dBGB | "A7" Aceg bgec | "D"  dfec dBAG |
+"D" FdAF dAFA | "G" GdBG dBGB | "D"  FddF dAFA | "A7" GAFA E2E=F |
+"D" FdAF dAFA | "G" (3Bcd BG dBGB | "A7" Acea fecA | "D"  dfec d2 (3(ABc) :||
+%
+%%text Chords: D Em D/G D/A | D Em D/G A/D :|   D G D A7 | D G A7 D :|
+%

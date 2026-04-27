@@ -1,0 +1,24 @@
+%abc-2.1
+X: 1773445417
+T: The Humours of Tulla
+C: Trad.
+R: reel
+S: Adapted from versions at https://thesession.org/tunes/141
+N: A fun tune I was shown in Durham!  First comes the basic melody, then my variations.
+N: The G and Em chords are fairly interchangeable.  I mix and match them in this arrangement.
+N: The ~ signs mark Irish rolls, meaning you need to do something like bow triplets to make it
+N: more interesting.  Or fiddle through it, like I have in the second half of the B-part.
+Z: Cam Cross 
+M: 4/4
+K: Dmaj
+%
+[P:A-part]
+"D" d2Ad BdAB | "D" ~d2fd "Em" edBA | "D" d2Ad BdAd | "G" Bdef "A7" g2fe |
+"D" dBAd BdAB | "D" defd "Em" edBc | "D" d2Ad BdAd | "G" (3Bcd ef "A7" gefg ||
+%
+[P:B-part]
+"D" af ~f2 df ~f2 | "D" af ~f2 "G" g2fg | "D" af ~f2 dfed | "G" (3Bcd ef "A7" g2fg |
+"D" afdf bfdf | "D" afdf "G" geBA | "D" afdf edBc | "G" defa "A7" [dg]2fe :|
+%
+%%text Chords: D D/Em D G/A7 :|   D D/G D G/A7 :|
+%

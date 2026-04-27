@@ -1,0 +1,21 @@
+%abc-2.1
+X: 1752894096
+T: New Reel
+C: Dale Morris
+R: reel
+M: 4/4
+Z: Cam Cross
+N: A somewhat mysterious tune I found amongst the practice / lesson tapes from Dale 
+N: Morris that my teacher passed on to me.  I only have it down as "New Reel" (was it 
+N: Dale's composition?), but it might be a traditional tune.
+K: Gmix
+%
+[P:A-part]
+"G" G,2g2 "F" [fA]3 e | "C" dedc  "G" B2Bd | "C" c2Bd cBcd | "D" fedc "G" BGG2 |
+"G" G,g2A "F" f2 fe | "C" dedc "G" BGBd | "C" (3(cdc) Bd cABe | "D" f^fed "G" BG[BG]2 :|
+[P:B-part]
+"G" G,B,D^F G3 D | "F" FEFG AGFG | "G" D^FGA Bdea | "D" f2ed "G" BG G2 |
+"G" G,B, (3(DE^F G2) GE | "F" FEFG AGEF | "D" GECE GBcd | eafd "G" BG [BG]2 :|
+%
+%%text A-part: G/F C/G C D/G :|   G F G D/G | G F D D/G :|
+%

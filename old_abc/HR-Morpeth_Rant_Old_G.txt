@@ -1,0 +1,36 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1759096619
+T: The Old Morpeth Rant
+C: Trad.
+R: rant
+Z: Cam Cross 
+S: thesession.org/tunes/7198
+N: Apparently has little to do with the (New) Morpeth Rant, besides a shared name.
+N: Also played in Bb!
+N: Connected with the "rapper dance" tradition of Northeastern England – worth watching!
+M: 4/4
+K: Gmaj
+%
+[P:A-part] 
+DF|:\
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "Am" cBAG | "D7" F2A2 AcBA |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "D7" cBAG | D2G2 "G" G2 (3(DEF) |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "Am" cBAG | "D7" FAAG AcBA |
+"G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | BGAB "D7" cBAG | DFAF "G" G2 Bd ||
+%
+[P:B-part]
+"G" gfed B2GB | "D7" cBAG F2D2 | "C" E2CE "Am" cBAG | "D7" F2D2 D2GF |
+"C" E2CE cBAG | "D7" F2DF dcBA | "G" Ggfg "D7" ecAF | A2G2 "G" G2 Bd |
+"G" gfed BGAB | "D7" cBAG F2D2 | "C" ECEG "Am" cBAG | "D7" FDDE D2GF |
+"C" ECEG cBAG | "D7" FDFA dcBA | "G" Ggfg "D7" ecAF | GFAF "G" G2 D2 :|
+%%
+%%text A-part ====== | B-part =====
+%%text G C/G G/Am D7 | G D7 C/Am D7
+%%text G C/G D7 D7/G | C D7 G/D7 D7/G
+%

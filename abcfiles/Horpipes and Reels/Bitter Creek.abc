@@ -1,0 +1,29 @@
+%abc-2.1
+X: 1773442456
+T: Bitter Creek
+C: Trad.
+Z: Cam Cross
+R: reel
+M: 4/4
+S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
+K: Gmaj
+%
+[P:A-part]ga|\
+"G" bgdg edBe | "C" dBGB AGEG | "G" DB,DG Bdge   | "D" dBA^G A2ga |
+"G" bgdg edBe | "C" dBGB AGEG | "D" DB,DG EFGA   | "G" BGAG [G2B2][G,2D2] |
+"G" gedg edBd | "C" gage dBGE | "G" G,B,DG EFGA  | "D" BdB^G A2b^a |
+"G" bgdg edBe | "C" dBGB AGEG | "D" (3(DEF) GA Bdge | "G" dBAG [G2B2] GE ||
+[P:B-part]
+"G" DB,2D B,DGF  | "C" EC2E CEGE  | "G" DB,DG Bdge | "D" dBA^G A2 (3(GFE) |
+"G" DB,G,A, B,GFG| "C" ECG,C EFGE | "D" DB,DG Bdge | "G" dBAF G2ge |
+"G" dBGB dgfg    | "C" ecBc efge  | "G" dBGB dega  | "D" bgag fage |
+"G" dBGA Bgfg    | "C" ecBc efge  | "D" dBGA Bdga  | "G" bgaf g2[G,2D2] ||
+%%vskip 1cm
+[P:A-part (var.)]
+"G" G2g2 dedc | "C" BGAG [E3A3]G | "G" DB,DF GABe | "D" dBAG A2G2  |
+"G" G2g2 dedc | "C" BGAG EFGE    | "D" DB,DF GABe | "G" dBAF G2g2  |
+"G" gage dged | "C" gded Bcd2    | "G" gage dged  | "D" BGAF EGGg  |
+"G" gage dged | "C" gded Bddg    | "D" gage dged  | "G" BGAF G2ga  ||
+%
+%%text Chords: G C G D | G C D G :|
+%

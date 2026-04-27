@@ -1,0 +1,37 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1774476646
+T: Brose and Butter + Cuzle Together
+T: BB a.k.a. The Peacock Followed The Hen
+C: Trad.
+R: slipjig
+Z: Cam Cross 
+S: Bonnie Rideout - Scottish Fire (2000) and 
+S: Alasdair Fraser and Natalie Haas - Fire & Grace (2004).
+N: Bonnie plays this on the viola and it sounds awesome.  I've transposed it up a fifth to work
+N: on the fiddle. Another interesting thing is that she switches between A dorian (with a C natural)
+N: - which seems to be the standard - and mixolydian (C sharp). She combines B&B with Cuzle 
+N: Together, another slipjig also in Amix (as well as Elsie Marly, but I'll leave that out for now).
+N: This is supplemented with a version in Edor by Fraser and Haas, with a nice B-part.
+M: 9/8
+K: Ador
+|: "Am" v(cde) uAcA vAu(cA) | v(cde) AcA "G" B2G    | "Am" v(cde) uAcA vAu(Bc) | "G" B2G Gge dBG      :|
+|: "C" v(cde) uege veu(ge)  | v(cde) ege "G" dv(BG) |  "C" u(cde) ege veu(fg)  | "D" f2d dge "G" dBG  :|
+K: Amix
+[P:Bonnie's variation] 
+|: "A" cde AcA AcA          | cde AcA "G" B2G       | "A" cde AcA ABc          | "G" B2G Gge dBG      :|
+|: "A" cde ege ege          | cde ege "G" dBG       | "A" cde ege efg          | "D" f2d dge "G" dBG  :|
+[P:Cuzle Together]
+|: "A" c2(e e)cf e2A        | c2(e e)ce "G" g2B     | "A" c2(e e)ce aeg        | "D" fdf ece "G" g3   :|
+|: "A" a2(a a)ec a2e        | a2(a a)ec "G" g2e     | "A" a2(a a)ec aeg        | "D" fdf ece "G" g3   :|
+[P:B&B Alasdair Fraser]
+K: Edor
+|: "Em" GAB EGE EGE         | GAB EGE "D" AFD       | "Em" GAB EGE EFG         | "D" FED d2B AFD      :|
+|: "G" GAB2 dA ABA          | GAB2 dB "A" ^cBA      |  "G" GAB2 dA ABA         | "D" GFG ^cdB AFD     :|
+|: "Em" gfe B2g2 fe         | gfe B2g "D" fga       | "Em" gfe B2g2 fe         | "D" efe d2B AGE      :|
+%

@@ -1,0 +1,30 @@
+%abc-2.1
+X: 1752938353
+T: Smith's Reel
+C: Trad.
+R: reel
+M: 4/4
+S: Cameron Cross and Joey McKensie
+N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it 
+N: sounds a little off.
+K: Dmaj
+%
+[P:A-part](3(fg^g)|\
+"D" a2^ga bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "E7" fafd "A7" eafg |
+"D" aa^ga bafe | "G" dgfd edBd | "D" AFAd "Bm" Bcde | "A7" faec "D" d2 fg |
+"D" abaf bafe  | "G" dgfd efdB | "D" AFAd "Bm" Bcde | "E7" fedf "A7" edfg |
+"D" abaf ba (3(ABc) | "G" defd efdB | "D" AFAd "Bm" Bcde | "A7" fdec "D" d2 dc ||
+%
+[P:B-part]
+"Bm" BFBd BFBc      | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "E7" fafd "A7" egfe |
+"D" dcBc "Bm" BFB,F | "G" defd edBd  | "D" AFAd   "Bm" Bcde | "A7" fded "D" f2 fe |
+"Bm" dcBd AFAd      | "G" BAFD EDB,D | "D" A,B,DE "Bm" FAde | "E7" fafd "A7" eafe |
+"D" dABd "Bm" AFAd  | "G" BAFD EDB,D | "D" A,B,DF "Bm" FAde | "A7" fded "D" f2 fg ||
+%
+[P:A-part (var.)]
+|: "D" aead' bafe | "G" defd edBd | "D" (3(ABc) "Bm" df edef | "E7" (3(ABc) "A7" df edf2 |
+   "D" aead' bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "A7" fdec "D" d4 :|
+%
+%%text Chords: D G D A | D G A/AD :|              Bm G D A | Bm G A A/D
+%%text Alt.:   D G D/Bm E7/A7 | D G D/Bm A7/D :|  D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D :|
+%

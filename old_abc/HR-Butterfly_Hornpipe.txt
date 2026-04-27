@@ -1,0 +1,40 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1776976766
+T: Butterfly Hornpipe
+C: Trad.
+R: hornpipe
+M: 4/4
+Z: Cam Cross
+S: Terry Morris
+N: For all his ability to improvize, Terry seems to be remarkably consistent with the way he 
+N: plays this tune. I guess he liked it this way :)
+K: Amaj
+%
+[P:A-part]|:\
+"A" ac'ae caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" B^ABc (3(BcB) =A2 |
+"A" ac'ae caec | "D" AecA E2c2 | "E7" dfBd ceAc | "E" BEGB "A" A2c2 :|
+%
+[P:B-part]
+"E" G[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGF | "E" E^DEF E=DCB, |
+"A" A,CEC AEcA | "B7" B,DFA BFdc | "E" BAGF EDCB, | "E" A,AEC "A" A,2 (3(cBA) |
+"E" G[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGB | "E" (3(cde) ef edcB |
+"A" Acec aec'e | "B7" B^dfd bfd'c' | "E" bagf edcB | "E" Aaec "A" A2 (3(efg) ||
+%
+[P:A-part]|:\
+"A" ac'ae caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" B^ABc (3(BcB) =A2 |
+"A" ac'ae caec | "D" AecA EAcA | "E7" dcBd (3(cec) Ac | "E" BEGB "A" A2a2 :|
+%
+[P:C-part]|:\
+"E" gebe gbea | "A" c'aec' aec'a | "B7" d'bc'a bg (3(fgf) | "E" e^def e=dcB |
+"A" Acec aec'e | "B7" B^dfd bfd'c' | "E" bagf edcB | "E" Aaec "A" A2a2:|
+%
+%%text A-part === | B-/C-parts =====
+%%text A A B7 E · | E · A · B7 · E
+%%text A D E7 E/A | A · B7 · E · E/A
+%

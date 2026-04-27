@@ -5,7 +5,7 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=860" />
 <meta property="og:image" content="https://michaeleskin.com/abctools/img/abc-icon.png" />
 
 <title>CLC Tunebook</title>
@@ -14,169 +14,36 @@
 
     body {
         font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 95vh;
-        margin: 0;
         background-color: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
     }
 
-    #viewer {
-        width: 95%;
-        height: 80%;
+    .container {
+        margin: 0px auto;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 80px;
+        overflow-x: hidden;
     }
 
-    #viewer img {
-        max-width: 100%;
-        max-height: 100%;
-        cursor: pointer;
-        background:white;
-        padding: 0px 0px 24px 0px
-    }
-
-    #controls {
-        margin-top: 32px;
-    }
-
-    #prev::after {
-        content: 'Previous';
-    }
-
-    #next::after {
-       content: 'Next';
-    }
-
-    button {
-        margin: 7px;
-        padding: 10px 20px;
-        font-size: 14px;
-        border-radius: 0px;
-        color:black;
-        background:white;
-        -webkit-appearance: none;
-    }
-
-    select{
-        display:inline;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%238C98F2'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
-        background-size: 12px;
-        background-position: calc(100% - 10px) center;
-        background-repeat: no-repeat;
-        background-color: #efefef;
-        color:black;
-        font-size:12pt;
-        font-family:"Arial";
-        height:40px;
-        width:300px;
-        padding-left:10px;
-        margin:7px;
-    }
-
-    #title {
-        font-size: 2.5em;
-        font-weight: bold;
+    h1 {
+        font-size: 24px;
+        margin-top: 16px;
+        margin-bottom: 0px;
         color: #000000;
     }
 
-    #subtitle {
-        font-size: 1.5em;
+    h2 {
+        font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 0px;
         color: #000000;
-        margin-top: 24px;
     }
 
-    #image_gallery{
-        display:none;
-    }
-
-    #print_title{
-        display:none;
-    }
-
-    #print_subtitle{
-        display:none;
-    }
-
-    @media print {
-
-        .hidden-print {
-            display: none !important;
-        }
-
-        body {
-            display:block !important;
-            background-color: white !important;
-            background-image: none !important;
-            justify-content: unset !important;
-            height: auto !important;
-            margin: 0;
-        }
-
-        body, html {
-            margin: 0 !important;;
-            padding: 0 !important;;
-            width: 100% !important;;
-        }
-
-        #print_title {
-          display:block;
-          font-family: Arial, sans-serif;
-          font-size: 24px;
-          color: black;
-          text-align: center;
-          margin-top: 32vh;
-          font-size: 1.9em;
-        }
-
-        #print_subtitle {
-          display:block;
-          font-family: Arial, sans-serif;
-          font-size: 18px;
-          margin-top: 24px;
-          color: black;
-          text-align: center;
-          font-size: 1.25em;
-          page-break-after: always;
-        }
-
-        #image_gallery{
-          display:block;
-        }
-
-        .image-container {
-          width: 100%;
-          border: 0px !important;
-          margin: 0px !important;
-          padding: 0px !important;
-          text-align: center;
-        }
-
-        .image-container img {
-          max-width: 100%;
-          width: 100% !important;
-          height: auto;
-          cursor: pointer;
-          border: 0px !important;
-          margin: 0px !important;
-          padding: 0px !important;
-          background: white;
-        }
-
+    p {
+        color: #000000;
     }
 
     a {
-        font-size: 18px;
-        text-decoration: none;
         color: #000000;
     }
     a:link {
@@ -192,51 +59,90 @@
         color: #000000;
     }
 
-    * {
-      touch-action: manipulation;
+    #fullscreenbutton {
+        position: fixed;
+        top: 16px;   /* Distance from the top of the page */
+        right: 16px; /* Distance from the right of the page */
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        z-index: 1000; /* Ensures it stays above other content */
     }
 
-    @media screen and (max-width: 45rem) {
+    #fullscreenbutton:hover {
+        background-color: #0056b3;
+    }
 
-        #viewer {
-            margin-top: 0px;
-        }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%238C98F2'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+        background-size: 12px;
+        background-position: calc(100% - 10px) center;
+        background-repeat: no-repeat;
+        background-color: #efefef;
+        color: black;
+        font-size: 17px;
+        padding: 5px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        width: 350px;
+    }
 
-        #first, #last {
-            display: none;
-        }
+    iframe {
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+    }
 
-        #prev, #next {
-            width: 40px;
-            padding: 10px;
-        }
+    #footer1{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        color: #000000;
+    }
 
-        #prev::after {
-            content: '←';
-        }
+    #footer2{
+        margin-top: 12px;
+        margin-bottom: 0px;
+        color: #000000;
+    }
 
-        #next::after {
-            content: '→';
-        }
+    #previous_tune, #next_tune{
+        padding: 10px 15px;
+        background-color: #dddddd;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        z-index: 1000; /* Ensures it stays above other content */
+        margin-top: 12px;
+        margin-bottom: 16px;
+        transform:translate(0px, -1px);
+    }
 
-        #controls {
-            width: 90svw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    #previous_tune{
+        margin-right:10px;
+    }
 
-        #tuneselector {
-            display: flex;
-            width: 70%;
-            padding-right: 32px;
-        }
+    #next_tune{
+        margin-left:10px;
+    }
 
-        #website_help {
-            left: 16px;
-            top: 20px;
-        }
+    #next_tune:hover {
+        background-color: palegreen;
+    }
 
+    #previous_tune:hover {
+        background-color: palegreen;
+    }
+
+    * {
+      touch-action: manipulation;
     }
 
 </style>
@@ -245,302 +151,215 @@
 
 <body>
 
-    <div class="hidden-print" id="viewer">
-        <div id="title" style="display:none;">CLC Tunebook</div>
-        <div id="subtitle" style="display:none;">A perpetual work in progrss. Select a tune from the dropdown to load it into the frame below. Tunes are sorted by kind: hornpipes and reels (HR), slipjigs, waltzes, etc.</div>
-        <img id="image" src="" title="" alt="SVG Viewer" />
+    <div class="container">
+        <button id="fullscreenbutton">Full Screen</button>
+        <h1 id="title">CLC Tunebook</h1>
+        <h2 id="subtitle">A perpetual work in progress. Tunes are sorted by kind. </h2>
+        <button id="previous_tune" title="Previous tune">←</button>
+        <select id="tuneSelector">
+            <option value="">Click to Select a Tune</option>
+        </select>
+        <button id="next_tune" title="Next tune">→</button>
+        <br/>
+        <iframe id="tuneFrame" src=""></iframe>
+        <p id="footer1">Source files at https://github.com/kchalipa/tunebook</p>
     </div>
-
-    <div class="hidden-print" id="controls">
-        <button id="first">First</button>
-        <button id="prev"></button>
-        <select id="tuneselector" title="Select a tune from the list"></select>
-        <button id="next"></button>
-        <button id="last">Last</button>
-    </div>
-
-    <div id="print_title">CLC Tunebook</div>
-    <div id="print_subtitle">A perpetual work in progrss. Select a tune from the dropdown to load it into the frame below. Tunes are sorted by kind: hornpipes and reels (HR), slipjigs, waltzes, etc.</div>
-    <div id="image_gallery"></div>
 
     <script>
 
-    const tunes=[{"Name":"Bitter Creek","Filename":"Bitter Creek.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlNtqGzEQhu_1FEPAkIDXbmQ3KXu3Jyuh9EDJRWnqGO1Kljdee40kuy344Tva1fpAQ9rbGnyhmV_fjH6Nttezpa3kvF5baH4P5UqaIK4rAXRMej2zzU8Vbfre8qosDFy_Q0VRrza1kfolBaZVsai1OBRI6q0upcbEhmtrjoXvZLWTtiw4pqz8aY-Zwx7yNYTr29vReEzHb2_IQwhxaa3UkGgplyQJ4UFzMSBfQsBART6EMB6OybcQEr5CUW0M-YiihYQocOVhx3XJbVmvoTQw1_UKLCY_mYJruON6g-yd1MYJrOZrU-gylwK4BQdaWLsx4XBot2vJdbEY1FoNf5TLctj2NWv6GpD3IbAVfyY90uN58Wxmpt6uW0vm1bYUeOIP9-k9bHStNHb6pgvk3BgXPEYaM89DTrSrK7gZn4m6EBdixqtqtqn4r5wXy1lVrpeGPH4OWw-miu-_kwt2AbkSCqSIJezhIrkAEbMYIpYxt8Z8GvdTBrFQEu8EQ6mTRE8MIqo47P_OSDtGNmFRy8AtMYsYPDIa0-kj69OUTluUki1KeJTiWBh5md_H-ieslh6LuGknf_rXfi5Hl2k2uQJkNAdr0XisriVw9fbOrri1i3graAqu_gQ8OUtoBkmG8j_tOjfLFWWT7Mq3iDrWj_pIYxPWsVg_cSfLzmw773ACjLo1add4LqHmCqBrSBZxAXLubqvb4zQS78pTc7QU5vwUgja8Akk7jfCQxmE-B0X91Xmv_PO6xPc1uGotw2YpVheFJ7fXno2i0fR0wPBUUXziWGMYo4Fv8UVKY9RhJs8pJ14hxFPaUcIB60YLiRAXgsJhKo-SbrYYUjIWMBW8ShGBUEG36ZzCPIW59xKiUz3_rYPEvVjTrRgk-E9Plykw__kI6ODaZf6bz_ZvIF3Irw&format=noten&ssp=10&name=Bitter_Creek&play=1"},{"Name":"The Black Mare of Fanad","Filename":"The Black Mare of Fanad.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVU1P20AQvftXjCJFgGQcEkIhljisY8eNKhACDlVpFK29a7PE9iLvhhYp_4s7v6yza-cLUfXcHBz7zZs3b2acTberhS54JisN9nMvSq6OA1kwGAydblctk11GE55qWohUQf8CGaksn6Xi9WcMDOfpo6zZpsBYLmvBaww801qrbeGvvHjhWqQUQ5r_1tvIJsf57kP__GxwMTq9GJw49z7cP3IICpou4IrWHGQGE1pRZkLUW3jUs4xrUXG4kaLSylBuZb7k9aszxvyaMs-59aHmvHCufBj2hs6dj2p5Ljjc0UpJzD28EkoDrRjcaXx2oT8anRzBc7FUkIhGVT9yxZUSsvJknff0suKqNxyMbFr5alTlrwooY0IjSXnODx_GtIRxLZVyrn2YalCclwpKWr3CC6-NWKstFBhFLElTjpIQlWAHC6IypSHDGelHSGhtEhKJ93bAnlFu28klRxkJFMaYpjSnzLX2plCIBUcdqj3nmw9hSZ-crtOlSfqk5kouq2aBWbEUDPdzNQ2n8FzLvEb_J2sgoUoZcItYh_uQIb3IAr4M90hrCMczp0Uxxz5fE9zrvBDVQjkPNz45Nv3MHOIOfjorHzphB8IBTELoxB2IJ1EIKwsSRiZAArysdklBaVnMoOMOXKZRlEInQjSN4ghWDr5o-5oknERrjWgS72k2zykxz-S8A1iTrNPJAPwVjg9NB61p4xeLPsQu1p0NrfxD4MYB3jeKD8SdEHzaLULccPJ3z0Hr2QYYWjGiAQvi9ldjRQhLGWRmIhvImCcQo3vYuM94akNsz30zcjh8obV3NFsPHTkZs8VynuVr-xmdneKVHcyA5hlvYUZY1oweMXaw6eOA8_Sg6SRhjGynb8RpI248tSqmDk1oBrutGZgaWr5FTTMZy7mNY9vBh03s9TK2U48v0-1Cgnh3ISGZnQGD7ULOgLg4uaaWbWT4-TqiOG3WEYeBu-vZbPmzhfz7bWpORWh3ctl-MCP4gKyZYS-GEK8BHjE9PC5W-LWPfGDC-9v7G5DzXrjl7mDtgXA88Pom8b_52_gDSQ3rfg&format=noten&ssp=10&name=The_Black_Mare_of_Fanad&play=1"},{"Name":"Blackberry Blossom","Filename":"Blackberry Blossom.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU91q2zAUvtdTnGn4snXjZUsryIVlJ1oYHWMENnYTZEv23MpRkJyygulr7X5PtiNnSZpQGOxuBhnp-znnkyxHUdd0Rld23cHwLJtW-wtujYJkTKLIb4vnih296KRpSg-ja1SUtt1Yr91LCqTr8rt16tAgs1vXaIfERrrOHxu_1-ZBd00pker0j-7IHDzkK4PR5G1yffPm5iohSwbcyPK-0M494tR6b1uSMVg6qS7JZwZOa0NuGYzjMfnI4MviEzyBsZ0HW0FtrYIhBHQWpFKvyDcGmWwhc1iKfGAgWnlHIhLJorzzK2-3691GKrNtFOa8XeQL2DhbO3Rd7YFCeh_AIzIcwSkURA_WwLvxiWgPYZyVNGa1MfKxwD2uTLO-94QKWsuiBjp_3dKqllVPM6qrWgMyiqcirGdzMQvrfC7SnqaUKy6A5jRVuur_pUROuUjnYS3GrMcD6RmdtZQnmgPlE3Rp3p8hwbdHkMcuCA-NZa0VxvhbgWBBpJYhWbqrOILnWRKRsj45hfoQb3eBIL0IXxemhwd64OfYdLqXixhPBLJYDCONc5TP2phPDm_49RNw8rIhx3FuiNMB_nOFLpLLUfD-Nz_cb7RwMfM&format=noten&ssp=10&name=Blackberry_Blossom&play=1"},{"Name":"Blackbird Hornpipe (1)","Filename":"Blackbird Hornpipe 1.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFlN9u2zYUxu_1FB8MGLAxJWu8NCkEGIMsWWxQZB2aXAzb2oAWKVmNRAokndSr91y735PtULKVON0wQ7Dkcw5_5zt_5PHYVa6WhVYO3ee2aqQ9WehaYHYejMd2s3oe0buvHK-r3OLsDUXkumm1lebfIshd5mttxJAg0RtTSUOOlhtnnxK_lfWDdFXOyeXkF_fkGc4Ev0Q4u3z95vzVxeXri-A2wqLm-f2qMgJvtVFt1UpMzqZBEuHWcHEafIhgpKyDXyMkvEFitLUIbiLEDVeC4500JsQH_1xjwbcW3yHlDxLX3Ng1r2tMHiu3RrOFflSgku4tuBBSTIOfiKK0W0sDJR_hNkqi0AaNPAVupGwsnMba0zhq7VApUK8ardAxb9fymf6JlQ6Cq1z-OA3h4V1Q5SxV0ErupEBNOitVggiUFrqVCmmI1YbYJKu2mmJzXarqD76qtxCVdZXK3SluXEW1FFVJjfSAjfMZusnQQSXIpeQJleC9ns2N4aqUjVR0-j1VViknjfS8EgXJ2RjZJcXI1lXbSrMdIQlhdUNDpA3wfOqgaX3ZNdH7erovn-BebmGrUvUkL2E4CmF02_pEwjedmthF8fo0uI5w_v158C5C2vDPwZiv8s_2zuqN6jesqDeVoAW6vkqv0BpdGpr6q4Nhxa31xidL14Fjkw960DUuzo-CDiYa_h3txV1b8-2KhndHtd3b4Lefo_jEb_RHBDHb_R6M0hGy2TJDnKWzfo138EYhCwGRx9lgZCOwGf1mWbrsDAkdZd6wiBl2PWqZMY-Kv0F9FfLPHtefjMU8j8FyfxS9ChJA18BaZlnsk72UJeGPHumasBnYNOujnyub5wNu8sMkY9kUaVdr_ALHDrRBGgEGaZMU6XTZqSP-Lhj7Ri4OjfQhfFZwlIXM94pELgrInML3DF72AWVniC9HKERJITMvrCg_ldO9Tl6U9IKK5yT_2yv8n84V5YCg5MdiPKITfyRGvBBTPiHiMkYRf4tg_9mkTgNdtAHHLcKk1o_Tj8Eu6gLjmZ_rbMn26GxJI1kmcZgOU-5DsiUb9GUpoyCa6KfDPA8xyR6TJrSWNNiQhUOnwnROXLAwWYR07-GMHhfhPNlrjbzW_r8c_buB-Q575XMcXLQBYPDJ_D1FfHnkItreRU9__0W-fwDSMOo8&format=noten&ssp=10&name=Blackbird_Hornpipe_(1)&play=1"},{"Name":"Blackbird Hornpipe (2)","Filename":"Blackbird Hornpipe 2.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1r20AQfL9fsTUYXEicRDZJK8iDJNeOKSmhzUPpB-Z0d5IvkXRi7-zWROlv755s2QmktK8VetHs7Mzs3qF-32lXqMxUDtrnVpfKHsemkBCMWb9vV-lTxrY8d7zQwsLZG2IIU9bGKnyJQeVcLA3KvUFiVqgVUqHm6OzB-EoVa-W04FRy6qc7VPY97HMIZxfnweno9O1ozG5DiAsu7lONEq4MVrWuFQyC1ywJ4Ra5HLKPISx3BfYlhISXkKCxFth1COOTMftAzKW2QC-vjFsqhLVCq00FJgP6fsnCLbnzHaJQHIsNoCq4UxKcaTsyjdZ1Mt5hDg55ZQXqVMkhHByh0I52C6VBRSo1ze_0Wh1BuiKDigi5MRJ-8M0rgBuFS17bLcR9N6pMoaqEGnqXxO9ZVznBJdeVhZRbLeAEVsRAR9CQfQphiqak3m7K2h8clpQ-3cANl8h1DtdiZohAASpJvo62knBMFeLmCAzqXFe8oMEpYjxk70OYlPyO9Xkq7uzCmlW1Pe-sWGlJx3k9n8yhRpMj7f-0Ayie9eABaW_Kc8iT1qaA8_EzUgdxKReUZFEXfJPSOS0KXd1b9vUmjI79_foOLFPNN9aE0Jv0QIpoCrMpTAJoYDB6N51BFEMv6cGlGEFEoGf9kgEQrxdd9GAWR7MdPA18H72DURQLaNif1eJLEfyzXKYgbHzkuIvcpfVWKsuBS8i4b5v14CHnj3mW083IZOdwIKY8J-whyx-zwMP7SsM8kaqDUdvc2m4VpZB0Z2VLVJ1iO9o27C6o3882Z7LN2cVsN-KH95NHNPo-lhdulZoDKZKt6MN09rjfgGewv0nlPuM-5NOAT7R2If1NPA6GZ_5X8t_83n4DzNunMQ&format=noten&ssp=10&name=Blackbird_Hornpipe_(2)&play=1"},{"Name":"Brenda Stubbert's Reel","Filename":"Brenda Stubbert's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydkcFu00AQhu_7FKNIUROpLcSkKfUF2SlKAgpCbQ5ACNHYu3WWbLzR7joQqUeehEfjSZh1ErsRBQS-rP3PP__4m202nXRK3OncQflM5ErYs1grDkGXNZu2SB46duWRQyVTC53n5Ej1aq2tMI85qJylC214NaCvCyOFocIajbP14KFQG-FkilRy4qurK1UPexdC5_KydxE86wY9NgkhNiLnCLeuSBJh3ImFGyEU64fwShizhaFWCnPObkIwvjAOofukyz6E0McV9I22lt2GENmFElsYYzqyFtNTGMof375T9xeIjID3uoCJ5rh9Aa3O1dVFm72petYKtxakA5lDnJxCUjhwCwHW0Vw0HJZkkhYiaF1rIzFvnxMqoLIakHMLSHZJPr-OXfvoZOUHKIEbmWc-W5OaiBQLK-iTKNdGOLclpjWtzMkNBeYccu2quefsNf0j17Rp1sQk_WznVhf57iLuVCE57Xk8uh5Rls4MbePpQUjQWi_WSnmFx5I3bbSCXvfIdJAIbY5Kzf16EkyXcyXzpWXTt2F05klnUD_34UdGRyNaNSAKWnHUhkEUxVQ40hr9BgjOYy8PGjDYqfFgEO0VaMWf0jYc5NhH_0Mw7mMywX3rIIq5V16SUQTQ4nG77BI-IbyntRJM_BcYDOg9CrKgnomZKCfSmQH8FuZXFoKZdh4G73IfC8YquIQpUaCGqVhgDzNj0-C_1vTHZA89-wn8Mzj3&format=noten&ssp=10&name=Brenda_Stubbert's_Reel&play=1"},{"Name":"Butterfly Hornpipe","Filename":"Butterfly Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVFFv2jAQfs-vOFVCFAnKyhBskfJgh0DR1Gna-jCtK8hxLsElEGSbdkz9X3vfL9s5CdBOPE3TpIFky3fffff5O8WNhlU2x7RYWyh_N2qFpsOLPIFe32s0zDZ-jqjSUytyJQ1cviGELFabwqA-haB0JheFTg4NwmKrFWpKbIS25tj4CvMHtEoKSln8Zo-ZQ4332YfL4XDwdjgYDgbejQ98ay11zndwVej1Rm3QC3240SK58D76oBFz79qHfrfvffEhFCsIdWGM94lAqPUOrgutlfHe-zAuNIg8h4UyIGKVK7sDW4BabXTxoL5ju64wiCvjMjES_0ropYipvyzWRhmLJPpR2QXYBcKj2AFtjn2Tix1VOXK7XeMFTCHbojEun6slJqBslXZFfst75wNbiXuv4TVELO_N3BTbdWVjmm9VQi5dT0dTIHWZpnu92gdiYYwLHiPlAF6GHOihyGHQfwHah0SSzMmLuVMdC7mc52q9NN7tB5913Njunvyv3hk7AyGbAkEKlPAELsBQMoh6sufOfHgGScoTkMhKQHQGfMa4hPPX51zyFgSMgCeYRr8xRaeYogmvejqQ_0RWkUBeCfQcYnLL8S6aQLXxvcRbSUcG5cblQWgkI-BsMq7po9koGkMUjELerjWydhiFwCISVhfx9mjMgI-TgyhHEFU1ZYC1GdVU1T13b8lZy_H9qT5eEzuqBFuAKWAi-V6iJAPJxCYeJM6SNIE4TZqyWZfGItsXVRqd65WTjhbTjBTWfv7rgbPK3HLgkpjcNVG24NTYxXHs4TOZBMqQvs4sRlGrdL3o-m4RB6HN2J3izPVIs7RVN8BZ4jwN_p6polfKrN41qByFIAgIyTvdSrpxgSA4gOjPhxDBzx-EKjfmForRGh1hI4gI1nWmPQeUS5fVz0end3HpSv6bp_4Xq8Dj1g&format=noten&ssp=10&name=Butterfly_Hornpipe&play=1"},{"Name":"Cuckoo's Nest","Filename":"Cuckoo's Nest.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJy1U8tu2zAQvPMrFgaE2oDzUt24EeADRUqskSYoWh-KPmDQJJ0ooU2DlIMG8H_lni_rSn4KLtpTKZASZ2dnhyspisqitGbq5iXUY1TMTDhJndUQ90gUheXkkLEOD0tpCxXg4j0ylJstXDD-TwwM36l75_WuAHNLXxiPgYX0ZdgX_mDskykLJTFUml_lPrLLIV8TuOi_uzq_ury8uCKjBNhSPTr3JsCtCSVhCYy81KfkcwLeGEu-IUPOgHkXApAvuPvIyG0Cw3lpPGYU8zv73IXy3kBeaG2NR6m0mFiD-U_GBxPqIB7AeHBTqD2fkpsEemc9cp0An8kHEpFITtRDGAe3nK-POrXLQuNJboZ8CAvv7jz6ON8CExlCBe6RuklNqCI9OQuXvQZpC0mtx9La8cLK54lUj2NbzB8D-f4poSeVzZ9AqFolP0iLt0DHoBXoqdGwghbtt0DFNAYa07QCWAsGKlYpKIM0BEQL0ljEIOJcwKqWoDmnXeA5lRUBgammec1ck2BDytf6WS6yDZjHPAbAudNqU91pa9VpOGq_basKowqMOvAlMtHwJXjaBdE9kKMi55BTbf7qLOPHztqcZ53aG1bnWd5BxajqYbrt4e5U9bLREnmGOVm-8SiyActwZdkWqIoN2P9p3k6raYfx7MCO6ALLxA4ZKCqgcnkkctwz_g9DjZ7RFN9Ygk2LNr8trL8-GFQDU9KD7ZbCgfZfX4DB6wveqmocrz3C9kR-JnDSPj6uGlsS_QbJKEPw&format=noten&ssp=10&name=Cuckoo's_Nest&play=1"},{"Name":"The Democratic Hornpipe","Filename":"The Democratic Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVFtu2zAQ_NcpFgaEtECiNIoTFwL8IUaPGEWKoshH0UcMWlw5bCjRJSm7Bnyv_vdkXcpyHkUvUL3I3ZnlDFeCwtBJp7DWrYP-uJUN2hOmlYB4HISh7RbPGXt45riSlYWzt8SodLPSFs2_GAQvq3ttxKPAle6MREPAihtnn4SvUa3RyYoT5PCne0Iea4JPCZxNJucX5_HF-WVwm8DtPUKGja4Mp1K41qZdyRV6iEcPEY-g5GrDt8D4NrgivuEiCj4mYBBV8D6BlGZcqS3I1qFB62S7BNe1CBvp7oGD0g50DY1eY4OtiyBVVkNt8EdHIRWuFN-ioHoom2NYdA78ujMQuj1ysOG0C0cul5103EjrLDgNTWcEGmgwgivfHq8qLZC8UuBoYdrOGqPgJoHx6Tj4vN9pIYVQaI4sMLlQCK-c4a31zRd-0bx5HbxLaJBtEAYhX1Tf7dzqrt13v1adFNTcm1k2g5XRS8MbeHNILLi1PvmU6d_by5QnrbWCy_EL0iHFhZhTM-e-JQtePcyVbB9s8OVDkp74t_0tyItd8jUY5c0IyqJMgaVMwA7wTmANWC-RglE5AsFoKggd4rLIM8gzdpzBbl-ex3kBZVrmnpGNIIuzHApP8Qk2IcZeoCx8oleMqShmcbKj9pApNpjqQRTkZHDQzwe1QX7v9a4a1ETKSq9WeDuekFHsgSKr0kPR3zlvivU7XdY4FQdbLEY6WQy9r3D4_GHfMphOp0RkjwEdB0be-KuE8vcvouQNDf3Dx9kzUgZs4scdlKdZf_fx8I2cxNGZJ_83v4E_cB5p9Q&format=noten&ssp=10&name=The_Democratic_Hornpipe&play=1"},{"Name":"The Derry Reel","Filename":"The Derry Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVk9Fu0zAUhu_9FIeiit2M0rRqp0gVstd0VNMAjV0gEFROcuxlc-PKTgeTKl6Le56M46Rpt7EJiFSn9v-dP7-Pk263KiqDypYV1NdFsUR_KKzJIRqybtev07tEI88raYrMQ_-IiMwuV9aje4wgWWeX1uW7BxzbtSvQkbCSrvL7B79Bc4NVkUmSKvxe7ZVdDfsYQ388iqKj8eiozy5iuLhEmKJzt3COaNhxDMlaY4nw7sXUliUa85qdx-CCeBbDsDdkH2LyS1ODOShnl1B9s3CDzhe29KDsusxBVlBdokcfFl9ap3vVukTfG4_GffY2hjkZSmNuwRTXGFAQh2E3z4B9Ine5hGNnvWenMfClvGJd1pVpduUXPtjXG1NmXeS007P5dA4rZ7WjqlftQiq9D4v7lbqJ95cCdGMNjIb3oHZJ5vmCQi5WRt6mMrtemKK89uzz-5jXYb8A6_AOZAMBHDMOG-gkHRBJRvNZMgtzkrnIECTXtT7tgJKYEcQFzf-9XlFRox8MxISIE9GoX3Oc5LDZO4m9E3_MCTVukxwMlJZAxj9ExMUTDpyGGd86JJwcdmUNo3IyDKKMpIbNhs6KOiR2HZo9XxIUSQWZoqEp0igQdBoK4AlCoW6lmqvzUe_wr81SAdqGC31vwlHmzS6Nwj_SHAy0TOFeogfUnUQR4ah0e4QU67_7JpL2CE_oXYhD35rPFpq3CyYTIkX7v7loCy0ECf2m8OsnURSKpvXYC-MDKumFIDywyfbWq2_E_QaDUlY5&format=noten&ssp=10&name=The_Derry_Reel&play=1"},{"Name":"Fisher's Hornpipe (D)","Filename":"Fisher's Hornpipe D.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1r2zAUfdevuATCMliT1QltZ9iDHMVuKR1j9GHsg6BIcqLWtoyklBbyv_a-X7arxHaSZux9JhLRuefce3yv7X7fa1-o3FQette9LpU7S0whIZqQft-tF4eMXfjG80ILB-dXyBCmrI1T9m8MDC_FyljZFZiatdXKYqDm1rt94WtVPCmvBceQV89-H-k05GsM55eX48nV-MPFBbmPIdVupewbB9fGVrWuFQzYWzKN4d5yOSRfYrBKFeQuhsloQj4hvtIO8IemS1MVL1AX_EVJ0BUo7TEXMDAWUij5g7HDYMsq4LicKRWoZ17WhXJgctA-qNg7CHkdWhSYh1e4JK89_s-tKeGJW23WDrzllRNW116bygH3sPK-dvFohFWdcg7hobHLkV9Xyo2uLqMh-RbDlJcwtcY5chsDQ1OkT_p8IR7cHEtWu77mxVpLbNvdDbuB2pqlRdX7Flhw5wK4R7YTOYYC6ckUcDE5IrUQl3LOi2IeurXg4nFe6OrRke-fY3oW5vgTyGBME7GJf5Ae64GkKYVe1oMsoRlsIGApS9kJNmPpCYZi6NEezDAhbNp8J9rBGNUwO9ajLKUyh6USsuOpXIEUICPYmtznPPU4azCZZrMWo6jdYiKhDZZks53H7N8eT_J1_nIlGg7ayqOwB8cbnC92Ndl1lQS-ElSAypeq4eeS4rO15HmTr413Z_QJNAp3jMayYJZlkAiZNAnQJ-3OKKBbQZa2N8zCANg24aEBbB66PjLBl8cm9udd0wfjzsuhlagJdHZS3CRtpMkrO4MxwzlPZ8AiwCJxaFG_-UjA7vGDj82FkqRBoKWwUXawQhWKLzkF-ppA4fcvjOC2gWxLYc3bdhYNzwP7v_lU_gHi9aZo&format=noten&ssp=10&name=Fisher's_Hornpipe_(D)&play=1"},{"Name":"Fisher's Hornpipe (F)","Filename":"Fisher's Hornpipe F.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVFtr2zAYfdev-AiYdLAmqxOWztCH2MVtGB1j9GHsFmRdHLWKFSQlWyH_q-_9ZfvkS9LsUjb2NOMI5XzfOTo6sh1FXnktpKk81Ne1Wgp3nBrNIR6TKHLr4nFHU555qhVzcHKKHcwsV8YJ-6sOLJdsYSzfLZCZtVXCYmFFrXf7hS-F3givGMWSF9_8vrLjkPcJnEwmo_Hp6NVoQq4TyJVbCNt3cGlstVIrAUf5M5IlcG0pH5B3CVghNLlKYDwckzeIL5QDvNH00lT6Dlaa3gkOqgKhPGrBORgLOSzpjbGDYMsK1McSghthnTIVUAcz0ILaKlD9c6DaVGXQ_4oiQKFSTMCGWkV96Mc7CEyPw56RKs264kA9LLxfuWQ4xKoTLmgPjC2Hfl0JNzydxAPyIYGMLiGzxjnyGneMxkhEIlqwGzd3QahOSuq14hjd1ex8BitrSousFx1QUOcCuEfqUzmEQtPGaHg5PmjqIMr5nGo9D4kVlN3OtapuHfn4Nmn29RkI42KbfCK9vAeSTRn00qIHKWcpbCGA0_yPQeRDL-vBRdDZ_o0kkqYp4yBkKdomGQONwygkJFuMD02nnenaMZJKgWdWiqJsSVQyiUNBW9GmTvf_JR4-w6WCvWCAp3mKg-StAENvcJbWG6gZBUoEQHRLSPqlpMEXKne-2ofkCJ-ewbPO3u93z_KnwGl60YEX07wJNJbi6UB_lNwFWjwKFEUkJrCznTVx7uyyPu-zfoEBUtYPrKBY8H5cQF1owBAzTmmDdcnWJ8diOBr9W7rx4aFH7Zelew_P9hcy0hbEadZOu_58mBYHQxaaHu7xi5BBmOcQYMh-JmTwcF834rBtu_C3n7bv8nE8OAns_-Zj_B1mC8qT&format=noten&ssp=10&name=Fisher's_Hornpipe_(F)&play=1"},{"Name":"Gin Rickshaw","Filename":"Gin Rickshaw.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVE2PmzAUvPtXPCEhZQ9JNk7UtEg52IHQqMq22uZQ9SsytmHZAEaYpF0pP752IF-b3Uo9FgnJzLyZN34YXLdO60zGqqhhfy3TXOouVZkAPEKuqzfReUVDz2uWpVzD4K2p4CovlZbVSxWGTviDqsSxwVRtqlRWhihZVetT4_cy28o65cxQtfxdn5ijBn3xYDAe43d4cIsxWnoQpgXcp3ytH9gvNPVgWTHRQ_ceVFJmaOHBqD9Cdx58LCSoGPIniNlWVWktwaQqyrSUuoc-e7CQ6KsHU5bDtFJaow8e-Dl7RC5yWcQf9UqrTdHsIs42qTAhF3N_DmWlksqobg9AxLS24AnZ7_8SskVblcGb0UXRAWJCrFiWrcqMPUWMr1dZWqw1-vbJI107tR_QGXYI5Tc77ztyfAcEFhgEETHswAlyBySWGCTh0gKmIGaxACc0RCJ5i4lYGoyMHeCUGPBfnKzq3ArHVkVfdekMpeBAhyBMz79EknHSmDMM55n4ZSZuuOA8U8QaWRKfb8-o8H5UP8NJeAO7nXmdZoi0HeLefCbIzJjPfCszaUJBQzC339ocC4gFbI_QroNgGrTxrhxI40APAhM0gei0yzYaJeEzB_IsAz1lEC9lwMFk9opFZ0i5gOsgDExvchkEH44TePsRue0XCM1pg4m9jIS2jwfahyAHvx-a2zr6YFZAxlc06fstTcbgt59UF_cGtvK_-fv8AaLuca8&format=noten&ssp=10&name=Gin_Rickshaw&play=1"},{"Name":"Hummingbird Reel","Filename":"Hummingbird Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVFtv0zAYfc-v-KgUaUhtR0PZJVIf7DTtKjRAUx8Ql1WO_SXz5sSV7Uwgyn_H6SVlg0oVbyQPsc85Pj7-bCcMnXQKc105WD9zWaLtUa0ERMMgDG2d_a7Y0DPHlOQWBhdewXW51BbN3xSeLvidNqKdING1kWg8sWTG2f3EV6ge0UnOPOXwm9sz7ZjgYwyD8_Ozi8vLN4NhMI_hqi5LWRWZNAJuEFWQxDA3TPSDmxhMA3yKIWElJEZbC8G7GN5XCDoHd4eQS2MduLpCCzNQyEyFoguiRnAapLNgZblUCOslgHWm5q422G98pgaZg1wbyLCQVeVjQFFLx4y0zr4IrmMYng6DtzGQkt0HYRCyjN_bhdV1tSlHrmop_GqvZ-MZLI0ujA_6agdkzNoG3CPrFE-hRvSoFZwNn4h2EBNiwZRaLBX7njH-sFCyerDB5w8x6TXl_0roKv4SdEgHeMQi6KQdoFEWwQoajEQcgRU5Nn1PpdGUAlIutn1OCQc6JRRW_-ZB1h5TL2o9CEe28bgVebYz4VgAy3FyIMgPLn7-EYYxvgtD2zBw8voE8-LlEZEmY1it_L75atFNtda-6SQdQzJOaHdn2k1S0gxq000pQuEn2PYxR7Hlj3e4Fc240bNMaVPWY00OFok0SzvWJT20X7FPEm4vK2zOE4xGXka37ZY7TYFA6t-V_65bzynSUmR7U3pRf9Co_pu_0y_Zhn23&format=noten&ssp=10&name=Hummingbird_Reel&play=1"},{"Name":"The Humours of Tulla","Filename":"The Humours of Tulla.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNU12P0zAQfM-vGCpV4uFoaSkUReKhaaFU6ABBHxAIndx4k5iz48p2eleput_OOukHJ4FEHpLs7Ozs7Mbp94MKmgpbB7TXWhnyzzKrJcaTpN_3zeZPRpdeBaFV7jF6zYzcmq315P7G4HSZV9bJc4O5bZwix4mtcMFfGr8nvaOgcsGpQPfhkjnXJN9SjKbTF5PJy8lomqxTrCvC-8Zw3sMWWDdai2TOuBNykHxJ4Yh08jXFTIptIInCWYMdOa9s7SECqhC2Ph0OQ0WefIQH1pXD0NTkh6PJKPnIxSiaGhHCCnfCw1f2roaqsWhcJcwTvFPOB_AmyIOVsBFe5TCkrdxfRaSG2WMnnBIhdh5E2Wh-CVFLvDVot8SOHKEQyuk9ywdyeSXqksRG0wDc3Kj7tsCIkFdR10QXoVKx0kWqoTqc1R_gVclzGuFusXLKV3BWa3_F1kSt6hJ726AmXkywkBaeJ2A1Tmh1y2PYOwSntpqCjwwjGFQBxjqKPVqL5AMXDPDJoVBSamI_zjZlxcyrTmeFSuyos0rwlFueoRK6iB8tQtmzeBoGyfcUc2Ewd9Z7JNcpJsNJ8iHFwohfST_pi03-y99429TdiSp0oyQfmOvVYoWts6Xj6ucngL-Cj-AFabf8GIqkndV4NXlEOkFCyhuh9c1Wi_1G5Lc3WtW3PvnxOZ21nn8mvUUPcjyTyOQswwExfpDjQqL31vRAMpsd0RNLxnjZ41cq0JtNeyjHBeHQSWWPpZhzUcr_ofT0RZZLnNWoKHE48MLYZvaHTVHgoRhDdo9O6ohFFXZRPkZlQf9o0VKPoqy3ibdTKb-2cnSevMVO_pftUKIT-iHLn3H4NNrtH_99dLvFm_bimuwSnygLLIb83yywHM6mTInx8hj-H-c3ssODrA&format=noten&ssp=10&name=The_Humours_of_Tulla&play=1"},{"Name":"The Kitchen Girl","Filename":"The Kitchen Girl.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVNFu2zYUfddX3Bow0gKO3aha3QkICspWtSDINnQZUCxIDJqkZNYSaZBUEgP5r773y3ZJ23LU5mGvk_Ugnnt47uGhcYdDJ10tSq0chOdaNsKeZrrmECfRcGjb5XPGrnzhaC2ZhbMPyGC62WgrzEsMLFdspQ3vGsx0a6QwWNhQ4-yx8W-ivhdOMoolJx7dsdLtib6kcDb9ZZq8m8bTD9F1CtcrAZfSsZVQUEhTRzPEDOXj6HMKRog6ukohmSTRXylcCuVatt7CHxtkZ1RxFFbOULhulbAjeJBuBVY3ArSRlVS0hntqJHVSKxv9nsJsRVUlLKzF1sJSuAeBQgQa-ajrLZdUgRf1gNJmjMYUp1C26hVcnNwL-KqdExy4flChjZeUXFALUoHDk5xgu_EJhGDG0T_YkDYwM9ra6DIFgn2iYTSkS_bVLqxu1S7Vsm4lx9CuLuYXsDG6Mrjr7QFYUms9eETCffQhT7rXNbxPeqQDRDlf0LpebGq6XVK2XtRSrW1082dKTr3ZW4ieUhiQAdwwepvAoMCvKsMveAqwKPHcLAbGD0AMZQwVXVIP5NMBVLEH_VvBU4SX7mlYL4NaRauyp8VFWBdhI493GqG0Y2Ezgm8C6ZPPzHvNDl4vU4xS7Sw3A89DtpfKCBRxEPBwRgrIk26JasQTeXywLN5BBSI52P3PUt4be4GV9P3usoXX_k_x5mD7sUuajPLbOAS-63hTjOYewNzjXlQZuSv2AOGY7nKfZTjCnQ9SnPOXU3-WJxcMSF582qeefyrITiLjldiTOMtYCCr7KfYfjnFMH-3ts8Dd_cDms2LUIaNZXmBs_I533it07737fccrKPJ50Jv1t2ej2RzygpHuFrrGpDg2fk2AvMmOFxFGEeyv4jw8yM2erzvSBA3i7_u3798gnyKNNB5q_JtP-7RiggyCxB6rmJAmdMVRI9gah4K0UGqDA8JupAmTKIWVcxubTiZb3bp2vBSTX8_ih7_Z1Zdi8fZjKahrjTi3K2oE38-L03h85vv_b0b9v9-X37o&format=noten&ssp=10&name=The_Kitchen_Girl&play=1"},{"Name":"Miller's Reel","Filename":"Miller's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVk8-O2jAQxu9-ilGkqJcFSkTJNtIe7BAoqraqVhyqVgU59iSbXQcj29Ai8V6998nqhPBnq730WEdy7G9-M_7sOGHoKqew0GsHbVtUNdoe00pCNCJhaLf5NXEMzx1XlbAwvPWE0PVGWzSvET5cikdt5HmBVG9NhcYHNtw4e1n4A6odukpwH3L4010i5xzyJYFhHI9v378bj2OySOC-UgrNGwsPiIqkCSwMl33ykIBphK8JpLyG1GhrgXxKYGaQO3DbNd6AXiPoAuo9FHynTeXQ9oFx6y0otQcOtqo3CmGHxlZ63bDuEeEH38McNsq_Ktcn9wmMBiPyMQFa8ycSkpDn4smurN6uj7su1LaSflP384nPM7o03tLbk5BzaxvxorTn9VJqoJ1WMB69gE4Sl3LlPa8aUzkXzytVrZ8t-fY5ob3mlL-TgAZAb9IshWASwGRKp3CAIAsgm7EZtFEmaKexTGQgm-48Z0CnPvnwj4WERChKXnRzFGzZQZGIIDn44_Im2ZVJHqEAKrBsUlgcQB4VSwlMFvJUpCgRcvRdRxS4lAXgnfQuO4O85P6j-kqH1qYUDSCuvfqaWPicThGM_m0s7O4hHM8Q7trmeXaan4HBBLIBhcw_v395ggKL_ZjFrxAD2gKT47i7L72oP2zY_-ZX_AMeVziz&format=noten&ssp=10&name=Miller's_Reel&play=1"},{"Name":"Money Musk","Filename":"Money Musk.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVdtu2zgQfddXTA0YboHGaRx3E-hNst3WaLMougG62N0ioMiRxEYSDZJKa8D_te_7ZTskdXEaL_a5BgzTZ86cOTOkqOnUSlthrhoL_nMrazRnqaoELJbRdGra7JgRwlvLKskNXFwTg6t6pwzqUwwKF7xUWgwFVqrVEjUFdkxbMxZ-h9UDWskZhSx-t2NkyIl-j-Hi6vX15fVieX0Z3cZwoxrcw01r7qNVDLeaiXn0KQaNWEV_xLBiNay0Mgai3yhcIryRQlSoZwZSmVUIudJgCc-YwZewq1oDD0xLZqVqDGR7uFU1fJZoCtQZWfg1hi3Js6raQyXvkZKlAaOaYg5bS7KFslAQwYLQ8oE0WSNAWgN1a6i5Stp9n29K2aCBb9KW3oMT1-XelvXce-VKI6jcx2zbIFAlq8gk24MbHiRgv0mOvoQH0gCEokTNZSNNGSo4daQFhoZXZx9dxvPF9xfQzWA9QqRQ2VK1RUm91RhqZsqWc_igqBlyNY7pWXQTw_J8Gb2PIanZ12gaTVnGv5o7o9ombH1etVLQzt5s11vYaVVo2ppXPUDTNw4cEX9oHkOO9KAq-GX5iNRDTIg7Guuds5oxfn9XyebeRH9-jJOzXejryPOLL1F-iP-KJskEMOEJTNZuIXI4wIhtriaQ8h9AInJE5jAXz0WKPsqThIi9Yh4Uf0x-qigCkRV4SrGA-EDzpC7S0104HsOCkQJnnSpDkQUpztJiAI9IT8scOiVqjDM8UmKD0gjmTikflHzsieFVZ3h5wjCfuTozxJnvOq0nUGRYBLkMRYAHpp_5wHacwHaEBeDgPiEuzljG6NLoZd-OsnkBvWwyqA5sL0tD8YTkWLZguZscwigr0mE3kzfJIOuYYTtJeJTN6HGY9XZZ1utyP4THdtOTdvl_2UXe2-UpHLrJr_3kv0SHOATT7tiKS7ohDkeY9x9Se7Q7jnw84IUz0nmnOn57wxUNK_cAmrj_2z1oB0jO1_TdwD9_--XmPKGVSwy8dOAFxuaKfv16c3WeHBFXj4hp7ZinBNf_W9jfSGeL-YVL-WneeP8CTr85ow&format=noten&ssp=10&name=Money_Musk&play=1"},{"Name":"The Morpeth Rant","Filename":"The Morpeth Rant.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlN9u2jAUxu_9FGdIkXbDKJS1NNIuElIoq1pNBWnTGEImPglpDY5s064qfa7d78l2nPC3Ytq6u1lR5Hzn8-8cn8TxPJtZiYmaWyjGIJuhqYZKCmg0meeZxWTXUYZ7lsssNlBvkSNWs1wZ1IccFE7jqdJik6CtFjpDTYGca2u2iS9Q3qPNYk4hi9_tNrJZw774UD99f3Z0dtJstdjAh8EU4UrpHO0UbvjcsrYPnzMpMz6D_hQzKdiNDxpRsq8-tElta2UMsL4P0cdr4HMBfYsPVApccC0e2bUPoXoAS2Crs1yiNZAoTU6gojSHfDGPp2_YlQ_NWpNdEmfGb5nHPD6Jb83YqMW83G0iF5mgzVz1oh7kWqWa0h-thQk3xolbpejTvuRM90rCSXPPtJa4EGMu5TiX_HHC47uxzOZ3hg0_-UHVdXcEb4-DMF7631glqoBoQNCFTtQJYAmVbgXCbiigElQgDmJ0GpmSBiSiiKYJCie6eAOwuAoeia_gCUzgJS9ouMUrxoq5g3zqdJ__gBUJT4rghKfJilokiAWm6wITEXSAOOJvQLvlRTAUnVGz3AA5iee5toZlW9lmYXFbrtcT6HxGM2rVoZpKmsCix7je8SswAd_BxK5Z-5jJDgZDLDHDMB0dA8JvCnpK0mdKma4mhP2HwvBFYe6F-kt3KIqjDOXnCB-KQc5w87x2RNCtBRDVuhCc_vxBFiecz4C0A5Za9MJRnL5q413dmf-bH9ovkcyRXQ&format=noten&ssp=10&name=The_Morpeth_Rant&play=1"},{"Name":"The Old Morpeth Rant","Filename":"The Old Morpeth Rant.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1v2jAUffevuIoUqZWAFI9BibSHfBAPTXRTx8O0DyGTGEjrxCg27Srx43edQIGOTVrf5hfH5x7fe-6xHdc1uZFioUoD9ZjmhdDtUMkMaI-4rt7MjxlNeGy4zFMN3WtkpKpYKy2qcwwML9OVqrLnApHaVLmoMLDmldGHwu-FfBAmTzmGjPhpDpHnPeSLD93B2-HVsN_vDsnUh-lKwEeUOlHVWpgV3PLSkAjximcdcutDJYQkX32IeAFRpbQG8tkHsxJaaJ2rsqOqpWc2pdDeoDu8Jjc-BGtUJkojn2DFNcjcYPtgFGQKHnMsgrvh4kY8Xp6UbcFc6DwTGjjoFWbIoOSF6JCJDz2vRz74wAp-R1zi8nl6p2dabcrGl4Xc5Bm2PRnHY1hXalmh2qs9MOdaW_CA1I6eQpb0oCT0eyekPcSzbMalnK0lf5rz9H4m8_Jek2-f_KBtz-EHkDjZ-t-JwxxgNA5bwFphy85bcCLEWtEogjpqcYZwSIMQnKBwIA0DCzjxwIGEBhQCRGD778lsgl2ymDLaUChcvLmIR8nlazL-Ji_A71fIYy_lJUGylxdmsN3iuaKbYeNmnXq5wCsQUhbua9dbExrTXZ0RjUbnDEQCdp9YhXvWC0ICWd1Co2C5WDYRkaKoLQRH1lltR2psG39SE43YGTVxPDpRY1mnhCT4qxp25BQW89Epd_fEobl88K4e1uaj9Z7DIPIYMC8oIB7YfHaKmuUpB_F44Fllkf1m3g7YPbk27XTthv_mf_cLwHGGRQ&format=noten&ssp=10&name=The_Old_Morpeth_Rant&play=1"},{"Name":"The Mortgage Burn","Filename":"The Mortgage Burn.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlMGO2jAQhu9-iilS1BMEIrqsIvVgk0RFFT3scqi6lZBxDMluEiPb2bYS2tfqvU_WcUIItKzUaw1Y-J9v_plMAp5nc1vIraosNGuVl9IMmSpSCKbE80y9OSfa8MLyIhcGJrdICFXulZH6GoHhnciUTk8F5qrWudQY2HNtTV_4gyyepc0Fx5CV320fOeWQzyFMZrObd8FsejsmqxBWmYSl0nbHdxJYrSsgc1Q1T0fkLgQtZUGWIUz9KfkSwpyXMNfKGHIfQmbt3oS-bzNppDG5qkZK73xbV9L4wXg6I5_QCU-wgEJyXckU8gqiWme8fON6whHtea7hW24zYFpWKYd7W282Utu3Bu6w-Ih8DIGW_JF4xOMb8WjWRtVVO45tUecpXu1yES1gr9VOY3_jTthwY5zYK80gLyUHPasCbqYXUCfxNF3zoljvC_5jw8XTusirJ0Mo-0oOIQzoAETMYqDxSxzA4VxIqDuzcgAsYaLdUIgHkDJBgVEHELw3_2bSJcVHEwyxhqQBfgkPOJ6uoQArSSqkI6MBbPlWdoG-p-CYLuipL5ACAZeSuOgByMOkZ646MiouHeNGTF5r8iFoj0mc4NYUaX3Qu3EO-PaoSYHerbO4aoijclftecfHHejQ_SDgPS7EWX_CdWLwxUqIZ_DrJ0IUIt8JuMV-9Bfk03MmRoZ2DKb_8X7N7TpJ_Qg_rorzbB7tYTCauKT_5u_kN6ANb1Q&format=noten&ssp=10&name=The_Mortgage_Burn&play=1"},{"Name":"New Reel","Filename":"New Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlF1r2zAUhu_9K14MZi2kTetmXWsYwx-JFkbLKL0YK21Q7OPEm2wFSW5ayI-fZCdpA2P304WRznnPcz5kOwhMZQSVsjHo1n1Vkz5JpCgQjrwg0O38vaJ3Tw0XVa5xfmUVuaxXUpP6m8K6F_lSqmKfIJWtqkhZx4oro98SfyXxTKbKuXUZejFvnn2M9yPC-aeP4dX16Oz60ruPcEtr3BEJL42QcUG4kUpV2ruLoJz5JsJoOPJ-Rkh5jVRJrb3bCDG0rGm95Ab1qzakKtlqmLYhTFHKtinAa9kstIFZElaK57YywhCCtJYNDF-RRqlk3ad10D61DeioMMTzJSmsuNZUwAVJ1HRqM8hGvGLJnwmVQSHXDbiGv-vFx9Hanq3LUR3-g0Y_5MpUsvlyPMC8NU5QV4ulwZzAYRQvOjcXXSOn3rcIrK5evMAL-Dz_pWfaNdaNtRRtVdg530yzqe1OLpSdztnOMLcVO-ObpbvCQ5MTPUuBy9GBaGfiRTHjQsxWgr_Oef57Jqrmt_Yevkfxibv4R89nPtggXITwJz4eyvjxAoQN_NRHQUUOOEUSJsXWmLttnuTdOfNROlGnYSzEZgtchHEHLEMreI_rlXva0cVRXuTHcMw4oR3zyVK30oeEPYaINq7o5KDoZJA9TcAukLkwm2wynjDEzD42XbB1s9iiie-44R6Ld8UmA1dHNna08BhsfMgbT7bhbJyOwfrWiZd71L7EYPvRoJ8uPnfLqpPdeSdgwwnSIUOKbOjKZbC53f5fgqwXdC_SSXh67rT_zW_jD4Jbbhg&format=noten&ssp=10&name=New_Reel&play=1"},{"Name":"da New Rigged Ship (+ Shelder Geo)","Filename":"da New Rigged Ship Shelder Geo.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVE1v2zgQvetXDAQYSLCOE2u9TSKgB0p2tNmFiyLJodjUDmhyJHFLiYZI1w1g7N_qvb-sQ1l24q2BnmvI_Hjz5s1ohmKv55TTmJvaQft7UBXas8RoCdEo6PXsavGasTXfOq6VsDC8IoYw1dJYbI4xyFyI0jRyHyA1q0ZhQ4Ylb5x9Cfwn6s_olOBkcvjFvVj2PsGHGIaXf0RX16OL6zfBQwySwztcw50qCpRwX6olnPxGM2qJDWRoToM0hoeGy0FwF0ODqINpDKPzUfBPDCmvIG2MtcF9DFNeFArhntfW1AgnU2Ud8JpUHe37MLy-vjjtA9fWgDC1XWmn6gJcifCXKWtIS14tsLHAktTrpUZrFE6Zug_rUokShHJo4cFUwGpKj8LAyR1peJl719BkfZir308HwbsY2JIqhLXTz2BLlTsLC3RrxBrGplG8bpObqi9GP0u_rYwkeZMDG8B7riiTNWoNa-XK1xUZBH-TtjTUgqDHF-Jf-2TNqt52KNcrJakB09vxLSwbUzRUoosdsODWevAFaXt7CHnSZ6PhzeiAtIO4lE9c66el5s8LLj49aVV_ssHj-_h_jZwFWHwMNjGELAQe8QXwAgvY7Nc5rcMshCJ6HGf9WQF5wb09HIeQRzICerxDQCfopxoSj_tL8u_tspgLJhiEk8sQHhOcRd76g2HC-sctSYsOOzhiEbA2QLyJDjGWwGYftQpBSBRtlomQSatLIEvYDenSKpvcZDv0KHWrO6JAvsyvjsKsDUGv-zhmM6JkcJOx1i0N4a2IwKfuxbIs6QpDYYk13kYkE5NyLlqLL1jiY3jN1l9SeamkeSeIb0UhAP2wOWQgdOrzXHIJ7bBtW8cqjukI7AA-z0kilzgXuyzbrGT7yr3uPqEPlI6hjXdbduYvIPgPGHz7-u1rN9Ei2-7H9PfuW3ayZ59PLtvBu7TrA16651XnmR8m1W7ZJUOf3Fk0GHqHX-bm_Q7lZNXF&format=noten&ssp=10&name=da_New_Rigged_Ship_(+_Shelder_Geo)&play=1"},{"Name":"Old Joe Clark","Filename":"Old Joe Clark.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU9GOk0AUfZ-vOGnCY9ktYbWS7APUDVazakwTjcY0Awzt2IEhM0N3TfpfvvtlXkqh28SorwKZ3HvOuXcOd8DznHRKlLp2OF4rWQk7TbQqEITM82ybPVX09NJxJXOL2ZwUua4abYX5nYLoTb7Vphg3WOjWSGGIaLhx9rzxK6H2wsmcE-XEozszYw37FGH2_ObFzXx2PQvZKsI7svlaCywUNzu2iLAyvPDZhwhGCMXuI4RXIfscYcErLIy2lr0l0VZa0MPR6KalUmSqFRvDrYVra-GTGSN6hZVVowT2wlipayyx0Q6l0RVxFa8LrWQNJazVtd_1_iiVwoM2OzxIt4Xrtqp0162mRKBsXWuEz95EiCv5yDzm8Sz_ZtdWt3U_plK1sqAp3C9fLtEYTcYqXA9ARi478IwcB3wJdaK9VngWXogGiBfFmiu1bhT_nvF8t6aX2Fn25X0UT7tj-Qo2iScQQRlg0y0HHPNSFMjDIRvZDrgjYE7BPxTmSZxjkk6QxEgHSTxHdKBpkIfkqYc4QJxQSV5c9Eo64lR5UpwQ6puORv5e_Ucz_ZeIfii4vSU6GeKRPN4_f-CO2DFJL-irlNbDOT6d-jTwZ53uv_kDfwG-kTj0&format=noten&ssp=10&name=Old_Joe_Clark&play=1"},{"Name":"Old Straw Bonnet","Filename":"Old Straw Bonnet.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVMlu1EAQvfdXlEYaKZEmy5hJJjLywW3HTRQFEOSAgMyo3d12nHiJ3D0JSD7wKfwFdz6FL6Ha2zAIIa5Y3urVq1evy8t0ajKTq6QqDbTbdVYofUCrXIKzINOp3sS_Mrr0heF5JjTMz5AhquKh0qr-EwPTqbitajk2CKpNnakaEw-8Nnrb-IXKH5XJBMeUUZ_MNjPWkHcuzJcnztnx8nR5Qq5deIU235qaPwGtylIZErhwXXN5SN64UCuVkysXFkcL8t6FgBcQ1JXW5KULrFbcgNmU6jmY20wD7uZWQcx1JuCJf4YLeMjxkplDcon8gt-RKZnyWNzpta42ZbekJN9kEh1fXYRYUFdpjV2OBwDVtAW3SDuMXciSHqscThc7pAHiUq55nq-tm5iL-3WelfeafHjt-gd2hDdAVAIfSePChE0glVRCGvMUGphEE_AS4QtIUr5KLDIyeNwywgnwNMHYAVRpCE77X1XSuCvFOLAx7D3bo5Lut6LMgWZuJd3GsYnwPNqHpsERonHaGR8ss4j5QBkVvbRUUthY9s2F70UC8OTTEaEMfLYVHnzvSAWj1Pkq6BeLdCTwVPWxpH7UVW5tur3NoLfZPv6sHGZc4GJnDlgHVPitZ4SokBQE9VfRgLAdTrjEZishFUhPUMvqPP9dLRpKWRQyiMJgBMLA-vVndObP9u2su54oFUbt0NlsAc2NfWfbzwm6twU8z0MJOgR4H4wJb-BiKzzCJXz_hgTWxlEfFN3-4-uXcPk7_4i19ABCCLv7lo1CNlf0H9CBczi3lf_Nj-cn_oNz6A&format=noten&ssp=10&name=Old_Straw_Bonnet&play=1"},{"Name":"Opera Reel","Filename":"Opera Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlF1v2jAUhu_9K86QkDqJQklZt0bahUOAoarb1HGxTyHjj5A2xCh20Crx43fsJATaXvR2FkTxOe95_PrESbdrU5tJpXMLfizSjTTnkc4EBCPS7Zpydayo0nPLspQbGH5ABdebrTayeEmB6YSvdSEOC4x1WaSywMSWFda0C3-S2U7alDNMWfnXtplDDfkewvD91cVF8O76-oosQviylQWDOykzIOMQFgUTfXIXQoER8i2Emx9YnFvULMpcGmC5AKM3EnSepbmEHStSlltDfoYwZhsYF9oY8hlJ69SA--VWFtLYNE_eQMQM-suyR7BrCaUpWQbUMyPwu-nBqrQgGV_7ORgpNwashjXbSRCp43Dr-H5hm-rcoBVf0QeaGQ25ZBbx_iKR7jnoQGN3vNaFhd6kOfpGe8ZKJkArH7c6T3mf3IYwGozITQjxht2TLumyFb83S6PLvHoSKitTgY2-ncdz2BY6KXDzF01gxYxxwTbin-FpyIl2OoOr0YmoCTEhltiq5TZjjyvGH5bY7wdDfn0N6bnf09nw7R9Ce8E-_E06cQfiIA5gOplS2EM9nwJ0aAcmcdSjvTYc4JFohLMORIJOa914AvsGFsM0bmG0F08PsFkDo72oF09ehgURh_3-2HCAhl2VCEQAqGvgfu5qZKJkG-MHzSkXzi6pY1csLvkxiwounrGUxBP2IksltcfoqKmuhl2C8pokSBqOYoh0AMGjZj2GQR9LVKWjToeeqk2ASiqfDPMVT8nkwHO6J7xAsZpX6U55ET-1e2ipVPW21ZHd5_hKN2t1T-yetPaVTKZE3QLJac3EltfMEUC4d6-Q_yhBfRY-4kBp1M7caEQxxAOK19nA8fz9YOb_dBC_UuTf2fOgP3T6_-YT_Q8dX8lv&format=noten&ssp=10&name=Opera_Reel&play=1"},{"Name":"Peerless Hornpipe","Filename":"Peerless Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU01v2zAMvetXEAaMdYfES2Ysq4EdYqdRs6JD0eUw7CuQJdpRq0SGZBfrkB9fOnaaBthlwC7TgTbfe3ykCTkMa10bLOy2hv1Z6g36QWqNgnHMwtA3-UtFRy9qYbT0MHpPCmk3lfXo_qQgupRr69Rzg8w2TqMjohKu9sfGl2gesNZSEFXjr_rIPNewLwmMJpPx-Sg-j2O2TOAG0Rn0Hi6t21a6QpYlsHRCDdltAg7RsK8JZGIDmbMkY5-JXiPMtVIG3SsPqc4Nsk8JfGx8DQJyKvr9COveD_QWsiG7TiCOYnZFXhtxx0IWilze-ZW3zbb7tsI0WtHo14vZAipnS0dN3xyAXHjfgkdkv5VTqBU9WAPv4hPRARJKrYQxq8qIx1zI-5XR23vPvt0k00G7yx_Adsl3FmQBSH7BIWvDDgI-CWDOZ7wLBJDggksFwTwAlAX2mJLptFPzMZy9PePT9DXs_taPXA4iOQZK9vUxJDvaGs2adrN2o3LqmvKUQln0Tii5pCDKNp-Ry89CTRUUKhd73wBKUZRdAywU_tsJw_7yQbdS-LA_JE9f5AcNNYw48Gi6gdmENLx9ZF16qiF8NonaUbL2nUc90F-kwXg4agv-mz_xCTB7Mv0&format=noten&ssp=10&name=Peerless_Hornpipe&play=1"},{"Name":"Queen of the West","Filename":"Queen of the West.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU9uK2zAQfddXTA1-291c6oYi6IMSXxrK9kagpe0SFEnOelexgiQvLfjjK8l2nHT3ByqwkM-cOTNnLMexrawUpaothLWpDsJcL5XkME9QHJtmd87owmtLZcUMzN46BlOHozJCv8Rw4T27V5qfCqxUoyuhXeBItTVj4fdCPglbMepCVvy2Y-SUg75jmC0W0zez6fR1gjYYvjRC1KBKsPcCvglj0QrDRlN-g75i0EJIdIshmSToB4YVPcBKK2PQRwyfajHklZU21u2cSwG2qYWBNUhBdS34K_QBQ3qgDyhGMd2xB7M1qqk7P6VsKu7avV2nazhqtdeuwnQAdtQYD45ImMQl5ElPSsIiuSANEOV8S6XcHiX9s6PscSur-tGgn58xufbzu0N5Br9QiyFKI0hzkvvtKg9jayEiEWQFKfx2VfTTdHhg54TnEBURFEvBoEXQwYSXPCQyUmRB5LlyL3Kp3sIgcakM7SxQ-RzKeYi7k2sbt_PnOOPQtt7fsvfnrTmSYIRBRpgYqnt-yQn3xUo478rV3TvJPUSZyyu56L35N86WQY50lV6SHgd0Jt9789I7ug9ppRPrvKWDh65_v4K3EU-86J2_QuFqQ_fx4J1bTno5vg2EFAikk8I9xBHcGYpJBtmE_Esgk_REcHt_S6_nNzPP_G9-7b-mez0l&format=noten&ssp=10&name=Queen_of_the_West&play=1"},{"Name":"Rackety Jack's Reel","Filename":"Rackety Jack's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU1FP2zAQfvevuFWK9lRYQ7dWfquT4XUTaCp9QEyjcuxLMDhxZCcIpP54nCalMDHxTKQkuu-77-7z2Y6iRjcGc1s1sHvWukQ_ZtYoiKckinybvczo6WUjjJYeJvOQIW1ZW4_urYxAF_LGOvXcILGt0-gCUQvX-EPjH2jusdFSBKrBh-bAPGvIJYXJbHbyNZ7PT2ZkTWEl5B02j_Az_D97WCEaklBYO6GOyIqC64ArCokoIXHWeyAXgb5BONVKGXRBxHRmkJxTuNBlbRBEpSBvq0_kjML0eEp-UeCluCURiUQmb_3G27bqF5SbVqvg92yZLqF2tnChz5c9kAnvO_CA7EbxGuqS7q2Bb9NXSXtIKLURxmxqIx6zsMiN0dWdJ39-08W4G-BfICM-gpSzGCRbMNjCKBmBYnIBjJ_yLv6XTw_8d9i-r0__o--EjPMY6DYMJ1hivaVdxUIx1X_6iihyAUWOanAkmVSACvOhYpEXCOp6B7xfIH2jgBos8Zj1lqLhJEHSTdTTfcghCW_6MkwhPebDDo_jo0nHfZh78QSi-Rj9&format=noten&ssp=10&name=Rackety_Jack's_Reel&play=1"},{"Name":"The Rights of Man","Filename":"The Rights of Man.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU11vmzAUffevuELiMWGhWdsh7QFIQqOpU1XlYdpXZMAGrwYj23StlP_V9_6yXUPSNNrU9xmE5XPPOT6-Mr5vhZWMq9bCMDaiYWaSKFlCOCe-b_r8NWMsry2VojAwu0RGoZpOGab_xcByVdRKly8bpKrXgmksdFRbc9z4isl7ZkVBsWTZgz1WXjTkSwSzi4uz89n7D_MZ2USwqRnciqq2BhSHa9qSFEFNyym5jUAzJsnnCG5U10uq5SN0VGhWwm9h60G7YI0qNMVt4UrpthMdm5LrCObBnHyNoLa2M1EQ2JoZZoxQ7VTpKrB9y0xweUY-RbBsREt84tO8-GW2RvXteFYue1HiUa7XizV0WlWaNvDuAOTUGAcekaFLp5Aj3SsJ5_MT0gGiZbmlUm47SR9zWtxtpWjvDPl2E8UT19sfJIt30XfiLRsPkjAOIQtXIexgucpiQIRxXHiZBxXHnngLD1iZlA5LPSiSOAMvQWkcIn23tyniBLJ4lb1pk1S8cphTsBCWw4vkaOfSJft0TpLTvNrzeEX3Pq9AtHQgepY_i5IBZ6Ozy0V5yYGGFXfhUhcek1R7mxgJeUX56IM2_IC-nRLVmNJ3z3ALYewlfBwH8pMTwI0Dddm4NwsWkAZJg9QsGNbL5vkJFvD8hFPS_M3GCSs7SEdK3DgZfl1lf7Um4XTmhP_Nv_oHT3JL0A&format=noten&ssp=10&name=The_Rights_of_Man&play=1"},{"Name":"Rye Straw (D)","Filename":"Rye Straw D.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVNFu2jAUfc9X3CKhFo1CSSlbI_XBEGBo6lS1PExDFJnkJrhNYmQbOib-a-_7sl0HCNCu2vMiIdnnnnvOuY5JuWyESTCSmYH8GYoU9XlbJiG4Tadc1ovpIWNTHhieiEBD4xMxApnOpUb1NwaV42AmVVgYdORCCVRUmHNl9N74MyZLNCLgVDL4w-wrRY_zzYPGx6trt9W8bF04Qw_uVwgPRvEXOPMrTseDoeJhzbn3QCEmzncPOjyFjpJag_NAZRmGcDcTSSLmGj6Az5VMgGUxqioMMjAzhDuRoYazxvX1VQVGL8LMIOXZClIZiojyGSEzPXa-HrprxFSDkTDjSwQOP62DzGDJldg01GBI2oFUCDIiH6FhiUpbUkgKGiIl020eq51nOtXAleK0TDEzVXiZIfWTTuGXcj3LUzdaMOVKW3GZ5R7CaFjoBU-gfZ6fteUHCrmxCa3H6VSJMMZT6OQE29S4yGVqMDBkPldozAoy6jlxbj1o1pvOFw_8lD85ZafMp8GTnmi5yDbvN0oWIqTXdzvwB9QrY0WHf7EDplxrC-6R_GYcQ5a0pCNoNY9IO4iH4YQnyWSe8NWUB8-TRGTP2hndeSwfYQzO2oMSK0HX7fah5Jeg5_cYrDeYv8O6fu8N1meBxbolwBjDvHgTPAaMmA5dwtfkNwIjVu2NXTi7POv3_Mp7liTPAuZv5HuPPVp6azpMGqH9agTmEhUw2OQijTAIEaKYR1vxvIQR5vW-rbfZdmZW9QkscvdeCTErhGEhFPFpXuAEblMGrP3YP8ixS9nZpcyFXDiIRBFiWtsjiOKoAlj4YRSTduEXWxsyOK7HEXk776jYlJcQAeZhijZ-NIZLk2xm2CLbIYjLmnDi1zq1E1iP7d3NvzGwuTVws32oq71HaNfZ74qWul_8unV7tRjQDn7_gn7dHroPfQv8g1_sLN0iI2bB8fZ_de7WGlbhv_k4_wHOZ84A&format=noten&ssp=10&name=Rye_Straw_(D)&play=1"},{"Name":"Rye Straw (variant parts)","Filename":"Rye Straw variant parts.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVkl1v2jAUhu_9K14hRWul0UGKCstdIGqHplZVy8U0VCHHPgkpToxswxqpP342jI9q-wPLnd_z-Dn2iaPIVU5RoRuH3TerarLdsVYS8YBFkd3k58S-PHVcVcKiP_KE0PVaWzL_Iny5FEtt5LHBRG9MRcYX1tw4e2r8jdSWXCW4Lzl6c6fKcQ_7kaA_HN4Mrr-ORtdsluCpJTw7w3_hYstNxf2WnfaSTRLMDJdX7CmBIVLsZ4IJrzEx2lqw5wQPlVjhsW2az5gtCRltK_XJ4raSUpHBRdzrDS_ZQxKqlsANwXlu50ehzVlzt-QOlqiG08gJYSSGrCWJvEXGjVZIm9Jbu6i1dapFEC_JO4Opbv0ZC79qBF2x-wSDLwP2PUFW81cWsYjn4tUurN40-0EWalNJP6f7aTbF2ujS-Jv1DkHOrQ3hKdn9go9RgLb-WDeDD9Ah4lIuuFKLteJtzsVqoapmZdn8MUm7YQIvYJ2sAxkXJXghC7yjc9dBWVCJQmJeyJcYIQwQnUHpDpIQKeYi9VDy7m_oveOj1yOC4gIkx-KgkOfeveYvZpze4TZD9scZptaNr_rhPf03b_w3ucwYFw&format=noten&ssp=10&name=Rye_Straw_(variant_parts)&play=1"},{"Name":"Rye Straw (G)","Filename":"Rye Straw G.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVO9v2jAQ_e6_4oSE2krQHynrtkh8IAnKUNVqavthGqLIsS_g4cbINjAk_vhdQgJ0mrR9XZRI8Xvv3t3Zl7TbXnmNuSk8VNeLekPXjYyWEPRYu-1W2aliT48810o4uPlECmHelsah_ZOC6JmYGysPCWKzsgotEUtuvTsm_oJ6jV4JTpTHn_7IHGLYtxBuPn74HNz1bu-u2UsIT1uEZ2_5Bs7TCxaH8GK5vGRPIVhEzb6HEPM3iK1xDthzCIkR8GQypMzssVqeOVijdcoUkCvrfAdyo7XZoIRsCxxy3MCaW8U9SRyMztYIc-SWspDBo_EIPDMrD36OULXqoEsL5UDwApA7pbe1J9k5KlbN5h5SWHLv0RYdyCh6BAtVSDA5aLXAyqz0b1kjiJi1GjVk6DeIBcVz0sdAdZfiAZTbSa_cn9QIqgBDtG16dJfsIYTeVY_dh5CyNmvzTPxwU2dWxf6Mcr1Sko7gYZSMYGnNzNIGXjdAxp0rwSNStfweKkVro-Gu907UQFzKKdd6utR8m3GxmGpVLBwbfw0H3bKJCbAddZ62IIk6yRBacQvSoLx3BzSt0GE8jE_AWjqIRAkmLZAoRcVGKYyjdBIAEYwGqsTSzklImtQ-Fdq4j4fxJDgl_iVDuKNtpWai35qRtxJkEFV-ZCICWgEKPFgFM4R-jjKvM6Ig74Pvrqk7orCojI3ORe01FsPJRSQk4Kvsy6MhjOWMQvv5K9nWrlE6OHGtit1_b7DffejXF-n3LfQbQXoVH57kKiVBSgOYlHP0V0E1aN3g8qbU_jd_nF99M3wh&format=noten&ssp=10&name=Rye_Straw_(G)&play=1"},{"Name":"Saint Anne's Reel","Filename":"Saint Anne's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1v0zAUffevuKpU8cLa1VRjizQhp1HLhDahrQ-IUirHvkmzpXFlu_uQ8r9455dxkzRrN0AM3ogi5_qe43Ovj5N0uz7zOSam8FBf02yF7iA0uQY-ZN2u28T7jAY-8zLPlIPBMTGUWa2NQ_srBsGpWhqrHwuMzMZmaAlYS-vdrvB7zG_RZ0oS5PHe75DHNexTAIO3R4d8MDg5OWbTAK5kRixRFPjKwSVizkYBTK3UPXYZgK0S5wEM-0N2FYAAajXOCukzU4BJwN8ZuEXraOpAevBLdOiqac_YtO83Bbr-4PAN-xzASK5gZI1z7KJSspLIFq7lpvAPUDFfw13mlyChyBTCCnOjH3pwZVbol1mRgjeA9-vcWHzHPgQQreQ167KujNW1WzizKRqPknyTabLg_Cw6g7U1qaXCh20ils5VyV2mdvdpqiLdmhyOhk9IbUpqvZB5vljn8iGW6maRZ8WNY7OPgTiozmQOTGP5hXWiDiQckhQ6giLUIZRQJQUfcxhzwav5pAMhnwgI1XNcI5R_I6J5zVEa1ZajKw1K_0kJZmMxFzAT0VzMxJjCVhNmk3AewiyisQmfr4lobMIXldijNyUmqJu2Rdi2jVqrqm2ZQlnSGZOzYevstkS9KarTiEieJpByoLGsxVCrEITCdKsYc8krFt81-SKFkN7ERmG74icvaZOq3Ur6my5k24X8msZU6l802p0kW2_orr1pvnVo3jw4pYuIjVunLRj1BUQwge_f6FHWISWeofW4B9Zf1gHvDSref_OL-wEvi5bd&format=noten&ssp=10&name=Saint_Anne's_Reel&play=1"},{"Name":"Sally Growler","Filename":"Sally Growler.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU01r3DAQvetXDAbT9LDZ2jV1EORgrxt1KYHS7CHQNousD9eJdrVI3jSB_fEd-WO3oT20x8oWeN57M_M0yHHctZ1R2m476Neq3Sg_K62RkGYkjv2-_lUx0MuOm1Z4SC5QIexmZ71yf1Ig3Yjv1sljg4Xdu1Y5JHbcdf7U-IMyj6prBUeqU0_diTnmkFsKSZ5nWZ5c5AlZUbjhxjwDc_aHQX5BYeW4PCefKTilDLmmkM0z8pEC2_B7EpOY1-Ler73dbwdL2uxbiR2vl9USds42jm_gzQTU3PsAnpD-MC-hIHq0Bt5lL0QTxKVco8v1zvDnmouHtWm3D558-USLWRjBN6L0gX4lEYugSXUKKpUpHCBaRCBKoSAQsmTViL1nI1axUgasiOBO1FxDVKFQaQ6Hfy-GWBEwLFHK4qrHWKo00AOODc2Wo9m-ssTO2L0JGRjXDX5iWPcV8gi4lhoKGawMgHiFEIjiSk_m_qLEnYBLMRbpzwNnb88arl9j9uQsHm8LDMOEy35hRnmMYZIwWMyHXczDABg-VY7v74IK91HAxoszS8-TIP1vfpifJyUbuQ&format=noten&ssp=10&name=Sally_Growler&play=1"},{"Name":"Salt Creek","Filename":"Salt Creek.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVU1tv0zAYffevOIpU7YWtNGu5ROpD0mVlQkNomxAwRuXETubNjSvbrUDKj-dzmq7rxAOv-MGxzznf5djOYOCV17IyjUc3btRSuuPMaIF4zAYDty6eK7b0hedalQ6jd6QozXJlnLR_UxBdl_fGiqcCM7O2SloiVtx6ty_8QeqN9KrkRHn5y--Zpxj2NcHo7eR0Mnl_OpqwmwTXXHvMrJSPbJbgxnJxwq4SEKDZZYLxcMyuE6QNTKNVI6Eabw28wZI3whAEv_bGKq7ZpwRf8qtvcGqpNLdB1GW_UhtpX6FYe_h7iew49A3lIFRVSSsbz74nmPEl9WGcYx-p3pI_sAEb8KJ8cAtn1s3Wf6XXSpC9y4uzC6ysqS1Fvd4BBXcugHukO7lDKIg2RuPN-EC0g7gQC671YqX574KXjwuy-OjY7eck7fq-A8vjH6xNEKUR0hg_52n4pBnQdliZZiWiswgihkgJRDSPkKVTEmYpTS3DHjtHlEfIY-TnffxBzhD9IqeswNpRB0_rStaopKiCsMskRZnt0lDWpI17peQSdS1FqJKH2uK5rm1B500us53L3uEtl3cxOAenudhZPKKLOQqQjANEXm6pAgnrGjXNvEeLaU1BdacjqDP-D0mrHiJ_lIpMVttn3L6wOCZ_oe_te8f2hjClQdJst3uikQ7PMMd8mBNNu7A-JFPkw7Qnu3X_CI_jk1FQ_jd_-h8kg0x8&format=noten&ssp=10&name=Salt_Creek&play=1"},{"Name":"Saratoga Hornpipe","Filename":"Saratoga Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVdFK40AUfc9XXAIFBW1trLoE-jBJTBVxWdbCLtvVMMnMxGiSKTOpa6H_te_7ZXsnaVqVWurTsiEMybnnnrm59wzpdKqsyrmQZQX1Nc4Krg89mTNwBlano2fxS0YTvqxoniUa-p-QkchiKjVXmxgYTpN7qdhqA1_OVMYVBqZUVXq98QXPn3iVJRRDFX-u1pFVjvXdhf7ZyWn_5PjkaGCNXbihilYypXAhVTnNptzyXRgryrrWVxcU57n1wwWfFuArqTVYNy4QrXkR55yBULKAJ650JksN8Rz8e5VpCKjKyvQAxlypOVxLheBBE6uyksNVHaUlgzHmf-OZTrmKsb7PLowUpxVUs5J34UZCQcs5pDX2i841VBKmOZ1DVnWtaxcGvYF15UJY0AerY3VonDzoSMtZ2fRL5LOMYTuuL4NLmCqZKvyQoxaIqdYGXCN1p19DhvQkczgdvCK1EGUsonkemaJimjxGeVY-amvyxSWHZj63FvEWPy07tCEZegkB24ttYJEnGCyghklIcGGJeTdBj4y8OkJGGEFwZMMIkxnYPtIjjww9WOwsidlewkSTzHi65AgHqGNWspOYQzbWF3ykPireqU_wtKmPCnRiw4lTnpjyOCYtcLbYUW_ZUTsokEpSAoLwukMGEDXAWb0JObOBk7uEA00FbxGRohrjIjXlbRQhqLJFxFDYHXYRBFurEJQxmSsKMVt8uBSHQkqcdP09jgBudttSi4jayTaDXHaq9d6_sV2bjSy0m8nGYa58F1PsTbKT6yZhcnsMrOckPWdrmeF5UO_jB-ejpS7Z6WRsLHEiyK0DE5qYVZjVjGknEzLzXDtxOTPK65nVawvFaHJU3Dvew_nvv2dFfN7BinhImNNKrb1EjJfICy8R9JJZPmDIWjalKGuOobPS2m7uui4e4RF5Y8vmpwSNNWHYXJjhvQKGw5YY9rwYQvB6IYx6PhKDwtzkzNx7x8_7b4iGFMKf3y-ZQdHzl_-FQ6fbNxn_zc_6L8aOWI0&format=noten&ssp=10&name=Saratoga_Hornpipe&play=1"},{"Name":"Shetland Set","Filename":"Shetland Set.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVV1v0zAUfc-vuIpUkUqjbF7FIBIPTr8YMITWSiAQmlz7OjMkcRU7HZX48dhJ0ybVkIA38pA0xyfnnnuPmwwGVtkMpS4s1MdK5WieJjoTQMbBYGCqdZfRLF9blilu4OKFY3Cdb7TB8jGGW075vS7FocBEV6XC0i1sWGnNsfBrzLZoFWduyeIPe1w5PBN8iuHi6mp8eX754vxlsIpheY82Y4WAJVp_LxjMsSx3cIuYncE7toMpIjDrL2fgmTfKGFhusOAKn5iaGExiWJVMjILbGEoP3MQwfjYOPscwYTlMSm1MsHTlvAiO0hHQbAcJU0UtudI50EJgaXRxBuHqHmGpXDclJPrBSbv7uRIiQ7ipjOKg5cF46GUjcn7xfDiqiYbl7oQWlIFNxnYoYL2DN1gUSjrBj6VKM9yNgvfOjXbUwwS8bzOCa3hgBrSjqYJlzmWqVZGC1ZApY8Heo_H6bvjMYrY7g3VVozsHYu6sWSw82xdYI6SlrjbOg-_U2xoFb2OY5uxbMAgGbM2_mTujq6LJV2aVEi6-m-vpNWxKnZZueOctsGbGePCI1DujD3nSVmfwfNwjtRAT4s51decns2b8-12miu8m-PIhPsb-NQinIWwFqSJBhyCIIAA_wYMoXSucUALt4fBFCAkXCdCEzrv4LA9hQWYEZpdAD_g_ioc0BLqYz1rc8af-WdHhx424JJEUw_ayJ8uUpeAKyK6400QSIR-2lw5em0loeuQHYZKfqjcOfysuUwkoeNLFnRn6iPOBD6H_f2uCEM7Kfk4dhYQuYD6bkhPlShCUkHrzPSfbCOWwaloinSD-XNyJtNr8pCjW7VziAd4HsZU-ZTkEJv1oGnL9O5IpcTPsB8ERKHI8KVqPjxLsmGmC6Ks3QfxW_G-DeOQlt0-DRHQxhPl0Ot_LTEKYvZrMFvBl9op_JRAtaLsvkpY8X_TLikhwv_mB8t7Odf6bU9d76gZen_reT8h9fm11n0jdk3_XPCWjC_9x-G8-WL8AG6b_Kg&format=noten&ssp=10&name=Shetland_Set&play=1"},{"Name":"The Silver Spear","Filename":"The Silver Spear.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzNU01vm0AQve-vmCJxdKgxrS2kHMDIrlWlqmofqkSVNWZ3gWRh0e6StJL_V-79ZV2MP0jjuNdyYFZv3rx5-xCuawojGJeVgd2zKkqmB7EUFPyAuK5uNn1G114YFEWqYTixjFSWtdRMnWPYdpbmUtHjgqlsVMGUbdSojD4t_sTEIzNFirZl2E9z6hxnyPcQhuPxKAhG4w8TsgphlTNYFnZQwbJmqMjUYgrpFfkWgmJMkGUIEcXaMApcyRIsVRey0oAGcmNqHXqeyZlmuoWvpMo801RMe8OJT77YYeBNBS0EC3hCDTqXTxUUFSSNyrF8R25DmGIJUyW1BnITQuAF5HMISYn3xCUubtJ7vdayqboUuGgKai95s0gWUCuZKTv9_gBsUOsWPCG7_F5CLelRCvgYvCAdIKR0jUKsa4G_Npg-rEVRPWhy9zWMBm3qP4iTODCLIPIhjmzdgjN3gHIbkhM5EKd0h7WkljPrWK9oftvcHsVm58Uo43ssG7GdKLf1klZv5wVnJ_uvV8bR0Rf9ty3M9r6Qv2Vsa7-kzS_u5cd9QA4bO3TQ6blke5ccAf3zpN6NueW8IdVPDw7xwcX8_gNjna-kE5tD2MbX_dYQDbwuRQ3X13BAE5h7kX3_ft4d_sLnXleJ-we9ZkgD&format=noten&ssp=10&name=The_Silver_Spear&play=1"},{"Name":"Sleep Soond i da Moarnin'","Filename":"Sleep Soond i da Moarnin'.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1P2zAUfc-vOOpUsUlQaOkGRNpD0qGu2lohysO0aSA3uU0NThzZDh2oP37XCS0gOqmvy4Pb3PPhc6-ttNtOOkVzXTjUz5XMyR7EWqXo9YN221azl4wGHjmhZGLRPWVGovNSWzLbGAxnyUKbdLPBQFdGkmGgFMbZ542_kronJxPBkKM_7hnZaIIfIbonJ_3jo6PTj93gKsRUEZWYal2kkEgFxlqYQhZ7L8HKgwXcghj2aBYMQlwZkXaCyxCGSAXjEP3DfjANMRZZJglTUVhdEN6PpXUQbDF1_L6P7tnZ0YdgsiGWQhrL5tJiKd0CE1riUmYZsWIhy0a6IJWSwZB0ByMshUWpSFjmOA1LBOlQ6hJV6Z057AU5wnddpXsWiVaKEid1AT3HRBu3qPKZkYJ7qgqyHa-ZaBbopsv4wM8W98JzXMg7prrYc7gr9BLLxcM-ZpXjqlBL8cCxmeRzlEo81HoluOWB38y_GWl5ZPCbmKoAZxcYvPN91H7ScUTNfk_0O9r481CKO9-a9WfAuiVZnVMn-BliIHIMjLY2-BZimIvboB20xSy5tTc1uz7-uapkyvdhPPoyQml0Zlh1tC7MhLW--Fypr9rrkifda4VP_VekdUmk6Y1Q6sb3PhPJ3Y3iyDb4dRFG9RB_B60ob4FED9cZLzTHCq1hC3y-MVrnjA2jeOiLDU9cZ3jL81jUgyc2htGOhhGJGcR8q98xYqxWPDdOG79Mm0QUNUujiRPWDHtRvHZ9Q4iGm5CetaNNxBVOloktvT56m00wvOfL2FnHI0pASZS88n3VdBKBomRLvNgXd453_e98eOwh9MNrP31v0Bw4Pj89rIlfVDasHMPD87z55WVV_1u_7sqqr_pBr9P1gv_mA_wXewXVKw&format=noten&ssp=10&name=Sleep_Soond_i_da_Moarnin'&play=1"},{"Name":"Smith's Reel","Filename":"Smith's Reel.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlcFu2kAQhu9-ipElFJAINEBKaikHG0NLI9oqyaFSm6DFOzZObC_aNaRIvFfvfbLOrrGBNCLtsUa2vDP_fvPvrG1qtTzOEwxFloM5buMU1aknEg6dnlWrqeVsX1GkxzlL4kDB2QUpApEuhEL5koLSUTAXklcFBmIpY5SUWDCZq13hD5isMI8DRqkcf-S7TDXH-urAWf-886570T3vWrcO3KRxPj9RcI2YWAMHbiXjLevaAakDEwd67Z5148AEm_BR4BomwRVmKkbrkwMuZ4scObCMTilZFtFgtoYBS2EghVJQT9dgbEIYS5UXDCqnMBAZb7Q0ZXyyQgpgBkqkCCuUKhaZgqc5SoR8jsVcMG2AODMh91RjIVbgpS0YwxOjxeYCkvgRIaZCsyVlc0IuM66AUSKnTQARhi3rygE_ZQ9WzaqxWfCgpkZl-hUmy5hTAydjfwwLKSJJa3lTBmZMKR3cRYypw5AWrUQCb3sHojLEOJ-yJJkuEraeseBxmsTZo7K-fXGKNd3Vu_Uwuo8am--W7dvAOvcRI2iIsAH7vQ0cQw7IPa7HJHBHLgfbS23wAm5Ew74NISOV7dIdsjCCTcFiz1nRayzXsDAwad6BHYswBeqAFXLvuC_k4dYXf84CWrrrBY2DhR4DGnN8Z44HsNnQtlIzvaKZVqEf0QrpEhSvw_M-7vPhaCsj3TljmQdEK-HN0b8wt665EYTUUsPUCoLyckrl03NHPgx9r-mXzCbdDwsmaV_e8sqn622bVnCPMUeHzD98RlV3t69ffcVkq3FnbRyjYcj4ybFHtdzfYrEhpTAs3Vc5XdbkqOTG0s37G_RrD0cPHO29-DSWn4_LSxJ65b0e_Pp5-KNQpTXHwYTtUVJ9eE-nC2aal-6PDOvzNWyZRtkmybDfdvs60C70VWyf6YLb9ktkOXjBaUV1-22_iOxhdXD7yTvttM50gf_mn-s3MYknPQ&format=noten&ssp=10&name=Smith's_Reel&play=1"},{"Name":"The Stage Hornpipe","Filename":"The Stage Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx9kstu1DAUhvd-isNIkVhMSScdERqJRS4zngEVIToLxEUjx3YurRNHttOCNO_FnifDbpKGIlRnE3_n_33-HMfzTG0EL2Rr4GEd6obrs0QKBsEaeZ7u878VQ3lviKiphtUbq6Cy6aTm6n8KWy5pJRV7bJDKXtVc2UJHlNFz4x0Xd9zUlNiS4T_MXHn0oM8RrMLwIgiD8-ASHSI4VByuDSk57KRqu7rjKI3gHbERYFcLgT5FoDgX6DqCmJHOcAaFkg1UxnQ68n1Tcc21rmX7SqrSN33Ltb8K1pfog3VA0bfgGOzhnmjQlbxvoW4h61VFmhfoSwQpaSBVUmtAVxGs_TV6HwFuyA3ykEdyeqOPWvbtMIFC9DWzH3i1z_bQKVkq6z6fQE60dnAmD7N7ipzoTgp4vX4imhBh7EiEOHaC_MwJvT2Kur3V6OvHKD5zE_-OGP2GThEs8AISvMWwwRm2Qz4NZJnhBGgSYwfiZgHxJp5BFlqAtxvI0mQZL-GErNP58NI5IWE0cbp0AZTxAsrCXs1kZDklkFg0AU7j7eAO8DKA6ORiJmPMMWLpLpeVOZvy0ILQISor2ZQas2SsxqSclLZ3YRvZxrxgc9RnTyzGE19ecJuT5aOCJM-E9sY_FoYJw1u7rDqZd8OCSYftEzeQhfD7lxW6jW-Zb5l9y8JZlzpRFvr4H5lDyPsDkroQ1g&format=noten&ssp=10&name=The_Stage_Hornpipe&play=1"},{"Name":"The Twenty-Eighth of January","Filename":"The Twenty-Eighth of January.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVdtu20YQfedXTAUYTQBdbEWNGxV-IMVL1CBB0RpFW8MxltwltfGSS-wu5Qp1v6vv_bLO8CbZNfpePVDkmZ0zZ86MqLMzJ50Sua4ctJ9rWQo7C7TisFx5Z2e2SU9PdOGtY0pmFi6-xROZLmtthXnpBIaLbKcNHwtsdGOkMBiomXH2WPi9UHvhZMYw5MTv7hgZc7xf1nBx-fZ8ef5m9e6dd72G652A6wdRucMsksXO7UDn8D2rGmYO3gbjhvG59-MajBDK-7iG1WLl_bSGD78iaeUMg-umEhZYxcHthBXWSl3NtSkWjgKLi28uLy4h14bCkDIrvN_WsGElbIy21vu0hk_6AYPSgiQekJUTRlgnqwKqpkyF-aqVGcyoYaRSSj_gSaiNcO4A1mFxZjhsFz9vtynCujCdDmLPdYPaZAUlqw6wEQotglbbFNLGtbL8jrpB-e3zJNRGopQ9K-vpZCjUVI1tmCKuXHKuREdDRYiIkZIaUYxniqGADIzO7ucQt90zhyYyq6spbKnf6h6k-9pCLcyO1dRQqQ3W_sLK8jBpuSmrooBQmsuMKulKfNe6jTewF4baRD6l9b3ggDV2DL8gmcWzqJz5JTzIijd1V79ge5RHUpV0uJNdRZw4g1Q1wh6oQt1U2W7eWu50DSscmkF1RrTWtLKwQ-lsO00abTkd5g-pdk6XQ5JUqrG4JE7ADoe8BVmyQlaCypySMcCmwaLLOPS592ENPte44t4ZS7Mv9s7SDNt9zlUjOS74x2247SaNiecDgIIsgUek_e08hejQXit4u3pyaIAY53dMqbtasUPKsvs7hZOy3s0P625Lbr2JX07An_rTzQY3ZQJhGMfwCP-Cl_FyhIMsgEmCN0mcEBgPWETRJArh8YQ3GnjDJ7w9vIySEc4Ea3kLEfgEEh2G_WUfX8H6EX1E9cGpevGKAVu-BpayYuASBUsRZDkBRJkXuBasGJ7F8bknWeLxjgKekxR9Ehd4XvAgOYp7QVv_-3u1Z2b-ejR4g41A23Ls8_xYoyANBBc5rnwPZoGfdA7TTefwVRwlcV823ATTo8cJ2dlyBNMQJzL6GWV-C_MsOFLzweS-HhEKTtPr-3hmctdI38eNP41ul3CTsds3uOhi9Ls1jhUi797RvenFTTINb2-C4hboQildJCVnc0753jFffOZXPIORggJ_fOZ_ojwfcK02A3FIViR-9l8NdP8bw9vw6vSDWcFL8JhTLsLxkkC8iEr4-6_H53hULvCVdEzCM_01aa9d_PFpBC_jF95A_16YLecXxPS_-fv9B_bpcks&format=noten&ssp=10&name=The_Twenty-Eighth_of_January&play=1"},{"Name":"Westmoreland's Hornpipe","Filename":"Westmoreland's Hornpipe.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlF1r2zAYhe_1K14MZhs07WKyLjPkQrZst5TA2AIb27ogW0rmVo6C5IQV8r92v1-2V_7Ixxbo9QxyrHOOpMeHJL5fl7WSC72qoblmZSXtINJKQDAivm83-XGitW9rrsrCwnCMiUJXa22lOZdAe1n80EbsD4j1xpTSoLHmpraHg2-k2sq6LDhatfxZH5z9GvI5hOHbN8H43Wg4viazED5JW1faSMVX4oWFG21W63ItSRzCTBrzBFNtTGnJhxCMlIpMQxhdjciXEGJeQWy0teTjX9m7EFjFH4hPfJ4XD3Zu9WbVvsBCbUqBfNNbdgtro5cGd3ndCzm31okHpXn1U8mFtlrB9egk1EtciDlXar5W_CnnxeNclatHS76-D-nAFXZPs29kF4LHPEgZZZBSlsIOvKTyIEqyCHBkTmgDKeBgOAePekAv4oRegLslsCNY7fP70G6fhMW4ZtgILKVFs1QEQDMId0ErB5AGjY5PDNM7LBHRoxb9AC4KAYjVHJh5AIkDAxa7Nf8kmq2T7w6HFrLYYwuaUkdyBvssN-sBW7gG-ljjyz1w2zW83HJz-eq-x14ILmDBxaI_MJfLHHAsO-pDoAOQooiwoPSobIR-puwMoV0fcSccl42MoWNsfyLQcU4mE8xG3aQ3GSQV3ij8_oUugww_cXpiU6BXrHGbCeu-9IPgcuhy_81fwx_G21Ur&format=noten&ssp=10&name=Westmoreland's_Hornpipe&play=1"},{"Name":"Whiskey Before Breakfast","Filename":"Whiskey Before Breakfast.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVlNFu2jAUhu_zFEdISFSisAY2uki9sHGcoanTVFXatKpCxnbAJcHIdtpV6nvtfk82OyEF1la7npGMfc7x7-_8IXS7TrlC5nrjoB7XqpT2FOtCQDyOul1bLQ4rmvTMsUJxC2fnvoLrcqutNK9V-PSSr7QRzxdMdWWUND6xZcbZ_cWfZHEvneLMp5z86faZ5zPR9wTOJpPR-_h8PPoYXSfwbaXsWj4C9nxGAjaSrXNmXTRN4NowMYiuEjBSFtGPBKashKnR1kL0xe8KZq3ifVhIVjmVVwW4aiMHcKWr5QqcYRvLjdo6pTegc1jpB5hBodYSnIZtwR5BuQFElwmMh-PocwKkZHdRN-qyBb-zc6urTdN2XlRK-K4uZ2QGW6OXxoO8awMLjxGC-0ht2HEoFN3rAj6Mj4raEBNizopiHqgWjK_nhdqsbXTzNUGnweZbiDqkAySmMVAU9xA8QQigE4wyoCSlIZB1IItxVmdojOpYWnYgDfkO8gvUn6bw1GilNAMU-6nVClJHWqjVQpSEGJoELa9Qnx-lkDx5uzwkbiAbXYp4_dBF7BeNtJC5aGIco5aqh0HGJ37yz34nvsylAI4w3zGK2J8L4DyWfEeFQ7pOIopekO66Rm3TASije1J0REooIEK9m2_auReG3ghl_7DUGwU3VNyO0LGnKTkSDIN6_HrxwtdD3ENje6Nwp6fw_be9Bxtqz3BQa9lwP-vjvv-WObzlLGudZa84i9Ezr2gNEHtn65Zr1nFN2t298dC4Cxdh-GJ8sL24aIuI_2RDAmk5DD0Q-P2rmdLST2jydx2aDMOvj_jqsK1DQ7J7T0_jwVk48N_8B_4BepOMVw&format=noten&ssp=10&name=Whiskey_Before_Breakfast&play=1"},{"Name":"The Blackbird (Set Dance)","Filename":"The Blackbird Set Dance.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVF1v2zgQfNevWBgwYAOJe1Hcjwi4B8lKFKPIoWhzwKGGE6xISuaFIgWSiuuDf3yXsh3HvdwPOL8Imp3ZHc7SGg699EpURnvof_eyEe48M4pDPI2GQ9eVrxm78tyjkszBxSdiMNO0xgn7FoPKNVsZy18GzExnpbBUaNF6dxx8K9Sz8JIhlbz44Y-VF030VwIXH99_mk4vP15dRfcJ3K8EZArZUykth9E34SFHzcQ4mlHRIp9EXxMgA7qVrYi-JzDDBmbWOBd9SyAzZbmBAi2XWtgzuBONoUkOTAUzhdIKGF1cXX0Yw1r6FTQbMGsNz2glemm0m0R_JPBVoFIbkNoLK5yXugbfaQFzcL5rSiU4dK3RE4A_dee6njxCBxVaoMccnrRZj89AIFtBCAWE5m43ETWEERSHRfBrA6VA76jVLSmRBlhD4xqhDJcM3KZp0a82O60_yeZ2n8EZ4aarVzTXr6R-6vtLD850YWopPB0D1iuhwSmzJvM8nDkYPk0LWoUbR9LxhCJogy9ACizkoEM6qPp4ZmH9jqxKpSCUKLpnMYnuEpi-m0afE8gb-SMaRkMs2d_usTfSL79SneR0G-7m-Rxaa2pLu_vtAJToXACPSH_RTqFAejYKPkxPSAcIOX-kfTyGo5SU1KOiRFy0-JKk52ETy4iz7aAYQFZkHFicFbCFQdoMIC1uCkgzlgYgHwCPKwGcpTfhnQQFESB_mOXXsI3oCgfOzXXQBOJeI97QhEIek5LAxV0Sv5su6T2NYbvrQ7xFViwvC1hcs-VrR1l66uiBhfa__-op_rclfrT0wPipaHQ5oqOOIX2xFp84Izo5G4bMsn1m26SnVoJqC14t4wWvl3Hvk8ynuIyx3jFqrPZj6pgGYV2NoS4JPKCEvPL1YrtvXaV1um-K5RsdD9pFzpfTV57_EVV9SDPfa0911DvYofWMAzgbhC1lwDLGYQ9QD9HTMe5PdPSWIu3hpiD-jsliwYL__1rz0RklS8dKtvv_wnk8uQjfwv_N9_knNjneXg&format=noten&ssp=10&name=The_Blackbird_(Set_Dance)&play=1"},{"Name":"Brose and Butter + Cuzle Together","Filename":"Brose and Butter Cuzle Together.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVcFu4zYQvesrBga8sdHEzapGsvVNchxtUGRRbHIoWmQDWhzJ3NCiQVL2psjH9Fv6ZZ2hLEsOskWvFSzLnpk3j29mSA2HXnmNhak8hOterdGdpUZLiKfRcOjqZT-icd94oVXu4P0HisjNemMc2rciyF3mK2PlgWBuaqvQkmMjrHcd8UfUW_QqF-Ty-M13ngMm-m0G7y8vp9PLi4vpRXQ_g9QSM4hKQlp7jxZ-gHn9p0a4NyX6FWHmM7i3Qk6izzNwWm2-qjL6fQZzsYY5gR1Ed5TGVJVC-KwkmtrDGdzlxnvlVnCtLMIoPj8_Hwcajk60cFIoC9dWkO5g_yRYMMJHIRzhA-wdZFbkDXw6nkSfDkQbLZ4d-JVyYCp6ImyV0SJkUh6cqSvpQOzQmTVOAG5OtgjeispxpUNMvQEBhSr8CryBnbFPnH-frVBSagImleEigKqoNui8qkpmpW_F9IKoKNrtlM9X6GCJfodYQQLSWCUqGJFnRTxzqISvrdBjJjn7-6_dSuUrcIhrx_RLDLTOkwBhJRWAlazVN6OfZUg0JyZhN-MJ3FEgjcxSVcSYvkshcDRd4-xt504pR7P6fdtAaGdICiSUGEZU5x1qDfRcaEdFvRVWP5_Ckhp4c0IOjYKrxiq5qYWxUJld04d7Lj19XL3ZaFwj1UfCXuwWrVNUSGJaUB1g-dxvNDf4tA2tFLU3PeNJnkS3M_j5xw_RLzQgBIuGYpl_dY-hl2GWC10rScN9e3N1AxtrSkszeN4alsI5NnaWsG-OTRy0NRoupkdBrUlI-Si0fuTxWor86VGr6slFLzMYJOsBbEe5xDHUSZ7ANqlHeTKGl9bKxkE2gDTOeMu9vA1Jc4a0cVmJINOs2aSzl0A070BI7i3Wo5L-dERs5QRyO0ozzhYwdedkSFEGyOBqAEUsQbYYJiMirjENQfTHr7NmR5042AoaWU-Ne4BG8QAoZdDF9-F6OZh7cveKe5A070P-TfEexUvn-xUR9pf-iihAivKI6DuKSenxwfZw4I5HlGWcF4Bx0uPem5s0ZZz2uQ8-geUrbkl5WtBPRyJFPKITaow5_cIO1ZkbIuwR9SD_hYjbSQfCq_P1gdvNOzEsZEFTmSUpLLJFuLusrZWzJ9dXHdsR5DqD44VcL65AUnkOkL3iLIBikDwMR_PTmNOg8Eve-niQv4NpiDKi_pLLjmlPxMsrCzpH4jKGAnuovbWpVymOFb0N4VAkS1DUloeIhuE8Oosn7_n1-r955f8DlcNz2g&format=noten&ssp=10&name=Brose_and_Butter_+_Cuzle_Together&play=1"},{"Name":"The Butterfly","Filename":"The Butterfly.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzVVMtu2zAQvPMrFgaMWgfHiWzYqW6S_KhRpAhaH4oWhUGJlMyYFA2RSmIg_5V7vqxL0YqbID9QQaDImdmd1Xrlft8KK3mhKwvttRGKm2GiJYNwQvp902T_Kjy9tlSK3MDVNSpyrQ7a8PojBdJlvtM1ezVIdVMLXiNxoLU1Z-MvXN5zK3KKlOWP9sy8xpCfEVzNZpPpZDq9HJNNBJsdh6SxFt3lkaQIaKWOcKutNeR7BEaKw50oya8IUqogrbUx5IePW2nNYNNUnHyLYP3pnoPSTBSCM7BIZ_pBVCVYDUYrbnftYUctKLrnBrU1B8Mrw51E8QtXB-gCcizWgTthAO-7xligzgKzc-nEGYeDpEf0eRB2d0FuIvg8uiZfI4iZxs7QLL8zW6ObyretkI1g2JWb9XwNh1qXNb7KZQdk1BgHnpG24W8hJ7rXEqaTN6IOooxtqZRbV1ZG8_1WimpvyO_bKB66n-kP6S1UD5JwAYNVuAigN-_BcgxP8B5P8LhczD9gMGKwWIaBo1LcJyELYMDCxHPxcg7RE-k706Qz9bocdTwscC1KH-9cTgnKkAfAktjBsZq9CyhD2gY488ztz_rOLO3MVlju2IXHAazCNmEHxUHS5jj5fKBM3buyU_pO2lr4aYbU9dtE3dH3NYKFGs3dkii_TUe-DV6VnFQpvDy_PAOK2mfsnjB3y1mbnrQrr1mNWv508mlh0M69gZxWbgrx2zb4cTcWR7HQNVaAI1vgiPGC1zVngSsfp3EYXlw5m__mn-Ivl1pxBw&format=noten&ssp=10&name=The_Butterfly&play=1"},{"Name":"The Yorkshire Trip","Filename":"The Yorkshire Trip.svg","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJy9lFtv2jAYhu_zKz4hoSVSS9qM9ZBeJU7IqqnTtKIdNSHjGHAxMbINaqX-r973l-1zDlCmXm7jIjjv-3zHBPp9K6zkM1VZqD9jseLmOFWyhGjo9ftmM31JNPa1pVIwA6cXSDC1WivD9WsE2nO2ULrcFSBqowXXaKyptmZf-D2XW24Fo2hZfm_3zi7G-xbD6fn58Gx4eXLxzhvHMF5w-K700iyE5jDWYu1UOlgO6AAyWgmzgFsp1ndi7hHENS0H3ucYTKv9iIHQFRCtjPFuY_gqpBQofBFsybV5g6Wl5MwKVYGauYwMy2wqbsDHTk6Cq7qFQqmylr2PMSSw5foBKoFoW-cKLFJG3FvOK7uASlnMIKpangltLLhtwFxsOQgLFEphrKiwMApWbdhi4N3EcBleeB9iKFb0zuvTKbszE6M2VbPdmdyIEpd3c51dw1qrucZBTjphSo1x4l6pn8uh5KCtknA2PIA6iZblhEo5WUv6MKVsOZGiWhrv56c4OXb9__J6RQ-KaA5lWkCP9MBPw4iFUZkG8Ah7M4NehuYojIowSrJD87VIpJO3kEUpJKMMHh__X6G-Gy_txkM-J35eJ8mC9CjDVOBnLtJZAckx1i-bPMFoZ5A2JD1CuAhGeVtrVCRNQAP_owJvwU9SFuzGId04-crNn-Dofp7lAaQRa-MO1KNGJn_ISdFtDFeZjFxnzM3wt7PmI4hd583_AhD3Spq4u21ePfxRhEVI6mvWnrM6rKHSliLoFHjNkGrOLynSUvkKnp-en9BzX3gg3aGhfwNB52z6&format=noten&ssp=10&name=The_Yorkshire_Trip&play=1"}];
+    const tunes=[{"Name":"Bitter Creek","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNlG9v2jAQxt_7U5yQkEBisBrWSnkXJ-FWTdWmrS-mMYqcOJiUQJAT6Crlw--cP0C0qduLRPHl_LvnHl_y3YGbu7vpbMZnH27ZowMiKYrYgGfieMs8Bx6NVGP2wwFP7iia5Tn76gC9TdmDA7PJjH1zwH13kKaAkzRjCF_hcx5JAx-lORBJFrApikPuTCbFcR9LE23GmdGTl2SbTOpqq6ramH1yAHfymfVZX4bRc77Ks-NerbN9Aev0mCjW7z_c-_dwMJk2JOd9GwhlntvgJRJtMqO6IZt0ylK4nXWS2pBUaiXTdHVI5Wsoo-0qTfbbnC2-OHV3Sy3Ln6yHPQi10hArEUMJPa8HSqAAFwO0a3rvi5GPIJSOAWzItynuE4LLtYTy3wy_ZQRzdGsGbRHoIiyQC75c4Ij7fNmwdFyzVMPSkioTMGg24ugKVuOFEpWe8Ol_BQ2mAz-YD4EYVWc1mvpqNYGtV1q_RO0Xa7zgPtj6c2jIgccD8AJK_9Ovrlu2KM6DYSOR8nDkjoiGc2xZOPJsZ0HHt67COSC3a1avqS-l1xqgFRRHIoJ4bY-r3WNzYjqshhqSpbCW1xCy4Q2I3-aoBlI5LNeg-fnsShrDU75NDnAT7S5zBgP7GQ1r-0g4JyUqaqrUMxBM3enyetqoQ1dcuWfNQw6N2r9CKs_O89mFXNl2htRDRaPWDhkBQUSKw3lALyntlCFBAkT9NkQpfVHShWADQV75WNpfQ7-IfxXg2W83px8GeHT5lGyffLo7lPUbJRtJDQ&format=noten&ssp=10&name=Bitter_Creek&play=1"},{"Name":"Blackberry Blossom","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydkT1PwzAQhnf_ipNRVtKGQKk3Ox9WhbogBsQSObUT2iZNZbeISv7xnAsF2gWJwSffc1-vz88MxpPb5H56Mx0l5ImB6NRiXRtrD3gdnBt6kjF4skpfkxcGmeohs8jJIwNrTEfmDNI4JQ8MZK9WJCKRqhcrV7lhv9HNsNlB0-2XmkTRfJbPYGuH1mKT0QnUyrkAf8jidbD6HIWkt6GDu_Qs6YSU1pXqumrbqUON-qtuuVk7QiVtVd0CLa962rSq8TSjpmkNYEQLLoNflLIIfl5K7imnQgsJNKdcm8b_p0VOheRl8GXKPC7EM1r0VCRGABUTrDLCX5BQdyIYxymIj4NVazTK-KtBKEHSqqCMf3Ycw28tieTMJ-fIB3lRtDPvO8jCQh3-YoxPhSyWx8PjHPwFy_EwD1D0sZh8W0DrL1jMv5JJ9AHvq6lh&format=noten&ssp=10&name=Blackberry_Blossom&play=1"},{"Name":"Blackbird Hornpipe (1)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFlFFv2zYUhd_1Kw4MGLAxNW29NBlU5IGWLLYosg5tHoZtbUCLlKxGIgWSbubN_e-7lGQnbjDUFgzq6tzvHt5L-fcELy9f_XL-4uLy1UV0k2DZiOJuXVuJN8bqru4UZi_nUZrgxgp5Fv2RIBUtUmuciz4k2Iyq6GMC1gotBd4pa1_jQ1g3WIqdw0_IxFeFa2HdRjQNZve136DdwdxrNHVx5yCkVHIe_UoUbfxGWWh1D7_VCqWxaNUZ8FGp1sEbbAJNoDEetUZh2tZo9MybjXq0Bac8pNCFihHIvaL2DlZ1Sngl0ZDJWlegdKoJ0ymNLMZ6S2Dy1DhD2sJUuv5HrJsdZO18rQsfzPiadlLW1db2hK0PJQrqh6RMLemRVs9oA-FpgAtrha5Uq3RIf08bq7VXVgVihZIMba3qy2LimrrrlN1NkMZwplW-bpULBaiBtgu7bgg_7Kj_CRXu1A6urvRACh6OqZDWdF0oJEPPqYe9SjRn0XWC8-fn0bsEWSu-RFOxLr64W2e2WpZGe5TNtpbRdHr9NnuLzprK0vxfHAJr4VwIPkT6FpyGguiraXBxfiI6hGj2t3QsbrtG7NY0u1va252L_vwtYc86Yf0nRIzv_4om2QT5YpWD5dkCw2ePEJWqlJAFy49BPgFf0D3Ps1UfSCmXh8CScewH1irngcWesv6V6tvAG1KZvCoYeBFyMfggC3QdYas8Z6HaE2MKITd_ZGzGF-DzfFA_tnZVHHGzn2c5z-fI8sHhdzh-wB29EeHobZYhm696e1RgH01DL5eHXgaJWJQCVamK0ZIsZAlVkHxkiGoQVH2AXU5Qyooki-CsrD5X89GoKCt6ReVjUrgPDn_QurI6Iqj4qZmA6M2fmJHfmakeEKxiKNlTBP_fJvUe6KIzcNoizBpzP_-0T4YTxxZhsIsVH9H5imaySlmcHXo1KPIVfxh98JhnnIQ01s-HoR6E6YjKUjqcNN2YxwebcXZFaPA4XcYsHgtwWi7jq3S0mwS706lXf3uk_R8Ovbv05QjgsCIlqchKCGZgl32cj_H_AMWXreQ&format=noten&ssp=10&name=Blackbird_Hornpipe_(1)&play=1"},{"Name":"Blackbird Hornpipe (2)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNkm1r2zAUhb_rV9wZAhmsSeek7Woow3Yarxsd3doPYy8EWS-uWkdyZTkj1N1v35UTpy1sbOAP9tHRuc-R_CWC10eH4f5k_3gyJVcRJCVlt7myHN4ZqytVCRiGL0kawZWlfES-RpDSJaTW1DX5HMH11kXOI5iOp-QjGq9VDfhQbdy1sLAStlZGg5GA33-Y8ApYKagt12BFSZ3g4ExnraxYKdPUYLQY-egYSuVcKWBprEB3JZxyaoUJeeNAaaBQGMPhJ12_AMj8K0UQdEphhWablBShudIFykuqdA05rRWDMTTosA6lEbmM4IJyS1UB5ywz2AHDNYcL4bBSSm0urF1jf-eqOhqP16ZxzSgX44OV4u_13mm-Zm9rdSJSdvzmLlH5Mvt0EBaX5EMEsyW9IQOas5t6UZtGc2m0A1k2ipPB4PxsdobNTWHxnPd7ARFrLz4qzLd4LnnTypRwOH1m6iXK-YKW5aIq6TrHS1iUSt_W5NtFFO9V1LofQKRov5M2gmAWAGfxHLI5zEJoYTg5nWcQJxCkAZywCV5F27l-8RDQF8RHAWRJnG3leej34TOcxAmDlvw9LTlh4X_HSQFR65GTHrmn9aOELIBykNRvywK4L-hDIQv8KyTvJzwac1qgdi-LBxl6ebfSEm_E1eGk29yN3SRyxgVI3hlFn9hV28BuQf35bDjTDWeP2Z2IL--bx1h9h-WDu6T20RTzLvR-nj3sTsA7yL-iCs-4g3wK-CRrCzn4DfdrKOo&format=noten&ssp=10&name=Blackbird_Hornpipe_(2)&play=1"},{"Name":"Brenda Stubbert's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNkmGP0jAcxt_3UzwhIUJygkyOyy1G03LHDg3G3N0LFXHp1h5MtpW0RSXhw9tu7JAY9bYlbX99_k_3tP0YYnBxMToPXg6DEbkPwbQsBced3SaJ1PaZwa2UuZ_hvXWP9zDRytgdZkqXWbkkn0OMeYGxo4aMQ7yVWu9wo_Kcl4LchtC-fBZi2B-SuxDUrHLpynk6NYanZ4hvso4tuq7kB6iW-KS2uFeC797E6AwuL8-75P1j2SbnO4PMIivBkjMkWwu7kjDWrca1wNqJMgOKK6UzXvaAKfJsLbFylKdpJmRpeW565J0zFUqTNmnzJP1mYqO2pXhQpcVDvs0Eabdn06spNlottUv4ogEJN8bDI0lXSotT5EXfVY7R8ETUIC5EzPM89nkSnq7jPCvXhsw_hPT5hmu7wPHZh1-Ia1q0aIEGHUa7iChlbuKEtaIWpBDMY9eNasqiiB4IOuxr2kWDmbd-kvF1UTnzg89SCl8bUSY8qWYDdATrVmXSW4R7t68uDftPGh64Pg2WwXFRvpTVMq5dAn9N82cYl2Y-QGvS-Na2lcOk8R1Xvrym_s-rMFUUHMM8ZsEhzILMg6cewMk2_dPZh174-9e28qdFffLuVhbu60fw7_4wui7c4Lro02pnaz37XX9QTzDpj52w1u7xSsuN5I03VJnK178AvOgOOw&format=noten&ssp=10&name=Brenda_Stubbert's_Reel&play=1"},{"Name":"Butterfly Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJy9k1Fr2zAUhd_1K-4CIQ1k7ZaVhBn6IDlKVkbG6Pow1jVBlq4dNY4dJKddoD9-V7aTtqNPY4xAbB2de-6nK_w9gvfj8ejjeDQejdh1BGJXVejSfA-fSlds7RZZHMG1U-aU_YggVhuIXek9u4pgdXDMIzg_O2ffyIjO7WFeOmf9AJbT0kG1QrhCXTqzBFUYKElwcEdBrlZtkflT9iWCYFZ5DivrwW62rry3XlW2LFQOKrG5rSxSaNOCPA43yq1VQqy6LLz1FRYVPNhqRT1pv9oVWAdfQrZD74FAcrtGA7ZqHA9q_waiPvscAd-oO9ZlXZXoO7_05a4waUlxab6zhnW788vJJRBT5gj83UFIlPdBfFI0DcW8lILpvsxhdP7CdJCUMUs69nKbq32i9HqZ22Lt2c3XiL_dKlfdPkY_WYd3QOmeQtAKNTxCEDhqDnKoh2Etxh0wqTCgkdcG2QGx4ELDyYcToUUfLjgZX0ma_JEkX0uSM9H0DKbokUZFgKIBZMExuxF4K2fQPMQB8UbTkkP9EPoIKrUEwWfTNl4uJnIK8mISi0HLyAexjIFLAmuLxGAy5SCm5ggVAmRTUwt8wKmmqR6Gc2vB-yHvb_lEGxyiDPYBU0CjxQFR0wBpiD08Ii5MaiBJTU_32tJEZYeihjFMvZlkiMU0I8J2nv_7wnkz3PrCNSWFY6Luw2vXrp6uPX6GSaYME4QsQdVShl50_PCnjqC9JKySLPRIs7TfNsCFCTO9-HdDVcMas9ut8FcFcfjSPH3e9BNjkOTnMAFJr2ecDgRA2rOt-qXZYt3fiNZqQA&format=noten&ssp=10&name=Butterfly_Hornpipe&play=1"},{"Name":"Cuckoo's Nest","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJy1k0uL2zAcxO_6FIPBNIF0H26aEEMOsl6EskspOZQ-MI4k72bjjYPlLF3Ih6-UTdKYQHvqQTr8_uPReGx9TXE7_ji5mYxGtxMyT8G2elXX7xzurWsJSzFvCnNFvvlJ8QzW1M6RLykaaytyn2K2bm3jlcv1Q_U6QD5_tJBLYyrbeI9suahs7sUvtnHWofXTujG2QV1iUzStuyJ3KYbXQ_IpBX8unkhM4mKhn1zu6u3alPW6RVltl4bE8d2Mz7Bp6ofGJ7k5gkXhXIB_iH70Z3RREL3UFUbDjuiICmPyoqryTVW8Lgq9yqvleuXI988pfR9i_gShepf-IBGPYBIYDVNagx0iOo6gE5qAJjQLgEWY6kRn0NbLPFARskQlUIlU2O0tqOR0AC5pEQQelIbKvfJNhINIvvkLqcQByoQngF8nrx41_Z7R_U6i3oeeDoxqWH2WSwnVyaV4NoAanNlRJTkkNfavyQS_TNbjXPT32fzpXMi-d4xDh9mxw9Nb7beDl5LCPyPkIaMSUyb8zsQRhMOm7P-Ud_LqxmFcnMVRAzChTmSqqUJIeWFy2Rn_R6BOZzTzXyz1pfk7ELf2VwsWflLnbwboGAzBi4NfK7884F4MBOJn7HJG4t9NUfrw&format=noten&ssp=10&name=Cuckoo's_Nest&play=1"},{"Name":"The Democratic Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJxdUtuO0zAQffdXHFWqFqSlC9nuVorEQ9xcqNAiBPuAuGzlxk5r6sTFdloq9eMZ9wJa5ET2nDkz53iSLyneTCa3d7fJ3e09e0zxuFLIVWtrJ4Ku8c66bqM3KqbEaD0SI1TC7MQeXOzZlPhOyBH7mmIqWkyd9Z59SrG6lH1IkcEpYcweugvKKR90t0ToO4WdDisIGBtgG7R2q1rVhRGQGW_ROPWrp5gqN0bslaQGqNprLPqAGaTtrkLsvxNdQCDby14H4bQPHsGi7Z1UDq2iflPyI6Os9iB9YxCoMV1wq0bsIcX4Zsw-p5jHy5daSqPclQfXC6PmeBGc6PzGenJAfYv2JXuf0qY7NmRDsah_-rm3fScbS0Ya02vJhsOHWT7Dxtmlo7m8vgAL4X0E_yF1tPYciqStNbgfPyNdICHlnOY5j0NZiHo9N7pbe_btY5q92ggXfrCiPKTf2aBoB6jKKgPPuMQB6kmqBqpZKgoG1QCS01FS9hxXZZGjyPl1jsOpvEiKElVWFZGRD5AneYEyUiLAJ8Q4CVRlBI6KCRUlPEkPNB4yxc-mjkklycnZwfF8VjvLn7w-1Wc1mfEqqpXRTiTkFMdEmdfZpeh_LJrix5suG_VWXmzxRNHiCY6-aA2D-h1Of4aPnzM-Fa1DPOTgk7inB-BvLvqsbvLje0mz4R9Z-_K1&format=noten&ssp=10&name=The_Democratic_Hornpipe&play=1"},{"Name":"The Derry Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVktFv2jAQxt_9V9yYovGyMgKCKlI12RAqNHWdqj5MmzbkJGdDMTGyQzcktL-9Z0JgbKu2PeQU3_3u06fP_phAdziI48vh4LLL7hO4nyOM0bkt3CEaNkog3WgsEW5fjW1ZojFv2acERnIFI2e9Z3cJuEDeJNDv9Nl7mtksM1iAcnYF1TcLj-j8wpYelN2UBcgKqjl69KF5YZ3uVJsSfWc4GHYvYEpy0pgtmMUSAwji9Vq66gV7lwBfyQcWsUhm-YOf-SCnbFmBMptFwaLoZjqewtpZ7cjfm6aRSe9D89TJ59YV560APVoDg_4Z1LRkUczI1mxt5DaT-XJmFuXSs88fEr639wVYi7cg7wngmHPYQSttgUhzOk_SSTjTmIscQXK9n49boCTmBHFB53_fV7RUz9s9cUXEtainXwu8KmB3UhInJf4nJdR4cNLuKS2BhH-ImItnFDiVCT8opJwUjms1owoSDEMZSw27Hd0VJSSOCU1ergiKpYJcUamXNAoEnYUFeIZQqJvRntv7o-zwr2GpAB3Mhdxrc-R5d3Sj8Dc37Z6WGZw5-oX6yVFMOCrdXCHZ-u_cRNpc4TW9hSTkFkUVfq9gFB6hp5cPKX1j4uu_tMOJAwDyQI197YR6DrDoCULeDsg&format=noten&ssp=10&name=The_Derry_Reel&play=1"},{"Name":"Fisher's Hornpipe (D)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx9k19r2zAUxd_1KQ6BsAy2ZEtC2_lNjmy3jI4x-jD2h6BKcuLWtozklBby4Xvl2mmzwMAy0tG9Rz9dST8jfD4_XywvFl_OzthNhLTwW-PeeVxaVzdFYzAR79kqwo2Tesp-RVjJCitnvWc_Imz7KHYdYTlbsm8UuC086FO2qmxdPqEp5ZPRKGqYoiVzCFiHFJW8s24KXBpnIKl5WxmYR1k1pfGwOYo2ZIkPCL7e7pwiH1lT07JpqZ87W-FBusLuPFona69c0bSFrT1ki23bNj6azWhVb7wneWrdZtbuauNnF-fzKfsaQRAHG7OxvFV3fk2r1Dq3dYu83BWajcfXV-IKjbMbRxv_NAi30vsgviqKaqGPpRD0YEucLY-CBklqvZZluQ4FupXqfl0W9b1nv79H_GMjXfsXbLLgsdpHf9hIjKB5yjHKRshinmGPoKUiFSdaItITjZIx4iMkZIj94HeSO1lQNpLjfEpLuc6xMUof4kxuoBX0HB3kq-cpY9JrOs2SQeOU22kq5r0WZ8kLY_Z_xhO_A19uVB9DWPk8_APxns6Xqhq_VJWFeKO4gsk3po_PNafrtJF57zfMH8bECT4POyawLMCKDLHScW9AnPwwpgTeJWTpsGERDkB0hm8BqHhEfQQhN8cQr-OXok8WB5a3KPN-4oCT0k_zPjX-B2eyEHTOqwRiDlokCiUaj1vz2GIV7qinhzHL3rRgNIw4PeFoD3QdjjCVdT3RGT0DD0Usyg&format=noten&ssp=10&name=Fisher's_Hornpipe_(D)&play=1"},{"Name":"Fisher's Hornpipe (F)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJylU2uL00AU_T6_4hII6YI2mha7BvyQRNItsiKyH8RXufNKs5tNwky2KvTHeyeP1gouihCGzLn3nJx7ZvIhhuer1WJ5uXi5WLGbGPLS7pQJLFw1pm7LVsEsv2BZDDcG5Zx9jCHDe8hMYy17H8Nu7GLXMSzDJXsbw5UyivjdTkEOe2Vs2dSAFjZQKTS1klB2TwCrpi7gW9ntAKEuhYI9mhI710yPYydPWzQdOM0N6OahloAd7LqutXEYUodV1onPG1OE3UOtbHi5iubsDU1xj7fMZz5ycWu31nF1U3egq4dSMt-_3rzeQGuawtAwzyaAo7UOPCGC5pPnkGvaNxW8WJ41TRBKucWq2rYV_uAo7rZVWd9Z9uldPIzzBZiQ6hB_Zl7ugRaJAC_lHqRSpHAAByb5X4PEBy_zYO10Dv8iSaQkFRKULtTYpCPAyK1KQ3yg-Mh0OpnuHROpUHRUheLFSEItNC0cR9Ghjqe9pgMX9ClnzxmQaZ7SouUoIMgbvEr7AXoGJwkHqOkTGr8W6HyR8uRrvBszujTzi8nen6cX-WNgkq4ncJ3kQ6CRVo8H-rvkMVD-S6AkoimBo-1siPNoVwQyEAGnAFEEjuUUuQwiDn1hAF3M9IoDNiXbn5yIYLb4v3Sj80P3_U597yBzl9rSnxSm_GzJiHfaZ_SPxweA_iUDV3SlE55P-7MC838C68Q5-w&format=noten&ssp=10&name=Fisher's_Hornpipe_(F)&play=1"},{"Name":"Gin Rickshaw","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVk09r4zAQxe_6FIPBkB62aZWwoYIeJNsRpRSW0kPZf0HWSG4aJw5W2t2FfPiOEqdJ2u3CHgzym3lPP43lewHnoxG_4OdnnLM7AXq6gNupnYUH84tlAu5ag6fsVkDrXM1uBAz7Q_ZVQGbmkLVNCOxaQD43jyxlqSntY5iE5mmBvlmswNdPU2RpenOVX8GybaqWXGc7oTQhRHGv2IemxWMpNj03NXweHjXtJIM4MXU9WdbmT2nsbFJPF7PAvn0R8tPStKsf0Bv0pLIna_GdJXkCyJEDSvSwhqSYJ-C44-CkdVGgBm88QqKpUDnbaegdaXKUgFWSxP9Jiq7DKO6jS32Y0hs4tKAGgLTnP5Ccr7bhhsMhkz1mslQrDplKs7VV_vB45OKbUf3Ul_oE1mv6nDRE1Q1xEz5GOabwcR5tRKNRaaAn72JeG2QU4h46rosiKzq8dwlym6B2BgKtoNyfskNTUr9JkG8Y1J4B_8bAi8vxBxG9gbII70EM0N7yGITvrhOIzYjSdOV-ryCLVzLQfwDFHPK-picaX19lPycDAClUAznaFHVcxAJLXwCNfu1w&format=noten&ssp=10&name=Gin_Rickshaw&play=1"},{"Name":"Hummingbird Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydkm9rwjAQxt_nUxxCwcE2Z-d0BvYiaWMnQxjii7E_ljRJu2ptpdWxse67L1Hb4YYgoy_ae-7ul6eXe8DQ7vW61_3-VbuDJhhu14tFnEZBnEsYK5UgB8Mk5_IcjTHkRnjE4PAFOHlWFIBGGDqtDrrDQBZ8hixk8UDMCr_I1qkMs3QFYbKOJbKs0dAdwjLPolx3X1RCwIvCiD-KeM1yuS-ZorcsgW5nr6iSuJQ-TxJ_mfCPgIu5n8TpvEBP95icLXm-eiG0xM-oQRogbG5DgzWA2oENJRiN2EIBj0JlYp1itkdBUSF3saBEAPUIhfJ_DLJheLqoZhCh-JYxlWFQQYSKgIdqcMDIp5Bff8xwLioztDYDzcumCqOTIywNXChLfW96WnQ7rQ2XDZgLjuvQ0wp66jBimmp3HlUQ6QN2sQqV3OWPJ0yl6bv55YmZsR4LOTgkYn7tWAo7dF9YO9Fbba3U-wocs3aF3vUWAwJMP2X9TUwp6FedqGVkfQO_uuGU&format=noten&ssp=10&name=Hummingbird_Reel&play=1"},{"Name":"The Humours of Tulla","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx1k11v2jAUhu_zK94hIe2iI4OyIeWOQMfQ1G3aejGtqpCJ7cTFH8h2aJFQf_uOQ2nHRW_y8eScx--xlT8FhpPJ5Xj8aTycZDcFbhqBr61xrQ9wEjet1iybEfeMD7JfBbwQOvtdYMrZNgoO6Z3BTvignA1gEU2M21DkeWxEECHhgfN1HlsrQj4cD7Pv1AzZWiSEJR5YQGjcg4WymLe-YeYd8EX5EFE5IwJIhTULqoIR2vH9RSIWZo8d84rFtPQgeVP6BZjluDKoGuc5RfICkimv9-SPwlcNs7Vgay0GoNWNeuwaDItVk7wmxYiNSp0-lRph44v9CUHVNKhhfoOlV6GBd1qHC4rGrLI19q6FFbQz0YE7BJqAbPRBqw2N4R4QvdpqEUOqMIygiklvHCXtIooQqYHi_fCQinMtKJB3bd1Q6cVRtETDduKYVSCIytEQDdMyHVtC5Yct8xT8b4EZM5h5FwKy6wLjfJx9KzA37D7rZ322ru7DKrjWculshNSt4lm_f72cL7H1rvbU_fEE6BhCgq-k2-ZzlIp2TuPz-KzohBjnK6b1aqvZfs2qzUoruwnZ7c9i2mW-y3rzHvhoylHyaYkD0vsTH0mO3pXpQfBy-kxPVTy9L3r0KCR600kP9UgKHI6q8lxFNa-m6g3T-8uy4nixCVnjcKANo5jlfzGZxJMcgR9vR9UzSxZKUZ9TLsUbS3Slz1LyrdPl1EqPnU68TN6xU_5FNxQ7im55fZeGL1Lcfj-Kx4hZ9zPQqWOe078xxyKfTqgC6NDilWT9f4VFPgo&format=noten&ssp=10&name=The_Humours_of_Tulla&play=1"},{"Name":"The Kitchen Girl","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNk21rnEAUhb_Pr7gsCAnYNTG22wqhjK4ZypK2tCmEhkRmZ0bXxNVlRvMC--N7R1c3G_KhOIhzPPfe46Neh3A6-zgLzmb-7DO5CuFqpWBRNGKlKmCFLkmMmuZySn6FoJUqyWUIgReQ3yGkC1U1rXh4gR8btEe8khDXVaM5XLWVMqkLT0WzAlOvFdS6yIuKl_DIdcGboq7MFMjfEGK-hljXxpDvITCteAP3KDXYYQpwUWsoKrMpdFfjglEKVk2zMaHnvdRt006Xyvty6j_9EZfXLD35mmGHVqtzs-JaSbIIga6LZ-IQhy_FvUlN3VYyw5iQlW0hieNcfpt_g42uc41zTwZhyY2x4l4Rq1rLQ8maHusSPgUHpkHiUqa8LNNNyV-WXDykZVE9GHLzM6QfNlw3t0C2IUzoBG4Evw1gwvAqj_AKtp2sMiVB-CDkIPiQ-ZDzJbdCMptA7lvRrhy2BKCz4f2s65bzPDvoJVW3Z12h9Pse3a3ehcMorgDCLTLDpNGQdBEiyKoPvJ5YF3pto4gC87tyK0eUQRKMW-xFrVH6Q2B1BjmoYAj7361sMvGOK3idtucKR_iVTY-H0M8jZeomt34Hu593w9y5FZC5f4ApondsJ1CJZJc7jt0D3FmI6ly-T_wVS6kE0IRd7IgnF4z2LSKZq51Jikh0mKI3yN88xJ48httxwNpDWPOYuaPixglDZPJOjslzzG6T27o9fpbMu37xYXnkxnNImKDjGxgHU7YffESBHkfjS3CcRj03ENv_wODP52EGPJIZFvQb5uGGohsD0LWV1nb1jv2eeXgizj-XUz9u&format=noten&ssp=10&name=The_Kitchen_Girl&play=1"},{"Name":"Miller's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVUU1rwkAUvO-vGAKhl7a2Yk270MNuEkWKUMRDaalhsx-puhrJamkhP74biVZ762Vg5s08hvdeKG6jqH__cNfvR2RKMZ5bq6sLh4nWlsQU00qoazKhqBrhlSIWK8RV6RzImKLX6ZEnCrYSCxKSUORy4TJX7tbKlOstjN3NFQnD8SgZYVOVReXTNwchF8414q8iP8pKnUuN6bO06PfOTAdJKJUJa7ONFd-5kMvMztdLR96eKbvaiGr7TgIWgF3GaYwgCZAM2AA1gjRAOuRD7KdcslbjqUyhGjhyDjbw4fqfi6TSMIUwLdeSz1pTV3ZBa38uX5KflBRdLcGkLpoIjwLkXTNT4MqowxJTaOTaQ-sweqYM9KPyLduCohAwwm-q9zWVbAzytKvfqY3PtIrk7G-xMNzqry3i5tDOf7eTIO0wpGjOcsI80hoAA4889-DHSI4jEv4A9KGh3g&format=noten&ssp=10&name=Miller's_Reel&play=1"},{"Name":"Money Musk","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx1k1Fv2jAUhd_9K-6QIlqJtVvLRpWHSXag1TQxTRvSpm0VurFvQtoQIzuwIvHjZyckgZY-kKBzjz-fe2P_CuH96MPN9c3V8OaazUKY6oK2MF3bRxaFMDOoLtj3EAxRzn6HEOESIqOtBfYjhPlsQXCbKZWT6VsQWZzTHBJtoHSFGC0NYJWvLWzQZFhmurAQb2Gml_AzI5uSiclcsK8h3BnCEsp1QfAvKxegtWNa0MnB0jcA0UJrS7DVawMJbrTJSoINGevqZ_bc-_kAxACwUBANPNklKVwI3IbAn67gE4jqGbmnyzmGM6uXVBkg1uXi3NUMrXyaxLicvpFSry6ATUMYXg7ZF8dZ4gMLWICxfLBzq9eFSnThFuTrTLEgmH4ef4aV0alx03rXCG4c1oudIhfaqGPJmzY6h4_DI1MjoVJzzPO5jxujfJznWfFo2Z9vIX-7QlPC2dXBwM7vWbIL_7Ie7wFxyaE39n9UAjvotMmoB0I-E51REqHXfD1Rgqqq5NwZdw0yqZHPV79EqtqIKZ1Cph4Z-DbE6Ta8DylFR5C4pyKpuEZJFGkrHphOblO7XGsS6QCFLaoTE49KWlRVe5E42icenkgs-36fPlG_alsse5DGlNa4mFQtt85q6q3be2q3N1wBdfG5M1MfYwRouXcdN0mh4fIW27orrhtLZeBH3BQTPzyCjqtE-0H5LW-53ll_UUfuuLG7Ev0mMMYtWFZzOA4sTgaWrwUm2QSWoh3-uBr-PduFdVHsz666BrEn8q6Bemmj7o-k7E556oPsw7t9Qr9JEJT0VEJ9vdzVvxy736R6Ty6587iMoimCr438ezJqig0hak1iWZkOCeNX8Sz4D4tEjLM&format=noten&ssp=10&name=Money_Musk&play=1"},{"Name":"The Morpeth Rant","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydk21r2zAUhb_7VxwMgX3Y4i7N-mIYw4lrL4y0I-1YaReCbEm2WsXybLltaPrfJznJlpSNrQNjpHPvfXTvsXXp4-3hu-O944P-0ZFz4eMiZxirqmQ6x4QU2hn6-CqkFGSO85wJSZ2Jj8pGrnwMjTqsVF3DOfdxrtk9qTQ-koouXiPXuqx9z1uoRjfdhHkquxpfzsu773n_Qy3en00YGcaRKqLFFyJi3XVOV-c3heJcpIJIuAXRQhVEutBNwaA4TlWl82aeVIJ0gZGGqFGqspGkglYoJVlA50YUBQhqpi32Xph5LPtM0p35QAqKiXpImirLzTy1lqwLZ-yj7_WdTz7COblxOk6HJOlNPatVU1CuTB2XjaBOpzMehSOUlcoq48XeRkhIXVvxl5LmqqK7kk26UxIH_Z2kjUQonREpZ3aihKS3MymK29q5_uwHb0rj8xSv9oNBuvS_OW7ogvYQxIjCKMASbuxiEA8o3MBFGqTMaiaJ98BpG804o1a08R5Y-7Q8I76ARxnHc17Qs8Vrxpq5hXyM4qe_YCknvA0mJONrantASlm2aZDTIILh0H8BbbcX4ppG0_5qAJNpeB1r62Blq_OzsH0tN_UGdDI3K2PV73pa0ShrPWabiV-ACcgWJrVm7WKSLQwbsBXmepBN98Hwh4YeefZkjszWC4P9j8bYs8bsB_WX9lJ0NHvQGNq_tjZXBbEXIPRiBIemYGvrhaYAaKWTOYy6jq83lvYDTHBJPg&format=noten&ssp=10&name=The_Morpeth_Rant&play=1"},{"Name":"The Old Morpeth Rant","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVVGtr2zAU_e5fcWcIdODFqdY21GMMv9uVdqMpbKwbQbZkR6ttBUlplpIfvysn7mOMwb5E0blH5779NYDD6fHp5PTk5PDUuQngZsHhU8PgUqolNwu4pp1xYsQVZWPnOgBlgW8BxLSFWEmtwZkFMDN8TZWBM6rYxoOFMUsd-P5GrsxqXHCfTcIvSTl_WF1MPmjx_krR6cdZnTfV4uFidhiOnavAuuSgeC1kRxsQneGKaxOAwZCsVxAaKDSyRGslVetBKbuOl4YzWAuM1RKv6XLJFczWUjFgtCv5O7DibrvSAl82GxC9khataKgCI1FUcd54-F6u6gVo2fL1ghrQjVxz5QHt9g5aG6GsbBSiMWO3Vz7ok_V93o3X4k4sORN0LFXt25t_ad3OZTW_ksosVm2hBH3tXAZw5B85FwHkLf3pjJwRLcqfeq7lqmOVxFyrZiWYMxpdnifnsFSyVljvyQAUVGsLPiHlAhN-CVnSvWzg5OgFaYAoY3Osx3zZ0E1By7t5I7o77dx-DsI3S-zlD3CSbBt8dwDAzV3ISRJ5kHuRZ88tuDFiXpzGO6vFc4QjEkbghq0LZRRawE2mLmQkJBAiAlvn9vD_9azGXi8hOdkLwMHbgyTNXkOw_eHckv-Szf-UzcJskI0YoODI1iLa1eJZHeoK5y0ieTTk1gtkJCF7bymJ079VAAkYe7avwED8g5MB66u0C6Wu6p2FlxjdFsJnuWOQQ9pWK07zl1qY0D-18qeEUa3PdzQy_JeB2I6JxtmE2M8h98MWkql90d_xbzLFM9hiQfpr_MiI7ZH7e0qveK9xJ2AyPi7bQf98t8qNlmCHD8spOoiKVwBnuPLWZjdZ3_GGG9nBPVcavwkByuHCRIXdmC1udFS42IcsAWwp_mKaqUW8NE_3RsRtlxgpGbiZTR0LgkBGIjK8ZwQzedQraF0h3w7AsxchycignxMstBu3j2I9rWegrJ1vOyc9M8UZeUHKwhJwekoL9N4LWuxMNTbFTmWIxz6wiPT9Hf0GCmKJ7A&format=noten&ssp=10&name=The_Old_Morpeth_Rant&play=1"},{"Name":"The Mortgage Burn","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNklFLwzAQx9_zKY5CHzWzVCt5S7YURPaiPogKI0vTbdo1I8lEYfjZvbTr5kBBWq7J7_73z_XII4OLori6zIr8ekQeGDwsDUytCwu1MCC2rgUyRupUdU7uGDhjGjJlkNOcPDEYqzWMnfWe3DNYhrDxjNKwNN54v7LtuXULGrat8TQb5QW5ZcDX6pWkJFVz_epn3m7bqrZtgLrZriqSptObyQ1snF04tB4NYK68j_BI9NK66hRF0btt4Co_EQ1IVdVMNc1s06jPudJvs2bVvnnCxQvZMUh4AloKCVx-yQx2P0HJ416sExCl0H1AIBOohOYgeBQQgH-aDEVyb4Ip0Sl5hgu2w_EMDWV4kuHaROUkgVrVZkgce8r25Zof-gKjURBLypjdAXm-OGp-dRRcnzrKDpZ_Nfmc9dtSlhi6Q3of9O6cM1XvmdHo3TvrXw1xVPGv0_gG8xGAn22UC3hb8BFrkAUWHdaUd0PqleKgnNCYxyDppJPvgUTAf4KjguOX02iKkKTfBWfKDg&format=noten&ssp=10&name=The_Mortgage_Burn&play=1"},{"Name":"New Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJxVkV1r2zAUhu_1K14MZilkTedk3eqb4U8RSsoouxgLaVBkOfZqW8ZSmgb84yc5H2tuhM573vOcc6TfPr58--p9f5jdPdyTXz6exB7PQlQk8hGzSmAhu65U5NlHZ-WFj9lkRv74iFiNqJNKkScfAZSsxb5gGvVBadGVcqegd43AHLncNRlYLZut0tCFQNsxrksuMEEllJINNGuFQt7J-tjWQo-tTcFAhRaMF6JDy5QSGWyRRC1uYVrIpjqgYG8CpUYm9w2YgnNexsFob2KTsljL_6TAZd1KVepSNj9uxtjstDXU5bbQ2Agw6I5lQ5pVwya35NEHrct34hKXbfhftVZ2s1w2Gnm1KzPiuot5PDfryW1nnufuLGzMyFb8r_BCdtm1ZE1vssL97Mp0lliWrVlVrduKHTaMv66rsnlVZPnTDz63rNMr4lAHdOxtPTipg2UerKYQ6OFEDjKRccA6Qi_MTiK3Vx7yIY4d5NY0eCj10J-AWy8YgLlnDB9xR-eFNpqOeMZvYJlBKM7MF0M9WZchXXnwezt0eDV0OI5fUtApYltmmqVJShFQc_RDsUnTwKAFO3O9CxYfhg3Hdo44sTTvBjS55iXpqZwmUQJ6XF2w_IK6jGj-2NXiXeP4uubnJymiCUWE2Jx-D4DCdBnCfrjHpxRx_wGPA_LA&format=noten&ssp=10&name=New_Reel&play=1"},{"Name":"da New Rigged Ship + Shelder Geo","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFUmFr2zAQ_a5fcRgMGwtNY7JmMfSDbKemjJTR9MNYlgRFOqteHStYbrdAfvxOitM1NDBsy_K7d--e7_Q9hsHoc_RlPLwcX7GHGJSAO_wN96XWqGD2WG7hE72wUthAjsZxto2pzXMtiRDonQlYGsNDI9QFu4-hQazYNIZhf8h-xJCKDaSNsZbNYpgKrUuEmaitqRE-TEvbgqipTkvfPRiMx5cfL9gdyT2WFiy29OhntFCXEqsdtAZmFeIWZsZQWunsTo1o6rK-YF9j4Mo0LGShWMtfdmXJpCpM3UJRPZeKheH0Nrt19nVDti6PwFpY68B_iHw0jTqFHOnFVHA1PCEdIaHUSlTValuJ3VrIp1VV1k-Wzb_F7zu6YKh_sn0MAQ9ARGINQqOG_eu-oH2QB6CjeZb3FhoKLVw8yAIoIhUB3S6BAfxfQ-H5fEX54dHFUnLJIZiMApgnuIhc9F1gwnvnI4lHBx0c8Qi4LxDvo1OMJ7B_rboJQCqU3mUiVeJ1CeQJvyFd2uWTm_yInqUedIdUyE09bPFPC6kbi6WzQFcOGcWoS7w_Gb1dOnTTz90y2Ry3Xil8sU907gdyQ6o0wTfHf-GtUxvnGV9Q6Rxucu7tpAFcywhcS5zJPE-6htPvECs7_AmFuFJL6SNuEImr6DR9vqKx0aiKThCvpZaAbtmfMhA69WWhhAK_HI5Dx9LndCR2gFgWJFEoXMqjS-9KnW9lBmnftTLvd-1M_ZV58l9qbSzK&format=noten&ssp=10&name=da_New_Rigged_Ship_+_Shelder_Geo&play=1"},{"Name":"The Nine Points of Roguery","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVVE1v2kAQve-vGCEhUsk1CaFNsJTD-lOoIoqSHKpShMbetXEw3shr0lLx4ztr85m2h3JYed--ffPmDfZXB65uPg1uR9e3g0v27MDzQsJ9Xkp4UHlZa1ApPKpsLauNOUV7aaPdkNwCkyVMsJKGE2KJgnl0v0Jhs0cHKikLNnFg2B-yJ4eIWZZLeMJSK1K_mOS6BiwFPNW0t-BqNLr8AK_FWkOct3XrhdRS61yVtqqyfr0upe4PB6Pm2mpjVNWPElCIvCaSttk3BzxcgVcprdm9A-MatJQrDSssN_AmKyO20841GEUqiYkkSQhWkCxUJSAvTWlI1bqqFxBjZS7Eip5fsaqpzP2hnUxJklGA4NE1XUsUVmNvDEW-lKSDtc2-OOCv8IV1WRfj5EXPtVqXIlVlDWmxzgXrdidjfwyvlcoq8n-5B2LU2oBHpHF4DhnSmyrg8_CMtIconjkWxZz63MQ0snmRl0vNpg8O_2j6mTFuDb6zrQMdvwP-AEIfOlEHojDwYduAXPAQuEvL9pTkrhqWMKjXgbskCBLoBIQmQRTAlgG80-R-GOw1gjA602z3CTd7ftMBqsn31_kAnC3FR6bdnWnjl4pOI4vqzoaN_NS1IpeeW8Upt0I-O6vBLT_8t2V3Z7k5EOTEaLrCjaD9NSJcJAJSE8gBMt45RGQeDuZTmTRH4sx8mzhcvGFlf5jtMydOKppimUyzvfsUZ9e0it4MMEvlDhZcpG3yhIneoY-elEmv7SQWgh_DN-LYihtPOxVTB2NM4bQ1A6OhZUfUNJOKTDbn1Lb7bhBnvXhN6NFdcpyHG53Ow-e0-yXApLeLbmimQuEdOhn-fR5BlLTziHzXOjVtpnycyH_8mbrdWv6swTMvi6Y3tB-BT6tL348-fQu2ewT4Td-nK6Tu_cHxzjms-xuB-mu9&format=noten&ssp=10&name=The_Nine_Points_of_Roguery&play=1"},{"Name":"Old Joe Clark","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNUN1KwzAYvc9THAa9dHOj6gx40U6pU_xBBooiI2vSrS5tStJuE_Ze3vtkftV1uhuVlvB956-neeDoHh0cH_S7-12fjThutMSFURhoYedswDGyQrbZHYdVSrMrDr_js0eOgcgwsMY5dk2iWepAr0BhioqsmOhKTa1wDmWVqzbOlVVfCpdmhVZYKOtSk2OIqSmRWJMRl4lcGp3m0Mo5k7fr7PtUayyNnWOZljOU9acyU6fltCgkVVlZ1WaXHEGWrpjHPDGJX9zYmSqXickpXVepZJ53NTwdorCGimXYb4AJtazBbySeGSt3oVq0MBqH_o6ogYSUY6H1uNDidSLi-Zh-Yu7Y0y0P9gphy2ewVtCC6iU9TOtjjc89URKx32xbtgbOCOjT8A9jHAYxWlELYYCokQR98DXdBnUIf3YIeghCssRyJyusiY1zo9gglBtti_zt_rWM55VqVeLrUnByQnTYzFvy83l_wxmx2yXaoTsRnevvmXkfSSDIIA&format=noten&ssp=10&name=Old_Joe_Clark&play=1"},{"Name":"Old Straw Bonnet","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNUt1u0zAYvfdTHFWKtEllP6VbUVAu4nixJjRAsAsErJVjJ2m2NJmSlIGUCx6Ft-CeR-FJ-JyfVuUCITmJz_H5znfs-IOL88XF7MXZ4nJxwW5dvMkN3jeVegIviyJuWODitlLmhL1zUcVxzm5czE_n7KOLQG0QVGVds9cuZBWrBs22iF-iWWc1aDTrGJGqM40n9Q3XeMzpkzUn7BXpN-qeOcxRkb6vV3W5LUxSFg2SfJsZ5jg314IKqjKtqMvZSJBbbck9o9dlZQ4pK_pS5ricH4hGShmzUnm-smkipR9WeVY81OzTW9d_9qiq5g4sTvCZtS4mcoLUcIM0UilaTMIJvET7GkmqlolldgoVdQoxgUoTwjOQS8uA_3ZJo76UcGAxjp4fccOPO1M5Q3tuLd12ZhfEVXiMtqUjpOC8Dz5GlqH0wSXXg7WJjbbYDM2174Ua9PL5juESvtwbj7kPrIKd1dUyGDZLchKoNB6w4X7YV-5jukPMYIjZ_f6sGM94Q5udzmATcO13mYni2nBo7i_DkZEHGrGgZkttYhhPc6vqM__bLRxLZSgkQhHsCBHYvP6UT_3psT3rvidZibA7dDmdo72zd9Zp4q8N-tsCz_PIgo-A5sFuwRu11IoescCvnySQHQ4HsOnH7x_fxeJv_ans5AEERD_v1GRk1zbM-QMuVwMj&format=noten&ssp=10&name=Old_Straw_Bonnet&play=1"},{"Name":"Opera Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNk1tv2jAYhu_9K94hIXVSVtqUdWqkXTgEUFV1m7pe7ChkfAhpQ4xig1aJHz_bSTi0vSiCCL88fvL6U_iR4PzT5dlZ_PHq6pLcJ_i6kjXDnZQlyCjBfc3EKblLULuEfE8wu_mJka6sg-7XlTQzsErA6KWErsqiktiwumCVNeRXghFbYlRrY8gX51oUBv5dWVlLY4sqf4eUmYKzsnyCXUiszZqVoMGZYsVqayLM1xaS8UVYw0i5NLAaC7aREIX3cOv94ca20JVxVcKOU9DSaFSSWacPF-nsweMa6HIjA-tjoZdF5Xq7esZKJqBVyK2uCn5KbhMMB0NykyBbsgfSJ3025w9mZvS6EsoNBKpcF4L0-7fX2TVWtc5rd_izLpgzY3y4T_hC1-I48tBGl7gcHkFdxISYuVHNViV7mjP-OHPzfjTk97eEfghnOjl__5fQKN4mf0gv6yGLsxiT8YRii3Y9AXq0h3GWRjTaxzGwA6c9pIJOWm40xraTZZhkexmNsslONu1kNEqjbPy6LE45ttvDwrEr7HeJWMRwXCcPa79H5kruM75jjr04uaDe3bi45IcuKrh44VLSPWGvulTedkwPhur3sAuowORx3nkUc0ovEDzt7sdcGLJcNRz1nOvUHAIqb3oy93vjUzLf-Tz3zBcr1voa7tiX8uO6u5FK1R5bHdR9qW-46Z57VvdotG90MiXaEUhOW6cbeescAsnW_4X6Vv6zaJ-Fz-7l0HS_8q8OypANqLtOB94Xvg-m4UMH2Ruh_6DiWWg&format=noten&ssp=10&name=Opera_Reel&play=1"},{"Name":"Peerless Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJytkd1LwzAUxd_zVxwKRX3Q6SyW5a0fLooIonsQv0qapF01W0szRaF_vLfr5vBR8OXe3MPvnhySe46TMBxPToJJELAZx40xrTXO4aJul03VGJZwzFqpj9gtx3wrPnAkcoGkrQlldxzZbG4wrbS2pt1ziKvcmuyIXXMEo4BdEb6Qr8xnvszVq8tc_b7URb1cobDvlWa-f32ZXqJp67Il3-OtkEvnenGnKMqgf0s99FFbnAW_oK0ktc6ktVlj5Vcu1Vtmq-WbY483PDpsZLt6Buv4E_MSD0qcCyR96eCJ0MNUpGIoJBBwLpSGN_VgVGE2mlZxNNBijP3TfRHFB-j-6kcuW0iNQcN6PwDv6NUoazxkHaIKujUWMZWy2DgZJRQVWfZzSi4vhY40Cp3Lta-HUhblcIEptPnfhPSx_sp8rpD0L-84yHQkIEbRAmlIa8NMxzSkzjsA6zH5IZK-idEOYf433lWyrA&format=noten&ssp=10&name=Peerless_Hornpipe&play=1"},{"Name":"Queen of the West","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJxtkl1LwzAUhu_zK14KvZvuw7qL3GXrByKCiqCoY2T52HR1HU0nCvnxJmnLHBrooefNOc_J2-aJYjydji7Ho9FFQh4o7g5K7VBpNBuFR2UaMqd4qLk8J_cUtVIluaFIhgl5ppjzD8zryhhyTZF-8HcSk5ivxLtZmuqwk7raNdDl4U2SOL65Sq-wr6t17bpGvbDixnjxqIhNVctTyRd9ViWmyUlRL3Epl7wsl_uSf6-42C7Lt93WkJdbys72vG4WJM_wSixFlEZIc5b7MMjhl0XEImQFK3wYFOiWRajOmcwRFRGKmRKwBK3MpJahUbAiC5C_5A5ySrfoEadk2HEolRPoSdh3b-7Y1E7-6kLCWu9v1vnz1lyREkwgY0L10329lkz6YRq_T-Xmrh1yjShzfVqqzpvPpJgFHGsn_Yc-fqBf-M6bR6_4OrRpB2u9pb2H9vx-BW9HPfHQhb9CcaO-Gsz9PzbuYoEhHRbuYW5En7Fh6gCuxaUohhmysN1mPlJL4h_IQrar&format=noten&ssp=10&name=Queen_of_the_West&play=1"},{"Name":"Rackety Jack's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFUV1PwjAUfe-vuFmy-CToQCF9o6s0aEgM8mA0unS93RgURtphJOHH2zEIwWh46Ne555yc3vtK4bbX69xF_X6nR6YUJlItdLWFR39eOZhobUhMYWoltsiEgq2BNwqxXEJsS-eAvFBIpjMNwwLRaOtVrEiNTlpkTKHb7pInCmIp5yQkoUzV3CWu3KwwK1cVZGZTIAnD8YiPYG3L3HrfmyOQSudq8ISoWWnxHKpJX6WB--4Z6QhJxEQak6yN3Kb-U4kpVgtH3p_p4HotbfUBJBABcMEiUGzAYAdBHAAyNQAmhqJ-_67zU_0Bdpf1_B99LWRCREB3vjk-Emsi7R1zZNhsjaOWmYQ803hIpJhC0Kizg2Oe5Rrwcw9cNuB_GOAhkohYE8kPLKz0dwVx3VHnxwixX9wL6htviz3tByAOn_g&format=noten&ssp=10&name=Rackety_Jack's_Reel&play=1"},{"Name":"The Rights of Man","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx9kV1vmzAYhe_9K14hcbmw0KzdfDHJkIRVVbaq6sW0r-gFf8QrYISddZXy4_c6JdtyU2EZ_HDO4WB_5jC_urq4nL95t5izew73OwV31uyCB6dhgz0rCY4oZ-yOw86N_WAHxT5yuHXDvsWxfYIB7agkPNqwO_qXqnPNiME28GEyzKJDtN6BVhj2o_Jgewgk9ipwuLG9id9bU5Kld-_hk9YQHJTYWk0ZFomd9ZqxDYdFtmBfqFYIg-dZRnleeW9dP3OjycK-Vz57e8FuOKw627OUpVg3P_3Wu30vtesD6HZvJUvTzfXyGobRmRE7eH0CNXof4T_S0BbIcxRFv1wLl4sz0QmhlFts2-3Q4lONzcO2tf2DZ19vuXg14Bi-s0oc-DeWrLoEilzkUOXrHA6wWlcCiChNi6RKwGja5WSZgJKFjKxMoClEBUlBVpGT_DDFNKKASqyrF2MKo01k0aFyWB0HifkhtiumdtFSY20mnTY45fwHKTJCypQ_GqnokJ-TYy_UUgPmRsdyZSxPTcwUI0hQG9TPORSjT_TlluSmlmm80qB-Byjjlvt4znFU2RLKrOji7_8FdOMHAHo-ApqWcJSUILq4pHlSsfQPNB7lig&format=noten&ssp=10&name=The_Rights_of_Man&play=1"},{"Name":"Rye Straw (D)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFUl1r4kAUfZ9fcSpIlXW1WuvSQB9GY0RKl9L2YVmxMmYmMW0-ZCbadfF_7fv-sr0TNa0tZQOBmXPPPefcy_xw0P52cdnpdc97Z-zBwd1G4T7X4gU1t84GDh60kE1250ArFbOfDgYiwUBnxoDdUzmTEreLKI6jpcEXuEJnMXgaKt3AOEW-ULiNUmVQa19eXtQxeYnyBRKRbpBkMgoiX-RRlpop-_7W3SiVGOQZFmKtIPDbOmQp1kJHu4YmHkjbz7RCFpBPZLBW2liSJAWDQGfJPo_VLjKdGgitBR0TleYNvCwU9ZNO6ZcIsyhSt3uYC22seJYWHlFusDIrEaP_dSl0XvB9rURuE1qP07mOZKhOMSgItql9Vsg0Mc7JfKlVnm-QUs8Ju3HQbXXZtQM3EU-syqpi7j-ZmclWqQyyNEcQryLJqtWbsTum3izUtPyzAzAXxljwFfEXmZbHkCWtaQW97hHpAAkpZyKOZ8tYbObCf57FUfps2OTW4cUIU7CtgwqvYNgZjlBxK_Bcj2O7w9wDNnS9D9iI-xYbVqBCJYvilf_oc2Iy4AP5g8CEN7xpB7Xz2shz659Zkjz3ubuT9x49OjpbWiaN0H83Au8QFcrf5SIN6UuFIBTBXrwoqUAV9ZGt9_l-Zt5wCSxze--EuBVSshQKxLwoCAL3KX3efxy9yXFIOTikLIQ6eBOJIoR0tisIwqAOVfqpICTt0i-0NmRwXA8D8mafqNiU5wigijBlmzgao0OT7GbYI_shiMu7OHGbg-YJtlP7dqu5-pVj92pwtf-oq_-K0G3weitbWm75D1v2aXHQDX__YNSyS3cxssB_-OXN0i0y4RakbP8AwnNdOw&format=noten&ssp=10&name=Rye_Straw_(D)&play=1"},{"Name":"Rye Straw (D var.)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx1kFFrwjAUhd_zK84KhY2Bm7VMyFu6tEXGxth8GEiR2KRarY202iH0xy9Riwrz7d7vnHM5yQ9FfzgcDjx_MPDImOJrr_C9rcQv7jkaUfUeyCvFuBKyh0dw0Sh86O1alOSDgqFRVZ3rEjq7SC6UaPJij7WWeZYridn-MtkjXxSVUgV5p_CffPJGwddiSVziilm6rKe13pUy0-UWWbHLJXHd9xEfYVPpeSXWeO7ATNS1hWeSLnQlr5E1NbrAi39l6pCQciqKYropxH4m0tW0yMtVTVo6-aQsgcMc5UFlUDKQaM00P8-dkJrF4Y4MWIxJxJIJN8lJyBIPLbl1woAW8-OcKbT9Wydo652kCBZ73en22DI4tAw93Pl3LLTWyIPxtgfMw_iAQvAOGfVoC7nt48ROkMrAEhZZE7l2XRyLo1Mw4oawbuURO_SPj_2N878nGNXIVg2Y_YiEuH8jlLEl&format=noten&ssp=10&name=Rye_Straw_(D_var.)&play=1"},{"Name":"Rye Straw (G)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNklFr2zAUhd_1Kw6BsBbSpnOzjhn6ENtBhNEy0j6MhTTI0nXixbOCpCYN5Mfv2iRpuqeB_aBzz_nuvUI_Y3z--uVbdDe4vbsRzzEmO8JTcGqLC3kp0hjPTplrMYnhiCrxK0aq_iB11nuIpxiZ1ZjYnFzwPRS2quyWDPIdFAraYqNcqUJpa4_xpw1hScox7jHGow0EldvXgLAk6KV1xuOKD6WHVjVI-bLaHZiM8zxVuVgGSKxVCOTqHnJOj7EqawNboCpX1MIafsdZzYVF5-hGTmFLVHNesT-FrVvzkA2uGUKFsxlR1rBcdtiQ880C1-IhxqA_EN9jSNEVXZXr337u7WttClsHFNVraUS3-zDOxlg7u3B8UzdHIVfeN-K70q78UWpMG1vhbvDBdJSUMXNVVfN1pXa50qt5VdYrL6Y_4uFVs8QMYs-byw6ypJeN0Ek7kFHz7U-qbNVROkrPxIN1mOhGzDowZHRbTSSmiZxF4IIAWk32ziIyO3Ba9UifjtJZdF74nw7xnq-Vl0n-WcbcGpgoaXkM0RGfQJpOqGhBuC_IFIeOpJl94u6PcyccS5pscqEPrKkezS4TbUAv5t68AzE1C47eFy-MPVATOTyjtsN2u4HeAtL28fKz6KenP-tL9nBnyU8tg2wDfwFXffZW&format=noten&ssp=10&name=Rye_Straw_(G)&play=1"},{"Name":"Saint Anne's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydU11r2zAUfdevOATMXrZ8aKFbDWXIMQlldIymD2NeFhRJdpw6VpCUtgH_r73vl022Y9pmjHUz5vrec4_O_bD9JcTo3dmQjkbn5-_JTYg5z0sHVpbqlcW1UgWZhLgxXPbJdQhTA1chxoMxmYdgEHq7ykvucl1Cp3D3GnfKWB9acAe3VlbZOuxrkw3cvlR2MBq-JV9DTPgWE6OtJZ9qJcM92WDD96U7oGa-xn3u1uAoc6GwVYWWhz7meqvcOi8zOA31sCu0UR_IxxDxlm9IQAK-Ehu7tHpfylT7WdJin0sSBFeX8SV2RmfGFx52wIpbW4OPiFhrI59DNelOFzgbPyN1EJdyyYtiuSv4YcXF7bLIy1tLks8he7Pjxi1ApKq-kV7cQ0qRZugx7ykZoUINMjqlmFJG63jWQ0RnDJE4zUuF6l9EJG04Qipx5Mhaw8N_U0IyZQuGhMULlrCpdztNJLNoESGJvW3d0zOxt637ohJP6G2JmZJt2yzq2lZSirptnqGq_Dv2m426zR5LNEP5Oq0Ip1mKjMLbqhFTUkRgQmVHxRXltGbRxyZfpBD5L7FVOJ74bZd-SNGNkv2hC951wb9nK1_qfzS6SdLjbvzd7CYInHrwf3CzH1z4yxPbbV10yXjAEGOGnz_8o2pcD5xkG_sk-QuVZiYY&format=noten&ssp=10&name=Saint_Anne's_Reel&play=1"},{"Name":"Sally Growler","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVkV1LwzAUhu_zKw6F4rzQuVqsBLzohwtDBNFdCOpKmo-6LVtHuqmD_nhPupaxOyUJ5Dw5ec97klcKoygKw2h0G43IlMILN2YPzFbfRlmSUphaLi_JMwWrlCGPFMJhSB4osBVfEJ_4vBCLOq-r3Vrqar0FbXZzSXz_cZJNYGOr0vIVXPWg4HXt4JGIz8rKU-SSvioDN-FJUo-4lDm6zDeG7wsulrmZr5c1eXui8cWG2-0HUbqh78RjHpSBDkAFMoAGvNQDkQgF7kAmLOvYPetYxhLpWOzBTBRcg5dhotIcmv-LIYsdQ4lExuOWsUBpoA0-G5pNOrOtssTKWL10NzAuStxiWLQKkQdcSw2xdFYOQJwhAhGPdW_uDxIzAXeiE2n7gcH1oOT6HG_3znD4W_WzhdS9eY0fDenwsOKh6_IYZ7hoA4AIg8jNpt-zVu0XtKqjsA&format=noten&ssp=10&name=Sally_Growler&play=1"},{"Name":"Salt Creek","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNklFr2zAUhd_1Kw4G05dtWdxkZYI8yIkbyugYaRnbsi7Iluy6UawgK2UD__heuc669Gl-uMafzj1Xx9I3jvHF9Hw6_Xg-nrJbjhtpPOZO6y2bc9w6qd6xFQcBw645JqMJu-EQDWxj6kajbryz8BY72ShLCP7graulYZ85vmar72jrXW2kC6LefVU_avcG-cHD32ukb_fSedQtVF2W2unGsx8cc7mjfdi2ZZ9o3k4-sJjFMi8e2k1rD40qbeNRmkOtWBxfXy2usHe2ctT1_ghy2bYBvpDi3jp1ioLo0Rp8mJyIjkgqtZHGbPZG_sllsd1QxG3L1l-46Pd9B5YlP1nHEYkIIsGvpQgvkQJdzwqRFogWEVQCJQgiWkZIxYyEqaDSMbywS0RZhCxBdjn0n3iG7leeugTrxj2eVaWuUGpVBmHvpFWRHm3IlXfJoNRSo6q0ClOyMFv9q-s60P-mlOkx5ZBwLfVdAikhqebHiGd0MGcB6SQgyrKmCSSsKlRU5UDzWUVNVa8j1Af_D9NyQJSPrChkif7pXkWcUL6w7zj2-jdd43CQLd0eiNECSyxHGbU8fwlkIxHkCCAsPi_9XWDxE2GW1Uo&format=noten&ssp=10&name=Salt_Creek&play=1"},{"Name":"Saratoga Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzFU11L40AUfc-vuAQCCm6raVUI9GGSmKyIy7IWdtmuhknmw2g-ykzqWuj_2vf9ZXsnaayKlvq0JVzSM-eeOZl75ocHR6fHJ0fHo-PDsTX14Ioq2tSSwudaVfN8zq3Ag6mibGB98-C2B396ENASAlVrDdaVB0RrXqYFZyBUXcIDVzqvKw3pEoJblWsIqcoreQBTrtQSLmuF4EG31uQVh4t2lVYMptj_nedacpVyNbC-eBArThtoFhUfwFUNJa2WIFvsN11qaGqYF3QJeTOwLj0YD8fWhQdRSe8sx3Jomt3pRNeLiom6akAUi5xZjnN5Hp7DXNVS4Zcc9kBKtTbgBsnwq9lLyJAe6gJOxi9IPUQZS2hRJMZUSrP7pMire23Nvnrk05yq5toi_uqXZUc2ZBM_I2D7qQ0s8QWDFbQwiQgWlpn_ZtEnsd-ukBhXEIxtiLGZgR0gPfHJxIfVzpLY7WdMdM2MyzVHuEBdU8lOYi5501_4EX9UvONPcNn5owLj2HFSyTNjj2PTCmeLJ-qvT9QOS6QSSUAQ3p6QAUQLcNZuQk5t4OQm40Cl4D0iJKoxLqSx96YIQZUtIobCbvAUQbCNCkEZ0_lEIWaLD1txKUjiys33uAK42W2LF5H0k-0GuT6pPnv_J3Z9N7IwbqYbh_mUu5Ti2WQ7pW4WZdcjYEM3G7pbbUZnYbtPEJ7Fa12y08140-JMkGsXZjQzVZhqxrRTCJl5b5O4nhnl7cza2kMphhwV90Z7OP_996KI7ztEES8Jc3upTZaIyRJ5liWCWTLlA4FsZSVFWXMN3Set7eFuffEEr8irWDpOwx8b6KIJk-6HHf4LYDLpidHQTyECfxhBPAyQGJbmIafm2Rs97r8iGlIEf_88Z4blMLCcf1-b6aQ&format=noten&ssp=10&name=Saratoga_Hornpipe&play=1"},{"Name":"Shetland Set","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJydVF1r2zAUffevuATCHAhZqoR2M_RBjmNTtozR5GGslKBIV447xwqWnRLoj5_kj8QeG2zTg2Ufjs8991zZ3zy4ububz6azD9OPzsaD9R6LlGUC1ljYZ8EgxDw_wyNiOobP7AwBIrDCbmOwzFWiNayPmPEE3-mK6Cw82ORMTJxHD3ILrDyYv5873z1YsAMscqW1szblrAhO4gnQ9Aw-S7JKcqMOQDOBuVbZGLabPcI6SU-Yg69ejbR5DhMhUoRVqRMOSl6Mb8El05vb0QScL0ZfHfDak3WiJwAP8Mo0qDyJk4ylpnCskiyGQkGa6AKKPWoEjUeWswLT8xh2ZYWeDYgHU63AzLJthR1CnKvyiAKsecMoJs4nD4IDe3GGzpDt-IvealVmQqqsAJmWiXCGw9VD8ADHXMW5yWPaAjumtQWvCN-rXPQhSzqpFG7nPVILMSG2pqvtMWXnHeM_tmmS_dDO01fvOslnZxAM4CRI6Qo6AkEEAXgDC6I0rQz8wwA4oQat8GgAPhc-UJ-G0GBLQ4nIksCADmA5AwrNevtf8ShctuJGMrDv2ZdEQ7XLq8UlcaUYtVsjLmMWV2qmiOwIIXGRj9qtwWoju6lx4tP46tx666vXDivxi3BHXMYSUHC_xYwRap3_4npoB9D_fOohCGOlyaij4NMIwmVAutUMXgqCEmJr_uLg5KIclQYxjZDOAP5emNqMa13e4WLVxgwv1Cb8k7STlSNg0sZRk6t7V8bE5NbLh3AEihy7mI2LEuyYqIPvK9fB_1H4X4L_zT-qSZ-4NBpBGARhI7Mwh_l-sYzgaXnPnwm4EW3PgN-Sw-haUriC20MOlPdOqPFdX7qeYxNwdemPtU_ucCuLzQRsLz8B39l9Kw&format=noten&ssp=10&name=Shetland_Set&play=1"},{"Name":"The Silver Spear","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJzNkc1u2kAUhffzFKeWvAxuwC2RpSxsLBCqqKKSRdUqQhdmBjsxHmtmHBqJ9-q-T9Yxxgn5o9tufK3PZ849c_w9wvlwOAjDwfDTBbuOcJ0JzPPiXmjMK0GajRzTxHvsWwQtRMHmEWJOlRUcUqsNnNTkqjQgi8zaykRBYDNhhGlwT-l1YOtSmOD8os--usOQdYkGYYotGZhMbUvkJdJaZ7T5AFypqi5IFw-oKNdu0Ta3GWaUcyQiy0sOtwAJ6R77EWFEG4y0MgZsFiEMQvYlQrqhW-Yzn5arW7Mwqi65VKWFLOqcM9-fTdMpKq3W2p3-2IElGdPAJ7LKlObPUSO6VwU-h89EHSLOF1QUi6qghyWt7hZFXt4Z9vMqis8q0vaGeamHcYy4jyR2cwdv4oFLd08v9pCs-J41okYzblWvZP3m4-7RbPy2GRfywNYDsTeVbp7yOtp5ItlT_Ncrk_gxF_93LFofcpF8L9jO_UnXX3LUn-yDJJbuUOdzlFIcUkoC9d8WHd1YOs07VsftoasPJ_v7D4K1udLWbIKoqc_3rfhlEZ8FbYsGl5foaIpJELvnn9_7lxd8ErST-X8Bh-Qf5w&format=noten&ssp=10&name=The_Silver_Spear&play=1"},{"Name":"Sleep Soond i da Moarnin'","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNUtFu2kAQfL-vGFEhUiklQGjTWOrDmUYWioiqkoeqVbEW-zAOtg_5jlAiPr57dqCgUAlbWvtmZ-Zmz_7hoXtz07_udD5_7IpHD-NMqSXGWhcxUsSEkaaySIvWYXPlmgXsXHHbdRMx8PBYUtwW3z2USmVi5KF_1RdjDyNKklRhTIXRhbpEOEqNBbHH2DIQ4qJ7e9t534Z48PCgrYKuvf0PSyotnqlMqbAehoh10bJYFHqN9XxzienKMkrZmjYGaybBaiwz2lT6jHifAfSsWpWp4aDVJuWqABkQBu_arK_8Utsy0Oz3Sl-ovb-dp8WCCTBuctatldG5aoufHgaUY1BqY8S9hyCnJ9EUTZpGTyas2DPNoWbZKo1Fszkafh1iWeqkZFVnB0zJGAf-Q6K5LuNjyJGedYZP_SPSDqI4DinLQjf7lKJFmHFkI35982R1iL9FQ-YNKOphknBRM2zRCBpIVOyjcce9QPqBA2seTRK85bme7MERa0N5pqFUNAXNTvpdw8d2y-fGaf3DtJFUsi61xo9YE_Skv3N9Q5DBPqRjnWkjGeFkCZ2Y9cXZ7IPhgn_G9i6eUhFUJKMj36OhIwkloxPxfAeeHW_y_3x46cFzh8d306o_FvUHx5fXizX-AbJn5Qiu7vL6yWVbve2W57L-ArbpNHE&format=noten&ssp=10&name=Sleep_Soond_i_da_Moarnin'&play=1"},{"Name":"Smith's Reel","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyVlF9v2jAUxd_9KY4iRbQSg63QseXNIVCxqtPU9mHS1iIT2yElf6o40FXKh9-NQ2hhE90igZxzDz-fe53w3cOH0fnZ58GnwfmA3Xq4SeNy2TG4ViphYw-3hZA9du2hqIUrD8P-kN14GItUFXmGcZEbA5FJfMnVM67CS5WZWLGvHmadjYJRKoPJU4WNKkycZwZPS1UolEsFHRemRLjMC4k4sxJ_9yiKErGBn_Yww5PISpQ5knilEJddLNZULVFvYPJ1JmlzKpZlopBr3WOXHoJUPDCXuWIRPpi5demcMDpZx5K57tUsmOGxyKNCpHjfCgthTC2-KDbYvlSbNnmCj8M9UysJKeciSeaPiXheiHA1T-JsZdiPb17T193J4ERH99Fp9ZM5gQNxdh8JgmqFCs6FA6m0hJK-rO_JwKdcwvFTB34orWkycqAFuRxOKyV0hKphiUNW9BaLW5YKbVme4YVFmAa1x9LSP55LSb3NJQ9ZoNa5H57uNXoMaMPJl3AyRFXRsdIw_WaYrPFPqUP6CmGvwzm-5uPoKKN6cjayDInWwrvT_2FuU0tr0DRSy6wdBJXtT3Y5fT4NMAn8btAyu7SeNEzy_v3Idzm5vx1awz3GnO4z_8gZ7aa7fQVPNqLond6xyrMeoYTsHHtU2_NtmtVUUrpNv6vV29oabVmxenj_gn7r4RjCq7O7bql-lRjXb6ShvwFc0IeTvV7xPg_Ihr3LT3ceu-RkC1oOT8qeRybL6VN9Murz0RZnBT7qN0x7d-h6pW2NzP0NZmJ0eA&format=noten&ssp=10&name=Smith's_Reel&play=1"},{"Name":"The Stage Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx9kc1q4zAUhfd6ikvAMAvPuHXDmGon2YnaGQql7aLMD0HWj-PWtoylDFPIw_eK2IRuijfi0zm6H77PFC6L4iov8ov8mjxReNobeAyyMXDjpmFsR0NKCj9kbzzctF1HHijsl5tHCkzLMRgNdnI97EMYPc2ysDfeeN-64ZubmiwcBuOzy3x9TX5RKGUP5eS8B3JHYZ2tyU8KopcvJCGJrNWL33l3GLR1QwDbHVpNkuTutrqFcXLNhO2LBdTS-wjPRKGb_ohi6J_r4Pv6Q2hBUuud7Lrd2Mm3WqrXXdcOr578vqfs6yin8Jdo9YccKazECrjYCtiISgDA8UTSSnBQnIkIWL8CtmFnUBUIxHYDVclTlsKRYDP2RBqbwLXiMVeuQGljobH455eirpUEjmgBRrHtqZ2LNAd6jJp81pwVm7g73dR68VFWqpOqbvRiLTSfb5lsliTOtjgIBxurz6qfvmjnF79cGfTU9ZyQ_BNp3HMSzP8AZVyEx-3jx3qoCuwIKOOhKjKBWVSIV3gWGSbwNIfObE6S5B0bUcUz&format=noten&ssp=10&name=The_Stage_Hornpipe&play=1"},{"Name":"The Twenty-Eighth of January","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJx9VNuO2zYQfddXTA0YTQDZ3nWcLKJiH3SHGyQI2kXR1nAMSqRkZSVSIClvjbrf1fd-WYeUZK-3QRcLWjrDOXPmzNi_enB79-5mefNm9f698-DBw57BwxPj-jiLq3Kv9yAK-JHwjsijE2JcEjp3fvJAMlY7Hz1YLVbOzx7sPvwGoeBaEnjoOFM7IJyC3jPFlKoEnwtZLrSJLG7f3t3eQSGkCUNGFHN-9yAkDYRSKOV88uCTeMJgpQD_CYeKayaZ0hUvgXdNxuR3Vmgwa4nUSFXX4glvQiuZ1kdQGosTSWG9-GW9zgxjK0Upeyl4v0NtFYeG8COErNZVDlabC1mnrSy_p-5Qvn2fREJWKOVAmtad9Iy2Vsc71ZHa0BUVpTXrmSwRMUpahDCY1wSr5yBF_jiHxHZPNNpIlOAurA0ltswfodLfK2iZ3JPW9NQIieW_kqY5Tiy3SeQmwGpBkVFw9oN1Gx_gwKTt0fLVQjwyClhmT_AD0lkyi5uZ38BTxWnX9hJKckCFRm1daY1qbUUcO4Gs7pg6QtvxfD83jMZ1LVpY4dwkqpPMumNlYZOVVnagZrqNO64AZEJr0YxJVV13ChdFM8O4x1GvoWpIWfFrMgLYNCh0Gec-dz544FMhnakzJVn-Ve2UGWOBOwdF3VXUmU4_rqN1P2lMvBkBFKQMeEHyvZD0GjKXDqKGd6urSyNEKN2Rut61NTlmJH_c1Tgp5Ww-e_2ibJ2J30zAd303DHFZJhBFSQIn-A-8TJZnOMgDmKT4kCapAZMRi000jSM4PeONR97oineAl3F6hnNGLG_JAt-Ahg7D_nKIr8A7oY-oPniunr0iQJavgWSkHLlYSTIESWEAQ1mUuBakHN_Z5X0gWeL1ngJekpRDEmV4n9EgvYj7hrbhK_jqQOT89dngEBsB23Li0-JSozQaDFwWuPIDmAd-2jtsHnqH75M4TYayURi4F49TY6flCNwIJ3L2M859C9M8uFDT0eShniFk1Exv6OOFyX0jQx8b3423S9jkZPsGF52d_bbGkZKZzvrmTIlyk7rRdhOUWzCHSekjmXG2oCbfueSzL_Se5nCmMIE_v9C_UJ4PuFbhSBwZK1I__78GplPN_tDjD-L98z_MCr4Fn3OaRXQ-UkgWcQP__H16icfNAn-SLkl4ZzhTe_bx03UEj_MHPmD6v1ESAtY&format=noten&ssp=10&name=The_Twenty-Eighth_of_January&play=1"},{"Name":"Westmoreland's Hornpipe","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNkl9r2zAUxd_1KQ4GsxaydQlZ2upNsWyvjMDYAhvbOiNbdprWf4LklBby4Xdlx03CCtvDFdLRuVc_DvrOMb78MLm6no6vZmzJ8S23bdWYvFS1fmPxsTH1Zr3JWcCxzI15xqIxZm3ZF4674W7BMb2Ysh8cgaoQmMZa9vXUP0KybLbZHZqC9CdlE5yNry9n5-wTh6zUPfOZr9Ls3ia22da6aOoWRblda-b7ixt5g41pVobGvx-EVFnrxIOSEZE-lZzpsSkxm56YBklpnaiyTDalek5V9pCU6_rBsp-fuXi7Uaa9FfEvtuPwpIdIColIyAg7eGHlYR7Gc1DFTugNEagkneEJD2IUhGIEt4TYMeA_5oj9nFAG1DPuBBmJrGvVE4gYfDfp5QmiSafTTpJ7RyES-rxHP4DrTIOwugdjDwgdGGTgev5ydKPD3w5HZHn2gq1FJBzJK9ivcssBsIfroI81tXoB7rPG2aMy785vB-xCK41C6WJ4MM1XKahWe-qDYQ-Q62xOAUVHYRP0P8KOCdrlEeyF47CJkTtG32_zpxaB-zqW_ivCihZBHd1WQFxIctKbEvHpjewm_AGbuOSN&format=noten&ssp=10&name=Westmoreland's_Hornpipe&play=1"},{"Name":"Whiskey Before Breakfast","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyFk2Fr2zAQhr_rVxwBQwppstlZs_nbKbZMGB2jK2yslKBYcuLGsYJsryvkx-_kxEtMV-aALL13fvPci_0jhPezWfDB_zgNPrH7EL5v8mqrX4DrzFgN3Gq5zWRVs3kI91aqMbsLwWpdsJ8hzOUO5tZUFbBvFyf2hQ6FrKo8HcFKy6bOs6aAuin1GO5Ms95AbWVZpTbf17kpwWSwMc-wgCLfaqgN7Av5Ank9BnYbwnQyZZ9DiHbyiXnMk6v0qVpWpilVZsoasqLJFfO820W0gL01a0sc7zphRRhOPCvpxljVl1zTL1PAzbTX1ElSqaUsiqWjWsl0uyzycluxh68hXu-lrR-BDaIBRL7wQaA_RDiAE_CKYwIiioUTkgEkPk_aivCx1eLdAGJXHyBtcDSP4XD0ikUC6NPSeTmrnhd2Xigip-HMeZFD-3wQQ3iguAiSHyGPvgJTcJfyaXO0VjpTRy3l2FENOWj_ihZ6EU7m60wrSJGnJ0bl03MOPPV1eqLirtwWUeAr0tPU2A3tgBJxJsUeaSQAI0Fpvhnn2RiGASb_iZSCggehHgPsZxpHPUN3CcJvN69yvcS9DHYYuP8kCpq_m93F0GbGnVvHxkfJiI_orjN4K1nZJSv_kSzHv7yqC0Cdk21HblmnLSl9Ml6tf9cwd-90RR8S_ZJJBPFu4jC7I85oCQ80tFPiHQmuSj2u2na0Dcz7A_L7Ew0&format=noten&ssp=10&name=Whiskey_Before_Breakfast&play=1"},{"Name":"Brose and Butter + Cuzle Together","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJyNVO-P2kYQ_e6_4gmJBNSEXlx017qfbA7IKbooyt2HqFWClt2xvcF4kXcNuYo_vrM25sclqYowNm_nvTczO-tPEd7c3IzHN9fX4-vgMUJSGUsQpUJSO0cVfsGk_qcgPJqMXE5VE5RAjFYjMcJjTvhAQhq5wswUhdmRasC3VAaTCI-VUKPgYwRb6M1XnQV_RZiINSZsYxE8sJYpS034qBWZ2r3C4kEa57TNMdMVLTAIr66uhn8iHmFWCcsZ-eTej_BWCMvhPgovMK-EPESPh6Pg_VF4U4gnC5drC1PynbDVphCNinawpi6VhdiRNWsaAXcvtwRXidJuuBNNTL2BQKpTl8MZL70z1apTS7VShSfGpfH9gS65bWSdLjNvy7_a-wv24nC7007mZLEktyMqEUOZSosSXnjAqzmbTVAKV1eiGOI1drmWOSzRmnUMExtf67gCUSkO8KWs9TdTPCkvNJiwk6g2Q07qgSOlWS91SbZpyosEjcflpr5ijTb7wz5BFNZwKYhZGANhsaOiAN-nheWu3ouqePIGj76x_PXitt5sCloTN0DhUMmWKqu5VSw15UKxfDrfxnYPD6GlloTk9UZUbhTcR_jj19-DdxFipgX9oC-W8qtdNPuVmtIhLWqtgn7__u72DpvKZBXP1VUHLIW1HjwhMjeVuoR80NYUuB5fBHWQUGohimLhR2gp5GpR6HJlg32EXrzuYTuQioaoYxljG9cDGQ-x71AP9uY9JOEc_Nn_mJJIT-ni5hlBJU08EO0bo8mJRLy8pXqQ8Z-TkUe9gNoOkrlXazj1adFT0qyh9G57SEMF1XG8GRv1mz7zTgd_f4jac_PSYit4Lh1v3me0NffAok1l_jp-9kf4rOBDzWeURJ5T_qvmA8sn769nRnSe_DOjhpJmF0Y_rZlrvTwFn4_u4YB1hjIFhfGZ-wFuhbIwOXc_rgnKnrkr1ulIv12UKcIBv4mGJPmJTqwT3BrRmdEZ5f8Y8cHpb-1Kb_BGrvnZ0TfXnsTuZH5_Itt58EFNnlMe3HmcYDqfNtfJtEO9eTy7PSVzQZnNcZnnbHoLxd07Ug4NmTekEMpPy8WAtXDSNOCL7Nb8rP-E0xrN2fqLVCeng5FPL0v5ZRNmIVI6Yx3Qtp2ZuKzoxxQfSow0FXXt8Z3_F4CMCKY&format=noten&ssp=10&name=Brose_and_Butter_+_Cuzle_Together&play=1"},{"Name":"The Butterfly","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJxtkttq20AQhu_3KQaDqHXROJWN3epOJwtTUkLqi9JSzEq7OthardldJTXkvXKfJ-uODpiEgNjDP9_MPyvmlw9fNpvVerVe3y7J3od9xSHsjOGqaC4ksoIU4gL30hhNHnzQTX0-1iX57UNEBURKak1-DnmplAz2XcvJDx92nx45CMnqouYMjA1n8qluSzAStBTcVP2logYEPXFtWcVB81ZzRAS_AWwEZAG57BSqVa3Bflj92GkDFOvzBvGMw7mhF-v0VJvqhtz58G3xlXz3IWBSEYdm-VEftOxaVsjWQNF0NSOOc7eLd3BWslT2MbeTkFGtUbwqeSUVeysh9CgbWK_eQJNEGTvQpjlgWxnNT4embk-a_Ln3g89nqsxfMkvEDEIvgXnqJS7M4hlsl_AM7_XQXrdJ_EHEZsyTrediKLLn0GMuzJkXDrFgG4P_TBw0DSfTgcstx73CrkU55KPLWKD0uAssDFAOxOZdQunRPgHNMzxf-cksmsxS2-4S0wMXUq8vOEmBG_Y1Rp8PyAjfysbyE9pbOI7h_wwMP9KHRCxiXEIxHKPF8O6BCkcqgteX1xewUL8HuEOMy5WNRjYdmHTRx8fbUBbm_ahryGmLY6e7TJvadMbOXiGV7cAOaWFnihdcKc5c4vwHXnT7nQ&format=noten&ssp=10&name=The_Butterfly&play=1"},{"Name":"The Yorkshire Trip","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJy9k1tr2zAUx9_9KQ4BMxsyO3OzXtwnW7JNGR1jDbsygmI7sRLHCpISWsj36ns_2Y58aZexx20v0uF_fufyF_aXEN5cXEzPp1eTy7fWLIRZVcJXITeq4rKEmeQ7ozJv4zEPKGu4quCu5rs1X1kEcckKz_oYguq1byEQtgUihVLWXQifeV1zFD7xfFNK9QqIqOsy11w0IJamY45j9k2pwMFNJu51u0ImRNHK1vsQIjiU8gEajmg_5xo0Uorf67JsdAWN0NiBN6285FJp2DGpYcUPJXANDAquNG9wMApa7PPKs25DuPIvrXchZFu2tmy2yNdqrsS-KZai0bCs97ywbPv2ht7AToqVRCOTQVgwpYz4ouSVkMWpZKCDqOF8egINEiuKOavr-a5mDwuWb-Y1bzbK-v4hjF6b_X9Yo2wEWbCCIs5gREbgxH6Q-0ERu3CElySFEcVk6geZH0T0NPmnSqSjM6BBDFFK4Xj8f4NsYy8e7CGfECdpm1A3HlNsBQ41lSblkgRrnaLr46bPCdKXxGOEMzdN-llpFnUFHfyPBpyBE8W5-2yHDHaSrfEfoXUnoYkLcZD3dSfquJPJb3KUDS-GTxmlZrPcePjbXZMUQrO5bevyXkP3reFf4Gc-aU_ax7TlOiruKYKZDE-KVBf_SpGeSrbw9Pj0iDlzYUCGoKN_AiMqMMY&format=noten&ssp=10&name=The_Yorkshire_Trip&play=1"},{"Name":"The Blackbird (Set Dance)","URL":"https://michaeleskin.com/abctools/abctools.html?def=eJxtUVFv2jAYfM-vuCGhgdTRNaXtiLSHhLRptTFNbSdNQxQ5thOyBhvZAcrEj9_nAAW6PSU-353vu-9ngLOri0_d7vlVr-c9BnicSEQl489pYQRaD7JCzBSXba9Pl4aJjncfwBIsHOz9CtBnU_SNttZ7CBDpNF0hYUYUSpoTjAdyqk0hLXSGfskKI8donfV6l20si2qC6Qp6qbBgpmBVoZXteN8CfNULWa5QzZV8B_xQcztnJQEtZpExA_rc4VnpZfsEkvEJZsxUkErYjStTkC-VYaiWGqlkle0AzviWlAy2MlrlmMpSi4LDrqYzVk1WG211VMGtNmpWzCTpY0yLF12uRMFUnTKStsKsZCspYEu9pGfpZ6W4JjvCWlbKN428t1hIY2nQNjney5nLBmYkClVJ5RpgZW3en2hD49iqKEu4K6pnITveIED3tOt9CRBTHK_pNVnKf9ux1XMlMq0qZOW8EF6zObiL7zAzOje0oY87IGXWOnCPcPfSMeRIC13isntE2kFMiDHtY-xmT6mpcVmoZ-sNvwfhB7eJkSf4upE0ECWRAPejBGs0wmkDYXKTIIx46IC4AeFnEoKHN-5MgoQIiJ_68TXWHlBzbq6dxhG3GnmgCS-2IncT-yQldDgI_NPuiM6hj_XGiMyHUTI6TzC85qPDSFF4HOmJO__Pb0P5_2YS-0xPXByLWuctmrWN8DWaf5SM6JSs6UqLtqWtg5qaSbobimzkD0U-8uucFD5kI5_lG0bOsu0zuU8PsTxrI08J3KGEHOR6jV1bZ2Eebk1Z-h_HnXYYi1H3IPMfmeW7NuOt9lhH3i4O7aftwH7DrSkCj7jAFiAPWdOZX0-0zxYy2sNNQvwNk_uSu_zHa9iveZ-MmqWxAmrzL8UXY70&format=noten&ssp=10&name=The_Blackbird_(Set_Dance)&play=1"}];
 
     // Set this to false to disable state persistence
     var gAllowStatePersistence = true;
 
-    // Mobile gesture state variables
-    var gPlayerTouchStartX = 0;
-    var gPlayerTouchStartY = 0;
-    var gPlayerTouchStartTime = 0;
-    const gPlayerSwipeThreshold = 50;
+    // Set this to false to hide previous and next tune buttons
+    var gAllowPreviousNextButtons = true;
 
-    function isIOS() {
-        if (/iPad|iPhone|iPod/.test(navigator.platform)) {
-            return true;
-        } else {
-            return navigator.maxTouchPoints &&
-                navigator.maxTouchPoints > 2 &&
-                /MacIntel/.test(navigator.platform);
-        }
-    }
+    var lastURL = "";
 
-    function isIPad() {
-        return (
-            (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform))
-            ||
-            (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /iPad/.test(navigator.platform))
-        );
-    }
-
-    function isAndroid(){
-        if (/Android/i.test(navigator.userAgent)) {
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
-
-    // Populate the image lightbox from JSON
+    // Populate the selector with options from JSON
     document.addEventListener('DOMContentLoaded', () => {
 
-        let currentIndex = 0;
-
-        // DOM elements
-        const imageElement = document.getElementById("image");
-        const firstButton = document.getElementById("first");
-        const prevButton = document.getElementById("prev");
-        const nextButton = document.getElementById("next");
-        const lastButton = document.getElementById("last");
-        const tuneSelector = document.getElementById("tuneselector");
-        const viewerElem = document.getElementById("viewer");
-        const titleElement = document.getElementById("title");
-        const subtitleElement = document.getElementById("subtitle");
-
-        tunes.unshift({"Name":"Title Page","Filename":null,"URL":null});
-
-
-        var gIsIOS = false;
-        if (isIOS()) {
-           gIsIOS = true;
-        }
-
-        var gIsIPad = false;
-        if (isIPad()) {
-           gIsIPad = true;
-        }
-
-        var gIsAndroid = false;
-        if (isAndroid()){
-            gIsAndroid = true;
-        }
-
-        if (gIsIPad){
-            viewerElem.style.marginTop = "0px";
-        }
-
-        // Function to update the viewer with the selected image
-        function selectTune() {
-            currentIndex = parseInt(tuneSelector.value);
-            if (isNaN(currentIndex)){
-                currentIndex = 0;
-            }
-            updateViewer();
-        }
-
-        // Function to update the viewer with the current image
-        function updateViewer() {
-            if (currentIndex == 0) {
-                titleElement.style.display = "block";
-                subtitleElement.style.display = "block";
-                imageElement.style.display = "none";
-                tuneSelector.value = currentIndex;
-            } else {
-                titleElement.style.display = "none";
-                subtitleElement.style.display = "none";
-                imageElement.style.display = "block";
-                imageElement.src = tunes[currentIndex].Filename;
-                imageElement.alt = tunes[currentIndex].Name;
-                imageElement.title = 'Click to play "'+tunes[currentIndex].Name+'"';
-                tuneSelector.value = currentIndex;
-            }
-            // Save last tune
-            if (gAllowStatePersistence){
-                if (window.localStorage){
-                    localStorage.lastTuneIndex_HZGJLAK = currentIndex;
-                }
-            }
-        }
-
-        // Event listener for the image click to open the hyperlink in a new tab
-        imageElement.addEventListener("click", () => {
-            if (tunes[currentIndex].URL){
-               window.open(tunes[currentIndex].URL, "_blank");
+        document.getElementById('fullscreenbutton').addEventListener('click', function() {
+            if (lastURL != ""){
+             window.open(lastURL, '_blank');
             }
         });
 
-        // Event listeners for buttons
-        firstButton.addEventListener("click", () => {
-            currentIndex = 0;
-            updateViewer();
-        });
+        const tuneSelector = document.getElementById('tuneSelector');
 
-        prevButton.addEventListener("click", () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateViewer();
-            }
-        });
+        const tuneFrame = document.getElementById('tuneFrame');
 
-        nextButton.addEventListener("click", () => {
-            if (currentIndex < tunes.length - 1) {
-                currentIndex++;
-                updateViewer();
-            }
-        });
+        if (tunes.length > 1){
 
-        lastButton.addEventListener("click", () => {
-            currentIndex = tunes.length - 1;
-            updateViewer();
-        });
+           tunes.forEach(tune => {
+               const option = document.createElement('option');
+               option.value = tune.URL;
+               option.textContent = tune.Name;
+               tuneSelector.appendChild(option);
+           });
 
-        const selectElement = document.getElementById('tuneselector');
-        selectElement.onchange=selectTune;
+           // Update iframe src when an option is selected
+           tuneSelector.addEventListener('change', () => {
 
-        tunes.forEach((tune, index) => {
-            const option = document.createElement('option');
-            option.value = index;
-            option.textContent = tune.Name;
-            selectElement.appendChild(option);
-        });
+               var theURL = tuneSelector.value;
 
-        // Select the div where the images will be inserted
-        gallery = document.getElementById('image_gallery');
+               if (theURL == "")return;
 
-        // Loop through the array and create img elements for printing
-        tunes.forEach(item => {
+               tuneFrame.src = theURL;
+               lastURL = theURL;
 
-          if (!item.URL){
-              return;
+               // Save last tune
+               if (gAllowStatePersistence){
+
+                   if (window.localStorage){
+
+                       localStorage.lastTuneName_MFVFLQB = tuneSelector.options[tuneSelector.selectedIndex].text;
+                   }
+
+               }
+
+           });
+
+          if (gAllowPreviousNextButtons){
+
+               document.getElementById('next_tune').addEventListener('click', nextTune);
+
+               document.getElementById('previous_tune').addEventListener('click', previousTune);
+
+               function nextTune(){ 
+                   var tuneIndex = tuneSelector.selectedIndex;
+                   tuneIndex++;
+                   if (tuneIndex > tunes.length){
+                    tuneIndex = tunes.length;
+                   }
+                   tuneSelector.selectedIndex = tuneIndex;
+                   tuneSelector.dispatchEvent(new Event('change'));
+               }
+
+               function previousTune(){
+                   var tuneIndex = tuneSelector.selectedIndex;
+                   tuneIndex--;
+                   if (tuneIndex < 0){
+                       tuneIndex = 0;
+                   }
+                   tuneSelector.selectedIndex = tuneIndex;
+                   tuneSelector.dispatchEvent(new Event('change'));
+               }
+          }
+          else{
+               document.getElementById('next_tune').style.display="none";
+               document.getElementById('previous_tune').style.display="none";
           }
 
-          // Create a div to hold each image
-          const div = document.createElement('div');
-          div.classList.add('image-container');
-
-          // Create an link
-          const link = document.createElement('a');
-          link.href = item.URL;
-          link.target = '_blank';
-          link.title = 'Click to play "'+item.Name+'"';
-
-          // Create an img element
-          const img = document.createElement('img');
-          img.src = item.Filename;
-          img.alt = item.Name;
-          img.setAttribute('loading', 'lazy');
-          img.setAttribute('width', '2400');
-
-          // Apppend the image to the link
-          link.appendChild(img);
-
-          // Append the link to the tune image div
-          div.appendChild(link);
-
-          // Append the div to the gallery
-          gallery.appendChild(div);
-
-        });
-
-         // Restore state
-        if (gAllowStatePersistence){
-
-            if (window.localStorage){
-
-                currentIndex = localStorage.lastTuneIndex_HZGJLAK;
-
-                if (currentIndex){
-                    currentIndex = parseInt(currentIndex);
-                    if (isNaN(currentIndex)){
-                        curentIndex = 0;
-                    }
-                }
-                else{
-                    currentIndex = 0;
-                }
-
-                // Initialize the viewer
-                updateViewer();
-
-            }
-
         }
-        else {
+        else{
 
-            // Initialize the viewer
-            updateViewer();
+           tuneSelector.style.display="none";
 
+           document.getElementById('next_tune').style.display="none";
+           document.getElementById('previous_tune').style.display="none";
+
+           setTimeout(function(){
+
+             var theURL = tunes[0].URL;
+
+             if (theURL == "")return;
+
+             tuneFrame.src = theURL;
+             lastURL = theURL;
+
+           },250);
         }
 
-        if (gIsAndroid || gIsIOS){
+       function getElementsTotalHeight() {
 
-            var elems = [viewerElem];
+           var ids;
 
-            elems.forEach(elem => {
+           if (tunes.length > 1){
+               if (gAllowPreviousNextButtons){
+                   ids = ['title', 'subtitle', 'previous_tune', 'footer1', 'footer2'];
+               }
+               else{
+                   ids = ['title', 'subtitle', 'tuneSelector', 'footer1', 'footer2'];
+               }
+           }
+           else{
+               ids = ['title', 'subtitle', 'displayOptions', 'footer1', 'footer2'];
+           }
 
-                if (elem){
+           let totalHeight = 0;
 
-                    elem.addEventListener('touchstart', (e) => {
+           ids.forEach(id => {
 
-                        // Capture information for swipe detect
-                        const touch = e.touches[0];
-                        gPlayerTouchStartX = touch.clientX;
-                        gPlayerTouchStartY = touch.clientY;
-                        gPlayerTouchStartTime = Date.now();
+               const element = document.getElementById(id);
 
-                    });
+               if (element && (element.textContent.trim() !== "")) {
+                   const elementHeight = element.offsetHeight;
+                   const computedStyle = window.getComputedStyle(element);
 
-                    elem.addEventListener('touchend', (e) => {
+                   // Include margins
+                   const marginTop = parseFloat(computedStyle.marginTop);
+                   const marginBottom = parseFloat(computedStyle.marginBottom);
+                   totalHeight += elementHeight + marginTop + marginBottom + 1;
+               }
+           });
 
-                        // Check for horizontal swipe
-                        const touch = e.changedTouches[0];
-                        const deltaX = touch.clientX - gPlayerTouchStartX;
-                        const deltaY = touch.clientY - gPlayerTouchStartY;
-                        const timeElapsed = Date.now() - gPlayerTouchStartTime;
+           if ((tunes.length == 1) && (!document.getElementById('displayOptions'))){
+               totalHeight += 24;
+           }
+           return totalHeight+10;
+       }
 
-                        // Check for horizontal swipe
-                        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > gPlayerSwipeThreshold && timeElapsed < 1000) {
+       function resizeIframe() {
+           const iframe = document.getElementById('tuneFrame');
+           iframe.style.width = (window.innerWidth-3) + 'px';
+           var otherElementsHeight = getElementsTotalHeight();
+           iframe.style.height = (window.innerHeight-otherElementsHeight) + 'px';
+       }
 
-                            if (deltaX > 0) {
+       function setSelectedTuneByName(optionText) {
+           var gotMatch = false;
+           for (let i = 0; i < tuneSelector.options.length; i++) {
+               if (tuneSelector.options[i].text === optionText) {
+                   tuneSelector.selectedIndex = i;
+                   gotMatch = true;
+                   break;
+               }
+           }
+           if (gotMatch){
+               tuneSelector.dispatchEvent(new Event('change'));
+           }
+       }
 
-                                // Swipe left detected, go to previous tune
-                                if (prevButton) {
+       // Resize the iframe on window resize
+       window.addEventListener('resize', resizeIframe);
 
-                                    prevButton.click();
+       // Initial call to ensure it fits when the page loads
+       resizeIframe();
 
-                                }
+       // Restore state
+       if (gAllowStatePersistence){
 
-                            } else {
+          if (window.localStorage){
 
-                                // Swipe right detected, go to next tune
-                                if (nextButton) {
+              setTimeout(function(){
 
-                                    nextButton.click();
+                if (tunes.length > 1){
 
-                                }
+                   var theLastTuneName = localStorage.lastTuneName_MFVFLQB;
+                   if (theLastTuneName && (theLastTuneName != "")){
+                       setSelectedTuneByName(theLastTuneName);
+                   }
 
-                            }
-                        }
-                    });
                 }
-            });
-        }
 
+             },250);
+          }
+       }
     });
 
-    </script>
+</script>
 
 </body>
 

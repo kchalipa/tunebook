@@ -1,0 +1,30 @@
+%abc-2.1
+%%titlefont      Times-Bold 24
+%%subtitlefont   Times-Italics 18
+%%composerfont   Times-Italics
+%%gchordfont     Courier
+%%partsfont      Helvetica
+%%textfont       Courier
+X: 1773272029
+T: The Stage Hornpipe
+C: James Hill
+R: hornpipe
+S: Adapted from https://thesession.org/tunes/1249
+N: A fun tune I was shown in Durham!
+Z: Cam Cross 
+M: 4/4
+K: Gmaj
+%
+[P:A-part]
+dc\
+|: "G" BGFG EGDG   | "G" B,DGB cBAG | "Am" AEAB cBAG | "D7" AGFE DCB,A, |
+   "G" G,B,DG BdcB | "C" cdef gfge  | "D7" dbca Bgfg | "D7" ecAF "G" G2G,2 :|
+[P:B-part]
+|: "G" gage dgbd | "Am" cfac "G" Bdgd | "G" BGdB "Am" cAag | "Am" fgef "D" defd |
+   "G" gage dgbd | "Am" cfac "G" Bdgf | "G" (3efg db "Am" caBg | "D7" ecAF "G" G2G,2 :|
+%
+%%text A-part ==== | B-part ========== 
+%%text G G Am D7 · | G Am/G G/Am Am/D7
+%%text G C D7 D7/G | G Am/G G/Am D7/G
+%
+
