@@ -5,9 +5,11 @@ C: Trad.
 Z: Cam Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 N: Here's the F version as I learned it, along with a nice variation on the A-part 
 N: I found at https://thesession.org/tunes/872.
 K: Fmaj
+%noswing
 %
 [P:A-part] 
 cde|:\

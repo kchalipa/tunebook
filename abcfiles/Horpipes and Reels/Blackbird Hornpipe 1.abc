@@ -10,7 +10,9 @@ N: with its repeated landing on the open D, but is also recognizably distinct.  
 N: chords and fine-tuning the arrangement.  One interesting feature is a "slippery" C, sometimes
 N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
+Q: 1/2=105
 K: Dmaj
+%noswing
 [P:A-part] 
 AG|\
 "D" F2EF AFD2       | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |

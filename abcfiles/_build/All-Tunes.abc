@@ -1,6 +1,46 @@
 %abc-2.1
 
 X: 1773442456
+T: HORNPIPES AND REELS
+M: 4/4
+K: C
+%
+%%text Tunes organized alphabetically.  Some ideas for sets:
+%%text
+%%text * Because He Was A Bonny Lad > Salmon Tails up the Water
+%%text * Morpeth Rant > Old Morpeth Rant > Roxburgh Castle
+%%text * King of Fairies > Off to California > Rights of Man
+%%text * Silver Spear > Maid Behind the Bar
+%%text * da New Rigged Ship > Shelder Geo > Sleep Soond
+%%
+%%text Written as sets:
+%%text "Shetland Reels": da Ferry Reel > Lay Dee at Dee > Miss Spencie's Reel
+%
+X: 1777755202
+T: The Big Scioty
+T: (sigh-oh-tee)
+C: Trad.
+Z: Cam Cross
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote.
+M: 4/4
+K: G
+[P:A-part]
+DF\
+|: "G" G2BG  AGBG | "G" AGGG G2 dc   | "G" BAGB AGED   | "G" DGAB G2 (3(DEF) |
+   "G" G2 GA BGBd | "C" (de)ee e2 ge | "D" dcBd cBAc   | "D" BGAF "G" G2 DF :|
+[P:B-part]
+|: "G" g2 ga baga | "D" a2 aa a2 aa  | "D" a2 ab ag ed | "Em" (de)ee e2 ef | 
+   "Em" gfga gfed | "C" edBd e2 ge   | "D" dcBd cBAc   | "D" BGAF "G" G2 [G,2D2] :|
+[P:A-part var.]
+|: "G" G2 GA GEGA | "G" G2 GA G2Ac   | "G" BAGB AGEG   | "G" AG2A G2DE | 
+   "G" GABG AcBA  | "C" Beef e2d2    | "D" BABG AGEG   | "G" AGGA G2 Bd :|
+[P:B-part var.]
+|: "G" [B3g3]g- gabg | "D" ea2b a2[A2e2] | "D" g3a gedA | "Em" B[e2][e] [e2][e2]-|
+   "Em" [e]fg2e2dA | "C" B[e]([e][f])[e2][d2] | "D" {Bc}BABG AGEG | "G" AG2A G2[G,2D2] :|
+%
+%%text Chords: G G G G | G C D G :|   G D D Em | Em C D G :|
+X: 1773442456
 T: Bitter Creek
 C: Trad.
 Z: Cam Cross
@@ -96,6 +136,19 @@ dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
 |: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
 "D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
 %
+X: 1777756618
+T: Boil The Breakfast Early
+M: 4/4
+R: reel
+K: Gmaj
+|:G2 BG AD D2| GB B2 c2BA|G2 BG AD D2| GE E2 c2BA|
+G2 BG AD D2| GB B2 c2 Bc|dBcA BGAF| GE E2 c2 Bc||
+|:d2 fd edB^c|d2 ef g2 fe|d2 fd edBA| GE E2 c2 Bc|
+d2 fd edB^c|d2 ef g2 fg|afge fded| dcAB c2 Bc||
+|:dA A2 dAFA|dA A2 defe|dA A2 dAFA|GE E2 c2 Bc|
+dA A2 dAFA| d2 d^c defe| dBcA BGAF|GE E2 c2 BA ||
+%
+% ref: https://youtu.be/eLcvRqVfB-Q?si=pIqFXLjAwqp4hNiy
 X: 1776523426
 T: Brenda Stubbert's Reel
 T: a.k.a. Frosty Morning
@@ -745,6 +798,25 @@ GA|:\
 %
 %%text Chords: Em Em G/D C/Bm | Em Em G/D Em :|   G/Em G/Em D Bm | C Am/Em Am/D Em :|
 %
+X: 1777744420
+T: Roxburgh Castle
+C: Trad.
+R: hornpipe
+Z: Cam Cross 
+S: https://thesession.org/tunes/4628
+M: 4/4
+K: Gmaj
+%
+[P:A-part] DF|:\
+"G" GFGB dBGB | "C" cBce "G" dBGB | "C" cdec BcdB | "Am" c2 A2 "D7" AcBA |
+"G" GFGB dBGB | "C" cBce "G" dBGB | "G" dgfe "D7" dcBA | "G" B2G2 G2B2  :|
+%
+[P:B-part]
+"G" gdBd edBd | gdBd edBd | "C" cdec "G" BcdB | "Am" c2 A2 "D7" AcBA |
+"G" GFGB dBGB | "C" cBce "G" dBGB | dgfe "D7" dcBA | "G" B2G2 G2B2  :|
+%%
+%%text Chords: G C/G C Am/D7 | G C G/D7 G :|   G G C/G Am/D7 | G C G/D7 G :|
+%
 X: 1759264360
 T: Rye Straw (D)
 C: Trad.
@@ -774,17 +846,20 @@ K: Dmaj
 %%text A/D A/D A/D E/A | A D A/D E/A | D G A D [A A/D]
 %
 X: 1777324332
-T: Rye Straw (D var.)
+T: Rye Straw (D) v.2
 C: Trad. + Dave Notman
 N: A version of Rye Straw heavily modified by Dave Notman.
 R: reel
 M: 4/4
 K: Dmaj
 %
-|:[P:A] "A"e2 ef edBd | efgf edBd | e2 ef edBc | "D"dBAG [FA][DA] [EA]2 |
- "A"e2 ef edBd | efgf edef | gfgf edfe |1 "D"dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 ||
-|:[P:B] "A"E2 !4!AE "D"F2 AF | "A"EDEG "D"FE DF | "A"E2 AE "D"FEDd | "G"BcdB "D"AFDF |
- "A"E2 AE "D"F2 AF | "A"EGFE "D"FEFD | AGFE "D"FDFA |1 "G"dBAG "A"[FA][DA] [EA]2 :|2 "G"ddBA "A"BABd |]
+[P:A-part] |:\
+"A" e2 ef edBd | efgf edBd | e2ef edBc |  "D" dBAG [FA][DA] [EA]2 |
+"A" e2 ef edBd | efgf edef | gfgf edfe |1 "D" dBAG [FA][DA] [EA]2 :|2 "D"dBAF [DA]2 [EA]2 ||
+%
+[P:B-part] |:\
+"A" E2AE "D" F2AF | "A" EDEG "D" FEDF | "A" E2AE "D" FEDd | "G" BcdB "D" AFDF |
+"A" E2AE "D" F2AF | "A" EGFE "D" FEFD | AGFE "D" FDFA |1 "G" dBAG "A" [FA][DA] [EA]2 :|2 "G" ddBA "A" BABd |]
 %
 X: 1759264360
 T: Rye Straw (G)
@@ -1080,6 +1155,9 @@ K: Ador
 %%text Am/D Am/D Am/G F/Em ·| Am/D Am/D Am/G Em/Am 
 %%text Am · Am · Gm · Em/Am | Am · Am · G ·· G ···  
 %
+% https://youtu.be/N2Rjwiq7YJk?si=wB0jL6Lh0oRgvEt-
+% https://youtu.be/L5h1mkWhGjs?si=1V4QrTnkS2l0yI8d
+%
 X: 1752894186
 T: Westmoreland's Hornpipe
 C: Terry Morris
@@ -1130,6 +1208,28 @@ K: Dmaj
 "D" dafd "A" caec | "G" BABc "D" dBAF | "G" GdBG "D" FdAF | "A" EA,CE "D" D4 :|
 %%
 %%text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
+%
+X: 1777755551
+T: JIGS AND SLIPJIGS
+M: 6/8
+K: C
+%
+%%text Tunes organized alphabetically.  
+%
+X: 1777756298
+T: The Ballykeal Jig
+S: Maggie Sansone (Mist & Stone, 1990)
+N: Chords very tentative (again).
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+|:\
+"F" [=FA]2F [FA]2c | "F" A=FA A2c | "G" BGG DGG | "G" BGB dcB |
+"F" [=FA]2F AcA | "F" A=FA Aca | "D" bag fdc |1 "G" BGG G3 :|2 "G" BGF GBd||
+|:\
+"G" [Bg]2d gag | "D" [fd]2e fed | "G" [Bg]2a bag | "D" fd^c def|
+"G" [Bg]2a bag | "D" [fA]de fga | "D" bag fdc |1 "G" BGF GBd :|2 "G" BGG G3||
 %
 X: 1774476646
 T: Brose and Butter + Cuzle Together
@@ -1189,6 +1289,28 @@ K: Ador
 %%text B-part: C ·· Bm ·· Am · D · :|
 %%text C-part: G ·· G/D · G ·· C/D :| (The Gs can be substituted for Ems if preferred)
 %
+X: 1777756188
+T: The Maid At The Spinning Wheel
+S: Maggie Sansone (Mist & Stone, 1990)
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+N: Chords are *really* tentative.  I need to consult with a guitarist who knows this stuff.
+:\
+"G" G2B B2G | "G" cBA B2D | "G" G2A BAG | "D" F2G AFD |
+"G" GFG ABG | "G" BcA B2g | "D" ged cBA |1 "G" G3 G2D :|2 "G" G3 G2c ||
+|:\
+"G" BAG AFD | "D" D2{D}E FED | "D" D2{D}E AFD | "D" EFG ABc |
+"G" BAG AFD | "D" D2{D}E FED | "D" ded cBA |1 "G" G3 G2c :|2 "G" G3 G2D ||
+|:\
+"G" GBd gba | "D" gdB "G" ecA | "D" dBG "A" cAG | "D" F2{F}G AFD |
+"G" GBd gba | "D" gdB "G" ecA | "D" fed "A" cBA |1 "G" G3 G2D :|2 "G" G3 G3 ||
+%
+% to learn later?
+% |:BAG Afd|Bgd Afd|Bgd AFD|EFG ABc|
+% BAG AFD|~D3 AFD|ded cAF|1 AGF G2c:|2 AGF G3||
+%
 X: 1774649085
 T: The Yorkshire Trip
 T: a.k.a. Danish Slipjig
@@ -1214,6 +1336,13 @@ K: Gmaj
 %%text A-part: G/G/C G/G/D G/G/C D :|
 %%text B-part: C/G/G C/D/D C/G/G D :|
 %%text C-part: Em ·· D ··· C ··· D :|
+%
+X: 1777755597
+T: TUNES OF CHOICE
+M: 4/4
+K: C
+%
+%%text Includes polkas, set dances, swing tunes...
 %
 X: 1758443799
 T: The Blackbird (Set Dance)

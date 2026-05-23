@@ -1,0 +1,26 @@
+%abc-2.1
+X: 1779307495
+T: Ameila('s Waltz)
+C: Trad.
+Z: Cam Cross
+S: Natalie MacMaster (A Compilation, 1996)
+N: Play it heavily swung.
+R: waltz
+M: 3/4
+Q: 1/4=160
+K: Dmaj
+%swing 0.75
+[P:A-part]
+A,2|:\
+"D" D4 DD   | "D" D3 EFE   | "Bm" D2 F2 BA    | "F#m" FA3 A2        |
+"G" B3 cdB  | "D" A F3 EF  | "Bm" D B,3 B,C   | "G"   B,3 C/B,/ A,2 |
+"D" D4 DD   | "D" D3 EFE   | "Bm" D2 F2 BA    | "F#m" FA3 A2        |
+"G" B3 c dc | "G" cd2 efa  | "A"  e2 c3 A    |1 E3 E (3(GFE)  :|2 E4 ag ||
+%
+[P:B-part]
+|:\
+"D"  f2 a3 f    | "D"  fa2 f ed    | "A"   c2 ce (3(cBA) | "A"   E3 e fe      |
+"Bm" d3 d Bd    | "Bm" f3 g2 f     | "F#m" ed c2 BA      | "F#m" F3 G AF      |
+"G"  G3 B AG    | "D"  F2 [DA]2 d2 | "A"   de cd cA      | "D" Dd2 e fd       |
+"G"  g3 a/g/ fe | "D"  a3 f ed     | "A"   d2 de2 c      | "D" d6            :|
+

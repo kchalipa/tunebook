@@ -1,0 +1,23 @@
+%abc-2.1
+X: 1779191980
+T: The Spinning Dogs (of Carrowkennedy)
+C: Damian Caisley
+Z: Cam Cross
+N: I've made very minute changes to the original music as it was given me to better
+N: accommodate my playing style.
+R: reel
+M: 4/4
+Q: 1/2=105
+K: Bm
+[P:A-part]
+dc |:\
+"Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA cA | EAce fedc |
+|1 "Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA ce | "Bm" fefg fedc :|
+|2 "Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA cA | "A7" ABcd efge ||
+[P:B-part]
+|:\
+"D" a3f gfec | ~d2 fd Adfd | "A" ceef efgf | "A7" edcB A2 (3(efg) |
+"D" a3f gfec | ~d2 fd Adfd | "A" ceeg fedc | "Bm" dBBA B3 f :|
+%
+%
+%%text Chords: Bm Em A A | Bm Em A Bm :|   D D A A7 | D D A Bm :|

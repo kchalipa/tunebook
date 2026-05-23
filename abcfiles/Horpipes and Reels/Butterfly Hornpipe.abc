@@ -5,10 +5,12 @@ C: Trad.
 Z: Cam Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 S: Terry Morris, _For the Record_ and other jam recordings.
 N: For all his improvisational abilities, Terry is remarkably consistent with this tune.
 N: I guess he liked it this way! :)
 K: Amaj
+%noswing
 %
 [P:A-part]|:\
 "A" ac'ae caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" B^ABc (3(BcB) =A2 |

@@ -4,9 +4,11 @@ T: Westmoreland's Hornpipe
 C: Terry Morris
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 Z: Cam Cross
 S: Terry Morris, _Touch of Texas_ (1976)
 K: Dmaj
+%noswing
 %
 [P:A-part]AG\
 |: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |

@@ -1,0 +1,36 @@
+%abc-2.1
+X: 1779290922
+T: The Bamburgh Rants
+T: The Collpitts, The General Gordon, and Ye Old Elm Tree
+C: Martin Matthews
+Z: Cam Cross
+R: rant
+N: These are named after the 3 pubs which have hosted the Monday session in Durham over 
+N: the last 50 years. Great recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
+M: 4/4
+Q: 1/2=105
+K: Dmaj
+[P:Collpitt's]
+Ac          |:\
+d2AG F2A=c  | B2AG F2D2     | EF^GA BcdB  | c2A2A2 (3(ABc)  |
+d2AG F2A=c  | B2AG F2D2     | dfaf  gfeg  | f2d2 d4        :|
+BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGA | B2A2A2 d=c      |
+BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D2 d=c      |
+BGBd BGBd   | AFAd AFAd     | A,B,CD EFGA | B2A2A2 d=c      |
+BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D4          |]
+%
+[P:Gordon]
+K: Gmaj
+|:\
+G2dB cBAc | BGGF G2GF | GBdB dBGB | cee^d ecBA |
+dBGB cAFA | BGGF G3 D | ECCE DB,B,D | B,G,A,B, A,2G,2 :|
+G,B,DB, CEGE | ^CEGE DFAF | GBdB ^GBdB | A^cec dcdf |
+gfga gdBd | cBAB cedc | BGAF GBAG | FDEF G4 :|
+%
+[P:Elm Tree]
+K: Amaj
+|:\
+(3(efg) a2 edcB | AcBA GFED | CB,CE AEDF | AF^DF BFE2 | 
+(3(efg) ag aedc | BAdc BAGF | EDCE AEDF | AFGB eB A2 :|
+AcBE ~E2B2 | cAFC FGAG | FEdc defe | dcBA GFED |
+CB,CE AGFD | (3(DED) DF BAGE | ~D2dc dfec | AcBA BcA2 :|

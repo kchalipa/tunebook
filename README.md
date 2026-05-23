@@ -22,6 +22,7 @@ This GitHub repository contains the following:
 
 On significant updates, I run the `clc-tunebook` through the HTML generator on Michael Eskin's site and update the website.
 
+- 05/23/26: Small edits; added some waltzes
 - 04/27/26: Major update -- reorganized tunes by directory; added script to concatenate them into a PDF; changed the front-end webpage to the "full-featured tunebook" offered by Michael Eskin for easier updates and viewing; added the PDF version of the tunebook
 - 04/18/26: More tunes added, including some slip jigs
 - 03/28/26: Added some more tunes; changed the naming system so as to group the tunes by kind

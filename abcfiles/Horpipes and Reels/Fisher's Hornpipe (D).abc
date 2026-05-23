@@ -5,9 +5,11 @@ C: Trad.
 Z: Cam Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 N: This is commonly played in either D or F major.  Here are some examples of it in D, 
 N: sourced and adapted from various transcriptions at https://thesession.org/tunes/872.
 K: Dmaj
+%noswing
 %
 [P:A-part] 
 (3ABc|:\

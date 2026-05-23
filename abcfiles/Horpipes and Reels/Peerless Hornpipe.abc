@@ -6,7 +6,9 @@ R: hornpipe
 Z: Cam Cross 
 S: _The Fiddler's Bible_.
 M: 4/4
+Q: 1/2=105
 K: Cmaj
+%noswing
 %
 [P:A-part] 
 |:\
