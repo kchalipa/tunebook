@@ -1,0 +1,26 @@
+%abc-2.1
+X: 1779315391
+T: The Ken Meadows Waltz
+C: Martin Matthews
+Z: Cam Cross
+R: waltz
+M: 3/4
+Q: 1/4=110
+K: Amaj
+N: Beautiful tune. From the notes from M.M.: "Ken Meadows Waltz, written by me for our dear 
+N: friend Ken RIP, and performed by the Elm Tree Regulars." In the recording, the players sometimes 
+N: do the B-part by moving straight from ending 1 to ending 2 (as if there are no repeats at all). This 
+N: adds two extra bars, but it sounds nice. 
+S: https://youtu.be/xUGGWFjmhIs?si=cV12vCI8reGJtosy
+%swing .5
+[P:A-part]
+ed|:\
+"A" c3A (3(BAG) | A3E (3(Ace) | a2ac' (3(bag) | a3 gab | ag e2 c2 |
+"D" (3(def) e2 d2 |1 "A" c3 d (3(edc) | "E" B4 ed :|2 "A" c3 A "E" (3(BAG) | "A" A3 dcd ||
+%
+[P:B-part]
+|:\
+"E" BGE GBc | d3c (3(dcB) | "A" c3 Bcd | e4 c'b | ag e2 c2 |
+"D" (3(def) e2 d2 |1 "A" c3 d (3(edc) | "E" B4 cd :|2 "A" c3 A "E" (3(BAG) | "A" A4 (3(EFG) ||
+[P:C-part (bridge)]
+"A" A2 (3(Bcd) (3(efg) | a4 c'b | ag e2 c2 | "D" (3(def) e2 d2 | "A" c3 A "E" (3(BAG) | "A" A4 ed !D.C.! |]
