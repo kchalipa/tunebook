@@ -1,0 +1,28 @@
+%abc-2.1
+X: 1779613154
+T: Jezebel Carol
+C: Trad.
+R: carol
+Z: Cam Cross
+S: Maggie Sansone (Mist and Stone, 1990); Áine Minogue (Between the Worlds, 1997).
+N: This interesting tune has an extra beat at the end. I've also found it played in both
+N: A and B minor. Chords remain tentative.
+M: 4/4
+Q: 1/4=160
+K: Bmin
+%swing
+%
+[P:B min]dc|:\
+"Bm" F2B2 B2Bc | dcB2 f4  | "A" e2ed c2cB | A4 B4 | 
+"Bm" F2B2 B2Bc | dcB2 B3c | "D" d2e2 f2f2 | "A" e4z2 de | 
+"Bm" f2dc B2f2 | dcB2 f4  | "A" e2ed c2cB | A4 d3 c | 
+"Bm" B3 A c2BA | "F#m" F4 "A" E4 | [M:2/4] E3 E  | [M:4/4] "Bm" B2 Bc d2c2 | B6 F2 :|
+%
+%%vskip 1cm
+K: Amin
+[P:A min]|:\
+"Am" E2A2 A2AB | cBA2 e4  | "G" d2dc B2BA | G2 G^F G2E2 | 
+"Am" E2A2 A2AB | cBA2 A3B | "C" c2d2 e2e2 | "G" d4z2 cd | 
+"Am" e2cB A2e2 | cBA2 e4  | "G" d2dc B2BA | G2 G^F G4 | 
+"Am" A4   B2AG | "Em" E2E2 e4  | [M:2/4] z2 E2 | [M:4/4] "Am" A2 AB c2B2 | A6 cB :|
+%

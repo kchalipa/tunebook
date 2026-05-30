@@ -1,7 +1,58 @@
 %abc-2.1
 
 X: 1773442456
-T: HORNPIPES AND REELS
+T: ---BREAKDOWNS---
+M: C|
+K: C
+%
+%%begintext 
+These are basically reels, but they reflect the dance culture of the central/southern
+US, where they're often called hoedowns. are popular contest pieces, usually elaborated in
+the "controlled improvisation" style pioneered by Eck Robertson, Benny Thomasson, Byron Berline,
+and others.
+%%endtext
+X: 1779661052
+T: Done Gone
+C: Trad.
+Z: Cam Cross
+R: reel
+M: 4/4
+Q: 1/2=110
+K: Bbmaj
+[P:A-part] 
+Bc|:\
+"Bb" dBFD B,CDF | BABd "Gm" [dg]2fg | "Bb" bfga "Gm" gfdg |1 "F" fdcd cBGB :|2 "F" fdcd "Bb" B2g2 ||
+[P:B-part]
+"Bb" fdfa "Gm" gfdf | "Bb" gfga "Gm" b2B2 | "Bb" fdfa "Gm" gfdg | "F" fdcd cBG2 | 
+"Bb" FGBf "Gm" gfdf | "Bb" gfga "Gm" b2ga | "F" bfga gfdg | "F" fdcd "Bb" B2DF ||
+[P:C-part]|:\
+"Gm" G2G2 GFDF | GABc d4   | "D7" g2d2 edc2 | dcde dcBA | 
+"Gm" GFGA GFD2 | GABc d2D2 | "D7" D4 - DCB,C | "Gm" DEDB, G,4 :|
+%
+% todo
+%
+%GFDB, | DFBd gfdf | bgfb gfdg | fdBd cBc^c |
+%dBFD GFDB, | DFBd gfdf | bgfb gfdg | fdcd [DB]4 ||
+%
+%[P:B-part]
+%fdfa gfdf | gfga b2[bB]2 | fdfa gfdg | fdcd cBG2 |
+%FGBf gfdg | gfga b2ga | bfga gfdg | fdcd B4 |
+%
+%[P:C-part]
+%G4GFCF | GABc dBGB | FBdf bagf | edcB (3(BcB) A2 (3(GFE) |
+%
+%
+%
+%[P:B-part]
+%[G,D][Bf]2 [G,D] [Bg]fgg | fdBf gabg | fdBb gfdg | fdBd cBdg |
+%fdBb (gfg)g | fdgf gabg | fdBb gabg | fdcd [DB]4 ||
+%
+%
+%[G,D][Bf]2 [G,D] [Bg]fgg | fdBf gabg | fdBd gd^fd | fdBd cd[GB]2 (3(FGA) |
+%Bcde fd | (3(fgf) df [db]2 (3(fga) | bfgb gfdc (3(cBA) B
+%
+X: 1773442456
+T: ---HORNPIPES AND REELS---
 M: 4/4
 K: C
 %
@@ -1029,6 +1080,40 @@ E2\
 %
 %%text Chords: A A/D G G/E | A A/D A E/A :|   A A G G | A A A E/A :|
 %
+X: 1779917681
+T: Salt River
+C: Trad.
+R: reel
+M: 4/4
+Q: 1/2=100
+Z: Cam Cross
+N: So this is clearly the same base tune as Salt Creek, but it has drifted in different 
+N: directions, depending on who is playing it. This version is based on Terry and Dale Morris's.
+K: Amix
+%
+[P:A-part]
+"A" EA2 BA2 cd | "A" efec d2dc | "G" BdBA GBAG | "G" BGAG EGED |
+"A" EAAB A2 cd | "D" efec defd | "E" gfga gfed | "E" cABd "A" c[eA]3 ||
+"A" EGA2 A3c | "A" efec dedc | "G" BdBA GABG | "G" ABAG ECDC |
+"A" A,2CE A2 cd | "D" eaec d2cd | "E" egbf gfed | "E" cABA "A" cA[cA]2 ||
+%
+[P:B-part]|:\
+"A" eaga "G" bgag | "A" eaga "G" bgag | "A" edfd "G" gedg | "E" (3(efg) bg aged |
+"A" egag "G" bgag | "A" e^gae "G" be=gf | "E" efga gfed | "E" cABd "A" c[eA]3 :|
+%
+[P:A-part] 
+"A" A,CE^G AB (3(cde) | "A" eBca fedc | "G" BGAG EAA,E | "G" DCB,D A,DCB, |
+"A" [A,E]2 (3(EF^G) A2 cd | "D" efec dfed | "E" eagb aged | "E" fdBe "A" cA3 ||
+"A" EFAB A2cd | "A" efec d2dc | "G" BdB G2 BAG | "G" EGBd gdBA |
+"A" EA2 BA3B | "D" A2[Ac]A d[df]2f | "E" e^deb afe=d | "E" fdBe "A" cA3 ||
+%
+[P:B-part (low, play in 3rd position)]|:\
+"A" EAGA "G" BGAG | "A" EAGA "G" BGAG | "A" EDFD "G" GEDG | "E" FGBG AGED |
+"A" EA2G "G" BGAG | "A" EA2G "G" [GB]2(3(BAG) | "E" EFGE AEGF | "E" EDCB, "A" G,A, A,2 :|
+%
+%%text A-part: A A G G | A D E E/A
+%%text B-part: A/G A/G A/G E | A/G A/G E E/A
+%
 X: 1756153504
 T: Saratoga Hornpipe
 C: Trad.
@@ -1235,37 +1320,27 @@ M: 4/4
 Q: 1/2=105
 S: _KY Contra Tunes_ and thesession.org/tunes/15717 for the base
 Z: Cam Cross
-N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb
-N: progression found in many Celtic tunes, but the A-part uses the "Dorian vamp,"
-N: pretty unusual in fiddle tunes but a staple in classic rock. For that reason, I
-N: think it's perhaps a more "jammy" tune than a melodic one; and one version I
-N: looked at had a G-F-Em-Am windup that gave it a little more of a bluesy punch.
-N: The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate
-N: how I imagine the tune in a jam setting.
+N: Now this is an interesting number! The A-part uses the "Dorian vamp," pretty unusual 
+N: in fiddle tunes but a staple in classic rock. Seems like a popular bluegrass tune.
 K: Ador
 %
 [P:A-part]
-"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
-"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
-%
+"Am" A,2CE "D" D2FD | "Am" A,CDE "D" D2A2 | "Am" zBcB "G" AGEG | "F" ABcB "Em" AGED |
+"Am" A,2CE "D" D2FD | "Am" A,DCE "D" D2e2 | "Am" zfgf edBA | "Em" EA "Am" ABA4 :|
 [P:B-part]
-"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
-"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
+"Am" ea3  abag | "Am" egab agef | "G" gfga bagf | "G" efga "Em" bagf |
+"Am" e2a2 abag | "Am" egab a2ag | "G" efgf edBG | "Em" EG AB "Am" A4 :|
 %
 [P:A-part (var.)]
-"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
-"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
+"Am" A,A,C2 "D" D2FA, | "Am" zA,CC "D" D2F2 | "Am" ABcB "G" AGEG | "F" ABcB "Em" AGED |
+"Am" A,2CE "D" D2FA, | "Am" zA,CE "D" D2A2 | "Am" zBcB  AGFG | "Em" AG Ac "Am" A4 :|
 %
-[P:B-part (var.]
-"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
+[P:B-part (var.)]
+"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab ageg |
 "Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
 %
-%%text A-part ============= | B-part ============= 
-%%text Am/D Am/D Am/G F/Em ·| Am/D Am/D Am/G Em/Am 
-%%text Am · Am · Gm · Em/Am | Am · Am · G ·· G ···  
-%
-% https://youtu.be/N2Rjwiq7YJk?si=wB0jL6Lh0oRgvEt-
-% https://youtu.be/L5h1mkWhGjs?si=1V4QrTnkS2l0yI8d
+%%text A-part: A/D A/D Am/G F/Em | A/D A/D Am Em/Am
+%%text B-part: Am Am G G/Em | Am Am G Em/Am
 %
 X: 1752894186
 T: Westmoreland's Hornpipe
@@ -1322,7 +1397,7 @@ K: Dmaj
 %%text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
 %
 X: 1777755551
-T: JIGS AND SLIPJIGS
+T: ---JIGS AND SLIPJIGS---
 M: 6/8
 K: C
 %
@@ -1334,14 +1409,15 @@ S: Maggie Sansone (Mist & Stone, 1990)
 N: Chords very tentative (again).
 R: jig
 M: 6/8
+Q: 1/2=100
 L: 1/8
 K: Dmix
 |:\
-"F" [=FA]2F [FA]2c | "F" A=FA A2c | "G" BGG DGG | "G" BGB dcB |
-"F" [=FA]2F AcA | "F" A=FA Aca | "D" bag fdc |1 "G" BGG G3 :|2 "G" BGF GBd||
+"F" A=FA AcA | "F" A=FA ABc  | "G" BGG D2G  | "G" BGB dcB   |
+"F" A=FA AcA | "F" A=FA A2a  | "D" bag fdc  |1 "G" BGF G3  :|2 "G" BGF GBd||
 |:\
-"G" [Bg]2d gag | "D" [fd]2e fed | "G" [Bg]2a bag | "D" fd^c def|
-"G" [Bg]2a bag | "D" [fA]de fga | "D" bag fdc |1 "G" BGF GBd :|2 "G" BGG G3||
+"G" [dg]2d gag  | "D" [fd]2e fed | "G" [Bg]2a bag | "D" [Af]d^c def  |
+"G" [Bg]2a bag  | "D" [fA]de fga | "D" bag fdc    |1 "G" BGF GBd :|2 "G" BGG G3 ||
 %
 X: 1774476646
 T: Brose and Butter + Cuzle Together
@@ -1356,6 +1432,7 @@ N: (with a C natural) - which seems to be the standard - and mixolydian (C sharp
 N: B&B with Cuzle Together, another slipjig also in Amix (as well as Elsie Marly).  This is 
 N: supplemented with a version in Edor by Fraser and Haas, with a nice B-part.
 M: 9/8
+Q: 1/2=100
 K: Ador
 %
 |: "Am" v(cde) uAcA vAu(cA) | v(cde) AcA "G" B2G    | "Am" v(cde) uAcA vAu(Bc) | "G" B2G Gge dBG      :|
@@ -1387,6 +1464,7 @@ S: The Good Tune
 N: I've modified the bowing to something that makes more sense to me.  But of course this is 
 N: just a model to be played with.
 M: 9/8
+Q: 1/2=100
 K: Ador
 [P:A-part]
 "Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
@@ -1406,6 +1484,7 @@ T: The Maid At The Spinning Wheel
 S: Maggie Sansone (Mist & Stone, 1990)
 R: jig
 M: 6/8
+Q: 1/2=100
 L: 1/8
 K: Gmaj
 N: Chords are *really* tentative.  I need to consult with a guitarist who knows this stuff.
@@ -1432,6 +1511,7 @@ Z: Cam Cross
 S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
 N: A very nice slipjig; the sixteenth notes in the first part give it a distinctive touch.
 M: 9/8
+Q: 1/2=100
 K: Gmaj
 [P:A-part]
 "G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
@@ -1450,7 +1530,7 @@ K: Gmaj
 %%text C-part: Em ·· D ··· C ··· D :|
 %
 X: 1777755597
-T: TUNES OF CHOICE
+T: ---TUNES OF CHOICE---
 M: 4/4
 K: C
 %
@@ -1483,8 +1563,71 @@ dc|\
 "D" abag fgaf | "G" gage f2(3(efe) | "C" dcAB cBcd  | "C" efge "G" a2[Aa]2 |
 "D" AaAG FGAB | "C" c2ec d^cAF | "G" GAGF "D" D2D^C  | [M:2/4]D2 de :|
 %
+X: 1780152958
+T: Codladh na madraí fada
+T: (Sleep of the Long Dogs)
+C: James Jackson, 2026
+Z: Cam Cross
+S: James Jackson
+N: Written as a lament over the site of a mass grave of greyhounds; see 
+N: http://news.bbc.co.uk/1/hi/england/wear/6457185.stm. Play slowly with feeling and ornamentation.
+R: air
+M: 3/4
+Q: 1/4=115
+K: Emin
+"Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d2B2 AB    | "Am" c3 B A2 | "Bm" B4 Bd | 
+"Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d/B3-B/ A2 | "Bm" Bf2 ed2 | "Em" e6    :|
+"Em" g3 fe2 | "D" f2d2B2     | "C" g3 ag2 | "D" f4 ga  | "G" b3 ag2 | "D" f2d2B2     | "Am" c3 d e2 | "D"  d4 Bd | 
+"Em" e4 fe  | "D" d/B3-B/ A2 | "C" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d/B3-B/ A2 | "Bm" Bf2 ed2 | "Em" e6    :|
+%
+%%text A-part: Em D G D | C G Am Bm  ||  Em D G D | C G Bm Em :|
+%%text B-part: Em D C D | G D Am D   ||  Em D G D | C G Bm Em :|
+%
+X: 1779613154
+T: Jezebel Carol
+C: Trad.
+R: carol
+Z: Cam Cross
+S: Maggie Sansone (Mist and Stone, 1990); Áine Minogue (Between the Worlds, 1997).
+N: This interesting tune has an extra beat at the end. I've also found it played in both
+N: A and B minor. Chords remain tentative.
+M: 4/4
+Q: 1/4=160
+K: Bmin
+%swing
+%
+[P:B min]dc|:\
+"Bm" F2B2 B2Bc | dcB2 f4  | "A" e2ed c2cB | A4 B4 | 
+"Bm" F2B2 B2Bc | dcB2 B3c | "D" d2e2 f2f2 | "A" e4z2 de | 
+"Bm" f2dc B2f2 | dcB2 f4  | "A" e2ed c2cB | A4 d3 c | 
+"Bm" B3 A c2BA | "F#m" F4 "A" E4 | [M:2/4] E3 E  | [M:4/4] "Bm" B2 Bc d2c2 | B6 F2 :|
+%
+%%vskip 1cm
+K: Amin
+[P:A min]|:\
+"Am" E2A2 A2AB | cBA2 e4  | "G" d2dc B2BA | G2 G^F G2E2 | 
+"Am" E2A2 A2AB | cBA2 A3B | "C" c2d2 e2e2 | "G" d4z2 cd | 
+"Am" e2cB A2e2 | cBA2 e4  | "G" d2dc B2BA | G2 G^F G4 | 
+"Am" A4   B2AG | "Em" E2E2 e4  | [M:2/4] z2 E2 | [M:4/4] "Am" A2 AB c2B2 | A6 cB :|
+%
+X: 1780131624
+T: The Old Crossroads
+T: a.k.a. Down The Brae
+C: Trad.
+R: march
+Z: Cam Cross
+S: Maggie Sansone (Mist and Stone, 1990)
+M: 4/4
+Q: 1/4=130
+K: Edor
+B,|:\
+"Em" E>D EF G>F GA  | "Em" B2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "D" F2 E2 "Bm" DB,-B, A,   |
+"Em" B,>D EF G>F GA | "Em" B2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "Bm" FG/F/ ED "Em" E2 ed   |
+"Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2B  | "D" A>^G AB d>c de    | "D" dB AB "Bm" de/d/ BA    |
+"Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "Bm" FG/F/ ED "Em" E2 GF  :|
+
 X: 1779525816
-T: WALTZES
+T: ---WALTZES---
 M: 4/4
 K: C
 %
@@ -1511,7 +1654,7 @@ A,2|:\
 |:\
 "D"  f2 a3 f    | "D"  fa2 f ed    | "A"   c2 ce (3(cBA) | "A"   E3 e fe      |
 "Bm" d3 d Bd    | "Bm" f3 g2 f     | "F#m" ed c2 BA      | "F#m" F3 G AF      |
-"G"  G3 B AG    | "D"  F2 [DA]2 d2 | "A"   de cd cA      | "D" Dd2 e fd       |
+"G"  G3 B AG    | "D"  F2 [DA]2 d2 | "A"   de cd cA      | "D" [Dd]3 e fd       |
 "G"  g3 a/g/ fe | "D"  a3 f ed     | "A"   d2 de2 c      | "D" d6            :|
 
 

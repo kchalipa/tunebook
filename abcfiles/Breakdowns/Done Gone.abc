@@ -1,0 +1,41 @@
+%abc-2.1
+X: 1779661052
+T: Done Gone
+C: Trad.
+Z: Cam Cross
+R: reel
+M: 4/4
+Q: 1/2=110
+K: Bbmaj
+[P:A-part] 
+Bc|:\
+"Bb" dBFD B,CDF | BABd "Gm" [dg]2fg | "Bb" bfga "Gm" gfdg |1 "F" fdcd cBGB :|2 "F" fdcd "Bb" B2g2 ||
+[P:B-part]
+"Bb" fdfa "Gm" gfdf | "Bb" gfga "Gm" b2B2 | "Bb" fdfa "Gm" gfdg | "F" fdcd cBG2 | 
+"Bb" FGBf "Gm" gfdf | "Bb" gfga "Gm" b2ga | "F" bfga gfdg | "F" fdcd "Bb" B2DF ||
+[P:C-part]|:\
+"Gm" G2G2 GFDF | GABc d4   | "D7" g2d2 edc2 | dcde dcBA | 
+"Gm" GFGA GFD2 | GABc d2D2 | "D7" D4 - DCB,C | "Gm" DEDB, G,4 :|
+%
+% todo
+%
+%GFDB, | DFBd gfdf | bgfb gfdg | fdBd cBc^c |
+%dBFD GFDB, | DFBd gfdf | bgfb gfdg | fdcd [DB]4 ||
+%
+%[P:B-part]
+%fdfa gfdf | gfga b2[bB]2 | fdfa gfdg | fdcd cBG2 |
+%FGBf gfdg | gfga b2ga | bfga gfdg | fdcd B4 |
+%
+%[P:C-part]
+%G4GFCF | GABc dBGB | FBdf bagf | edcB (3(BcB) A2 (3(GFE) |
+%
+%
+%
+%[P:B-part]
+%[G,D][Bf]2 [G,D] [Bg]fgg | fdBf gabg | fdBb gfdg | fdBd cBdg |
+%fdBb (gfg)g | fdgf gabg | fdBb gabg | fdcd [DB]4 ||
+%
+%
+%[G,D][Bf]2 [G,D] [Bg]fgg | fdBf gabg | fdBd gd^fd | fdBd cd[GB]2 (3(FGA) |
+%Bcde fd | (3(fgf) df [db]2 (3(fga) | bfgb gfdc (3(cBA) B
+%

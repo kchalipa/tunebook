@@ -7,35 +7,25 @@ M: 4/4
 Q: 1/2=105
 S: _KY Contra Tunes_ and thesession.org/tunes/15717 for the base
 Z: Cam Cross
-N: Now this is an interesting number! The B-part follows a pretty standard I/VIIb
-N: progression found in many Celtic tunes, but the A-part uses the "Dorian vamp,"
-N: pretty unusual in fiddle tunes but a staple in classic rock. For that reason, I
-N: think it's perhaps a more "jammy" tune than a melodic one; and one version I
-N: looked at had a G-F-Em-Am windup that gave it a little more of a bluesy punch.
-N: The top 4 bars are the tune in its base form, and the bottom 4 bars illustrate
-N: how I imagine the tune in a jam setting.
+N: Now this is an interesting number! The A-part uses the "Dorian vamp," pretty unusual 
+N: in fiddle tunes but a staple in classic rock. Seems like a popular bluegrass tune.
 K: Ador
 %
 [P:A-part]
-"Am" A,A,CC "D" DDFF | "Am" A,A,CC "D" D2F2 | "Am" ABcB "G" AGFG | "F" ABcB "Em" AGED |
-"Am" A,A,CE "D" DDFD | "Am" A,A,CE "D" D2EG | "Am" Acea "G" geBA | "Em" EG A2 "Am" A4 :|
-%
+"Am" A,2CE "D" D2FD | "Am" A,CDE "D" D2A2 | "Am" zBcB "G" AGEG | "F" ABcB "Em" AGED |
+"Am" A,2CE "D" D2FD | "Am" A,DCE "D" D2e2 | "Am" zfgf edBA | "Em" EA "Am" ABA4 :|
 [P:B-part]
-"Am" e(a a2) abag | "Am" egab a2af | "G" gfga bagf | "G" efga bagf |
-"Am" e2 a2 abag   | "Am" egab a2ag | "G" degf edBG | "Em" EGA2 "Am" A4 :|
+"Am" ea3  abag | "Am" egab agef | "G" gfga bagf | "G" efga "Em" bagf |
+"Am" e2a2 abag | "Am" egab a2ag | "G" efgf edBG | "Em" EG AB "Am" A4 :|
 %
 [P:A-part (var.)]
-"Am" A,CEG   "D" FAdf   | "Am" gagf "D" gfed | "Am" cBAG "G" ABAG | "F" =FEGF "Em" EDCB, |
-"Am" A,G,A,C "D" B,DFG  | "Am" AEcA "D" dcBd | "Am" cdea "G" gfed | "Em" edcB "Am" A4  :|
+"Am" A,A,C2 "D" D2FA, | "Am" zA,CC "D" D2F2 | "Am" ABcB "G" AGEG | "F" ABcB "Em" AGED |
+"Am" A,2CE "D" D2FA, | "Am" zA,CE "D" D2A2 | "Am" zBcB  AGFG | "Em" AG Ac "Am" A4 :|
 %
-[P:B-part (var.]
-"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab fdeg |
+[P:B-part (var.)]
+"Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab ageg |
 "Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
 %
-%%text A-part ============= | B-part ============= 
-%%text Am/D Am/D Am/G F/Em ·| Am/D Am/D Am/G Em/Am 
-%%text Am · Am · Gm · Em/Am | Am · Am · G ·· G ···  
-%
-% https://youtu.be/N2Rjwiq7YJk?si=wB0jL6Lh0oRgvEt-
-% https://youtu.be/L5h1mkWhGjs?si=1V4QrTnkS2l0yI8d
+%%text A-part: A/D A/D Am/G F/Em | A/D A/D Am Em/Am
+%%text B-part: Am Am G G/Em | Am Am G Em/Am
 %
