@@ -14,10 +14,9 @@ and others.
 X: 1779661052
 T: Done Gone
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: reel
 M: 4/4
-Q: 1/2=110
 K: Bbmaj
 [P:A-part] 
 Bc|:\
@@ -71,167 +70,226 @@ X: 1779290922
 T: The Bamburgh Rants
 T: The Collpitts, The General Gordon, and Ye Old Elm Tree
 C: Martin Matthews
-Z: Cam Cross
+Z: Cameron Cross
 R: rant
 N: These are named after the 3 pubs which have hosted the Monday session in Durham over 
-N: the last 50 years. Great recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
+N: the last 50 years. See recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
+N: I can see this was written by a mandolinist! This is one case where the bowings are
+N: crucial for playing some of these runs, and I had to make a few other adjustments.
 M: 4/4
-Q: 1/2=105
 K: Dmaj
-[P:Collpitt's]
-Ac          |:\
-d2AG F2A=c  | B2AG F2D2     | EF^GA BcdB  | c2A2A2 (3(ABc)  |
-d2AG F2A=c  | B2AG F2D2     | dfaf  gfeg  | f2d2 d4        :|
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGA | B2A2A2 d=c      |
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D2 d=c      |
-BGBd BGBd   | AFAd AFAd     | A,B,CD EFGA | B2A2A2 d=c      |
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D4          |]
 %
-[P:Gordon]
+[P:Collpitts Rant]
+"D"d2AG F2A=c | "G"B2AG "D"F2D2 | "E"EF^GA BcdB | "A"c2A2A2 u(3(ABc | "D"d2)v(AG F)(GA=c) |
+"G"v(3(BcB A)uG "D"F2D2 | "D"dfaf "A"(gfe)g | "D"f2d2 d2A2 :||: "G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) |
+[1 "E"A,B,CD EFGA | "A"B2A2A2 (d=c) :|[2 "E"A,B,CD "A"EFGE | "D"F2D2D2 d=c ||
+"G"BGBd BGBd | "D"AFAd AFAd | "E"(A,B,C)D EFGA | "A"B2A2A2 (d=c) |
+"G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) | "E"A,B,CD "A"EFGE | "D"F2D2D4 |]
+%
+%
+%%vskip 1cm
+[P:General Gordon Rant]
 K: Gmaj
 |:\
-G2dB cBAc | BGGF G2GF | GBdB dBGB | cee^d ecBA |
-dBGB cAFA | BGGF G3 D | ECCE DB,B,D | B,G,A,B, A,2G,2 :|
-G,B,DB, CEGE | ^CEGE DFAF | GBdB ^GBdB | A^cec dcdf |
-gfga gdBd | cBAB cedc | BGAF GBAG | FDEF G4 :|
+"G"G2(dB) cBAc | "G"(BG)(GF) G2(GF) | "G"GB(dB "C"d)BGB | "Am"(c!4!e!0!e)(^d "D"ec)BA |
+"G"dBGB "C"cAFA | "G"B(G[GB][AF]) G3 u(D | "C"EC)CE "G"DB,G,B, | "D"v(A,G,)(A,B,) A,3G, :|
+|:\
+"G"(G,B,D)B, "C"CEGE | "C/C#"(^CEG)E "D"DFAF | "G"GBdB "G/G#"(^GBd)B | "A"A^cec "D"dcdf |
+"Em"(gf)(ga) g(dBd) | "C"cBAB cedc | "D"(BG)(AF) GBAG | "D"FDEF "G"G4 :|
 %
-[P:Elm Tree]
+%
+%%vskip 1cm
+[P:Ye Old Elm Tree Rant]
 K: Amaj
 |:\
-(3(efg) a2 edcB | AcBA GFED | CB,CE AEDF | AF^DF BFE2 | 
-(3(efg) ag aedc | BAdc BAGF | EDCE AEDF | AFGB eB A2 :|
-AcBE ~E2B2 | cAFC FGAG | FEdc defe | dcBA GFED |
-CB,CE AGFD | (3(DED) DF BAGE | ~D2dc dfec | AcBA BcA2 :|
+"A"a2(ed) cBAc | "D"BAGF EDCB, | "A"(CE)(AE) "D"DFAF | "B7"(^DF)(BF) "E"E2 (3(efg) | 
+"A"agae dcBA | "D"dcBA GFED | "A"(CEA)E "D"DFAF | "E"(GB)(eB) "A"A2Ac :|
+|:\
+"E"BE ~E2[EB]2 cB | "F#m"FCCF [FA]2Bc | "D"dcde fedc | "E"BAGF EDCB, |
+"A"v(CE)u(AG) "D"FD v(3(DED) | u"E"(DF)vBA "A"GE v(3(EFE) | "D"u(dc)df "A"vecAc | "E"(BA)(Bc) "A"A4 :|
+
 X: 1777755202
-T: The Big Scioty
-T: (sigh-oh-tee)
+T: The Big Sciota
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: reel
-N: Named after the Scioto River in Ohio. Also spelled Sciota, Sciote.
+N: Named after the Scioto River in Ohio. Also spelled Scioti, Scioty, etc.
+N: Neat tune! Simple in its basic form, but it has really grown on me.
+N: I'm afraid I don't know if there's a "standard" form of the tune; this is just me 
+N: cobbling together what I've heard and what I've invented on top of it.
 M: 4/4
-Q: 1/2=105
 K: G
-[P:A-part]
-DF\
-|: "G" G2BG  AGBG | "G" AGGG G2 dc   | "G" BAGB AGED   | "G" DGAB G2 (3(DEF) |
-   "G" G2 GA BGBd | "C" (de)ee e2 ge | "D" dcBd cBAc   | "D" BGAF "G" G2 DF :|
-[P:B-part]
-|: "G" g2 ga baga | "D" a2 aa a2 aa  | "D" a2 ab ag ed | "Em" (de)ee e2 ef | 
-   "Em" gfga gfed | "C" edBd e2 ge   | "D" dcBd cBAc   | "D" BGAF "G" G2 [G,2D2] :|
-[P:A-part var.]
-|: "G" G2 GA GEGA | "G" G2 GA G2Ac   | "G" BAGB AGEG   | "G" AG2A G2DE | 
-   "G" GABG AcBA  | "C" Beef e2d2    | "D" BABG AGEG   | "G" AGGA G2 Bd :|
-[P:B-part var.]
-|: "G" [B3g3]g- gabg | "D" ea2b a2[A2e2] | "D" g3a gedA | "Em" B[e2][e] [e2][e2]-|
-   "Em" [e]fg2e2dA | "C" B[e]([e][f])[e2][d2] | "D" {Bc}BABG AGEG | "G" AG2A G2[G,2D2] :|
+[P:{A}] DF |:\
+"G"G2(BG) "G/F#"AGBG | "G"A(G[GA][FA]) "G/A"G2 (dc) | "G"BAGB AGED | "G"(EG)(AB) G2 (3(DEF) |
+"G"G2 (GA) BGBd | "C"(de2)(e e2) ge | "D"dcBd cBAG | "D"BGAF "G"G2 [G,D]2 :|
+[P:{B}] |:\
+"G"g2 (ga) bage | "D"(fa)(ab) a2 ga | "D"(aga)(b ag)ed | "Em"(Bde)f e2 ef |
+"Em"(gf)(af) gfed | "C"e(dBd) efge  | "D"dcBG AcBG | "D"A(G[GA][FA]) "G"G2 [G,D]2 :|
 %
-%%text Chords: G G G G | G C D G :|   G D D Em | Em C D G :|
+%%vskip 1cm
+[P:Variation 1] |:\
+"G"GDGB "G/F#"AFAc | "G"BAGB "G/A"Au(GED) | "G"v(FG)uGB ABcA | "G"B(G[GA][FA]) G2 (3(DEF) |
+"G"GFGA Bu(d [dg]2) | "C"v([dg] [eg]4)z u(ef) | "D"gfed "D"cBAc | "G"BGAF G2 [G,D]2 :|
+|:\
+"G"([Bg][bd]) [bd]2 (bc'd')b | "D"a(gad') a2u(eg) | "D"ag(_ba) (ga)ea | "Em"g(!4!e!0!eg) e2(ef) |
+"Em"gfga gfeu(d | "C"e2) (d!4!e !0!e)fge | "D"dcBd cBAc | "D"BGAF "G"G2 [G,D]2 :|
+%
+%%vskip 1cm
+[P:Variation 2] |:\
+"G"vG2 (GA "G/F#"G)v(EGA | "G"G)(D GA "G/A"G)v(GA)c | "G"BAGB AGEG | "G"!4!A(G,[G,G][G,F]) G2DE |
+"G"GABG AcBA | "C"(Be)(ef) e2d2 | "D"BABG AGEG | "G"!4!A(G,[G,G][G,F]) [G,G]2 [G,D]2 :|
+|:\
+"G"v[Bg] z2 vgz b ag | "D"veua2ub a2[Ae]2 | "D"z[dg]2a gedA | "Em"Bue2uE e2[Ee]2|
+"Em"z uf g2 e2 v(dA | "C"B)(!4!e!0!ef) e2d2 | "D"({Bc}BAB)G A(GEG) | "G"A(G[GB][FB]) [GB]2 [G,D]2 :|
+%
+%%text Traditional chords: G G G G | G C D G :| G D D Em | Em C D G :|
+
 X: 1773442456
 T: Bitter Creek
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: reel
 M: 4/4
-Q: 1/2=105
 S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
 K: Gmaj
 %
-[P:A-part]ga|\
-"G" bgdg edBe | "C" dBGB AGEG | "G" DB,DG Bdge   | "D" dBA^G A2ga |
-"G" bgdg edBe | "C" dBGB AGEG | "D" DB,DG EFGA   | "G" BGAG [G2B2][G,2D2] |
-"G" gedg edBd | "C" gage dBGE | "G" G,B,DG EFGA  | "D" BdB^G A2b^a |
-"G" bgdg edBe | "C" dBGB AGEG | "D" (3(DEF) GA Bdge | "G" dBAG [G2B2] GE ||
-[P:B-part]
-"G" DB,2D B,DGF  | "C" EC2E CEGE  | "G" DB,DG Bdge | "D" dBA^G A2 (3(GFE) |
-"G" DB,G,A, B,GFG| "C" ECG,C EFGE | "D" DB,DG Bdge | "G" dBAF G2ge |
-"G" dBGB dgfg    | "C" ecBc efge  | "G" dBGB dega  | "D" bgag fage |
-"G" dBGA Bgfg    | "C" ecBc efge  | "D" dBGA Bdga  | "G" bgaf g2[G,2D2] ||
+[P:{A}]ga|\
+"G"bgdg edBe | "C"dBGB AGEG | "G"DB,DG Bdge | "D"dBA^G A2ga |
+"G"bgdg edBe | "C"dBGB AGEG | "D"DB,DG EFGA | "G"BGAG [G2B2][G,2D2] |
+"G"gedg edBd | "C"gage dBGE | "G"G,B,DG EFGA | "D"BdB^G A2b^a |
+"G"bgdg edBe | "C"dBGB AGEG | "D"(3(DEF) GA Bdge | "G"dBAG [G2B2] GE ||
+[P:{B}]
+"G"DB,2D B,DGF | "C"EC2E CEGE | "G"DB,DG Bdge | "D"dBA^G A2 (3(GFE) |
+"G"DB,G,A, B,GFG | "C"ECG,C EFGE | "D"DB,DG Bdge | "G"dBAF G2ge |
+"G"dBGB dgfg | "C"ecBc efge | "G"dBGB dega | "D"bgag fage |
+"G"dBGA Bgfg | "C"ecBc efge | "D"dBGA Bdga | "G"bgaf g2[G,2D2] ||
 %%vskip 1cm
-[P:A-part (var.)]
-"G" G2g2 dedc | "C" BGAG [E3A3]G | "G" DB,DF GABe | "D" dBAG A2G2  |
-"G" G2g2 dedc | "C" BGAG EFGE    | "D" DB,DF GABe | "G" dBAF G2g2  |
-"G" gage dged | "C" gded Bcd2    | "G" gage dged  | "D" BGAF EGGg  |
-"G" gage dged | "C" gded Bddg    | "D" gage dged  | "G" BGAF G2ga  ||
+[P:{A} (var.)]
+"G"G2g2 dedc | "C"BGAG [E3A3](G | "G"DB,)vDF GABe | "D"dBAG A2G2 |
+"G"G,2g2 dedc | "C"BGAG EFGE | "D"DB,DF GABe | "G"dBAF G2g2 |
+"G"gage dged | "C"gded Bcd2 | "G"gage dged | "D"BGAF EGGD |
+"G"G,age dged | "C"gded Bddg | "D"gage dged | "G"BGAF G4 ||
 %
 %%text Chords: G C G D | G C D G :|
 %
+
 X: 1752893902
 T: Blackberry Blossom
 C: Trad.
-Z: Cam Cross
+Z: Chris Daring
 R: reel
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
-"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"A"BdBG "D"Adef|
-"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"D"BGAF "G"G4:|
+[P:{A}]
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "A"BdBG "D"Adef | 
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "D"BGAF "G"G4 :| 
 %
-|:"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBGA|"Em"B2eB dBef|"B7"gabg aged|
-"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBef|"Em"gage "A"dBGA|1 "D"BGAF "G"G2GA:|2 "D"BGAF "G"G2||
+[P:{B}]|:\
+"Em"B2eB dBeB | B2eB dBGA | "Em"B2eB "Em/G"dBef | "B7"gabg "B7/F#"aged |
+"Em"B2eB dBeB | B2eB dBef | "Em"gage "A"dBGA | "D"BGAF "G"G2GA :| 
 %
-%%text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G :|  Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G :|
 %
+%%vskip 1cm
+[P:Variation 1]
+%
+"G"Bdgd "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"EFGA | 
+"G"v(Bd)(gd) "F#m"v(fga)uf | "C"v(gb)u(ge) "G"vd^cBd | "C"vA(GEG) "G"(3v(DEF G)uA | "D"BGAu(F "G"G4) | 
+"G"gbgb "F#m"fbfb | "C"efge "G"dBAG | "C"FAGE "G"(3(vDEF G)uA | "A"BGAG "D"EFGA | 
+"G"vBdgb "F#m"fgaf | "C"gbge "G"d^cBd | "C"vA(GEG) "G"(3(vDEF G)uA | "D"BGAu(F "G"G3) _B || 
+%
+"Em"v([EB]3[eE]) u([dE]3[eE]) | v(Bc/d/e) u(B dB)AG | "Em"EBeB "Em/G"dged | "B7"gd([DG,][Bg] "B7/F#"b)ged | 
+"Em"BAdg egBd | AGEG v(3(DEF G)uA | "Em"Bged "A"gbge | "D"dBAF "G"G2 u(dc) | 
+"Em"v([EB]3[eE]) u([dE]3[eE]) | v[EB]2 (eB) dBAG | "Em" BBeB "Em/G"dged | "B7"ggag "B7/F#"bged | 
+"Em"BAdg edBd | AGEG v(3(DEF G)uA | "Em"Bdeg "A"fdge | "D"dBAu(F "G"G2) G,2 || 
+%
+%
+%%vskip 1cm
+[P:Variation 2]
+"G"[G,DBg]z "F#m"(3(bag)f2 (3(agf) | "C"efge "G"dBAG | "C"EGEG "G"(3(DEF G)A | "A"BGAG "D"EB,GA | 
+"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAu(F "G"G3) ([G,D] | 
+"G"[G,D])[Bg][G,D][Bg] "F#m"bgag | "C"fdge "G"dBAG | "C"uEAGE "G"DFGA | "A"BFA(G "D"F/E/F) GA | 
+"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAF "G"[GB]3 _E | 
+%
+"Em"E4 (EF)ED | (3(B,CD E)F GEFG |"Em" EB,EF "Em/G"GEGA | "B7"Bdef "B7/F#"gfed | 
+"Em"B2(ef) edBd | AGEG (3(DEF G)A | "Em"Bdgb "A"gedc | "D"BGAF "G"G3 _E | 
+"Em"E4 (EF)ED | (3(B,CD E)F GEFG | "Em"EB,EF "Em/G"Gged | "B7"Bgeg "B7/F#"gdfd | 
+"Em"edBd edBd | AGFG (3(DEF G)A | "Em"Bd(gb "A"g)edc | "D"BGAF "G"GABd ||
+%
+%%vskip 1cm
+[P:Variation 3]
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"E B,3 | 
+"G"Bdgd "F#m"fgaf | "C"gfed "G"cdBG | "C"AGEG "G"(3(DEF G)A | "D"B_BAF "G"GEDB, | 
+"G"G,fgb "F#m"fgag | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"F/E/F GA | 
+"G"Bdgd "F#m"fgaf | "C"gfed "G"cGBF | "C"AGEG "G"DFGA | "D"AGA[GB]- "G"[BG]3 c/d/ | 
+%
+"Em"[Ee]4 [EB]3 d | Bded gfed | "Em"B2e2 "Em/G"efge | "B7"fgaf "B7/F#"gfed | 
+"Em"baga gedg | edBd AGEG | "Em"DFGA "A"Bged | "D"BGA(F "G"G4) | 
+"Em"[EB]3 [Ee] [Ed]3 [Ee] | Bc/d/ eB dBAG | "Em"EBeB "Em/G"dged | "B7"gB[G,D][Bg] "B7/F#"bged | 
+"Em"BAdg edBd | AGEG (3(DEF G)A | "Em"Bged "A"gdge | "D"dBAF "G"G[GB] z2 | [B,G]8 |]
+
+
+
+%%text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G : | Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G : | 
+%
+
 X: 1758406756
 T: Blackbird Hornpipe (1)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 S: Amanda Kerr; Randal Bays + Dave Marshall (with my own licks added)
-N: Another new tune for me.  Seems to have a lot in common with The Blackbird set dance, 
-N: with its repeated landing on the open D, but is also recognizably distinct.  Still figuring out
-N: chords and fine-tuning the arrangement.  One interesting feature is a "slippery" C, sometimes
+N: Another new tune for me. Seems to have a lot in common with The Blackbird set dance, 
+N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
+N: chords and fine-tuning the arrangement. One interesting feature is a "slippery"C, sometimes
 N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %noswing
 [P:A-part] 
 AG|\
-"D" F2EF AFD2       | "D" defd dcAF      | "G" G2AF GFDE  | "C" FGAF GBAG |
-"D" FEFG AFDA       | "D" defd {de}dcAF  | "C" Ad=cA GcAG | "D" F2D2 D2 AG |
-"D" EFFA GFD2       | "D" defe d=cAF     | "G" (G2 G)F GFD2 | "C" FGAF G=cAG |
-"D" (3(FGF) DF AFDA | "D" defe d=cAG     | "C" Ad=cA FGAG | "D" F(D D)E D2 A2 ||
+"D"F2EF AFD2 | "D"defd dcAF | "G"G2AF GFDE | "C"FGAF GBAG |
+"D"FEFG AFDA | "D"defd {de}dcAF | "C"Ad=cA GcAG | "D"F2D2 D2 AG |
+"D"EFFA GFD2 | "D"defe d=cAF | "G"(G2 G)F GFD2 | "C"FGAF G=cAG |
+"D"(3(FGF) DF AFDA | "D"defe d=cAG | "C"Ad=cA FGAG | "D"F(D D)E D2 A2 ||
 %
 [P:B-part] 
-"D" a2fa gfec | "G" dcdf ecA2  | "D" agfa gfeg  | "A7" fdgf e2 (3(fg^g) |
-"D" afge fdec | "G" dcde fdAG  | "C" Ad=cA GcAG | "D" F2D2 D2 fg |
-"D" afdf gfec | "G" dcde fd A2 | "D" agfa gfed  | "A7" fdgf egfg |
-"D" aAgA fAec | "G" dcde fd AG | "C" Ad=cA FGAG | "D" F2 D2 D2 FG ||
+"D"a2fa gfec | "G"dcdf ecA2 | "D"agfa gfeg | "A7"fdgf e2 (3(fg^g) |
+"D"afge fdec | "G"dcde fdAG | "C"Ad=cA GcAG | "D"F2D2 D2 fg |
+"D"afdf gfec | "G"dcde fd A2 | "D"agfa gfed | "A7"fdgf egfg |
+"D"aAgA fAec | "G"dcde fd AG | "C"Ad=cA FGAG | "D"F2 D2 D2 FG ||
 %
 [P:B-part (low)]|:\
-"D" A2FA G2EG | "G" FEDF ECA,D  | "D" A2FA GFEG       | "A7" FDGF EF G^G |
-"D" A2FA GFEC | "G" DCDE FDA,G, | "C" A,D=CA, G,CB,A, | "D" G,A,B,=C D2 FG :|
+"D"vA2(FA) G2(EG) | "G"FEDF vEu(CA,E) | "D"vA2(FA) GFED | "A7"v(FD)(GF) E2 u(3(EFG) |
+"D"v(AFG)u(E FD)vEC | "G"DCDE FDA,G, | "C"vA,u!0!D=CA, G,CB,A, | "D"(G,A,)(B,=C) D2 FG :|
 %
-%%text Chords: D D G C | D D C D :|   D G D A7 | D G C D :|
+%%text Chords: D D G C | D D C D :| D G D A7 | D G C D :|
+
 X: 1762030934
 T: Blackbird Hornpipe (2)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 M: 4/4
-Q: 1/2=105
 N: This is another version of the Blackbird Hornpipe, clearly related to the previous one.
-N: A little more repetitive, but in a good way!  Good as a reference.
+N: A little more repetitive, but in a good way! Good as a reference.
 N: Chording remains basic / uncertain.
 S: Padraig McGovern and Peter Carberry: https://youtu.be/5vidJn-Ebyc?si=eCc98qBibmGQ52gS
 K: Dmaj
 [P:A-part] 
 fe|\
-|: "D" dcAF GF D2 | (3EFG AB "C" =c3 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 (3ABc |
-dcAF GF D2 | (3EFG AB "C" B=c2 A | "D" ~d2 AF "A7" GBAG | "D" F2 D2 D2 fe :|
+|: "D"dcAF GF D2 | (3EFG AB "C"=c3 A | "D"~d2 AF "A7"GBAG | "D"F2 D2 D2 (3ABc |
+dcAF GF D2 | (3EFG AB "C"B=c2 A | "D"~d2 AF "A7"GBAG | "D"F2 D2 D2 fe :|
 [P:B-part] 
-|: "D" d2 (3efg ad fa | "G" {ga}gfga gfdA | "D" d2 (3efg abag | {fg}f2 d2 d2 (3efg |
-"D" ag (3fga g2 fe | "G" dcde fd (3efe | "D" dcAF GBAG | F2 D2 D3 A :|
+|: "D"d2 (3efg ad fa | "G"{ga}gfga gfdA | "D"d2 (3efg abag | {fg}f2 d2 d2 (3efg |
+"D"ag (3fga g2 fe | "G"dcde fd (3efe | "D"dcAF GBAG | F2 D2 D3 A :|
 [P:C-part]
-|: "D" D2 (3EFG "C" AB=cA | "D" dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
-"D" D2 (3EFG "C" AB=cA | "D" dcdg fd  (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
+|: "D"D2 (3EFG "C"AB=cA | "D"dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
+"D"D2 (3EFG "C"AB=cA | "D"dcdg fd (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
 %
 X: 1777756618
 T: Boil The Breakfast Early
 M: 4/4
-Q: 1/2=105
 R: reel
 K: Gmaj
 |:G2 BG AD D2| GB B2 c2BA|G2 BG AD D2| GE E2 c2BA|
@@ -245,11 +303,10 @@ dA A2 dAFA| d2 d^c defe| dBcA BGAF|GE E2 c2 BA ||
 X: 1776523426
 T: Brenda Stubbert's Reel
 T: a.k.a. Frosty Morning
-Z: Cam Cross
+Z: Cameron Cross
 C: Jerry Holland
 R: reel
 M: 4/4
-Q: 1/2=105
 S: Ashley MacIssac, _Hi(tm) How Are You Today?_ (1995)
 N: Ashley plays it in Bb, but the standard key is A Dorian.  I like his accidentals.
 K: Ador
@@ -268,44 +325,49 @@ K: Ador
 X: 1776976766
 T: Butterfly Hornpipe
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 M: 4/4
-Q: 1/2=105
-S: Terry Morris, _For the Record_ and other jam recordings.
+S: Terry Morris, _For the Record_, plus some variations by Chris Daring.
 N: For all his improvisational abilities, Terry is remarkably consistent with this tune.
-N: I guess he liked it this way! :)
+N: I guess he liked it this way! :)  I've added a few licks of my own.
 K: Amaj
 %noswing
 %
-[P:A-part]|:\
-"A" ac'ae caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" B^ABc (3(BcB) =A2 |
-"A" ac'ae caec | "D" AecA E2c2 | "E7" dfBd ceAc | "E" BEGB "A" A2c2 :|
+[P:{A}]|:\
+"A" v(ac'a)e caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | "A" u(ac')ae caec |
+"D" AecA E2c2 | "E7" dfBd ceAc |1 "E" BEGB "A" Au(Ace) :|2 "E" BEGB "A" A(cBA) ||
 %
-[P:B-part]
-"E" G[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGF | "E" E^DEF E=DCB, |
-"A" A,CEC AEcA | "B7" B,DFA BFdc | "E" BAGF EDCB, | "E" A,AEC "A" A,2 (3(cBA) |
-"E" G[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGB | "E" (3(cde) ef edcB |
-"A" Acec aec'e | "B7" B^dfd bfd'c' | "E" bagf edcB | "E" Aaec "A" A2 (3(efg) ||
+[P:{B}]
+"E" GBEG BEGB | "A" AcEA cEBc | "B7" (dB)(cA) BG!4!AF | "E" (E^DE)(F E=D)CB, |
+"A" (A,C)(EC) !4!AEcA | "B7" (B,!4!D)(F!4!A) BFdc | "E" BAGF EDCB, | "E" A,AE(C "A" A,2) (3(cBA |
+"E" G)[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGB | "E" (3(cde e)(f ed)cB |
+"A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aae(c "A" A2) va2- ||
 %
-[P:A-part]|:\
-"A" ac'ae caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" B^ABc (3(BcB) =A2 |
-"A" ac'ae caec | "D" AecA EAcA | "E7" dcBd (3(cec) Ac | "E" BEGB "A" A2a2 :|
+%%vskip 1cm
+[P:Variation 1 {A}]
+"A" auc'ae caec | "A" AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
+"A" ac'ae caec | "A" AecA EABc | "B7" v(dcB)u(d (3cec) vAc | "E" vBEGB A2u(a2 |
+"A" ac')vae caec | "A" AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
+"A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E7" dcBd v(3(cec A)uc | "E" BEGB "A" A2a2 ||
 %
-[P:C-part]|:\
-"E" gebe gbea | "A" c'aec' aec'a | "B7" d'bc'a bg (3(fgf) | "E" e^def e=dcB |
-"A" Acec aec'e | "B7" B^dfd bfd'c' | "E" bagf edcB | "E" Aaec "A" A2a2:|
+[P:{B}]
+"E" gebg ebge | "A" !1!aec'a ec'ae | "B7" d'bc'a !2!b!2!gaf | "E" e^def e=dcB |
+"A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | "E" A2{g}a2 "A" A2a2 ||
+"E" gebe gb(e!1!a | "A" c')(aec') aec'a | "B7" (d'bc')(a bg (3fgf) | "E" e^def e=dcB |
+"A" Acec aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aaec "A" A2a2 |]
+%
 %
 %%text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
 %
+
 X: 1759096619
 T: Cuckoo's Nest
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: reel
 N: Interestingly, _The Fiddler's Bible_ reverses the order of parts.
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -327,12 +389,11 @@ X: 1773532536
 T: The Democratic Hornpipe
 T: a.k.a. Galway Bay
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 N: A really interesting tune with a lot of movement.  Also frequently played in Gm, but I don't
 N: want the guitarists to murder me.  Chording is still tentative.
 M: 4/4
-Q: 1/2=105
 S: _The Fiddler's Bible_ (transposed to Em)
 K: Emin
 %
@@ -351,10 +412,9 @@ EF|:\
 X: 1762287681
 T: The Derry Reel
 C: Eugene O'Donnell?
-Z: Cam Cross
+Z: Cameron Cross
 R: reel
 M: 4/4
-Q: 1/2=105
 N: Cobbled from two versions found at thesession.org/tunes/7671. I really like the B-part!
 K: Amaj
 %
@@ -375,10 +435,9 @@ K: Amaj
 X: 1773483966
 T: Fisher's Hornpipe (D)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 M: 4/4
-Q: 1/2=105
 N: This is commonly played in either D or F major.  Here are some examples of it in D, 
 N: sourced and adapted from various transcriptions at https://thesession.org/tunes/872.
 K: Dmaj
@@ -402,10 +461,9 @@ K: Dmaj
 X: 1773483937
 T: Fisher's Hornpipe (F)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: hornpipe
 M: 4/4
-Q: 1/2=105
 N: Here's the F version as I learned it, along with a nice variation on the A-part 
 N: I found at https://thesession.org/tunes/872.
 K: Fmaj
@@ -438,8 +496,7 @@ T: Gin Rickshaw
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 K: Dmaj
 %
 [P:A-part] (3(ABc)|:\
@@ -460,9 +517,8 @@ X: 1776899514
 T: Hummingbird Reel
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 M: 4/4
-Q: 1/2=105
 K: Amaj
 %
 [P:A-part]AB|:\
@@ -488,9 +544,8 @@ N: A fun tune I was shown in Durham!  First comes the basic melody, then my vari
 N: The G and Em chords are fairly interchangeable.  I mix and match them in this arrangement.
 N: The ~ signs mark Irish rolls, meaning you need to do something like bow triplets to make it
 N: more interesting.  Or fiddle through it, like I have in the second half of the B-part.
-Z: Cam Cross 
+Z: Cameron Cross 
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part]
@@ -508,9 +563,8 @@ T: The Kitchen Girl
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: _Kentucky Open Band Contra Tunes_, with some original variations. 
-Z: Cam Cross
+Z: Cameron Cross
 N: Great jam tune.  For inspiration, see https://youtu.be/912wUcMXG_0?feature=shared
 K: Amix
 %
@@ -539,9 +593,8 @@ X: 1776895667
 T: Miller's Reel
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 M: 4/4
-Q: 1/2=105
 K: Amaj
 %
 [P:A-part]
@@ -558,12 +611,11 @@ X: 1758382483
 T: Money Musk
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 S: _The Fiddler's Bible_ for the base, plus variations by Tom Wiesgerber.
 N: Great tune with oodles of variations!  Choose your favorite version(s) of A, B, and C,
 N: then play: Ax2 > Bx2 > Cx2 or D (some play both) > repeat from the top. 
 M: 4/4
-Q: 1/2=105
 K: Amaj
 %
 [P:A-part (2 variations)]
@@ -591,12 +643,11 @@ X: 1759096488
 T: The Morpeth Rant
 C: William Sheild
 R: rant
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Stewart Hardy, https://youtu.be/ogZMXmpvqh4?si=OReaCGFonFyUaiGt.
 N: The unofficial "national" tune of Northumbria.  It is popular to play this in a set
 N: with The Old Morpeth Rant and Roxburgh Castle. 
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] (3ABc|:\
@@ -617,13 +668,12 @@ X: 1759096619
 T: The Old Morpeth Rant
 C: Trad.
 R: rant
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Stewart Hardy, https://youtu.be/d0AWDc_zuK0?si=Nra7JSgGlfhzKS1A.
 N: More regional interest: the rant is a local form, connected with the Rapper Sword dance; 
 N: "musically it is similar to a reel, though somewhat slower, and with more of a lilt." 
 N: (https//en.wikipedia.org/wiki/Music_of_Northumbria)
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] 
@@ -649,33 +699,31 @@ K: Bbmaj
 %
 X: 1776527480
 T: The Mortgage Burn 
-C: Trad.
+C: Gordon MacLean
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
-S: https://thesession.org/tunes/2047
+Z: Cameron Cross
+S: _Ho-Ro-Gheallaidh vol. 3_; https://thesession.org/tunes/2047
 K: Amaj
 %
 AB\
-|: "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" BFBc BFBc | "E" dBcA BAFA |
-   "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" dBcA BAFE | "E" EFAB "A" A2AB :|
+|: "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" BFBc BFBc | "Bm" dBcA "E7" BAFA |
+   "A" cEBE AE~E2 | "A" cEBE AEFA | "Bm" dBcA BAFE | "E7" EFAB "A" A2AB :|
 %
-|: "A" c2Bc eAce | "D" fafe "A" c2BA | "Bm" B2AB "A" cABc | "E"  ecBA "D" F2AB | 
-[1 "A" cABc eAce | "D" fafe "A" cBAc | "Bm" B2AB "E" cBAF | "E" EFAB "A" A2AB :|
-[2 "A" AFEF AFAB | "A" cBce "D" f2af | "A" ecAc "Bm" BcAF | "E" EFAB "A" A2A2 ||
+|: "A" c2Bc "C#m" eAce | "D" fafe "A" c2BA | "Bm" B2AB "F#m" cABc | "E" ecBA "A" F2AB | 
+[1 "A" cABc "C#m" eAce | "D" fafe "A" cBAc | "Bm" B2AB "F#m" cBAF | "E" EFAB "A" A2AB :|
+[2 "A" AFEF "F#m" AFAB | "C#m" cBce "D" f2af | "A" ecAc "F#m" BcAF | "E" EFAB "A" A2A2 ||
 %
 %%
-%%text A-part: A A Bm E7 | A A Bm E7/A :|
-%%text B-part: A D/A Bm/A E/D | A D/A Bm/E E/A | A D/A Bm/A E/D | A A/D A/Bm E/A 
+%%text A-part: A A Bm Bm/E7 | A A Bm E7/A :|
+%%text B-part: A/C#m D/A Bm/F#m E/A (x3):| A/F#m C#m/D A/F#m E/A
 %
 X: 1752894096
 T: New Reel
 C: Dale Morris
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 N: A somewhat mysterious tune I found amongst the practice / lesson tapes from Dale 
 N: Morris that my teacher passed on to me.  I only have it down as "New Reel" (was it 
 N: Dale's composition?), but it might be a traditional tune.
@@ -696,8 +744,7 @@ T: pronounced "gyo"
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 S: Maggie Sansone (Mist and Stone, 1990).
 N: This set segues nicely to Sleep Soond i da Moarnin.
 K: Ador
@@ -727,30 +774,36 @@ T: a.k.a. The Black Mare of Fanad
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-S: Maggie Sansone (Mist and Stone, 1990) plus bits of thesession.org/tunes/429 and my
-S: own additions.
-Z: Cam Cross
+S: Ho-ro-gheallaidh vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
+Z: Cameron Cross
 N: It seems many versions of this tune place an Em chord in the fourth bar of both parts.
 N: Maggie goes to a C instead, and I like that.
 K: Dmaj
 %
-[P:A-part]
-A,2\
-|: "D" D2 FD "G" GFED | "D" AdAF ABAF | "D" D2 FD "Bm" GFEd | "C" =cEEc "Em" cEGE |
-   "D" D2 FD "G" ADFE | "D" DEFG ABAF | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
+%%text Basic tune
+"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FD GEFA|"Em"BE~E2 BEGE|
+"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
+|:\
+"C"=c3A"G"B3G|"D"A2AB AGFE|"D"D2FD GEFA|"Em"BE~E2 BEGB|
+"C"=c3A"G"B3G|"D"Adcd fdAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
+|:\
+"D"d2fd gefe|"D"defg abaf|"D"d2fd gefa|"Em"be~e2 bege|
+"D"d2fd gefe|"D"defg abaf|"D"d2fa "A7"gece|"D"d2dc d4:|
 %
-[P:B-part]
-|: "C" [G,=cE]4 "G" [B,GB]4 | "D" [A,FA]4 ABAF | "D" DA,DF GFEd | "C" =cEEc "Em" cEGB |
-   "C" =cdcA "G" BdBG       | "D"Adcd fdAF     | "D" DEFA GABc  | "A7" dfec "D" d2 A2 :|
-%
-[P:A-part (var.)]
-|: "D" d2 fd "G" gefg | "D" [fa]3 [fd'] agfe | "D" dAdf "Bm" gfed' | "C" =c'eec' "Em" bddA |
-   "D" d2 fa "G" gfec | "D" defg abaf        | "D" defa gfeg       | "A7" fdge "D" fdAB :|
-%
-[P:B-part (var.)]
-|: "C" [A,G=c]4 "G" [B,BG]4 | "D" [A,DA]4 zd AF  | "D" D4 DA, GA | "C" =c4 "Em" cEGB |
-   "C" =cEGc "G" BGDB,      | "D" A,FAd fdAF    | "D" DEFG ABcA | "A7" dAFA "D" D2 A2 :|
+%%vskip 1cm
+%%text Variations (w/ alternate chords)
+|:\
+"D"D2FD "G"GFED|"D"AdAF ABAF|"D"D2FD "Bm"GFEd|"C"=cEEc "Em"cEGE|
+"D"D2FD "G"ADFE|"D"DEFG ABAF|"D"DEFG "A7"ABcA|"D"dAFA D2A2:|
+|:\
+"C"[G,=cE]4"G"[B,GB]4|"D"[A,FA]4ABAF|"D"DA,DF GFEd|"C"=cE[Ec]2"Em"BEGB|
+"C"=cdcA "G"BdBG|"D"Adcd fdAF|"D"DEFA "A7"GABc|"D"dfec d2A2:|
+|:\
+"D"d2fd "G"gefg|"D"[da]2ad' agfe|"D"dAdf "Bm"gfed'|"C"=c'e[ec'][bd]"G"[bd]2(3(ABc)|
+"D"d2fa "G"gfec|"D"defg abaf|"D"defa "A7"gfeg|"D"fdge fd[fd]2:|
+|:\
+"C"[A,G=c]4"G"[B,BG]4|"D"[A,DA]4zdAF|"D"D4DA,GA|"C"=c4"Em"cEGB|
+"C"=cEGc "G"BGDB,|"D"A,FAd fdAF|"D"DEFG ABcA|"A7"dAFA "D"D2A2:|
 %
 %%text Chords: D/G D D/Bm C/Em | D/G D D A7/D :|   C/G D D/Bm C/Em | C/G D D A7/D :|
 %
@@ -759,8 +812,7 @@ T: Old Joe Clark
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 N: This is a popular bluegrass tune. Here is a simple version I got from a mandolin lesson.
 N: Will work with this more in the future.
 K: Amix
@@ -782,8 +834,7 @@ T: Old Straw Bonnet
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 N: Great tune; this is the basic way I play it.
 K: Gmaj
 %
@@ -810,11 +861,10 @@ T: Opera Reel
 C: Trad.
 R: reel
 S: _KY Contra Tunes_ and some online variants
-Z: Cam Cross
+Z: Cameron Cross
 N: This is interesting! Basically the usual A and B parts, but each part seems to have distinct
 N: variations on each. Also neat that the A part resolves on the dominant instead of the tonic.
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part (1)]
@@ -839,10 +889,9 @@ X: 1772914944
 T: Peerless Hornpipe
 C: Trad.
 R: hornpipe
-Z: Cam Cross 
+Z: Cameron Cross 
 S: _The Fiddler's Bible_.
 M: 4/4
-Q: 1/2=105
 K: Cmaj
 %noswing
 %
@@ -863,8 +912,7 @@ T: Queen of the West
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 K: Dmaj
 %
 [P:A-part]
@@ -883,10 +931,9 @@ X: 1773528837
 T: Rackety Jack's Reel
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 S: _The Fiddler's Bible_.
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] 
@@ -906,7 +953,6 @@ R: hornpipe
 N: Popularly paired with The Democratic Hornpipe.
 N: Also features in the set: King of Fairies > Off to California > Rights of Man.
 M: 4/4
-Q: 1/2=105
 Z: https://thesession.org/tunes/83
 K: Emin
 %
@@ -925,10 +971,9 @@ X: 1777744420
 T: Roxburgh Castle
 C: Trad.
 R: hornpipe
-Z: Cam Cross 
+Z: Cameron Cross 
 S: https://thesession.org/tunes/4628
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] DF|:\
@@ -945,13 +990,12 @@ X: 1759264360
 T: Rye Straw (D)
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Todd Phillips + Darol Anger, In the Pines (1995) [with many modifications]
 N: Rye Straw seems to have a zillion variations. The core of this version draws from Darol 
 N: Anger's arrangement, where he seems to mash the 16 bars of one of its usual B-parts to create a 
 N: 'bridge' C-part of 10 bars. It's pretty neat!
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -976,7 +1020,6 @@ C: Trad. + Dave Notman
 N: A version of Rye Straw heavily modified by Dave Notman.
 R: reel
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] |:\
@@ -991,12 +1034,11 @@ X: 1759264360
 T: Rye Straw (G)
 C: Trad.
 R: reel
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Doc Roberts, followed by a few variations I've heard.
 N: Note about the chords - this can easily follow a straight G pattern, but I kind of like the 
 N: "rocking" pattern between G and C on the A part that I've heard in other versions.
 M: 4/4
-Q: 1/2=105
 K: G
 %
 [P:A-part] 
@@ -1014,9 +1056,8 @@ T: Saint Anne's Reel
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: A combination of two versions at thesession.org/tunes/103
-Z: Cam Cross
+Z: Cameron Cross
 N: A rather jaunty tune, with a nice melody. Something to explore?
 K: Dmaj
 %
@@ -1042,7 +1083,6 @@ T: Sally Growler
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
 [P:A-part]
@@ -1062,10 +1102,9 @@ T: Salt Creek
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: An online intro to mandolin tutorial
 N: VERY similar to Salt River, but the B-part is different
-Z: Cam Cross
+Z: Cameron Cross
 K: Amaj
 %
 [P:A-part] 
@@ -1085,8 +1124,7 @@ T: Salt River
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=100
-Z: Cam Cross
+Z: Cameron Cross
 N: So this is clearly the same base tune as Salt Creek, but it has drifted in different 
 N: directions, depending on who is playing it. This version is based on Terry and Dale Morris's.
 K: Amix
@@ -1118,11 +1156,10 @@ X: 1756153504
 T: Saratoga Hornpipe
 C: Trad.
 R: hornpipe
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Assembled from versions by Chris Daring, Terry Morris, Christine King, and Tom Weisgerber.
 N: Great tune. So many great ways to play it.
 M: 4/4
-Q: 1/2=105
 K: Fmaj
 %noswing
 %
@@ -1161,8 +1198,7 @@ T: da Ferry Reel, Lay Dee at Dee, and Miss Spencie's Reel
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 S: See, e.g. Aly Bain and Tom Anderson, _The Silver Bow: The Fiddle Music of Shetland_ (2016). 
 N: Some Shetland reels.  I was originally going to list these separately, but they seem often to 
 N: be grouped in a set.
@@ -1190,9 +1226,8 @@ C: Trad.
 R: reel
 S: Adapted from versions at https://thesession.org/tunes/182
 N: A fun tune I was shown in Durham!  Popularly paired with Maid Behind the Bar.
-Z: Cam Cross 
+Z: Cameron Cross 
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part]
@@ -1217,11 +1252,10 @@ T: Sleep Sound in the Morning
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: Maggie Sansone, _Mist and Stone_ (1990). 
 N: Note on the B-part variant: I don't know why, but I always want to play the last C of the rising 
 N: run as a C#. I know it's out of the key, but I think it sounds awesome.
-Z: Cam Cross
+Z: Cameron Cross
 K: Gmaj
 %
 [P:A-part]
@@ -1245,7 +1279,6 @@ T: Smith's Reel
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: Cameron Cross and Joey McKensie
 N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it 
 N: sounds a little off.
@@ -1273,12 +1306,11 @@ K: Dmaj
 X: 1779191980
 T: The Spinning Dogs (of Carrowkennedy)
 C: Damian Caisley
-Z: Cam Cross
+Z: Cameron Cross
 N: I've made very minute changes to the original music as it was given me to better
 N: accommodate my playing style.
 R: reel
 M: 4/4
-Q: 1/2=105
 K: Bm
 [P:A-part]
 dc |:\
@@ -1297,9 +1329,8 @@ T: The Stage Hornpipe
 C: James Hill
 R: hornpipe
 S: Adapted from https://thesession.org/tunes/1249
-Z: Cam Cross 
+Z: Cameron Cross 
 M: 4/4
-Q: 1/2=105
 K: Gmaj
 %
 [P:A-part]
@@ -1317,9 +1348,8 @@ T: The Twenty-Eighth of January
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
 S: _KY Contra Tunes_ and thesession.org/tunes/15717 for the base
-Z: Cam Cross
+Z: Cameron Cross
 N: Now this is an interesting number! The A-part uses the "Dorian vamp," pretty unusual 
 N: in fiddle tunes but a staple in classic rock. Seems like a popular bluegrass tune.
 K: Ador
@@ -1347,8 +1377,7 @@ T: Westmoreland's Hornpipe
 C: Terry Morris
 R: hornpipe
 M: 4/4
-Q: 1/2=105
-Z: Cam Cross
+Z: Cameron Cross
 S: Terry Morris, _Touch of Texas_ (1976)
 K: Dmaj
 %noswing
@@ -1371,11 +1400,10 @@ X: 1773528439
 T: Whiskey Before Breakfast
 C: Trad.
 R: reel
-Z: Cam Cross 
-S: Cam Cross
+Z: Cameron Cross 
+S: Cameron Cross
 N: Classic, beautiful tune. Rough transcription of how I like to play it. 
 M: 4/4
-Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -1409,7 +1437,6 @@ S: Maggie Sansone (Mist & Stone, 1990)
 N: Chords very tentative (again).
 R: jig
 M: 6/8
-Q: 1/2=100
 L: 1/8
 K: Dmix
 |:\
@@ -1424,7 +1451,7 @@ T: Brose and Butter + Cuzle Together
 T: BB a.k.a. The Peacock Followed The Hen
 C: Trad.
 R: slipjig
-Z: Cam Cross 
+Z: Cameron Cross 
 S: Bonnie Rideout, _Scottish Fire_ (2000); A. Fraser and N. Haas, _Fire & Grace_ (2004).
 N: Bonnie plays this on the viola and it sounds awesome.  I've transposed it up a fifth to
 N: work on the fiddle.  Another interesting thing is that she switches between A dorian 
@@ -1432,7 +1459,6 @@ N: (with a C natural) - which seems to be the standard - and mixolydian (C sharp
 N: B&B with Cuzle Together, another slipjig also in Amix (as well as Elsie Marly).  This is 
 N: supplemented with a version in Edor by Fraser and Haas, with a nice B-part.
 M: 9/8
-Q: 1/2=100
 K: Ador
 %
 |: "Am" v(cde) uAcA vAu(cA) | v(cde) AcA "G" B2G    | "Am" v(cde) uAcA vAu(Bc) | "G" B2G Gge dBG      :|
@@ -1459,12 +1485,11 @@ X: 1774646603
 T: The Butterfly
 C: Tommy Potts
 R: slipjig
-Z: Cam Cross
+Z: Cameron Cross
 S: The Good Tune
 N: I've modified the bowing to something that makes more sense to me.  But of course this is 
 N: just a model to be played with.
 M: 9/8
-Q: 1/2=100
 K: Ador
 [P:A-part]
 "Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
@@ -1479,12 +1504,29 @@ K: Ador
 %%text B-part: C ·· Bm ·· Am · D · :|
 %%text C-part: G ·· G/D · G ·· C/D :| (The Gs can be substituted for Ems if preferred)
 %
+X: 1783045669
+T: Elsie Marley
+C: Trad.
+R: slipjig
+Z: Cameron Cross
+S: Horseplay (Roughshod, 2006)
+N: A great romp of a tune. Only problem is that no one seems to know how to end it!
+M: 9/8
+K: Amix
+|:\
+"A" cBc ABA | A2a- aed | cBc ABA | "G" B2g- ged |
+"A" cBc ABA | a2a  aec | "D" dad "A" cac | "Em" B2c  dcB :| 
+|:\
+"A" c2d e2e | efg  aed | c2d e2e | "G" B2c  dcB |
+"A" c2d e2e | efg  aec | "D" dad "A" cac | "Em" B2c  dcB :| 
+|:\
+"A" A2a- aec | aec aec | A2a- aed | "G" gag gdB |
+"A" A2a- aec | aec aec | "D" dad "A" cac | "Em" B2c  dcB :| 
 X: 1777756188
 T: The Maid At The Spinning Wheel
 S: Maggie Sansone (Mist & Stone, 1990)
 R: jig
 M: 6/8
-Q: 1/2=100
 L: 1/8
 K: Gmaj
 N: Chords are *really* tentative.  I need to consult with a guitarist who knows this stuff.
@@ -1507,11 +1549,10 @@ T: The Yorkshire Trip
 T: a.k.a. Danish Slipjig
 C: Trad.
 R: slipjig
-Z: Cam Cross
+Z: Cameron Cross
 S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
 N: A very nice slipjig; the sixteenth notes in the first part give it a distinctive touch.
 M: 9/8
-Q: 1/2=100
 K: Gmaj
 [P:A-part]
 "G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
@@ -1540,12 +1581,11 @@ X: 1758443799
 T: The Blackbird (Set Dance)
 C: Trad.
 R: set dance
-Z: Cam Cross
+Z: Cameron Cross
 S: Bobby Gardiner (Memories of Claire, 1996), with my own variations.
 N: Lovely tune! Unusually (as far as I know), each part ends with an extra two beats.  
 N: Has a strong melodic sympathy with the Blackbird Hornpipe.  D mixolydian, chords tentative.
 M: 4/4
-Q: 1/2=80
 K: Dmix
 %swing
 %
@@ -1567,13 +1607,12 @@ X: 1780152958
 T: Codladh na madraí fada
 T: (Sleep of the Long Dogs)
 C: James Jackson, 2026
-Z: Cam Cross
+Z: Cameron Cross
 S: James Jackson
 N: Written as a lament over the site of a mass grave of greyhounds; see 
 N: http://news.bbc.co.uk/1/hi/england/wear/6457185.stm. Play slowly with feeling and ornamentation.
 R: air
 M: 3/4
-Q: 1/4=115
 K: Emin
 "Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d2B2 AB    | "Am" c3 B A2 | "Bm" B4 Bd | 
 "Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d/B3-B/ A2 | "Bm" Bf2 ed2 | "Em" e6    :|
@@ -1587,12 +1626,11 @@ X: 1779613154
 T: Jezebel Carol
 C: Trad.
 R: carol
-Z: Cam Cross
+Z: Cameron Cross
 S: Maggie Sansone (Mist and Stone, 1990); Áine Minogue (Between the Worlds, 1997).
 N: This interesting tune has an extra beat at the end. I've also found it played in both
 N: A and B minor. Chords remain tentative.
 M: 4/4
-Q: 1/4=160
 K: Bmin
 %swing
 %
@@ -1615,10 +1653,9 @@ T: The Old Crossroads
 T: a.k.a. Down The Brae
 C: Trad.
 R: march
-Z: Cam Cross
+Z: Cameron Cross
 S: Maggie Sansone (Mist and Stone, 1990)
 M: 4/4
-Q: 1/4=130
 K: Edor
 B,|:\
 "Em" E>D EF G>F GA  | "Em" B2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "D" F2 E2 "Bm" DB,-B, A,   |
@@ -1632,15 +1669,31 @@ M: 4/4
 K: C
 %
 %
+X: 1783045225
+T: 11.30 in Mallaig
+C: Trad.
+Z: Cameron Cross
+R: waltz
+S: Horseplay (Roughshod, 2006)
+N: BEAUTIFUL melody. I'm still feeling out the chords.
+M: 3/4
+K: Amix
+%swing
+EAB|:\
+"A" c3BA2 | "D" d3cA2 | "G" G3AB2 | "Em" E3EAB | "A" c3BA2 | "D" d3ce2 | "Em" B6- | "G" B2 zEAB |
+"A" c3BA2 | "D" d3cA2 | "Bm" f3ed2 | "A" cA3A2 | "G" G3AB2 | "D" F3ED2 | "A" EA-A4 |1 A3EAB :|2 A4e2 ||
+|:\
+"Bm" f3ed2 | "D" d3cB2 | "A" c3Ae2 | E4 e2 | "G" e3dc2 | "D" d3ce2 | "Em" B6- | "G"B4 e2 |
+"Bm" f3ed2 | "D" d3cB2 | "A" c3BA2 | E4 F2 | "G" G3AB2 | "D" F3ED2 | "A" EA-A4 |1 A4e2 :|2 A6 |]
+%
 X: 1779307495
 T: Ameila('s Waltz)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 S: Natalie MacMaster (A Compilation, 1996)
 N: Play it heavily swung.
 R: waltz
 M: 3/4
-Q: 1/4=160
 K: Dmaj
 %swing 0.75
 [P:A-part]
@@ -1661,10 +1714,9 @@ A,2|:\
 X: 1779314600
 T: (The) April (Waltz)
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: waltz
 M: 3/4
-Q: 1/4=180
 K: Gmaj
 GA |:\
 "G"  B4 AG   | "D"  AB GA Bd  |  "C"  e2 ed BA     | "D"  Bd A2 "Bm" AB |
@@ -1677,10 +1729,9 @@ GA |:\
 X: 1779399685
 T: Captain O'Kane
 C: Trad.
-Z: Cam Cross
+Z: Cameron Cross
 R: waltz
 M: 3/4
-Q: 1/4=180
 S: Loosely adapted from Maggie Sansone (Mist & Stone, 1990)
 N: Can make some great harmonies! I added a high part for reference.
 K: Emin
@@ -1700,29 +1751,28 @@ E2|:\
 X: 1779315391
 T: The Ken Meadows Waltz
 C: Martin Matthews
-Z: Cam Cross
+Z: Cameron Cross
 R: waltz
 M: 3/4
-Q: 1/4=115
 K: Amaj
-N: Beautiful tune. From the composer: "Written by me for our dear friend Ken RIP." 
-N: This is what I think is the core of the tune, but in the recording, the players sometimes repeat the 
-N: first half of the B-part. I also have a low version of the A-part, which I think works nice as an intro.
+N: Beautiful tune. From the composer: "Written by me for our dear friend Ken RIP."
+N: In the recording, the arrangement goes: A-A-B-C | A-C | A-C.
 S: https://youtu.be/xUGGWFjmhIs?si=cV12vCI8reGJtosy
+%
 %swing .5
-[P:A-part]
+[P:{A}]
 ed|:\
-"A" c3A (3(BAG) | A3E (3(Ace) | a2ac' (3(bag) | a3 gab | ag e2 c2 | 
-"D" (3(def) e2 d2 |1 "A" c3 d (3(edc) | "E" B4 ed :|2 "A" c3 A "E" (3(BAG) | "A" A3 dcd ||
+"F#m"c3A (3(BAG) | "A"A3E (3(Ace) | "^II"a2ac' (3(bag) | a3 gab | ag e2 c2 | 
+"D"(3(def) e2 d2 |1 "A"c3 d (3(edc) | "E"B4 ed :|2 "A"c3 A "E"(3(BAG) | "A"A3 dcd ||
 %
-[P:B-part]
-"E" BGE GBc | d3c (3(dcB) | "A" c3 Bc[df] | e4 c'b | 
-ag e2 c2 | "D" (3(def) e2 d2 | "A" c3 d (3(edc) | "E" B4 ed | 
-"A"cA cA (3(BAG) | A4 (3(EFG) | "A" A2 (3(Bcd) (3(efg) | a4 c'b | 
-ag e2 c2 | "D" (3(def) e2 d2 | "A" c3 A "E" (3(BAG) | "A" A4 ed !D.C.! |]
+[P:{B}]
+|:\
+"E"BGE GBc | d3c (3(dcB) | "A"c3 Bcd | e4 "^II"c'b | ag e2 c2 |
+"D"(3(def) e2 d2 |1 "A"c3 d (3(edc) | "E"B3 dcd :|2 "A"c3 A (3(BAG) | "A"A3 dcd ||
 %
-%%vskip 1cm
-[P:A-part (low)]
-"A" C3A, (3(B,A,G,) | A,3A, (3(A,CE) | A2Ac (3(BAG) | A3 GAB | 
-AG E2 C2 | "D" (3(DEF) E2 D2 | "A" C3 D (3(EDC) | "E" B,6 |]
+[P:{C}]
+"E"BGE GBc | d3c (3(dcB) | "A"c3 Bcf | e4 "^II"c'b | ag e2 c2 |
+"D"(3(def) e2 d2 | "A"c3 d (3(edc) | "E"B4 ed | "A"cAcA (3(BAG) | "A"A4 (3(EFG) |
+"A"A2 (3(Bcd) (3(efg) |"^II"a4 c'b | ag e2 c2 | "D"(3(def) e2 d2 | "A"c3 A "E"(3(BAG) | "A"A6 |]
 %
+

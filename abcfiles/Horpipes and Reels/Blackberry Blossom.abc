@@ -2,17 +2,60 @@
 X: 1752893902
 T: Blackberry Blossom
 C: Trad.
-Z: Cam Cross
+Z: Chris Daring
 R: reel
 M: 4/4
 Q: 1/2=105
 K: Gmaj
 %
-"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"A"BdBG "D"Adef|
-"G"gabg "F#m"fgaf|"C"efge "G"dBAG|"C"EFGE "G"DFGA|"D"BGAF "G"G4:|
+[P:{A}]
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "A"BdBG "D"Adef | 
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "D"BGAF "G"G4 :| 
 %
-|:"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBGA|"Em"B2eB dBef|"B7"gabg aged|
-"Em"B2eB "B7"dBeB|"Em"B2eB "B7"dBef|"Em"gage "A"dBGA|1 "D"BGAF "G"G2GA:|2 "D"BGAF "G"G2||
+[P:{B}]|:\
+"Em"B2eB dBeB | B2eB dBGA | "Em"B2eB "Em/G"dBef | "B7"gabg "B7/F#"aged |
+"Em"B2eB dBeB | B2eB dBef | "Em"gage "A"dBGA | "D"BGAF "G"G2GA :| 
 %
-%%text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G :|  Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G :|
+%
+%%vskip 1cm
+[P:Variation 1]
+%
+"G"Bdgd "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"EFGA | 
+"G"v(Bd)(gd) "F#m"v(fga)uf | "C"v(gb)u(ge) "G"vd^cBd | "C"vA(GEG) "G"(3v(DEF G)uA | "D"BGAu(F "G"G4) | 
+"G"gbgb "F#m"fbfb | "C"efge "G"dBAG | "C"FAGE "G"(3(vDEF G)uA | "A"BGAG "D"EFGA | 
+"G"vBdgb "F#m"fgaf | "C"gbge "G"d^cBd | "C"vA(GEG) "G"(3(vDEF G)uA | "D"BGAu(F "G"G3) _B || 
+%
+"Em"v([EB]3[eE]) u([dE]3[eE]) | v(Bc/d/e) u(B dB)AG | "Em"EBeB "Em/G"dged | "B7"gd([DG,][Bg] "B7/F#"b)ged | 
+"Em"BAdg egBd | AGEG v(3(DEF G)uA | "Em"Bged "A"gbge | "D"dBAF "G"G2 u(dc) | 
+"Em"v([EB]3[eE]) u([dE]3[eE]) | v[EB]2 (eB) dBAG | "Em" BBeB "Em/G"dged | "B7"ggag "B7/F#"bged | 
+"Em"BAdg edBd | AGEG v(3(DEF G)uA | "Em"Bdeg "A"fdge | "D"dBAu(F "G"G2) G,2 || 
+%
+%
+%%vskip 1cm
+[P:Variation 2]
+"G"[G,DBg]z "F#m"(3(bag)f2 (3(agf) | "C"efge "G"dBAG | "C"EGEG "G"(3(DEF G)A | "A"BGAG "D"EB,GA | 
+"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAu(F "G"G3) ([G,D] | 
+"G"[G,D])[Bg][G,D][Bg] "F#m"bgag | "C"fdge "G"dBAG | "C"uEAGE "G"DFGA | "A"BFA(G "D"F/E/F) GA | 
+"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAF "G"[GB]3 _E | 
+%
+"Em"E4 (EF)ED | (3(B,CD E)F GEFG |"Em" EB,EF "Em/G"GEGA | "B7"Bdef "B7/F#"gfed | 
+"Em"B2(ef) edBd | AGEG (3(DEF G)A | "Em"Bdgb "A"gedc | "D"BGAF "G"G3 _E | 
+"Em"E4 (EF)ED | (3(B,CD E)F GEFG | "Em"EB,EF "Em/G"Gged | "B7"Bgeg "B7/F#"gdfd | 
+"Em"edBd edBd | AGFG (3(DEF G)A | "Em"Bd(gb "A"g)edc | "D"BGAF "G"GABd ||
+%
+%%vskip 1cm
+[P:Variation 3]
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"E B,3 | 
+"G"Bdgd "F#m"fgaf | "C"gfed "G"cdBG | "C"AGEG "G"(3(DEF G)A | "D"B_BAF "G"GEDB, | 
+"G"G,fgb "F#m"fgag | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"F/E/F GA | 
+"G"Bdgd "F#m"fgaf | "C"gfed "G"cGBF | "C"AGEG "G"DFGA | "D"AGA[GB]- "G"[BG]3 c/d/ | 
+%
+"Em"[Ee]4 [EB]3 d | Bded gfed | "Em"B2e2 "Em/G"efge | "B7"fgaf "B7/F#"gfed | 
+"Em"baga gedg | edBd AGEG | "Em"DFGA "A"Bged | "D"BGA(F "G"G4) | 
+"Em"[EB]3 [Ee] [Ed]3 [Ee] | Bc/d/ eB dBAG | "Em"EBeB "Em/G"dged | "B7"gB[G,D][Bg] "B7/F#"bged | 
+"Em"BAdg edBd | AGEG (3(DEF G)A | "Em"Bged "A"gdge | "D"dBAF "G"G[GB] z2 | [B,G]8 |]
+
+
+
+%%text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G : | Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G : | 
 %

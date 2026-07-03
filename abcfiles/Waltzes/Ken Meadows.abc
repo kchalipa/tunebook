@@ -2,29 +2,28 @@
 X: 1779315391
 T: The Ken Meadows Waltz
 C: Martin Matthews
-Z: Cam Cross
+Z: Cameron Cross
 R: waltz
 M: 3/4
 Q: 1/4=115
 K: Amaj
-N: Beautiful tune. From the composer: "Written by me for our dear friend Ken RIP." 
-N: This is what I think is the core of the tune, but in the recording, the players sometimes repeat the 
-N: first half of the B-part. I also have a low version of the A-part, which I think works nice as an intro.
+N: Beautiful tune. From the composer: "Written by me for our dear friend Ken RIP."
+N: In the recording, the arrangement goes: A-A-B-C | A-C | A-C.
 S: https://youtu.be/xUGGWFjmhIs?si=cV12vCI8reGJtosy
+%
 %swing .5
-[P:A-part]
+[P:{A}]
 ed|:\
-"A" c3A (3(BAG) | A3E (3(Ace) | a2ac' (3(bag) | a3 gab | ag e2 c2 | 
-"D" (3(def) e2 d2 |1 "A" c3 d (3(edc) | "E" B4 ed :|2 "A" c3 A "E" (3(BAG) | "A" A3 dcd ||
+"F#m"c3A (3(BAG) | "A"A3E (3(Ace) | "^II"a2ac' (3(bag) | a3 gab | ag e2 c2 | 
+"D"(3(def) e2 d2 |1 "A"c3 d (3(edc) | "E"B4 ed :|2 "A"c3 A "E"(3(BAG) | "A"A3 dcd ||
 %
-[P:B-part]
-"E" BGE GBc | d3c (3(dcB) | "A" c3 Bc[df] | e4 c'b | 
-ag e2 c2 | "D" (3(def) e2 d2 | "A" c3 d (3(edc) | "E" B4 ed | 
-"A"cA cA (3(BAG) | A4 (3(EFG) | "A" A2 (3(Bcd) (3(efg) | a4 c'b | 
-ag e2 c2 | "D" (3(def) e2 d2 | "A" c3 A "E" (3(BAG) | "A" A4 ed !D.C.! |]
+[P:{B}]
+|:\
+"E"BGE GBc | d3c (3(dcB) | "A"c3 Bcd | e4 "^II"c'b | ag e2 c2 |
+"D"(3(def) e2 d2 |1 "A"c3 d (3(edc) | "E"B3 dcd :|2 "A"c3 A (3(BAG) | "A"A3 dcd ||
 %
-%%vskip 1cm
-[P:A-part (low)]
-"A" C3A, (3(B,A,G,) | A,3A, (3(A,CE) | A2Ac (3(BAG) | A3 GAB | 
-AG E2 C2 | "D" (3(DEF) E2 D2 | "A" C3 D (3(EDC) | "E" B,6 |]
+[P:{C}]
+"E"BGE GBc | d3c (3(dcB) | "A"c3 Bcf | e4 "^II"c'b | ag e2 c2 |
+"D"(3(def) e2 d2 | "A"c3 d (3(edc) | "E"B4 ed | "A"cAcA (3(BAG) | "A"A4 (3(EFG) |
+"A"A2 (3(Bcd) (3(efg) |"^II"a4 c'b | ag e2 c2 | "D"(3(def) e2 d2 | "A"c3 A "E"(3(BAG) | "A"A6 |]
 %

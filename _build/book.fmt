@@ -4,10 +4,11 @@ breaklimit  0.6
 leftmargin  2cm
 rightmargin 2cm
 
-historyfont    Courier 11.0
+historyfont    Courier 12.0
 titlefont      Times-Bold 24.0
+annotationfont Times-Roman 12.0
 subtitlefont   Times-Italic 18.0
 composerfont   Times-Italic 14.0
 gchordfont     Courier 12.0
-partsfont      Helvetica 12.0
-textfont       Courier 11.0
+partsfont      Times-Bold 12.0
+textfont       Courier 12.0

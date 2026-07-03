@@ -83,11 +83,12 @@ leftmargin  2cm
 rightmargin 2cm
 
 historyfont    Courier 12.0
+annotationfont Times-Roman 12.0
 titlefont      Times-Bold 24.0
 subtitlefont   Times-Italic 18.0
 composerfont   Times-Italic 14.0
 gchordfont     Courier 12.0
-partsfont      Helvetica 13.0
+partsfont      Times-Bold 12.0
 textfont       Courier 12.0
 EOF
 
@@ -103,6 +104,7 @@ for f in **/*.abc **/*.ABC; do
     /^%abc-[0-9.]+[[:space:]]*$/d;
     /^[[:space:]]*%%(writefields|infoline)\b/d;
     /^[[:space:]]*I:(writefields|infoline)\b/d
+    /^[[:space:]]*Q:[[:space:]]*/d
   ' "$f" >> "$out_abc"
 
   print -r -- "" >> "$out_abc"

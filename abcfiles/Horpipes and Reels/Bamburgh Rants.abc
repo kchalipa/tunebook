@@ -3,34 +3,41 @@ X: 1779290922
 T: The Bamburgh Rants
 T: The Collpitts, The General Gordon, and Ye Old Elm Tree
 C: Martin Matthews
-Z: Cam Cross
+Z: Cameron Cross
 R: rant
 N: These are named after the 3 pubs which have hosted the Monday session in Durham over 
-N: the last 50 years. Great recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
+N: the last 50 years. See recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
+N: I can see this was written by a mandolinist! This is one case where the bowings are
+N: crucial for playing some of these runs, and I had to make a few other adjustments.
 M: 4/4
 Q: 1/2=105
 K: Dmaj
-[P:Collpitt's]
-Ac          |:\
-d2AG F2A=c  | B2AG F2D2     | EF^GA BcdB  | c2A2A2 (3(ABc)  |
-d2AG F2A=c  | B2AG F2D2     | dfaf  gfeg  | f2d2 d4        :|
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGA | B2A2A2 d=c      |
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D2 d=c      |
-BGBd BGBd   | AFAd AFAd     | A,B,CD EFGA | B2A2A2 d=c      |
-BGD=C B,DGB | AFDB, A,B,DB, | A,B,CD EFGE | F2D2D4          |]
 %
-[P:Gordon]
+[P:Collpitts Rant]
+"D"d2AG F2A=c | "G"B2AG "D"F2D2 | "E"EF^GA BcdB | "A"c2A2A2 u(3(ABc | "D"d2)v(AG F)(GA=c) |
+"G"v(3(BcB A)uG "D"F2D2 | "D"dfaf "A"(gfe)g | "D"f2d2 d2A2 :||: "G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) |
+[1 "E"A,B,CD EFGA | "A"B2A2A2 (d=c) :|[2 "E"A,B,CD "A"EFGE | "D"F2D2D2 d=c ||
+"G"BGBd BGBd | "D"AFAd AFAd | "E"(A,B,C)D EFGA | "A"B2A2A2 (d=c) |
+"G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) | "E"A,B,CD "A"EFGE | "D"F2D2D4 |]
+%
+%
+%%vskip 1cm
+[P:General Gordon Rant]
 K: Gmaj
 |:\
-G2dB cBAc | BGGF G2GF | GBdB dBGB | cee^d ecBA |
-dBGB cAFA | BGGF G3 D | ECCE DB,B,D | B,G,A,B, A,2G,2 :|
-G,B,DB, CEGE | ^CEGE DFAF | GBdB ^GBdB | A^cec dcdf |
-gfga gdBd | cBAB cedc | BGAF GBAG | FDEF G4 :|
+"G"G2(dB) cBAc | "G"(BG)(GF) G2(GF) | "G"GB(dB "C"d)BGB | "Am"(c!4!e!0!e)(^d "D"ec)BA |
+"G"dBGB "C"cAFA | "G"B(G[GB][AF]) G3 u(D | "C"EC)CE "G"DB,G,B, | "D"v(A,G,)(A,B,) A,3G, :|
+|:\
+"G"(G,B,D)B, "C"CEGE | "C/C#"(^CEG)E "D"DFAF | "G"GBdB "G/G#"(^GBd)B | "A"A^cec "D"dcdf |
+"Em"(gf)(ga) g(dBd) | "C"cBAB cedc | "D"(BG)(AF) GBAG | "D"FDEF "G"G4 :|
 %
-[P:Elm Tree]
+%
+%%vskip 1cm
+[P:Ye Old Elm Tree Rant]
 K: Amaj
 |:\
-(3(efg) a2 edcB | AcBA GFED | CB,CE AEDF | AF^DF BFE2 | 
-(3(efg) ag aedc | BAdc BAGF | EDCE AEDF | AFGB eB A2 :|
-AcBE ~E2B2 | cAFC FGAG | FEdc defe | dcBA GFED |
-CB,CE AGFD | (3(DED) DF BAGE | ~D2dc dfec | AcBA BcA2 :|
+"A"a2(ed) cBAc | "D"BAGF EDCB, | "A"(CE)(AE) "D"DFAF | "B7"(^DF)(BF) "E"E2 (3(efg) | 
+"A"agae dcBA | "D"dcBA GFED | "A"(CEA)E "D"DFAF | "E"(GB)(eB) "A"A2Ac :|
+|:\
+"E"BE ~E2[EB]2 cB | "F#m"FCCF [FA]2Bc | "D"dcde fedc | "E"BAGF EDCB, |
+"A"v(CE)u(AG) "D"FD v(3(DED) | u"E"(DF)vBA "A"GE v(3(EFE) | "D"u(dc)df "A"vecAc | "E"(BA)(Bc) "A"A4 :|
