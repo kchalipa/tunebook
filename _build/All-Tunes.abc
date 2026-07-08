@@ -1,22 +1,15 @@
 %abc-2.1
 
-X: 1773442456
-T: ---BREAKDOWNS---
-M: C|
-K: C
-%
-%%begintext 
-These are basically reels, but they reflect the dance culture of the central/southern
-US, where they're often called hoedowns. are popular contest pieces, usually elaborated in
-the "controlled improvisation" style pioneered by Eck Robertson, Benny Thomasson, Byron Berline,
-and others.
-%%endtext
+X: 1783479179
+T:*BREAKDOWNS
+
 X: 1779661052
 T: Done Gone
 C: Trad.
 Z: Cameron Cross
 R: reel
 M: 4/4
+Q: 1/2=110
 K: Bbmaj
 [P:A-part] 
 Bc|:\
@@ -50,22 +43,9 @@ Bc|:\
 %[G,D][Bf]2 [G,D] [Bg]fgg | fdBf gabg | fdBd gd^fd | fdBd cd[GB]2 (3(FGA) |
 %Bcde fd | (3(fgf) df [db]2 (3(fga) | bfgb gfdc (3(cBA) B
 %
-X: 1773442456
-T: ---HORNPIPES AND REELS---
-M: 4/4
-K: C
-%
-%%text Tunes organized alphabetically.  Some ideas for sets:
-%%text
-%%text * Because He Was A Bonny Lad > Salmon Tails up the Water
-%%text * Morpeth Rant > Old Morpeth Rant > Roxburgh Castle
-%%text * King of Fairies > Off to California > Rights of Man
-%%text * Silver Spear > Maid Behind the Bar
-%%text * da New Rigged Ship > Shelder Geo > Sleep Soond
-%%
-%%text Written as sets:
-%%text "Shetland Reels": da Ferry Reel > Lay Dee at Dee > Miss Spencie's Reel
-%
+X: 1783479230
+T:*HORNPIPES AND REELS
+
 X: 1779290922
 T: The Bamburgh Rants
 T: The Collpitts, The General Gordon, and Ye Old Elm Tree
@@ -77,6 +57,7 @@ N: the last 50 years. See recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4
 N: I can see this was written by a mandolinist! This is one case where the bowings are
 N: crucial for playing some of these runs, and I had to make a few other adjustments.
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:Collpitts Rant]
@@ -118,6 +99,7 @@ N: Neat tune! Simple in its basic form, but it has really grown on me.
 N: I'm afraid I don't know if there's a "standard" form of the tune; this is just me 
 N: cobbling together what I've heard and what I've invented on top of it.
 M: 4/4
+Q: 1/2=105
 K: G
 [P:{A}] DF |:\
 "G"G2(BG) "G/F#"AGBG | "G"A(G[GA][FA]) "G/A"G2 (dc) | "G"BAGB AGED | "G"(EG)(AB) G2 (3(DEF) |
@@ -150,6 +132,7 @@ C: Trad.
 Z: Cameron Cross
 R: reel
 M: 4/4
+Q: 1/2=105
 S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
 K: Gmaj
 %
@@ -179,6 +162,7 @@ C: Trad.
 Z: Chris Daring
 R: reel
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:{A}]
@@ -244,6 +228,7 @@ N: with its repeated landing on the open D, but is also recognizably distinct. S
 N: chords and fine-tuning the arrangement. One interesting feature is a "slippery"C, sometimes
 N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %noswing
 [P:A-part] 
@@ -271,6 +256,7 @@ C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 N: This is another version of the Blackbird Hornpipe, clearly related to the previous one.
 N: A little more repetitive, but in a good way! Good as a reference.
 N: Chording remains basic / uncertain.
@@ -290,6 +276,7 @@ dcAF GF D2 | (3EFG AB "C"B=c2 A | "D"~d2 AF "A7"GBAG | "D"F2 D2 D2 fe :|
 X: 1777756618
 T: Boil The Breakfast Early
 M: 4/4
+Q: 1/2=105
 R: reel
 K: Gmaj
 |:G2 BG AD D2| GB B2 c2BA|G2 BG AD D2| GE E2 c2BA|
@@ -307,6 +294,7 @@ Z: Cameron Cross
 C: Jerry Holland
 R: reel
 M: 4/4
+Q: 1/2=105
 S: Ashley MacIssac, _Hi(tm) How Are You Today?_ (1995)
 N: Ashley plays it in Bb, but the standard key is A Dorian.  I like his accidentals.
 K: Ador
@@ -328,6 +316,7 @@ C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 S: Terry Morris, _For the Record_, plus some variations by Chris Daring.
 N: For all his improvisational abilities, Terry is remarkably consistent with this tune.
 N: I guess he liked it this way! :)  I've added a few licks of my own.
@@ -368,6 +357,7 @@ Z: Cameron Cross
 R: reel
 N: Interestingly, _The Fiddler's Bible_ reverses the order of parts.
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -394,6 +384,7 @@ R: hornpipe
 N: A really interesting tune with a lot of movement.  Also frequently played in Gm, but I don't
 N: want the guitarists to murder me.  Chording is still tentative.
 M: 4/4
+Q: 1/2=105
 S: _The Fiddler's Bible_ (transposed to Em)
 K: Emin
 %
@@ -415,6 +406,7 @@ C: Eugene O'Donnell?
 Z: Cameron Cross
 R: reel
 M: 4/4
+Q: 1/2=105
 N: Cobbled from two versions found at thesession.org/tunes/7671. I really like the B-part!
 K: Amaj
 %
@@ -438,6 +430,7 @@ C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 N: This is commonly played in either D or F major.  Here are some examples of it in D, 
 N: sourced and adapted from various transcriptions at https://thesession.org/tunes/872.
 K: Dmaj
@@ -464,6 +457,7 @@ C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 N: Here's the F version as I learned it, along with a nice variation on the A-part 
 N: I found at https://thesession.org/tunes/872.
 K: Fmaj
@@ -496,6 +490,7 @@ T: Gin Rickshaw
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 K: Dmaj
 %
@@ -519,6 +514,7 @@ C: Trad.
 R: reel
 Z: Cameron Cross 
 M: 4/4
+Q: 1/2=105
 K: Amaj
 %
 [P:A-part]AB|:\
@@ -546,6 +542,7 @@ N: The ~ signs mark Irish rolls, meaning you need to do something like bow tripl
 N: more interesting.  Or fiddle through it, like I have in the second half of the B-part.
 Z: Cameron Cross 
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part]
@@ -563,6 +560,7 @@ T: The Kitchen Girl
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: _Kentucky Open Band Contra Tunes_, with some original variations. 
 Z: Cameron Cross
 N: Great jam tune.  For inspiration, see https://youtu.be/912wUcMXG_0?feature=shared
@@ -595,6 +593,7 @@ C: Trad.
 R: reel
 Z: Cameron Cross 
 M: 4/4
+Q: 1/2=105
 K: Amaj
 %
 [P:A-part]
@@ -616,6 +615,7 @@ S: _The Fiddler's Bible_ for the base, plus variations by Tom Wiesgerber.
 N: Great tune with oodles of variations!  Choose your favorite version(s) of A, B, and C,
 N: then play: Ax2 > Bx2 > Cx2 or D (some play both) > repeat from the top. 
 M: 4/4
+Q: 1/2=105
 K: Amaj
 %
 [P:A-part (2 variations)]
@@ -648,6 +648,7 @@ S: Stewart Hardy, https://youtu.be/ogZMXmpvqh4?si=OReaCGFonFyUaiGt.
 N: The unofficial "national" tune of Northumbria.  It is popular to play this in a set
 N: with The Old Morpeth Rant and Roxburgh Castle. 
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] (3ABc|:\
@@ -674,6 +675,7 @@ N: More regional interest: the rant is a local form, connected with the Rapper S
 N: "musically it is similar to a reel, though somewhat slower, and with more of a lilt." 
 N: (https//en.wikipedia.org/wiki/Music_of_Northumbria)
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] 
@@ -702,6 +704,7 @@ T: The Mortgage Burn
 C: Gordon MacLean
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 S: _Ho-Ro-Gheallaidh vol. 3_; https://thesession.org/tunes/2047
 K: Amaj
@@ -723,6 +726,7 @@ T: New Reel
 C: Dale Morris
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 N: A somewhat mysterious tune I found amongst the practice / lesson tapes from Dale 
 N: Morris that my teacher passed on to me.  I only have it down as "New Reel" (was it 
@@ -744,6 +748,7 @@ T: pronounced "gyo"
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 S: Maggie Sansone (Mist and Stone, 1990).
 N: This set segues nicely to Sleep Soond i da Moarnin.
@@ -774,6 +779,7 @@ T: a.k.a. The Black Mare of Fanad
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: Ho-ro-gheallaidh vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
 Z: Cameron Cross
 N: It seems many versions of this tune place an Em chord in the fourth bar of both parts.
@@ -812,6 +818,7 @@ T: Old Joe Clark
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 N: This is a popular bluegrass tune. Here is a simple version I got from a mandolin lesson.
 N: Will work with this more in the future.
@@ -834,6 +841,7 @@ T: Old Straw Bonnet
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 N: Great tune; this is the basic way I play it.
 K: Gmaj
@@ -865,6 +873,7 @@ Z: Cameron Cross
 N: This is interesting! Basically the usual A and B parts, but each part seems to have distinct
 N: variations on each. Also neat that the A part resolves on the dominant instead of the tonic.
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part (1)]
@@ -892,6 +901,7 @@ R: hornpipe
 Z: Cameron Cross 
 S: _The Fiddler's Bible_.
 M: 4/4
+Q: 1/2=105
 K: Cmaj
 %noswing
 %
@@ -912,6 +922,7 @@ T: Queen of the West
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 K: Dmaj
 %
@@ -934,6 +945,7 @@ R: reel
 Z: Cameron Cross 
 S: _The Fiddler's Bible_.
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] 
@@ -953,6 +965,7 @@ R: hornpipe
 N: Popularly paired with The Democratic Hornpipe.
 N: Also features in the set: King of Fairies > Off to California > Rights of Man.
 M: 4/4
+Q: 1/2=105
 Z: https://thesession.org/tunes/83
 K: Emin
 %
@@ -974,6 +987,7 @@ R: hornpipe
 Z: Cameron Cross 
 S: https://thesession.org/tunes/4628
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:A-part] DF|:\
@@ -996,6 +1010,7 @@ N: Rye Straw seems to have a zillion variations. The core of this version draws 
 N: Anger's arrangement, where he seems to mash the 16 bars of one of its usual B-parts to create a 
 N: 'bridge' C-part of 10 bars. It's pretty neat!
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -1020,6 +1035,7 @@ C: Trad. + Dave Notman
 N: A version of Rye Straw heavily modified by Dave Notman.
 R: reel
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] |:\
@@ -1039,6 +1055,7 @@ S: Doc Roberts, followed by a few variations I've heard.
 N: Note about the chords - this can easily follow a straight G pattern, but I kind of like the 
 N: "rocking" pattern between G and C on the A part that I've heard in other versions.
 M: 4/4
+Q: 1/2=105
 K: G
 %
 [P:A-part] 
@@ -1056,6 +1073,7 @@ T: Saint Anne's Reel
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: A combination of two versions at thesession.org/tunes/103
 Z: Cameron Cross
 N: A rather jaunty tune, with a nice melody. Something to explore?
@@ -1083,6 +1101,7 @@ T: Sally Growler
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:A-part]
@@ -1102,6 +1121,7 @@ T: Salt Creek
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: An online intro to mandolin tutorial
 N: VERY similar to Salt River, but the B-part is different
 Z: Cameron Cross
@@ -1124,6 +1144,7 @@ T: Salt River
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=100
 Z: Cameron Cross
 N: So this is clearly the same base tune as Salt Creek, but it has drifted in different 
 N: directions, depending on who is playing it. This version is based on Terry and Dale Morris's.
@@ -1160,6 +1181,7 @@ Z: Cameron Cross
 S: Assembled from versions by Chris Daring, Terry Morris, Christine King, and Tom Weisgerber.
 N: Great tune. So many great ways to play it.
 M: 4/4
+Q: 1/2=105
 K: Fmaj
 %noswing
 %
@@ -1198,6 +1220,7 @@ T: da Ferry Reel, Lay Dee at Dee, and Miss Spencie's Reel
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 S: See, e.g. Aly Bain and Tom Anderson, _The Silver Bow: The Fiddle Music of Shetland_ (2016). 
 N: Some Shetland reels.  I was originally going to list these separately, but they seem often to 
@@ -1228,6 +1251,7 @@ S: Adapted from versions at https://thesession.org/tunes/182
 N: A fun tune I was shown in Durham!  Popularly paired with Maid Behind the Bar.
 Z: Cameron Cross 
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part]
@@ -1252,6 +1276,7 @@ T: Sleep Sound in the Morning
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: Maggie Sansone, _Mist and Stone_ (1990). 
 N: Note on the B-part variant: I don't know why, but I always want to play the last C of the rising 
 N: run as a C#. I know it's out of the key, but I think it sounds awesome.
@@ -1279,6 +1304,7 @@ T: Smith's Reel
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: Cameron Cross and Joey McKensie
 N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it 
 N: sounds a little off.
@@ -1311,6 +1337,7 @@ N: I've made very minute changes to the original music as it was given me to bet
 N: accommodate my playing style.
 R: reel
 M: 4/4
+Q: 1/2=105
 K: Bm
 [P:A-part]
 dc |:\
@@ -1331,6 +1358,7 @@ R: hornpipe
 S: Adapted from https://thesession.org/tunes/1249
 Z: Cameron Cross 
 M: 4/4
+Q: 1/2=105
 K: Gmaj
 %
 [P:A-part]
@@ -1348,6 +1376,7 @@ T: The Twenty-Eighth of January
 C: Trad.
 R: reel
 M: 4/4
+Q: 1/2=105
 S: _KY Contra Tunes_ and thesession.org/tunes/15717 for the base
 Z: Cameron Cross
 N: Now this is an interesting number! The A-part uses the "Dorian vamp," pretty unusual 
@@ -1377,6 +1406,7 @@ T: Westmoreland's Hornpipe
 C: Terry Morris
 R: hornpipe
 M: 4/4
+Q: 1/2=105
 Z: Cameron Cross
 S: Terry Morris, _Touch of Texas_ (1976)
 K: Dmaj
@@ -1404,6 +1434,7 @@ Z: Cameron Cross
 S: Cameron Cross
 N: Classic, beautiful tune. Rough transcription of how I like to play it. 
 M: 4/4
+Q: 1/2=105
 K: Dmaj
 %
 [P:A-part] 
@@ -1424,19 +1455,16 @@ K: Dmaj
 %%
 %%text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
 %
-X: 1777755551
-T: ---JIGS AND SLIPJIGS---
-M: 6/8
-K: C
-%
-%%text Tunes organized alphabetically.  
-%
+X: 1783479262
+T:*JIGS AND SLIPJIGS
+
 X: 1777756298
 T: The Ballykeal Jig
 S: Maggie Sansone (Mist & Stone, 1990)
 N: Chords very tentative (again).
 R: jig
 M: 6/8
+Q: 1/2=100
 L: 1/8
 K: Dmix
 |:\
@@ -1459,6 +1487,7 @@ N: (with a C natural) - which seems to be the standard - and mixolydian (C sharp
 N: B&B with Cuzle Together, another slipjig also in Amix (as well as Elsie Marly).  This is 
 N: supplemented with a version in Edor by Fraser and Haas, with a nice B-part.
 M: 9/8
+Q: 1/2=100
 K: Ador
 %
 |: "Am" v(cde) uAcA vAu(cA) | v(cde) AcA "G" B2G    | "Am" v(cde) uAcA vAu(Bc) | "G" B2G Gge dBG      :|
@@ -1490,6 +1519,7 @@ S: The Good Tune
 N: I've modified the bowing to something that makes more sense to me.  But of course this is 
 N: just a model to be played with.
 M: 9/8
+Q: 1/2=100
 K: Ador
 [P:A-part]
 "Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
@@ -1512,6 +1542,7 @@ Z: Cameron Cross
 S: Horseplay (Roughshod, 2006)
 N: A great romp of a tune. Only problem is that no one seems to know how to end it!
 M: 9/8
+Q: 1/2=100
 K: Amix
 |:\
 "A" cBc ABA | A2a- aed | cBc ABA | "G" B2g- ged |
@@ -1527,6 +1558,7 @@ T: The Maid At The Spinning Wheel
 S: Maggie Sansone (Mist & Stone, 1990)
 R: jig
 M: 6/8
+Q: 1/2=100
 L: 1/8
 K: Gmaj
 N: Chords are *really* tentative.  I need to consult with a guitarist who knows this stuff.
@@ -1553,6 +1585,7 @@ Z: Cameron Cross
 S: William Vickers' Collection of Dance Tunes (1770); The Good Tune
 N: A very nice slipjig; the sixteenth notes in the first part give it a distinctive touch.
 M: 9/8
+Q: 1/2=100
 K: Gmaj
 [P:A-part]
 "G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
@@ -1570,13 +1603,9 @@ K: Gmaj
 %%text B-part: C/G/G C/D/D C/G/G D :|
 %%text C-part: Em ·· D ··· C ··· D :|
 %
-X: 1777755597
-T: ---TUNES OF CHOICE---
-M: 4/4
-K: C
-%
-%%text Includes polkas, set dances, swing tunes...
-%
+X: 1783479299
+T:*TUNES OF CHOICE
+
 X: 1758443799
 T: The Blackbird (Set Dance)
 C: Trad.
@@ -1586,6 +1615,7 @@ S: Bobby Gardiner (Memories of Claire, 1996), with my own variations.
 N: Lovely tune! Unusually (as far as I know), each part ends with an extra two beats.  
 N: Has a strong melodic sympathy with the Blackbird Hornpipe.  D mixolydian, chords tentative.
 M: 4/4
+Q: 1/2=80
 K: Dmix
 %swing
 %
@@ -1613,6 +1643,7 @@ N: Written as a lament over the site of a mass grave of greyhounds; see
 N: http://news.bbc.co.uk/1/hi/england/wear/6457185.stm. Play slowly with feeling and ornamentation.
 R: air
 M: 3/4
+Q: 1/4=115
 K: Emin
 "Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d2B2 AB    | "Am" c3 B A2 | "Bm" B4 Bd | 
 "Em" e4 fe  | "D" d/B3-B/ A2 | "G" g3 ab2 | "D" a4 gf  | "C" e3 fg2 | "G" d/B3-B/ A2 | "Bm" Bf2 ed2 | "Em" e6    :|
@@ -1631,6 +1662,7 @@ S: Maggie Sansone (Mist and Stone, 1990); Áine Minogue (Between the Worlds, 199
 N: This interesting tune has an extra beat at the end. I've also found it played in both
 N: A and B minor. Chords remain tentative.
 M: 4/4
+Q: 1/4=160
 K: Bmin
 %swing
 %
@@ -1656,6 +1688,7 @@ R: march
 Z: Cameron Cross
 S: Maggie Sansone (Mist and Stone, 1990)
 M: 4/4
+Q: 1/4=130
 K: Edor
 B,|:\
 "Em" E>D EF G>F GA  | "Em" B2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "D" F2 E2 "Bm" DB,-B, A,   |
@@ -1663,12 +1696,9 @@ B,|:\
 "Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2B  | "D" A>^G AB d>c de    | "D" dB AB "Bm" de/d/ BA    |
 "Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "Bm" FG/F/ ED "Em" E2 GF  :|
 
-X: 1779525816
-T: ---WALTZES---
-M: 4/4
-K: C
-%
-%
+X: 1783479313
+T:*WALTZES
+
 X: 1783045225
 T: 11.30 in Mallaig
 C: Trad.
@@ -1677,6 +1707,7 @@ R: waltz
 S: Horseplay (Roughshod, 2006)
 N: BEAUTIFUL melody. I'm still feeling out the chords.
 M: 3/4
+Q: 1/4=150
 K: Amix
 %swing
 EAB|:\
@@ -1694,6 +1725,7 @@ S: Natalie MacMaster (A Compilation, 1996)
 N: Play it heavily swung.
 R: waltz
 M: 3/4
+Q: 1/4=160
 K: Dmaj
 %swing 0.75
 [P:A-part]
@@ -1717,6 +1749,7 @@ C: Trad.
 Z: Cameron Cross
 R: waltz
 M: 3/4
+Q: 1/4=180
 K: Gmaj
 GA |:\
 "G"  B4 AG   | "D"  AB GA Bd  |  "C"  e2 ed BA     | "D"  Bd A2 "Bm" AB |
@@ -1732,6 +1765,7 @@ C: Trad.
 Z: Cameron Cross
 R: waltz
 M: 3/4
+Q: 1/4=180
 S: Loosely adapted from Maggie Sansone (Mist & Stone, 1990)
 N: Can make some great harmonies! I added a high part for reference.
 K: Emin
@@ -1754,6 +1788,7 @@ C: Martin Matthews
 Z: Cameron Cross
 R: waltz
 M: 3/4
+Q: 1/4=115
 K: Amaj
 N: Beautiful tune. From the composer: "Written by me for our dear friend Ken RIP."
 N: In the recording, the arrangement goes: A-A-B-C | A-C | A-C.

@@ -104,7 +104,6 @@ for f in **/*.abc **/*.ABC; do
     /^%abc-[0-9.]+[[:space:]]*$/d;
     /^[[:space:]]*%%(writefields|infoline)\b/d;
     /^[[:space:]]*I:(writefields|infoline)\b/d
-    /^[[:space:]]*Q:[[:space:]]*/d
   ' "$f" >> "$out_abc"
 
   print -r -- "" >> "$out_abc"
