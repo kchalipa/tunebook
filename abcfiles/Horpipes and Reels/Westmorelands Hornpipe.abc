@@ -11,16 +11,16 @@ K: Dmaj
 %noswing
 %
 [P:A-part]AG\
-|: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |
-   "D" FDAD FADF | "Em" BEGB EGBG | "A" FDAF EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
+|: "D" FD!4!AD F!0!ADF | "Em" BEGB EGBG | "D" FD!4!AD F!0!ADB, |  "A" (A,C)uE(A, C)uEA,E |
+   "D" (FD)(!4!AD) F!0!ADF | "Em" BEGB EGBG | "A" (FD)(!4!AF) EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
 %
 [P:B-part]\
-|: "D" Fdcd AFDF | "G"  EA,CE DCDE | "D" Fdcd AFDF |  "A" E^GBG Acec|
-   "D" dAFA DFAF | "Em" BEGB EGBG  | "A" FDAF EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
+|: "D" Fdcd A(FDF) | "G"  EA,CE DCDE | "D" Fdcd A(FDF) |  "A" (E^G)(BG) Acec|
+   "D" dA(F!4!A) (DF)!0!AF | "Em" BEGB EGBG  | "A" (FD)(!4!AF) EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
 %
 [P:A-part (var.)]
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
-   "D" AFAD FADF | "Em" BEGB EGBG | "A" FGAF A,CEC | "A" DFAc "D" d2 ag :|
+   "D" (!4!AF)(!0!AD) FADF | "Em" BEGB EGBG | "A" (FG)(!4!AF) (A,C)(EC) | "A" DFAc "D" d2 ag :|
 %
 %%text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
 %
