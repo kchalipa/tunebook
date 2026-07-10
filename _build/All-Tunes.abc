@@ -424,6 +424,30 @@ K: Amaj
 %
 %%text Chords: A E A D | A E A E/A :|   F#m E F#m E/F#m | A E A E/A :|
 %
+X: 1783649378
+T: The Durham Hornpipe
+C: James Hill
+S: _The Lads Like Beer_
+Z: Cameron Cross
+R: hornpipe
+N: A hornpipe in E! Nice! Like many Hill tunes, it has some twisty bits.
+M: 4/4
+Q: 1/2=105
+K: Emaj
+%
+[P:{A}]
+ga|\
+bgaf egfe | defd BcBA | GBeB cAfe | defd B2ga |
+bgaf egfe | defd BcBA | GBeB cafd | e2g2e2 :|
+%
+[P:{B}]
+de|\
+fB~B2 fBaf | gB~B2 gBbg | fagf edc^B | c^E[^Ec]2[^Ec]2 =BA |
+GBeB cAfe | dBge fcaf | gbeg | fa!4!df |e2g2e2 :|
+%
+%
+%%text Chords: 
+%
 X: 1773483966
 T: Fisher's Hornpipe (D)
 C: Trad.
@@ -1357,19 +1381,21 @@ C: James Hill
 R: hornpipe
 S: Adapted from https://thesession.org/tunes/1249
 Z: Cameron Cross 
+N: Tricky! I think the best way to play the {B} part is to shift to second position.
 M: 4/4
 Q: 1/2=105
 K: Gmaj
 %
-[P:A-part]
-dc\
-|: "G" BGFG EGDG   | "G" B,DGB cBAG | "Am" AEAB cBAG | "D7" AGFE DCB,A, |
-   "G" G,B,DG BdcB | "C" cdef gfge  | "D7" dbca Bgfg | "D7" ecAF "G" G2G,2 :|
-[P:B-part]
-|: "G" gage dgbd | "Am" cfac "G" Bdgd | "G" BGdB "Am" cAag | "Am" fgef "D" defd |
-   "G" gage dgbd | "Am" cfac "G" Bdgf | "G" (3efg db "Am" caBg | "D7" ecAF "G" G2G,2 :|
+[P:{A}]
+dc|:\ 
+"G"B(GFG) (EG)(DG) | "G"B,DGB cBAG | "Am"AEAB cBAG | "D7"A(GFE) DCB,A, |
+"G"(G,B,)(DG) BdcB | "C"(cd)(ef) gfge | "D7"dbca Bgfg | "D7"ecAF "G"G2G,2 :|
 %
-%%text Chords: G G Am D7 | G C D7 D7/G :|   G Am/G G/Am Am/D7 | G Am/G G/Am D7/G :|
+[P:{B}]|:\
+"G"gag!0!e "^II"!2!d!1!g!3!b!2!d | "Am""^I"!2!cfac "G"Bdgd | "G"BGdB "Am"cAag | "Am"(fg)(ef) "D"defd |
+"G"(gag)e dgbd | "Am"cfac "G"Bdgd | "G"eg db "Am"caBg | "D7"ecAF "G"G2G,2 :|
+%
+%%text Chords: G G Am D7 | G C D7 D7/G :| G Am/G G/Am Am/D7 | G Am/G G/Am D7/G :|
 %
 X: 1760203499
 T: The Twenty-Eighth of January
@@ -1413,19 +1439,20 @@ K: Dmaj
 %noswing
 %
 [P:A-part]AG\
-|: "D" FDAD FADF | "Em" BEGB EGBG | "D" FDAF DAFD |  "A" A,CEA, CEA,E |
-   "D" FDAD FADF | "Em" BEGB EGBG | "A" FDAF EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
+|: "D" FD!4!AD F!0!ADF | "Em" BEGB EGBG | "D" FD!4!AD F!0!ADB, |  "A" (A,C)uE(A, C)uEA,E |
+   "D" (FD)(!4!AD) F!0!ADF | "Em" BEGB EGBG | "A" (FD)(!4!AF) EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
 %
 [P:B-part]\
-|: "D" Fdcd AFDF | "G"  EA,CE DCDE | "D" Fdcd AFDF |  "A" E^GBG Acec|
-   "D" dAFA DFAF | "Em" BEGB EGBG  | "A" FDAF EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
+|: "D" Fdcd A(FDF) | "G"  EA,CE DCDE | "D" Fdcd A(FDF) |  "A" (E^G)(BG) Acec|
+   "D" dA(F!4!A) (DF)!0!AF | "Em" BEGB EGBG  | "A" (FD)(!4!AF) EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
 %
 [P:A-part (var.)]
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
-   "D" AFAD FADF | "Em" BEGB EGBG | "A" FGAF A,CEC | "A" DFAc "D" d2 ag :|
+   "D" (!4!AF)(!0!AD) FADF | "Em" BEGB EGBG | "A" (FG)(!4!AF) (A,C)(EC) | "A" DFAc "D" d2 ag :|
 %
 %%text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
 %
+
 X: 1773528439
 T: Whiskey Before Breakfast
 C: Trad.
