@@ -8,12 +8,12 @@ Q: 1/2=105
 Z: Cameron Cross
 K: Dmaj
 %
-[P:A-part]
+[P:{A}]
 FE \
 |: "D" DFAF DFA,F     | "A" EGAG EGA,G        |  "D" FAdF "G" GBec |
    "D" Adfd "A" cAGE  | "D" DFAF DFA,F        |  "A" EGAG EGA,G | 
    "D" FAdF "G" GBec  |1 "A" d2 f2 "D" d2 FE :|2 "A" d2 f2 "D" d2 cd ||
-[P:B-part]
+[P:{B}]
 |: "A" ecAc EAce      | "D" fdAd FAdf         |  "G" g2 fg "E" efde |
    "E" edcB "A" A2 cd | "A" ecAc EAce         |  "D" fdAd FAdf  | 
    "G" gbag "A" fedc  |1 "D" d2 f2 d2 cd     :|2 "D" d2 f2 d4   |]

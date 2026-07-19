@@ -10,14 +10,14 @@ Z: Cameron Cross
 N: A rather jaunty tune, with a nice melody. Something to explore?
 K: Dmaj
 %
-[P:A-part] 
+[P:{A}] 
 de|\
 "D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2GA BcdB | "D" A2F2 F2de |
 "D" f2 fg "A" fedB | "D" A2F2 F2A2 | "G" B2d2 "A" cdec | "D" d2de d2 de |
 "D" f2 fg "A" fedB | "D" A2 [FA]A [AD]A[AF]A | "G" B2 [GB]B [DB]B[GB]B | "D" A2 [FA]A [DA]A[FA]A |
 "D" f2 fg "A" fedB | "D" A2 [FA]A [DA]A[FA]A | "G" BGed "A" cABc | "D" eddc d2 ag ||
 %
-[P:B-part] 
+[P:{B}] 
 "D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB Aceg | "D" b2a2 a2g2 |
 "D" f2 d2 defg | "G" a2gf g2 gf | "A" edcB ABce | "D" f2 d2 d2 de |
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |

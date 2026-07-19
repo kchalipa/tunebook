@@ -10,15 +10,15 @@ N: A very nice slipjig; the sixteenth notes in the first part give it a distinct
 M: 9/8
 Q: 1/2=100
 K: Gmaj
-[P:A-part]
+[P:{A}]
 "G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
 "G" G2g dBG "C" (B/2c/2dB) | "G" G2g dBD "D" (F/2G/2AD) | "G" G2g dBG "C" (B/2c/2dB) | "D" A3 D2B AFD ||
 %
-[P:B-part]
+[P:{B}]
 "C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D2(d A)FD |
 "C" EC(E "G" D)B,D G2 (D | "C" E)CE D2(d "D" A)FD | "C" ECE "G" DB,(D G)FE | "D" FGA D3 (ABc) ||
 %
-[P:C-part]
+[P:{C}]
 "Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE D2c |
 "Em" (BAB) (EDE) B2c | "D" (BAB) (EDE) B,2c | "C" (BAB) (EDE) BAG | "D" ABG AFE DEF :|
 %

@@ -10,12 +10,12 @@ Q: 1/2=105
 K: Cmaj
 %noswing
 %
-[P:A-part] 
+[P:{A}] 
 |:\
 "C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" ecfe | "C" dcBA "G7" G2 (3(GAB) |
 "C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
 %
-[P:B-part]
+[P:{B}]
 |:\
 "G" dBGB dBgf | "C" ecGc ecag | "D7" ^fdAd fdba | "G" gafg "G7" efde |
 "C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|

@@ -9,12 +9,12 @@ R: reel
 M: 4/4
 Q: 1/2=105
 K: Bm
-[P:A-part]
+[P:{A}]
 dc |:\
-"Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA cA | EAce fedc |
-|1 "Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA ce | "Bm" fefg fedc :|
-|2 "Bm" BF (3(FFF) Bcdc | "Em" BG (3(GGG) BcdB | "A" A2 cA eA cA | "A7" ABcd efge ||
-[P:B-part]
+"Bm" BF ~F2 Bcdc | "Em" BG ~G2 BcdB | "A" A2 cA eA cA | EAce fedc |
+|1 "Bm" BF ~F2 Bcdc | "Em" BG ~G2 BcdB | "A" A2 cA eA ce | "Bm" fefg fedc :|
+|2 "Bm" BF ~F2 Bcdc | "Em" BG ~G2 BcdB | "A" A2 cA eA cA | "A7" ABcd efge ||
+[P:{B}]
 |:\
 "D" a3f gfec | ~d2 fd Adfd | "A" ceef efgf | "A7" edcB A2 (3(efg) |
 "D" a3f gfec | ~d2 fd Adfd | "A" ceeg fedc | "Bm" dBBA B3 f :|

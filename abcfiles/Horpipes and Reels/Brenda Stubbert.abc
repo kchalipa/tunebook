@@ -7,15 +7,15 @@ C: Jerry Holland
 R: reel
 M: 4/4
 Q: 1/2=105
-S: Ashley MacIssac, _Hi(tm) How Are You Today?_ (1995)
+S: Ashley MacIssac (Hi(tm) How Are You Today?, 1995)
 N: Ashley plays it in Bb, but the standard key is A Dorian.  I like his accidentals.
 K: Ador
 %
-[P:A-part]           |:\
+[P:{A}]           |:\
    "Am" A2(BA) GAAB  | "Am" A2(BA) "G" eddB | "G" G2(BA) BGGA | "G"  (B^c) (BA) BGGB   |
    "Am" A2(BA) GAAB  | "Am" A2(BA) "Em" edda | "G" gedB   GABd | "Em" e2 (dB) "Am"eAAB :|
 %
-[P:B-part]           |:\
+[P:{B}]           |:\
    "Am" A2a2   A2g2  | "Am" Aage "G" ageg   | "G" G2(BA) BGGA | "G" (B^c) (BA) BGGB    |
 [1 "F" A2a2  A2g2    | "F" Aage "C" agea   | "Em" gedB GABd   | "Em" e2(dB) "Am" eAAB :|]
 [2 "Am" A2(BA) GAAB  | "Am" A2(BA) "G" edda | "G" gedB GABd   | "Em" e2(dB) "Am" eAA2  |]

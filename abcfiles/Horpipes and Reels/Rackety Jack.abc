@@ -9,11 +9,11 @@ M: 4/4
 Q: 1/2=105
 K: Gmaj
 %
-[P:A-part] 
+[P:{A}] 
 "G" DGB2 cBAB | "C" dBcA BGFG | "G" DGB2 cBAB | "D" dBcA BGFE |
 "G" DGB2 cBAB | "C" dBcA BGFG | "D" DGB2 cBAB | "D" dBcA "G" BGG2 :|
 %
-[P:B-part]
+[P:{B}]
 "G" gdBd gdBd | "C" eafa gfed | "G" cBcd edef | "D" gfge d^def |
 "G" gdBd gdBd | "C" eafa gfed | "D" cBcd edef | "D" gdcA "G" G2B2 :|
 %%

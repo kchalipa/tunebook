@@ -12,14 +12,14 @@ N: run as a C#. I know it's out of the key, but I think it sounds awesome.
 Z: Cameron Cross
 K: Gmaj
 %
-[P:A-part]
+[P:{A}]
 "Am" ea2 ^ga2 ef | "G" gedB "Em" GABG | "Am" eaa^g a2 ef | "G" gedB "Am" A2 BG |
 "Am" Aa2 ^ga2 ef | "G" gedB "Em" GABG | "Am" Aeab af ef | "G" gedB "Am" A3 B ||
 %
-[P:B-part]
+[P:{B}]
 "Am" cAeA cAeA | "G" BcdB G2AB | "Am" cAeA cAeA | "G" BAGB "Am" A2AB |
 "Am" cAeA cAeA | "G" BcdB G2AB | "Am" ABcd efga | "G" gedB "Am" A2zB |
-[P:B-part (var.]
+[P:{B} (var.]
 "Am" ceec ecAc | "G" BcdB GABG | "Am" AecA eAcA | "G" BAGB "Am" ABcA |
 "Am" cAeA cAeA | "G" BcdB G2AB | "Am" AB^cd efga | "G" gedB "Am" A2 z2 :|
 %

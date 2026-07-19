@@ -9,14 +9,14 @@ Q: 1/4=180
 S: Loosely adapted from Maggie Sansone (Mist & Stone, 1990)
 N: Can make some great harmonies! I added a high part for reference.
 K: Emin
-[P:A-part]
+[P:{A}]
 E2|:\
 "Em" B,2 E2 F2 | "Em" G4 FE    | "D"  FG AG FE  | "Bm" D2 DE FD | 
 "C"  G2 B2 G2  | "Am" A2 BA GF | "Em" GF E2 FG  | "Em" E4 e2 | 
 "Em" B2 e2 f2  | "Em" g4 fe    | "D"  fg ag fe  | "Bm" d2 e2 f2 | 
 "C" g2 b2 g2   | "Am" a2 gf ed | "Em" BA G2 FG  | "Em" E4 EF ||
 %
-[P:B-part]
+[P:{B}]
 "Em" GA B2 B2 | "Em" B3 A G2  | "D"  FD FG A2  | "Bm"  A4 ed | 
 "Am" B2 e2 f2 | "G" g3 f ed   | "Bm" B2 e2 ^d2 | "Em" e3 B ef | 
 "G" g3 f e2   | "Em7" d3 c Bc | "D"  A2 F2 d2  | "Bm" D2 (3(EDE) F2 |

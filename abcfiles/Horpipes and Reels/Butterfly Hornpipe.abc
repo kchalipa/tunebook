@@ -23,13 +23,12 @@ K: Amaj
 "A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aae(c "A" A2) va2- ||
 %
 %%vskip 1cm
-[P:Variation 1 {A}]
+[P:Variation]
 "A" auc'ae caec | "A" AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
 "A" ac'ae caec | "A" AecA EABc | "B7" v(dcB)u(d (3cec) vAc | "E" vBEGB A2u(a2 |
 "A" ac')vae caec | "A" AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
 "A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E7" dcBd v(3(cec A)uc | "E" BEGB "A" A2a2 ||
 %
-[P:{B}]
 "E" gebg ebge | "A" !1!aec'a ec'ae | "B7" d'bc'a !2!b!2!gaf | "E" e^def e=dcB |
 "A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | "E" A2{g}a2 "A" A2a2 ||
 "E" gebe gb(e!1!a | "A" c')(aec') aec'a | "B7" (d'bc')(a bg (3fgf) | "E" e^def e=dcB |

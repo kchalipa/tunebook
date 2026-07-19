@@ -10,23 +10,23 @@ N: So this is clearly the same base tune as Salt Creek, but it has drifted in di
 N: directions, depending on who is playing it. This version is based on Terry and Dale Morris's.
 K: Amix
 %
-[P:A-part]
+[P:{A}]
 "A" EA2 BA2 cd | "A" efec d2dc | "G" BdBA GBAG | "G" BGAG EGED |
 "A" EAAB A2 cd | "D" efec defd | "E" gfga gfed | "E" cABd "A" c[eA]3 ||
 "A" EGA2 A3c | "A" efec dedc | "G" BdBA GABG | "G" ABAG ECDC |
 "A" A,2CE A2 cd | "D" eaec d2cd | "E" egbf gfed | "E" cABA "A" cA[cA]2 ||
 %
-[P:B-part]|:\
+[P:{B}]|:\
 "A" eaga "G" bgag | "A" eaga "G" bgag | "A" edfd "G" gedg | "E" (3(efg) bg aged |
 "A" egag "G" bgag | "A" e^gae "G" be=gf | "E" efga gfed | "E" cABd "A" c[eA]3 :|
 %
-[P:A-part] 
+[P:{A}] 
 "A" A,CE^G AB (3(cde) | "A" eBca fedc | "G" BGAG EAA,E | "G" DCB,D A,DCB, |
 "A" [A,E]2 (3(EF^G) A2 cd | "D" efec dfed | "E" eagb aged | "E" fdBe "A" cA3 ||
 "A" EFAB A2cd | "A" efec d2dc | "G" BdB G2 BAG | "G" EGBd gdBA |
 "A" EA2 BA3B | "D" A2[Ac]A d[df]2f | "E" e^deb afe=d | "E" fdBe "A" cA3 ||
 %
-[P:B-part (low, play in 3rd position)]|:\
+[P:{B} (low, play in 3rd position)]|:\
 "A" EAGA "G" BGAG | "A" EAGA "G" BGAG | "A" EDFD "G" GEDG | "E" FGBG AGED |
 "A" EA2G "G" BGAG | "A" EA2G "G" [GB]2(3(BAG) | "E" EFGE AEGF | "E" EDCB, "A" G,A, A,2 :|
 %

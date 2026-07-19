@@ -11,25 +11,27 @@ N: I found at https://thesession.org/tunes/872.
 K: Fmaj
 %noswing
 %
-[P:A-part] 
+[P:{A}] 
 cde|:\
 "F" fcAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "F" AfcA "C" GcAc |
 "F" fcAc "Bb" BdcB | "F" AFAc "Bb" BdcB | "C" ABcd efge | "F" f2 a2 f2 ef :|
 %
-[P:B-part] 
+[P:{B}] 
 |:\
 "C" gece gebg | "F" afcf afba | "C" gece gaba | "C" gfed cABc |
 "Bb" dBFB dBfd | "F" cAFA =BcAc | "C" bgec =Bceg | "F" fa^ga f2 ce :|
 %
-[P:A-part (var.)] 
+[P:{A} (var.)] 
 |:\
 "F" fcAc "Bb" BdcB | "F" AFcF "Bb" BdcB | "F" AFcF "Bb" BABG | "F" AGAF "C" G2fe |
 "F" fcAc "Bb" BdcB | "F" AFcF "Bb" BdcB | "C" ABcd ebge | "F" f2fe fgfe :|
 %
-[P:C-part]
+[P:{C}]
 |:\
 "F" c'd'c'b afac' | "Bb" bd'2b d'c'bc' | "F" abc'a d'c'ba | "C" efge c2 (3ABc |
 "Bb" dBFB dBfd | "F" cAFA =BcAc | "C" bgec =Bceg | "F" f2a2 f2 ef :|
 %
-%%text Chords: F/Bb F/Bb F/Bb F/C | F/Bb F/Bb C F :|   C F C C | Bb F C F :|   F Bb F C | Bb F C F :|
+%%text A-part: F/Bb F/Bb F/Bb F/C | F/Bb F/Bb C F :|
+%%text B-part: C F  C C | Bb F C F :|
+%%text C-part: F Bb F C | Bb F C F :|
 %

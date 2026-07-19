@@ -8,11 +8,11 @@ M: 4/4
 Q: 1/2=105
 K: Amaj
 %
-[P:A-part]
+[P:{A}]
 "A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | "E" BEcB AFEC |
 "A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | "E" ecB^G "A" A2c2 :|
 %
-[P:B-part]
+[P:{B}]
 "A" a2ec Aceg | "B7" b2f^d Bdfd | "E" efge bege | "B7" fe^df e=dcB |
 "A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | "E" cBAG "A" A2c2 :|
 %

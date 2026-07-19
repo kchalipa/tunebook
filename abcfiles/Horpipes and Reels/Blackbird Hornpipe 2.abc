@@ -11,14 +11,14 @@ N: A little more repetitive, but in a good way! Good as a reference.
 N: Chording remains basic / uncertain.
 S: Padraig McGovern and Peter Carberry: https://youtu.be/5vidJn-Ebyc?si=eCc98qBibmGQ52gS
 K: Dmaj
-[P:A-part] 
+[P:{A}] 
 fe|\
 |: "D"dcAF GF D2 | (3EFG AB "C"=c3 A | "D"~d2 AF "A7"GBAG | "D"F2 D2 D2 (3ABc |
 dcAF GF D2 | (3EFG AB "C"B=c2 A | "D"~d2 AF "A7"GBAG | "D"F2 D2 D2 fe :|
-[P:B-part] 
+[P:{B}] 
 |: "D"d2 (3efg ad fa | "G"{ga}gfga gfdA | "D"d2 (3efg abag | {fg}f2 d2 d2 (3efg |
 "D"ag (3fga g2 fe | "G"dcde fd (3efe | "D"dcAF GBAG | F2 D2 D3 A :|
-[P:C-part]
+[P:{C}]
 |: "D"D2 (3EFG "C"AB=cA | "D"dcde dcAF | D2 (3EFG AdAG | {FG}F2 D2 D2 AF |
 "D"D2 (3EFG "C"AB=cA | "D"dcdg fd (3efe | dcAF GBAG | {FG}F2 D2 D3 A :|
 %

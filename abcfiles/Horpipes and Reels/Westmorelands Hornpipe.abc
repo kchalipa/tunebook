@@ -7,18 +7,20 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: Terry Morris, _Touch of Texas_ (1976)
+N: Very pretty tune. I've marked alternating closed and open strings to give it more
+N: tonal variety.
 K: Dmaj
 %noswing
 %
-[P:A-part]AG\
+[P:{A}]AG\
 |: "D" FD!4!AD F!0!ADF | "Em" BEGB EGBG | "D" FD!4!AD F!0!ADB, |  "A" (A,C)uE(A, C)uEA,E |
    "D" (FD)(!4!AD) F!0!ADF | "Em" BEGB EGBG | "A" (FD)(!4!AF) EDCE |1 "A" DFAc "D" d2 AG :|2 "A" D2 F2 "D" D2 DE ||
 %
-[P:B-part]\
-|: "D" Fdcd A(FDF) | "G"  EA,CE DCDE | "D" Fdcd A(FDF) |  "A" (E^G)(BG) Acec|
+[P:{B}]\
+|: "D" Fdcd A(FDF) | "G"  EA,CE DCDE | "D" F(dcd) AFDF |  "A" (E^G)(BG) Acec|
    "D" dA(F!4!A) (DF)!0!AF | "Em" BEGB EGBG  | "A" (FD)(!4!AF) EDCE |1 "D" D2 F2 D2 DE :|2 "D" D2 F2 D2 ag ||
 %
-[P:A-part (var.)]
+[P:{A}]
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
    "D" (!4!AF)(!0!AD) FADF | "Em" BEGB EGBG | "A" (FG)(!4!AF) (A,C)(EC) | "A" DFAc "D" d2 ag :|
 %

@@ -18,7 +18,7 @@ K: G
 "G"g2 (ga) bage | "D"(fa)(ab) a2 ga | "D"(aga)(b ag)ed | "Em"(Bde)f e2 ef |
 "Em"(gf)(af) gfed | "C"e(dBd) efge  | "D"dcBG AcBG | "D"A(G[GA][FA]) "G"G2 [G,D]2 :|
 %
-%%vskip 1cm
+%%vskip 0.5cm
 [P:Variation 1] |:\
 "G"GDGB "G/F#"AFAc | "G"BAGB "G/A"Au(GED) | "G"v(FG)uGB ABcA | "G"B(G[GA][FA]) G2 (3(DEF) |
 "G"GFGA Bu(d [dg]2) | "C"v([dg] [eg]4)z u(ef) | "D"gfed "D"cBAc | "G"BGAF G2 [G,D]2 :|
@@ -26,7 +26,7 @@ K: G
 "G"([Bg][bd]) [bd]2 (bc'd')b | "D"a(gad') a2u(eg) | "D"ag(_ba) (ga)ea | "Em"g(!4!e!0!eg) e2(ef) |
 "Em"gfga gfeu(d | "C"e2) (d!4!e !0!e)fge | "D"dcBd cBAc | "D"BGAF "G"G2 [G,D]2 :|
 %
-%%vskip 1cm
+%%vskip 0.5cm
 [P:Variation 2] |:\
 "G"vG2 (GA "G/F#"G)v(EGA | "G"G)(D GA "G/A"G)v(GA)c | "G"BAGB AGEG | "G"!4!A(G,[G,G][G,F]) G2DE |
 "G"GABG AcBA | "C"(Be)(ef) e2d2 | "D"BABG AGEG | "G"!4!A(G,[G,G][G,F]) [G,G]2 [G,D]2 :|

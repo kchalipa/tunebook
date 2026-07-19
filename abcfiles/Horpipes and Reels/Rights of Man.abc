@@ -10,11 +10,11 @@ Q: 1/2=105
 Z: https://thesession.org/tunes/83
 K: Emin
 %
-[P:A-part]
+[P:{A}]
 GA|:\
 "Em" B2A2 G2F2 | EFGA  B2ef | "G" gfed "D" edBd | "C" cBAG "Bm" A2GA |
 "Em" BcAB GAFG | EFGA  B2ef | "G" gfed "D" Bgfg | "Em" e2 E2 E2 GA :|
-[P:B-part]
+[P:{B}]
 "G" babg "Em" efga | "G" babg "Em" egfe | "D" d^cde fefg | "Bm" afdf a2gf |
 "C" edef gfga | "Am" bgaf "Em" gfef | "Am" gfed "D" Bgfg | "Em" e2 E2 E2 ga :|
 %

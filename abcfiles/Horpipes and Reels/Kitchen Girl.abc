@@ -10,21 +10,21 @@ Z: Cameron Cross
 N: Great jam tune.  For inspiration, see https://youtu.be/912wUcMXG_0?feature=shared
 K: Amix
 %
-[P:A-part] 
+[P:{A}] 
 |: "A" [ca]4 "G" [gB]4  | "A" efed c2 cd | "A" e2 f2 gaba | "E7" g2 e2 e2 eg |
    "A" abaf "G" gagf | "A" efed cdef | "G" g2 d2 "E7" efed | "A" c2 A2 A4 :|
 %
-[P:B-part] 
 K:Amin
+[P:{B}] 
 |: "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" A2 AA c2 d2 | "E7" e3 g e4 |
    "Am" A2 c2 "G" BA G2 | "Am" ABAG E4 | "Am" c2 Ac "G" BA G2 | "Am" A4 A4 :|
 %
-[P:A-part (var.)] 
+%%vskip 0.5cm
+[P:Variation] 
 K:Amix
 |: "A" [A,E]2 [ca]2 "G" [G,D]2 [gB]2 | "A" efed cBA^G | "A" Adeg bagf | "E7" e^def e=deg |
    "A" abaf "G" gfed | "A" cdec AEGF | "G" EFGA "E7" Bdge | "A" dcBc A2 AB :|
 %
-[P:B-part (var.)] 
 K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|

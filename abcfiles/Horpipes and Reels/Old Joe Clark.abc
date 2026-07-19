@@ -10,11 +10,11 @@ N: This is a popular bluegrass tune. Here is a simple version I got from a mando
 N: Will work with this more in the future.
 K: Amix
 %
-[P:A-part] 
+[P:{A}] 
 "A" e2f2 g2f2 | "A" efed c4 | "A" e2f2 g2f2  | "E" e8 | 
 "A" e2f2 g2f2 | "A" efed c4 | "A" cBAc "G" BA G2 | "A" A8 :|
 %
-[P:B-part] 
+[P:{B}] 
 "A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
 "A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
 %

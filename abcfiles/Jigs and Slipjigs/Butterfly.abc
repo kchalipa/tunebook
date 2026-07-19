@@ -10,13 +10,13 @@ N: just a model to be played with.
 M: 9/8
 Q: 1/2=100
 K: Ador
-[P:A-part]
+[P:{A}]
 "Em" B2E (G2E) "D" F3 | "Em" B2E (G2E) "Bm" FED | "Em" B2E (G2E) "D" (EF2) | "C" (B2d) (d2B) "D" AFD :|
 %
-[P:B-part]
+[P:{B}]
 "C" (B2c) (e2f) (fg2) | "Bm" (B2d) (g2e) dBA | "Am7" (B2c) (e2f) (g2a) | "D" (b2a) (g2e) dBA :|
 %
-[P:C-part]
+[P:{C}]
 "G" B3 (B2A) G2A | "G" B3 (BA)B "D" dBA | "G" B3 (B2A) G2A | "C" B2d (g2e) "D" dBA :|
 %
 %%text A-part: Em/D Em/Bm Em/D C/D :|

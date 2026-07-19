@@ -11,18 +11,18 @@ N: Now this is an interesting number! The A-part uses the "Dorian vamp," pretty 
 N: in fiddle tunes but a staple in classic rock. Seems like a popular bluegrass tune.
 K: Ador
 %
-[P:A-part]
+[P:{A}]
 "Am" A,2CE "D" D2FD | "Am" A,CDE "D" D2A2 | "Am" zBcB "G" AGEG | "F" ABcB "Em" AGED |
 "Am" A,2CE "D" D2FD | "Am" A,DCE "D" D2e2 | "Am" zfgf edBA | "Em" EA "Am" ABA4 :|
-[P:B-part]
+[P:{B}]
 "Am" ea3  abag | "Am" egab agef | "G" gfga bagf | "G" efga "Em" bagf |
 "Am" e2a2 abag | "Am" egab a2ag | "G" efgf edBG | "Em" EG AB "Am" A4 :|
 %
-[P:A-part (var.)]
+[P:{A} (var.)]
 "Am" A,A,C2 "D" D2FA, | "Am" zA,CC "D" D2F2 | "Am" ABcB "G" AGEG | "F" ABcB "Em" AGED |
 "Am" A,2CE "D" D2FA, | "Am" zA,CE "D" D2A2 | "Am" zBcB  AGFG | "Em" AG Ac "Am" A4 :|
 %
-[P:B-part (var.)]
+[P:{B} (var.)]
 "Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab ageg |
 "Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
 %

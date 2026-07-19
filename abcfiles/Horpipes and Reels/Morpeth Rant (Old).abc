@@ -12,13 +12,13 @@ M: 4/4
 Q: 1/2=105
 K: Gmaj
 %
-[P:A-part] 
+[P:{A}] 
 DF|:\
    "G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "Am" cBAG | "D7" F2A2 AcBA |
 [1 "G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | B2AB "D7" cBAG | D2G2 "G" G2 (3(DEF) :|]
 [2 "G" G2DB, G,B,DB, | "C" G,CEC "G" G,B,DG | BGAB "D7" cBAG | DFAF "G" G2 Bd |]
 %
-[P:B-part]|:\
+[P:{B}]|:\
    "G" gfed B2GB | "D7" cBAG F2D2 | "C" E2CE "Am" cBAG | "D7" F2D2 D2GF |
 [1 "C" E2CE cBAG | "D7" F2DF dcBA | "G" Ggfg "D7" ecAF | A2G2 "G" G2 Bd :|]
 [2 "C" ECEG cBAG | "D7" FDFA dcBA | "G" Ggfg "D7" ecAF | GFAF "G" G2G2 |]
