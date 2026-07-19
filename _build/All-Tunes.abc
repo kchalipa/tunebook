@@ -944,6 +944,36 @@ K: Cmaj
 %%
 %%text Chords: G C/G G/Am D7 | G C/G D7 D7/G :|   G D7 C/Am D7 | C D7 G/D7 D7/G :|
 %
+X: 1
+T: Petronella
+R: reel
+Q: 1/2=105
+[P:Petronella]
+K: Dmaj
+|:F2 AF E2 AF|D2D2 D2 FA|d2 cd e2d2|cdec A2 dA|F2 AF E2 AF|
+D2D2 D2 FA|d2 cd e2c2|d4 d2 dA:|F2 fd A2 af|g2 gf edcB|
+A2 ec A2 ge|f2 fd AdAF| D2 fd A2 af|g2 gf edcB|A2 ec Agec|d4 d2A2:|
+[P:Devil]
+K: Amaj
+a2eg a2eg | a2ea fedc | dfBf dfBf |  dfba gefg | a2eg a2eg | 
+a2ea fedc | defd ecBA | E2A2 A2e2 :| ceAe ceAe | ceag fedc |
+dfBf dfBf | dfba gedc | ceAe ceAe | ceag fedc | defd ecBA | E2A2A4 :|
+[P:Maxwell]
+K: Dmaj
+dD FD|CE EB/c/|dD FA|d3 B/c/|dD FD|CE ED/C/|B, D CE|D3:|
+A|de fd|e/d/c/B/ AA|de df|e2 ec|de fd|e/d/c/B/ Ad/e/|fd ec|d3:|
+[P:Linton]
+K: Amaj
+|:Ac ce a2 ae|fe fg a2 a2|Ac ce a2 ae|fa ec B2 A2:|
+|:ce ea fd df|ec ce d/c/B B2|ce ea fd df|ea ec B2 A2:|
+[P:St Annes]
+K: Dmaj
+ f2fg  fedB| A2F2F2A2| B2GA BcdB|A2F2 F2de|
+ f2fg  fedB| A2F2F2A2| B2d2 cdec|1  d2de d2de:|2  d2de d2ag||
+ f2d2 defg| a2gf g2gf| edcB Aceg|b2a2 a2g2|
+f2d2 defg|a2gf g2gf|edcB ABce|1 f2f2 d2ag:|2 f2d2d2z2||
+
+
 X: 1660510034
 T: Queen of the West
 C: Trad.
