@@ -15,7 +15,7 @@ N: arrangement.
 K: Dmaj
 %
 [P:{A}] A,2|\
-"D"D2FD "G"GFED | "D"AdAF ABAF | "D/A"D2FD "Bm"GFEd| "C"=cEEc "Em"BEEG|
+"D"D2FD "G"GFED | "D"AdAF ABAF | "D/A"D2FD "Bm"GFEd| "C"=cEEc "Em"BEGE|
 "D"D2FD "G"GFED | "D"AdAF AdAF | "D"D2FD   "A7"GFEc| "D"dDDA, D2A,2|
 "D"D2FD "G"GEFE | "D"DEFG ABAF | "D/A"D2FD "Bm"GEFA| "C"=cE (3EEE "Em"BEGE|
 "D"D2FD "G"GEFE | "D"DEFG ABAF | "D"D2FA   "A7"GAce| "D"d2dc d2B2||
@@ -28,8 +28,8 @@ K: Dmaj
 "D"d2fd "G"gfec | "D"defg abaf | "D/A"d2fd "Bm"geab| "C"=c'eec' "Em"bege |
 "D"d2fd "G"gefe | "D"defg abaf | "D"d2fa "A7"gfed  | "D"egfe fdd2 :|
 [P:{B} (var.)] |:\
-"C"v[A,G=c]4 "G"v[B,BG]4 | "D"v[A,DA]4 v(AdA)(F | "D/A"D2) [DA]3 "Bm" (FAB) | "C"=c4- "Em"c EAB|
-"C"=cEGc "G"BGDB, | "D"(A,D)(de) fdAF | "D"DEFG ABcA | "A7"dAFA "D"D2B2 :|
+"C"v[A,G=c]4 "G"v[B,BG]4 | "D"v[A,DA]4 v(AdA)u(F | "D/A"[DA]2) v[DA]3 "Bm" FAB | "C"=c4- "Em" cEAB|
+"C"=cGAc "G"B(GDB,) | "D"(A,D)(de) fdAF | "D"DEFG ABcA | "A7"dAFA "D"D2B2 :|
 %
 %%text A-part: D/G D D/Bm C/Em | D/G D D/A7 D
 %%text B-part: C/G D D/Bm C/Em | C/G D D/A7 D
