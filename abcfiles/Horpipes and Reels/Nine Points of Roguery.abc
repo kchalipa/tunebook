@@ -6,36 +6,31 @@ C: Trad.
 R: reel
 M: 4/4
 Q: 1/2=105
-S: Ho-ro-gheallaidh vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
+S: _Ho-ro-gheallaidh_ vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
 Z: Cameron Cross
-N: It seems many versions of this tune place an Em chord in the fourth bar of both parts.
-N: Maggie goes to a C instead, and I like that.
+N: It seems the standard version of this tune is to play Em over the 4th measure, with the melody 
+N: BEEE BEGE (in both octaves).  However, Maggie, as a dulcimer player, has no problem going up 
+N: to a C and then down to the Em chord.  I really like that, so I've adapted it to a fiddle-friendly 
+N: arrangement.
 K: Dmaj
 %
-%%text Basic tune
-"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FD GEFA|"Em"BE~E2 BEGE|
-"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
-|:\
-"C"=c3A"G"B3G|"D"A2AB AGFE|"D"D2FD GEFA|"Em"BE~E2 BEGB|
-"C"=c3A"G"B3G|"D"Adcd fdAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
-|:\
-"D"d2fd gefe|"D"defg abaf|"D"d2fd gefa|"Em"be~e2 bege|
-"D"d2fd gefe|"D"defg abaf|"D"d2fa "A7"gece|"D"d2dc d4:|
+[P:{A}] A,2|\
+"D"D2FD "G"GFED | "D"AdAF ABAF | "D/A"D2FD "Bm"GFEd| "C"=cEEc "Em"BEEG|
+"D"D2FD "G"GFED | "D"AdAF AdAF | "D"D2FD   "A7"GFEc| "D"dDDA, D2A,2|
+"D"D2FD "G"GEFE | "D"DEFG ABAF | "D/A"D2FD "Bm"GEFA| "C"=cE (3EEE "Em"BEGE|
+"D"D2FD "G"GEFE | "D"DEFG ABAF | "D"D2FA   "A7"GAce| "D"d2dc d2B2||
 %
-%%vskip 1cm
-%%text Variations (w/ alternate chords)
-|:\
-"D"D2FD "G"GFED|"D"AdAF ABAF|"D"D2FD "Bm"GFEd|"C"=cEEc "Em"cEGE|
-"D"D2FD "G"ADFE|"D"DEFG ABAF|"D"DEFG "A7"ABcA|"D"dAFA D2A2:|
-|:\
-"C"[G,=cE]4"G"[B,GB]4|"D"[A,FA]4ABAF|"D"DA,DF GFEd|"C"=cE[Ec]2"Em"BEGB|
-"C"=cdcA "G"BdBG|"D"Adcd fdAF|"D"DEFA "A7"GABc|"D"dfec d2A2:|
-|:\
-"D"d2fd "G"gefg|"D"[da]2ad' agfe|"D"dAdf "Bm"gfed'|"C"=c'e[ec'][bd]"G"[bd]2(3(ABc)|
-"D"d2fa "G"gfec|"D"defg abaf|"D"defa "A7"gfeg|"D"fdge fd[fd]2:|
-|:\
-"C"[A,G=c]4"G"[B,BG]4|"D"[A,DA]4zdAF|"D"D4DA,GA|"C"=c4"Em"cEGB|
-"C"=cEGc "G"BGDB,|"D"A,FAd fdAF|"D"DEFG ABcA|"A7"dAFA "D"D2A2:|
+[P:{B}] |:\
+"C"=c3A "G"B3G | "D"A2AB AGFE | "D/A"D2EF "Bm"GFEd | "C"=cEEc "Em"BEGB | "C"=cecA "G"BdBG |
+"D"Adcd fdAF |1 "D"D2EF "A7"GFEc | "D"dDDA, D2B2 :|2 "D"D2FA "A7"GAce | "D"d2dc d2A2 ||
 %
-%%text Chords: D/G D D/Bm C/Em | D/G D D A7/D :|   C/G D D/Bm C/Em | C/G D D A7/D :|
+[P:{A} (var.)] |:\
+"D"d2fd "G"gfec | "D"defg abaf | "D/A"d2fd "Bm"geab| "C"=c'eec' "Em"bege |
+"D"d2fd "G"gefe | "D"defg abaf | "D"d2fa "A7"gfed  | "D"egfe fdd2 :|
+[P:{B} (var.)] |:\
+"C"v[A,G=c]4 "G"v[B,BG]4 | "D"v[A,DA]4 v(AdA)(F | "D/A"D2) [DA]3 "Bm" (FAB) | "C"=c4- "Em"c EAB|
+"C"=cEGc "G"BGDB, | "D"(A,D)(de) fdAF | "D"DEFG ABcA | "A7"dAFA "D"D2B2 :|
+%
+%%text A-part: D/G D D/Bm C/Em | D/G D D/A7 D
+%%text B-part: C/G D D/Bm C/Em | C/G D D/A7 D
 %
