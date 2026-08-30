@@ -14,7 +14,7 @@ K: Emin
 %
 [P:{A}]
 EF|:\
-"Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
+"Em" GFGA BABd | e^def efge | "G" dBge dBAB | GFED EDB,D |
 "Em" E2EF GAGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
 %
 [P:{B}]
@@ -22,5 +22,5 @@ EF|:\
 "G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
 %
 %
-%%text Chords: Em Em G G | Em D B7 Em :|   Em Em G D | G/D G/D B7 Em :|
+% text Chords: Em Em G G | Em D B7 Em :|   Em Em G D | G/D G/D B7 Em :|
 %

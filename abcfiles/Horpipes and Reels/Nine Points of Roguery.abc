@@ -5,32 +5,39 @@ T: a.k.a. The Black Mare of Fanad
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
+Q: 1/2=100
 S: _Ho-ro-gheallaidh_ vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
 Z: Cameron Cross
-N: It seems the standard version of this tune is to play Em over the 4th measure, with the melody 
-N: BEEE BEGE (in both octaves).  However, Maggie, as a dulcimer player, has no problem going up 
-N: to a C and then down to the Em chord.  I really like that, so I've adapted it to a fiddle-friendly 
-N: arrangement.
+N: Maggie plays over a C chord on the 4th measure of every part; I really like that, but it seems that going to Em 
+N: is far more common.  Plus it makes the C really pop when we get to the {B} part.
 K: Dmaj
 %
-[P:{A}] A,2|\
-"D"D2FD "G"GFED | "D"AdAF ABAF | "D/A"D2FD "Bm"GFEd| "C"=cEEc "Em"BEGE|
-"D"D2FD "G"GFED | "D"AdAF AdAF | "D"D2FD   "A7"GFEc| "D"dDDA, D2A,2|
-"D"D2FD "G"GEFE | "D"DEFG ABAF | "D/A"D2FD "Bm"GEFA| "C"=cE (3EEE "Em"BEGE|
-"D"D2FD "G"GEFE | "D"DEFG ABAF | "D"D2FA   "A7"GAce| "D"d2dc d2B2||
+[P:{A}] A,2 |:\
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFA | "Em"BE (3EEE BEGE | 
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
-[P:{B}] |:\
-"C"=c3A "G"B3G | "D"A2AB AGFE | "D/A"D2EF "Bm"GFEd | "C"=cEEc "Em"BEGB | "C"=cecA "G"BdBG |
-"D"Adcd fdAF |1 "D"D2EF "A7"GFEc | "D"dDDA, D2B2 :|2 "D"D2FA "A7"GAce | "D"d2dc d2A2 ||
+[P:{B}]
+"C"=c3A "G"B3G   | "D"A2AB AGFE | D2FD "Bm"GEFA | "Em"BE (3EEE B,EGB |
+"C"=cBAc "G"BAGB | "D"Adcd fdAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
-[P:{A} (var.)] |:\
-"D"d2fd "G"gfec | "D"defg abaf | "D/A"d2fd "Bm"geab| "C"=c'eec' "Em"bege |
-"D"d2fd "G"gefe | "D"defg abaf | "D"d2fa "A7"gfed  | "D"egfe fdd2 :|
-[P:{B} (var.)] |:\
-"C"v[A,G=c]4 "G"v[B,BG]4 | "D"v[A,DA]4 v(AdA)u(F | "D/A"[DA]2) v[DA]3 "Bm" FAB | "C"=c4- "Em" cEAB|
-"C"=cGAc "G"B(GDB,) | "D"(A,D)(de) fdAF | "D"DEFG ABcA | "A7"dAFA "D"D2B2 :|
+[P:{A'}]
+"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "Em"be (3eee bege |
+"D"d2fd "G"gefe | "D"defg abaf | defg "A7"agfe | "D"egfe f(d[fd]2) :|
 %
-%%text A-part: D/G D D/Bm C/Em | D/G D D/A7 D
-%%text B-part: C/G D D/Bm C/Em | C/G D D/A7 D
+[P:{B}]
+"C"[=c'e]4 "G"[bd]4 | "D"[af]4 abaf | dAdf "Bm"gfea | "Em"beeb [be]2ab |
+"C"=c'bac' "G"bd'af | "D"dAcd fdAF | D2FA "A7" GAce | "D"dfec d2A2 :|
 %
+%%vskip 0.5cm
+[P:Variation 1]
+"D"D2FD "G"GFED | "D"AdAF ABAF | D2FD "Bm"GFEA | "Em"BEEB BEGE |
+"D"D2FD "G"GFED | "D"AdAF AdAF | D2FD "A7"GFEc | "D"dDDA, D2A,B, :|
+%
+"C"=C2[E=c]2 "G"B,2[BG]2 | "D"A,2[Fd]2 dAFE | DA,DF "Bm"GFEA |"Em"BEB=c BGAB |
+"C"=c2(3dcA "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
+%
+"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | d2(de) "Bm"fabd'| "Em"(be)(ab) bege | 
+"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A2 :|
+%
+"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BEGA BGAB |
+"C"=cdcA "G"BGDB, | "D"A,DAd fdAF | DEFA "A7"G2[Gc]2 | "D"d3c d4 :|

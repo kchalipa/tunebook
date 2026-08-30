@@ -4,7 +4,7 @@ T: The Kitchen Girl
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
+Q: 1/2=110
 S: _Kentucky Open Band Contra Tunes_, with some original variations. 
 Z: Cameron Cross
 N: Great jam tune.  For inspiration, see https://youtu.be/912wUcMXG_0?feature=shared
@@ -29,5 +29,5 @@ K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
 %
-%%text Chords: A/G A A E7 | A/G A G/E7 A :|   Am/G Am Am E7 | Am/G Am Am G/Am 
+% text Chords: A/G A A E7 | A/G A G/E7 A :|   Am/G Am Am E7 | Am/G Am Am G/Am 
 %

@@ -1,39 +1,40 @@
 %abc-2.1
 X: 1776976766
 T: Butterfly Hornpipe
+T: (a.k.a. Dew Drop)
 C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
 Q: 1/2=105
-S: Terry Morris, _For the Record_, plus some variations by Chris Daring.
-N: For all his improvisational abilities, Terry is remarkably consistent with this tune.
-N: I guess he liked it this way! :)  I've added a few licks of my own.
+S: Terry Morris, _For the Record_; variation 1 by Chris Daring.
 K: Amaj
 %noswing
 %
-[P:{A}]|:\
-"A" v(ac'a)e caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | "A" u(ac')ae caec |
-"D" AecA E2c2 | "E7" dfBd ceAc |1 "E" BEGB "A" Au(Ace) :|2 "E" BEGB "A" A(cBA) ||
+[P:{A}]
+"A" v(ac'a)e caec | AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | 
+"A" u(ac')ae caec | "D" AecA E2c2 | "E" dfBd ceAc | BEGB "A" Au(Ace) |
+"A" v(ac'a)e caec | AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | 
+"A" u(ac')ae caec | "D" AecA E2c2 | "E" dfBd ceAc | BEGB "A" A(cBA) ||
 %
 [P:{B}]
 "E" GBEG BEGB | "A" AcEA cEBc | "B7" (dB)(cA) BG!4!AF | "E" (E^DE)(F E=D)CB, |
-"A" (A,C)(EC) !4!AEcA | "B7" (B,!4!D)(F!4!A) BFdc | "E" BAGF EDCB, | "E" A,AE(C "A" A,2) (3(cBA |
+"A" (A,C)(EC) !4!AEcA | "B7" (B,!4!D)(F!4!A) BFdc | "E" BAGF EDCB, | A,AE(C "A" A,2) (3(cBA |
 "E" G)[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGB | "E" (3(cde e)(f ed)cB |
-"A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aae(c "A" A2) va2- ||
+"A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | Aae(c "A" A2) va2- ||
 %
 %%vskip 1cm
-[P:Variation]
-"A" auc'ae caec | "A" AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
-"A" ac'ae caec | "A" AecA EABc | "B7" v(dcB)u(d (3cec) vAc | "E" vBEGB A2u(a2 |
-"A" ac')vae caec | "A" AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
-"A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E7" dcBd v(3(cec A)uc | "E" BEGB "A" A2a2 ||
+[P:Variation 1]
+"A" auc'ae caec  | AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
+"A" ac'ae caec   | "D" AecA EABc | "E" v(dcB)u(d (3cec) vAc | vBEGB "A" A2u(a2 |
+"A" ac')vae caec | AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
+"A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E" dcBd v(3(cec A)uc | BEGB "A" A2a2 ||
 %
 "E" gebg ebge | "A" !1!aec'a ec'ae | "B7" d'bc'a !2!b!2!gaf | "E" e^def e=dcB |
-"A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | "E" A2{g}a2 "A" A2a2 ||
+"A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | A2{g}a2 "A" A2a2 ||
 "E" gebe gb(e!1!a | "A" c')(aec') aec'a | "B7" (d'bc')(a bg (3fgf) | "E" e^def e=dcB |
-"A" Acec aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aaec "A" A2a2 |]
+"A" Acec aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | Aaec "A" A2a2 |]
 %
 %
-%%text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
+% text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
 %

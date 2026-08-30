@@ -6,8 +6,7 @@ R: reel
 M: 4/4
 Q: 1/2=105
 S: Cameron Cross and Joey McKensie
-N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it 
-N: sounds a little off.
+N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it sounds a little off.
 K: Dmaj
 %
 [P:{A}](3(fg^g)|\
@@ -26,6 +25,6 @@ K: Dmaj
 |: "D" aead' bafe | "G" defd edBd | "D" (3(ABc) "Bm" df edef | "E7" (3(ABc) "A7" df edf2 |
    "D" aead' bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "A7" fdec "D" d4 :|
 %
-%%text Chords: D G D A | D G A/AD :|              Bm G D A | Bm G A A/D
-%%text Alt.:   D G D/Bm E7/A7 | D G D/Bm A7/D :|  D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D :|
+% text Chords: D G D A | D G A/AD :|              Bm G D A | Bm G A A/D
+% text Alt.:   D G D/Bm E7/A7 | D G D/Bm A7/D :|  D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D :|
 %

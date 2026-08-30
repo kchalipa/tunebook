@@ -5,20 +5,16 @@ C: Trad.
 Z: Cameron Cross
 R: hornpipe
 S: Amanda Kerr; Randal Bays + Dave Marshall (with my own licks added)
-N: Another new tune for me. Seems to have a lot in common with The Blackbird set dance, 
-N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
-N: chords and fine-tuning the arrangement. One interesting feature is a "slippery"C, sometimes
-N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
 Q: 1/2=105
 K: Dmaj
 %noswing
 [P:{A}] 
 AG|\
-"D"F2EF AFD2 | "D"defd dcAF | "G"G2AF GFDE | "C"FGAF GBAG |
-"D"FEFG AFDA | "D"defd {de}dcAF | "C"Ad=cA GcAG | "D"F2D2 D2 AG |
-"D"EFFA GFD2 | "D"defe d=cAF | "G"(G2 G)F GFD2 | "C"FGAF G=cAG |
-"D"(3(FGF) DF AFDA | "D"defe d=cAG | "C"Ad=cA FGAG | "D"F(D D)E D2 A2 ||
+"D"F2EF AFD2 | defd dcAF | "G"G2AF GFDE | "C"FGAF GBAG |
+"D"FEFG AFDA | defd {de}dcAF | "C"Ad=cA GcAG | "D"F2D2 D2 AG |
+"D"EFFA GFD2 | defe d=cAF | "G"(G2 G)F GFD2 | "C"FGAF G=cAG |
+"D"(3(FGF) DF AFDA | defe d=cAG | "C"Ad=cA FGAG | "D"F(D D)E D2 A2 ||
 %
 [P:{B}] 
 "D"a2fa gfec | "G"dcdf ecA2 | "D"agfa gfeg | "A7"fdgf e2 (3(fg^g) |
@@ -30,4 +26,4 @@ AG|\
 "D"vA2(FA) G2(EG) | "G"FEDF vEu(CA,E) | "D"vA2(FA) GFED | "A7"v(FD)(GF) E2 u(3(EFG) |
 "D"v(AFG)u(E FD)vEC | "G"DCDE FDA,G, | "C"vA,u!0!D=CA, G,CB,A, | "D"(G,A,)(B,=C) D2 FG :|
 %
-%%text Chords: D D G C | D D C D :| D G D A7 | D G C D :|
+% %text Chords: D D G C | D D C D :| D G D A7 | D G C D :|

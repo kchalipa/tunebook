@@ -11,15 +11,16 @@ Q: 1/2=105
 K: Emaj
 %
 [P:{A}]
-ga|\
-bgaf egfe | defd BcBA | GBeB cAfe | defd B2ga |
-bgaf egfe | defd BcBA | GBeB cafd | e2g2e2 :|
+"E"ga|:\
+"E"bgaf "F#m"egfe | "B7"defd "A"BcBA | "E"GBeB "A"cAfe  | "B7"defd B2ga |
+"E"bgaf "F#m"egfe | "B7"defd "A"BcBA | "E"GBeB "B7"cafd |1 "E"e2g2e2ga :|2 "E"e2g2e2de ||
 %
 [P:{B}]
-de|\
-fB~B2 fBaf | gB~B2 gBbg | fagf edc^B | c^E[^Ec]2[^Ec]2 =BA |
-GBeB cAfe | dBge fcaf | gbeg | fa!4!df |e2g2e2 :|
+|:\
+"B7"fB~B2 fBaf  | "E"gB~B2 gBbg | "G#m"fagf edc^B | "C#7"c^E[^Ec]2[^Ec]2 =BA |
+"E"GBeB "A"cAfe | "B7"dBge "A"fcaf | "E"gbeg "B7"fa!4!df |1 "E"e2g2e2de :|2 "E"e2g2e4 |]
 %
 %
-%%text Chords: 
+% text A-part: E/F#m B7/A E/A B7  |  E/F#m B7/A E/B7 E :| 
+% text B-part: B7 E G#m C#7  |  E/A B7/A E/B7 E :|
 %

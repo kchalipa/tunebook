@@ -81,10 +81,16 @@ writefields CSN
 breaklimit  0.6
 leftmargin  2cm
 rightmargin 2cm
+topmargin 0.5cm
+botmargin 0.5cm
+
+staffsep    32.0
+maxstaffsep 38.0
 
 historyfont    Courier 12.0
+titlefont      Times-Bold 18.0
+titlespace     2.0
 annotationfont Times-Roman 12.0
-titlefont      Times-Bold 24.0
 subtitlefont   Times-Italic 18.0
 composerfont   Times-Italic 14.0
 gchordfont     Courier 12.0

@@ -1,0 +1,28 @@
+%abc-2.1
+X: 1773442456
+T: Bitter Creek
+C: Trad.
+Z: Cameron Cross
+R: reel
+M: 4/4
+Q: 1/2=105
+S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
+K: Gmaj
+%
+[P:{A}]ga|\
+"G"bgdg edBe | "C"dBGB AGEG | "G"DB,DG Bdge | "D"dBA^G A2ga |
+"G"bgdg edBe | "C"dBGB AGEG | "D"DB,DG EFGA | "G"BGAG [G2B2][G,2D2] |
+gedg edBd | gage dBGE | G,B,DG EFGA | BdB^G A2b^a |
+bgdg edBe | dBGB AGEG | (3(DEF) GA Bdge | dBAG [G2B2] GE ||
+[P:{B}]
+DB,2D B,DGF | EC2E CEGE | DB,DG Bdge | dBA^G A2 (3(GFE) |
+DB,G,A, B,GFG | ECG,C EFGE | DB,DG Bdge | dBAF G2ge |
+dBGB dgfg | ecBc efge | dBGB dega | bgag fage |
+dBGA Bgfg | ecBc efge | dBGA Bdga | bgaf g2[G,2D2] ||
+%%vskip 0.5cm
+[P:{A} (var.)]
+G2g2 dedc | BGAG [E3A3](G | DB,)vDF GABe | dBAG A2G2 |
+G,2g2 dedc | BGAG EFGE | DB,DF GABe|dBAF G2g2 |
+gage dged | gded Bcd2  | gage dged | BGAF EGGD |
+G,age dged | gded Bddg | gage dged | BGAF G4 ||
+%

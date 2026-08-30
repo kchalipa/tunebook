@@ -9,12 +9,12 @@ Q: 1/2=105
 K: Amaj
 %
 [P:{A}]
-"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | "E" BEcB AFEC |
-"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | "E" ecB^G "A" A2c2 :|
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | BEcB AFEC |
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | ecB^G "A" A2c2 :|
 %
 [P:{B}]
 "A" a2ec Aceg | "B7" b2f^d Bdfd | "E" efge bege | "B7" fe^df e=dcB |
-"A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | "E" cBAG "A" A2c2 :|
+"A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | cBAG "A" A2c2 :|
 %
-%%text Chords: A/D E/A E E | A/D E/A E E/A :|   A B7 E B7 | A D E E/A :|
+% text Chords: A/D E/A E E | A/D E/A E E/A :|   A B7 E B7 | A D E E/A :|
 %

@@ -7,6 +7,7 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: _Ho-Ro-Gheallaidh vol. 3_; https://thesession.org/tunes/2047
+N: Wild chord changes in the {B} part!  Love it!
 K: Amaj
 %
 AB\
@@ -18,6 +19,6 @@ AB\
 [2 "A" AFEF "F#m" AFAB | "C#m" cBce "D" f2af | "A" ecAc "F#m" BcAF | "E" EFAB "A" A2A2 ||
 %
 %%
-%%text A-part: A A Bm Bm/E7 | A A Bm E7/A :|
-%%text B-part: A/C#m D/A Bm/F#m E/A (x3):| A/F#m C#m/D A/F#m E/A
+% text A-part: A A Bm Bm/E7 | A A Bm E7/A :|
+% text B-part: A/C#m D/A Bm/F#m E/A (x3):| A/F#m C#m/D A/F#m E/A
 %

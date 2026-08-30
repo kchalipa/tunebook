@@ -7,8 +7,7 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: Terry Morris, _Touch of Texas_ (1976)
-N: Very pretty tune. I've marked alternating closed and open strings to give it more
-N: tonal variety.
+N: Very pretty tune. I've marked alternating closed and open strings to give it more tonal variety.
 K: Dmaj
 %noswing
 %
@@ -24,5 +23,5 @@ K: Dmaj
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
    "D" (!4!AF)(!0!AD) FADF | "Em" BEGB EGBG | "A" (FG)(!4!AF) (A,C)(EC) | "A" DFAc "D" d2 ag :|
 %
-%%text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
+% text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
 %

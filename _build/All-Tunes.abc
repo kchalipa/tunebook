@@ -1,7 +1,125 @@
 %abc-2.1
 
 X: 1783479179
-T:*BREAKDOWNS
+T: ---BREAKDOWNS---
+
+X: 1777755202
+T: The Big Sciota
+C: Trad.
+Z: Cameron Cross
+R: reel
+N: Named after the Scioto River in Ohio. Also spelled Scioti, Scioty, etc.
+N: Neat tune! Simple in its basic form, but it has really grown on me.  I'm afraid I don't know if there's a 
+N: "standard" form of the tune; this is just me cobbling together what I've heard and what I've invented on top of it.
+M: 4/4
+Q: 1/2=105
+K: G
+%
+DF |:\
+"G"G2(BG) "G/F#"AGBG | "G"A(G[GA][FA]) "G/A"G2 (dc) | "G"BAGB AGED | "G"(EG)(AB) G2 (3(DEF) |
+"G"G2 (GA) BGBd | "C"(de2)(e e2) ge | "D"dcBd cBAG | "D"BGAF "G"G2 [G,D]2 :|
+|:\
+"G"g2 (ga) bage | "D"(fa)(ab) a2 ga | "D"(aga)(b ag)ed | "Em"(Bde)f e2 ef |
+"Em"(gf)(af) gfed | "C"e(dBd) efge  | "D"dcBG AcBG | "D"A(G[GA][FA]) "G"G2 [G,D]2 :|
+%
+[P:Variation 1] |:\
+"G"GDGB "G/F#"AFAc | "G"BAGB "G/A"Au(GED) | "G"v(FG)uGB ABcA | "G"B(G[GA][FA]) G2 (3(DEF) |
+"G"GFGA Bu(d [dg]2) | "C"v([dg] [eg]4)z u(ef) | "D"gfed "D"cBAc | "G"BGAF G2 [G,D]2 :|
+|:\
+"G"([Bg][bd]) [bd]2 (bc'd')b | "D"a(gad') a2u(eg) | "D"ag(_ba) (ga)ea | "Em"g(!4!e!0!eg) e2(ef) |
+"Em"gfga gfeu(d | "C"e2) (d!4!e !0!e)fge | "D"dcBd cBAc | "D"BGAF "G"G2 [G,D]2 :|
+%
+[P:Variation 2] |:\
+"G"vG2 (GA "G/F#"G)v(EGA | "G"G)(D GA "G/A"G)v(GA)c | "G"BAGB AGEG | "G"!4!A(G,[G,G][G,F]) G2DE |
+"G"GABG AcBA | "C"(Be)(ef) e2d2 | "D"BABG AGEG | "G"!4!A(G,[G,G][G,F]) [G,G]2 [G,D]2 :|
+|:\
+"G"v[Bg] z2 vgz b ag | "D"veua2ub a2[Ae]2 | "D"z[dg]2a gedA | "Em"Bue2uE e2[Ee]2|
+"Em"z uf g2 e2 v(dA | "C"B)(!4!e!0!ef) e2d2 | "D"({Bc}BAB)G A(GEG) | "G"A(G[GB][FB]) [GB]2 [G,D]2 :|
+%
+% %text Traditional chords: G G G G | G C D G :| G D D Em | Em C D G :|
+%
+
+X: 1773442456
+T: Bitter Creek
+C: Trad.
+Z: Cameron Cross
+R: reel
+M: 4/4
+Q: 1/2=105
+S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
+K: Gmaj
+%
+[P:{A}]ga|\
+"G"bgdg edBe | "C"dBGB AGEG | "G"DB,DG Bdge | "D"dBA^G A2ga |
+"G"bgdg edBe | "C"dBGB AGEG | "D"DB,DG EFGA | "G"BGAG [G2B2][G,2D2] |
+gedg edBd | gage dBGE | G,B,DG EFGA | BdB^G A2b^a |
+bgdg edBe | dBGB AGEG | (3(DEF) GA Bdge | dBAG [G2B2] GE ||
+[P:{B}]
+DB,2D B,DGF | EC2E CEGE | DB,DG Bdge | dBA^G A2 (3(GFE) |
+DB,G,A, B,GFG | ECG,C EFGE | DB,DG Bdge | dBAF G2ge |
+dBGB dgfg | ecBc efge | dBGB dega | bgag fage |
+dBGA Bgfg | ecBc efge | dBGA Bdga | bgaf g2[G,2D2] ||
+%%vskip 0.5cm
+[P:{A} (var.)]
+G2g2 dedc | BGAG [E3A3](G | DB,)vDF GABe | dBAG A2G2 |
+G,2g2 dedc | BGAG EFGE | DB,DF GABe|dBAF G2g2 |
+gage dged | gded Bcd2  | gage dged | BGAF EGGD |
+G,age dged | gded Bddg | gage dged | BGAF G4 ||
+%
+
+X: 1752893902
+T: Blackberry Blossom
+C: Trad.
+N: Thanks to Chris Daring for the transcription!
+R: reel
+M: 4/4
+Q: 1/2=105
+K: Gmaj
+%
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "A"BdBG "D"Adef | 
+"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "D"BGAF "G"G4 :| 
+|:\
+"Em"B2eB dBeB | B2eB dBGA | "Em"B2eB "Em/G"dBef | "B7"gabg "B7/F#"aged |
+"Em"B2eB dBeB | B2eB dBef | "Em"gage "A"dBGA | "D"BGAF "G"G2GA :| 
+%
+%
+[P:Variation 1]
+%
+Bdgd fgaf | efge dBAG | FAGE DFGA | BGAG EFGA | 
+v(Bd)(gd) v(fga)uf | v(gb)u(ge) vd^cBd | vA(GEG) (3v(DEF G)uA | BGAu(F G4) | 
+gbgb fbfb | efge dBAG | FAGE (3(vDEF G)uA | BGAG EFGA | 
+vBdgb fgaf | gbge d^cBd | vA(GEG) (3(vDEF G)uA | BGAu(F G3) _B || 
+%
+v([EB]3[eE]) u([dE]3[eE]) | v(Bc/d/e) u(B dB)AG | EBeB dged | gd([DG,][Bg] b)ged | 
+BAdg egBd | AGEG v(3(DEF G)uA | Bged gbge | dBAF G2 u(dc) | 
+v([EB]3[eE]) u([dE]3[eE]) | v[EB]2 (eB) dBAG |  BBeB dged | ggag bged | 
+BAdg edBd | AGEG v(3(DEF G)uA | Bdeg fdge | dBAu(F G2) G,2 || 
+%
+%
+[P:Variation 2]
+[G,DBg]z (3(bag)f2 (3(agf) | efge dBAG | EGEG (3(DEF G)A | BGAG EB,GA | 
+Bdgd fgaf | gbge dcBF | AGEG (3(DEF G)A | BGAu(F G3) ([G,D] | 
+[G,D])[Bg][G,D][Bg] bgag | fdge dBAG | uEAGE DFGA | BFA(G F/E/F) GA | 
+Bdgd fgaf | gbge dcBF | AGEG (3(DEF G)A | BGAF [GB]3 _E | 
+%
+E4 (EF)ED | (3(B,CD E)F GEFG | EB,EF GEGA | Bdef gfed | 
+B2(ef) edBd | AGEG (3(DEF G)A | Bdgb gedc | BGAF G3 _E | 
+E4 (EF)ED | (3(B,CD E)F GEFG | EB,EF Gged | Bgeg gdfd | 
+edBd edBd | AGFG (3(DEF G)A | Bd(gb g)edc | BGAF GABd ||
+%
+[P:Variation 3]
+gabg fgaf | efge dBAG | FAGE DFGA | BGAG E B,3 | 
+Bdgd fgaf | gfed cdBG | AGEG (3(DEF G)A | B_BAF GEDB, | 
+G,fgb fgag | efge dBAG | FAGE DFGA | BGAG F/E/F GA | 
+Bdgd fgaf | gfed cGBF | AGEG DFGA | AGA[GB]- [BG]3 c/d/ | 
+%
+[Ee]4 [EB]3 d | Bded gfed | B2e2 efge | fgaf gfed | 
+baga gedg | edBd AGEG | DFGA Bged | BGA(F G4) | 
+[EB]3 [Ee] [Ed]3 [Ee] | Bc/d/ eB dBAG | EBeB dged | gB[G,D][Bg] bged | 
+BAdg edBd | AGEG (3(DEF G)A | Bged gdge | dBAF G[GB] z2 | [B,G]8 |]
+%
+% %text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G :| Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G :| 
+%
 
 X: 1779661052
 T: Done Gone
@@ -45,7 +163,7 @@ Bc|:\
 %
 %%newpage
 X: 1783479230
-T:*HORNPIPES AND REELS
+T: ---HORNPIPES AND REELS---
 
 X: 1779290922
 T: The Bamburgh Rants
@@ -53,17 +171,15 @@ T: The Collpitts, The General Gordon, and Ye Old Elm Tree
 C: Martin Matthews
 Z: Cameron Cross
 R: rant
-N: These are named after the 3 pubs which have hosted the Monday session in Durham over 
-N: the last 50 years. See recording at https://youtu.be/LkPSt-0y4q0?si=LX8cenzA4__PamoR.
-N: I can see this was written by a mandolinist! This is one case where the bowings are
-N: crucial for playing some of these runs, and I had to make a few other adjustments.
+N: These are named after the 3 pubs which have hosted the Monday session in Durham over the last 50 years. 
+S: _Colpitts to Elm Tree_. See recording at https://youtu.be/LkPSt-0y4q0?si=icA6Cvp1B5L5daSQ.
 M: 4/4
 Q: 1/2=105
 K: Dmaj
 %
 [P:Collpitts Rant]
 "D"d2AG F2A=c | "G"B2AG "D"F2D2 | "E"EF^GA BcdB | "A"c2A2A2 u(3(ABc | "D"d2)v(AG F)(GA=c) |
-"G"v(3(BcB A)uG "D"F2D2 | "D"dfaf "A"(gfe)g | "D"f2d2 d2A2 :||: "G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) |
+"G"v(3(BcB A)uG "D"F2D2 | dfaf "A"(gfe)g | "D"f2d2 d2A2 :||: "G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) |
 [1 "E"A,B,CD EFGA | "A"B2A2A2 (d=c) :|[2 "E"A,B,CD "A"EFGE | "D"F2D2D2 d=c ||
 "G"BGBd BGBd | "D"AFAd AFAd | "E"(A,B,C)D EFGA | "A"B2A2A2 (d=c) |
 "G"BGD=C (B,D)(GB) | "D"AFDB, (A,B,)(DB,) | "E"A,B,CD "A"EFGE | "D"F2D2D4 |]
@@ -73,14 +189,14 @@ K: Dmaj
 [P:General Gordon Rant]
 K: Gmaj
 |:\
-"G"G2(dB) cBAc | "G"(BG)(GF) G2(GF) | "G"GB(dB "C"d)BGB | "Am"(c!4!e!0!e)(^d "D"ec)BA |
+"G"G2(dB) cBAc | (BG)(GF) G2(GF) | GB(dB "C"d)BGB | "Am"(c!4!e!0!e)(^d "D"ec)BA |
 "G"dBGB "C"cAFA | "G"B(G[GB][AF]) G3 u(D | "C"EC)CE "G"DB,G,B, | "D"v(A,G,)(A,B,) A,3G, :|
 |:\
 "G"(G,B,D)B, "C"CEGE | "C/C#"(^CEG)E "D"DFAF | "G"GBdB "G/G#"(^GBd)B | "A"A^cec "D"dcdf |
-"Em"(gf)(ga) g(dBd) | "C"cBAB cedc | "D"(BG)(AF) GBAG | "D"FDEF "G"G4 :|
+"Em"(gf)(ga) g(dBd) | "C"cBAB cedc | "D"(BG)(AF) GBAG | FDEF "G"G4 :|
 %
 %
-%%vskip 1cm
+%%newpage
 [P:Ye Old Elm Tree Rant]
 K: Amaj
 |:\
@@ -90,152 +206,22 @@ K: Amaj
 "E"BE ~E2[EB]2 cB | "F#m"FCCF [FA]2Bc | "D"dcde fedc | "E"BAGF EDCB, |
 "A"v(CE)u(AG) "D"FD v(3(DED) | u"E"(DF)vBA "A"GE v(3(EFE) | "D"u(dc)df "A"vecAc | "E"(BA)(Bc) "A"A4 :|
 
-X: 1777755202
-T: The Big Sciota
-C: Trad.
-Z: Cameron Cross
-R: reel
-N: Named after the Scioto River in Ohio. Also spelled Scioti, Scioty, etc.
-N: Neat tune! Simple in its basic form, but it has really grown on me.
-N: I'm afraid I don't know if there's a "standard" form of the tune; this is just me 
-N: cobbling together what I've heard and what I've invented on top of it.
-M: 4/4
-Q: 1/2=105
-K: G
-[P:{A}] DF |:\
-"G"G2(BG) "G/F#"AGBG | "G"A(G[GA][FA]) "G/A"G2 (dc) | "G"BAGB AGED | "G"(EG)(AB) G2 (3(DEF) |
-"G"G2 (GA) BGBd | "C"(de2)(e e2) ge | "D"dcBd cBAG | "D"BGAF "G"G2 [G,D]2 :|
-[P:{B}] |:\
-"G"g2 (ga) bage | "D"(fa)(ab) a2 ga | "D"(aga)(b ag)ed | "Em"(Bde)f e2 ef |
-"Em"(gf)(af) gfed | "C"e(dBd) efge  | "D"dcBG AcBG | "D"A(G[GA][FA]) "G"G2 [G,D]2 :|
-%
-%%vskip 0.5cm
-[P:Variation 1] |:\
-"G"GDGB "G/F#"AFAc | "G"BAGB "G/A"Au(GED) | "G"v(FG)uGB ABcA | "G"B(G[GA][FA]) G2 (3(DEF) |
-"G"GFGA Bu(d [dg]2) | "C"v([dg] [eg]4)z u(ef) | "D"gfed "D"cBAc | "G"BGAF G2 [G,D]2 :|
-|:\
-"G"([Bg][bd]) [bd]2 (bc'd')b | "D"a(gad') a2u(eg) | "D"ag(_ba) (ga)ea | "Em"g(!4!e!0!eg) e2(ef) |
-"Em"gfga gfeu(d | "C"e2) (d!4!e !0!e)fge | "D"dcBd cBAc | "D"BGAF "G"G2 [G,D]2 :|
-%
-%%vskip 0.5cm
-[P:Variation 2] |:\
-"G"vG2 (GA "G/F#"G)v(EGA | "G"G)(D GA "G/A"G)v(GA)c | "G"BAGB AGEG | "G"!4!A(G,[G,G][G,F]) G2DE |
-"G"GABG AcBA | "C"(Be)(ef) e2d2 | "D"BABG AGEG | "G"!4!A(G,[G,G][G,F]) [G,G]2 [G,D]2 :|
-|:\
-"G"v[Bg] z2 vgz b ag | "D"veua2ub a2[Ae]2 | "D"z[dg]2a gedA | "Em"Bue2uE e2[Ee]2|
-"Em"z uf g2 e2 v(dA | "C"B)(!4!e!0!ef) e2d2 | "D"({Bc}BAB)G A(GEG) | "G"A(G[GB][FB]) [GB]2 [G,D]2 :|
-%
-%%text Traditional chords: G G G G | G C D G :| G D D Em | Em C D G :|
-
-X: 1773442456
-T: Bitter Creek
-C: Trad.
-Z: Cameron Cross
-R: reel
-M: 4/4
-Q: 1/2=105
-S: A-part var. by Oscar Harper at https://tunearch.org/wiki/Bitter_Creek.
-K: Gmaj
-%
-[P:{A}]ga|\
-"G"bgdg edBe | "C"dBGB AGEG | "G"DB,DG Bdge | "D"dBA^G A2ga |
-"G"bgdg edBe | "C"dBGB AGEG | "D"DB,DG EFGA | "G"BGAG [G2B2][G,2D2] |
-"G"gedg edBd | "C"gage dBGE | "G"G,B,DG EFGA | "D"BdB^G A2b^a |
-"G"bgdg edBe | "C"dBGB AGEG | "D"(3(DEF) GA Bdge | "G"dBAG [G2B2] GE ||
-[P:{B}]
-"G"DB,2D B,DGF | "C"EC2E CEGE | "G"DB,DG Bdge | "D"dBA^G A2 (3(GFE) |
-"G"DB,G,A, B,GFG | "C"ECG,C EFGE | "D"DB,DG Bdge | "G"dBAF G2ge |
-"G"dBGB dgfg | "C"ecBc efge | "G"dBGB dega | "D"bgag fage |
-"G"dBGA Bgfg | "C"ecBc efge | "D"dBGA Bdga | "G"bgaf g2[G,2D2] ||
-%%vskip 0.5cm
-[P:{A} (var.)]
-"G"G2g2 dedc | "C"BGAG [E3A3](G | "G"DB,)vDF GABe | "D"dBAG A2G2 |
-"G"G,2g2 dedc | "C"BGAG EFGE | "D"DB,DF GABe | "G"dBAF G2g2 |
-"G"gage dged | "C"gded Bcd2 | "G"gage dged | "D"BGAF EGGD |
-"G"G,age dged | "C"gded Bddg | "D"gage dged | "G"BGAF G4 ||
-%
-%%text Chords: G C G D | G C D G :|
-%
-
-X: 1752893902
-T: Blackberry Blossom
-C: Trad.
-N: Thanks to Chris Daring for the transcription!
-R: reel
-M: 4/4
-Q: 1/2=105
-K: Gmaj
-%
-[P:{A}]
-"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "A"BdBG "D"Adef | 
-"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"EFGE "G"DFGA | "D"BGAF "G"G4 :| 
-%
-[P:{B}]|:\
-"Em"B2eB dBeB | B2eB dBGA | "Em"B2eB "Em/G"dBef | "B7"gabg "B7/F#"aged |
-"Em"B2eB dBeB | B2eB dBef | "Em"gage "A"dBGA | "D"BGAF "G"G2GA :| 
-%
-%
-%%vskip 1cm
-[P:Variation 1]
-%
-"G"Bdgd "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"EFGA | 
-"G"v(Bd)(gd) "F#m"v(fga)uf | "C"v(gb)u(ge) "G"vd^cBd | "C"vA(GEG) "G"(3v(DEF G)uA | "D"BGAu(F "G"G4) | 
-"G"gbgb "F#m"fbfb | "C"efge "G"dBAG | "C"FAGE "G"(3(vDEF G)uA | "A"BGAG "D"EFGA | 
-"G"vBdgb "F#m"fgaf | "C"gbge "G"d^cBd | "C"vA(GEG) "G"(3(vDEF G)uA | "D"BGAu(F "G"G3) _B || 
-%
-"Em"v([EB]3[eE]) u([dE]3[eE]) | v(Bc/d/e) u(B dB)AG | "Em"EBeB "Em/G"dged | "B7"gd([DG,][Bg] "B7/F#"b)ged | 
-"Em"BAdg egBd | AGEG v(3(DEF G)uA | "Em"Bged "A"gbge | "D"dBAF "G"G2 u(dc) | 
-"Em"v([EB]3[eE]) u([dE]3[eE]) | v[EB]2 (eB) dBAG | "Em" BBeB "Em/G"dged | "B7"ggag "B7/F#"bged | 
-"Em"BAdg edBd | AGEG v(3(DEF G)uA | "Em"Bdeg "A"fdge | "D"dBAu(F "G"G2) G,2 || 
-%
-%
-%%vskip 1cm
-[P:Variation 2]
-"G"[G,DBg]z "F#m"(3(bag)f2 (3(agf) | "C"efge "G"dBAG | "C"EGEG "G"(3(DEF G)A | "A"BGAG "D"EB,GA | 
-"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAu(F "G"G3) ([G,D] | 
-"G"[G,D])[Bg][G,D][Bg] "F#m"bgag | "C"fdge "G"dBAG | "C"uEAGE "G"DFGA | "A"BFA(G "D"F/E/F) GA | 
-"G"Bdgd "F#m"fgaf | "C"gbge "G"dcBF | "C"AGEG "G"(3(DEF G)A | "D"BGAF "G"[GB]3 _E | 
-%
-"Em"E4 (EF)ED | (3(B,CD E)F GEFG |"Em" EB,EF "Em/G"GEGA | "B7"Bdef "B7/F#"gfed | 
-"Em"B2(ef) edBd | AGEG (3(DEF G)A | "Em"Bdgb "A"gedc | "D"BGAF "G"G3 _E | 
-"Em"E4 (EF)ED | (3(B,CD E)F GEFG | "Em"EB,EF "Em/G"Gged | "B7"Bgeg "B7/F#"gdfd | 
-"Em"edBd edBd | AGFG (3(DEF G)A | "Em"Bd(gb "A"g)edc | "D"BGAF "G"GABd ||
-%
-%%vskip 1cm
-[P:Variation 3]
-"G"gabg "F#m"fgaf | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"E B,3 | 
-"G"Bdgd "F#m"fgaf | "C"gfed "G"cdBG | "C"AGEG "G"(3(DEF G)A | "D"B_BAF "G"GEDB, | 
-"G"G,fgb "F#m"fgag | "C"efge "G"dBAG | "C"FAGE "G"DFGA | "A"BGAG "D"F/E/F GA | 
-"G"Bdgd "F#m"fgaf | "C"gfed "G"cGBF | "C"AGEG "G"DFGA | "D"AGA[GB]- "G"[BG]3 c/d/ | 
-%
-"Em"[Ee]4 [EB]3 d | Bded gfed | "Em"B2e2 "Em/G"efge | "B7"fgaf "B7/F#"gfed | 
-"Em"baga gedg | edBd AGEG | "Em"DFGA "A"Bged | "D"BGA(F "G"G4) | 
-"Em"[EB]3 [Ee] [Ed]3 [Ee] | Bc/d/ eB dBAG | "Em"EBeB "Em/G"dged | "B7"gB[G,D][Bg] "B7/F#"bged | 
-"Em"BAdg edBd | AGEG (3(DEF G)A | "Em"Bged "A"gdge | "D"dBAF "G"G[GB] z2 | [B,G]8 |]
-%
-%%text Chords: G/F#m C/G C/G A/D | G/F#m C/G C/G D/G :| Em/B7 Em/B7 Em B7 | Em/B7 Em/B7 Em/A D/G :| 
-%
-
 X: 1758406756
 T: Blackbird Hornpipe (1)
 C: Trad.
 Z: Cameron Cross
 R: hornpipe
 S: Amanda Kerr; Randal Bays + Dave Marshall (with my own licks added)
-N: Another new tune for me. Seems to have a lot in common with The Blackbird set dance, 
-N: with its repeated landing on the open D, but is also recognizably distinct. Still figuring out
-N: chords and fine-tuning the arrangement. One interesting feature is a "slippery"C, sometimes
-N: sharp in line with with the key signature and sometimes dropping down to natural.
 M: 4/4
 Q: 1/2=105
 K: Dmaj
 %noswing
 [P:{A}] 
 AG|\
-"D"F2EF AFD2 | "D"defd dcAF | "G"G2AF GFDE | "C"FGAF GBAG |
-"D"FEFG AFDA | "D"defd {de}dcAF | "C"Ad=cA GcAG | "D"F2D2 D2 AG |
-"D"EFFA GFD2 | "D"defe d=cAF | "G"(G2 G)F GFD2 | "C"FGAF G=cAG |
-"D"(3(FGF) DF AFDA | "D"defe d=cAG | "C"Ad=cA FGAG | "D"F(D D)E D2 A2 ||
+"D"F2EF AFD2 | defd dcAF | "G"G2AF GFDE | "C"FGAF GBAG |
+"D"FEFG AFDA | defd {de}dcAF | "C"Ad=cA GcAG | "D"F2D2 D2 AG |
+"D"EFFA GFD2 | defe d=cAF | "G"(G2 G)F GFD2 | "C"FGAF G=cAG |
+"D"(3(FGF) DF AFDA | defe d=cAG | "C"Ad=cA FGAG | "D"F(D D)E D2 A2 ||
 %
 [P:{B}] 
 "D"a2fa gfec | "G"dcdf ecA2 | "D"agfa gfeg | "A7"fdgf e2 (3(fg^g) |
@@ -247,7 +233,7 @@ AG|\
 "D"vA2(FA) G2(EG) | "G"FEDF vEu(CA,E) | "D"vA2(FA) GFED | "A7"v(FD)(GF) E2 u(3(EFG) |
 "D"v(AFG)u(E FD)vEC | "G"DCDE FDA,G, | "C"vA,u!0!D=CA, G,CB,A, | "D"(G,A,)(B,=C) D2 FG :|
 %
-%%text Chords: D D G C | D D C D :| D G D A7 | D G C D :|
+% %text Chords: D D G C | D D C D :| D G D A7 | D G C D :|
 
 X: 1762030934
 T: Blackbird Hornpipe (2)
@@ -299,53 +285,54 @@ N: Ashley plays it in Bb, but the standard key is A Dorian.  I like his accident
 K: Ador
 %
 [P:{A}]           |:\
-   "Am" A2(BA) GAAB  | "Am" A2(BA) "G" eddB | "G" G2(BA) BGGA | "G"  (B^c) (BA) BGGB   |
-   "Am" A2(BA) GAAB  | "Am" A2(BA) "Em" edda | "G" gedB   GABd | "Em" e2 (dB) "Am"eAAB :|
+   "Am" A2(BA) GAAB  | A2(BA) "G" eddB | G2(BA) BGGA | (B^c) (BA) BGGB   |
+   "Am" A2(BA) GAAB  | A2(BA) "Em" edda | "G" gedB   GABd | "Em" e2 (dB) "Am" eAAB :|
 %
 [P:{B}]           |:\
-   "Am" A2a2   A2g2  | "Am" Aage "G" ageg   | "G" G2(BA) BGGA | "G" (B^c) (BA) BGGB    |
-[1 "F" A2a2  A2g2    | "F" Aage "C" agea   | "Em" gedB GABd   | "Em" e2(dB) "Am" eAAB :|]
-[2 "Am" A2(BA) GAAB  | "Am" A2(BA) "G" edda | "G" gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
+   "Am" A2a2   A2g2  | Aage "G" ageg   | G2(BA) BGGA | (B^c) (BA) BGGB    |
+[1 "F" A2a2  A2g2    | Aage "C" agea   | "Em" gedB GABd  | e2(dB) "Am" eAAB :|]
+[2 "Am" A2(BA) GAAB  | A2(BA) "G" edda | gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
 %
-%%text A-part: Am Am/G G G | Am Am/Em G Em/A :|
-%%text B-part: Am Am G G | F F/C Em Em/A | <repeat A-part once>
+% %text A-part: Am Am/G G G | Am Am/Em G Em/A :|
+% %text B-part: Am Am G G | F F/C Em Em/A | <repeat A-part once>
 X: 1776976766
 T: Butterfly Hornpipe
+T: (a.k.a. Dew Drop)
 C: Trad.
 Z: Cameron Cross
 R: hornpipe
 M: 4/4
 Q: 1/2=105
-S: Terry Morris, _For the Record_, plus some variations by Chris Daring.
-N: For all his improvisational abilities, Terry is remarkably consistent with this tune.
-N: I guess he liked it this way! :)  I've added a few licks of my own.
+S: Terry Morris, _For the Record_; variation 1 by Chris Daring.
 K: Amaj
 %noswing
 %
-[P:{A}]|:\
-"A" v(ac'a)e caec | "A" AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | "A" u(ac')ae caec |
-"D" AecA E2c2 | "E7" dfBd ceAc |1 "E" BEGB "A" Au(Ace) :|2 "E" BEGB "A" A(cBA) ||
+[P:{A}]
+"A" v(ac'a)e caec | AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | 
+"A" u(ac')ae caec | "D" AecA E2c2 | "E" dfBd ceAc | BEGB "A" Au(Ace) |
+"A" v(ac'a)e caec | AecA E2c2 | "B7" dfBd ceAc | "E" v(B^AB)u(c (3BcB) v=A2 | 
+"A" u(ac')ae caec | "D" AecA E2c2 | "E" dfBd ceAc | BEGB "A" A(cBA) ||
 %
 [P:{B}]
 "E" GBEG BEGB | "A" AcEA cEBc | "B7" (dB)(cA) BG!4!AF | "E" (E^DE)(F E=D)CB, |
-"A" (A,C)(EC) !4!AEcA | "B7" (B,!4!D)(F!4!A) BFdc | "E" BAGF EDCB, | "E" A,AE(C "A" A,2) (3(cBA |
+"A" (A,C)(EC) !4!AEcA | "B7" (B,!4!D)(F!4!A) BFdc | "E" BAGF EDCB, | A,AE(C "A" A,2) (3(cBA |
 "E" G)[Be]EG [Be]EGB | "A" A[ce]EA [ce]EBc | "B7" dEcE BAGB | "E" (3(cde e)(f ed)cB |
-"A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aae(c "A" A2) va2- ||
+"A" (Ac)(ec) aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | Aae(c "A" A2) va2- ||
 %
 %%vskip 1cm
-[P:Variation]
-"A" auc'ae caec | "A" AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
-"A" ac'ae caec | "A" AecA EABc | "B7" v(dcB)u(d (3cec) vAc | "E" vBEGB A2u(a2 |
-"A" ac')vae caec | "A" AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
-"A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E7" dcBd v(3(cec A)uc | "E" BEGB "A" A2a2 ||
+[P:Variation 1]
+"A" auc'ae caec  | AecA EABc | "B7" defd v(cde)u(c | "E" BE)vGB !4!e!0!efg |
+"A" ac'ae caec   | "D" AecA EABc | "E" v(dcB)u(d (3cec) vAc | vBEGB "A" A2u(a2 |
+"A" ac')vae caec | AecA EAcA | "B7" dfBd ceAc | "E" (B^AB)(c ^de)fg |
+"A" ac'ae caec | "D" v(Aac')u(a ec)vAc | "E" dcBd v(3(cec A)uc | BEGB "A" A2a2 ||
 %
 "E" gebg ebge | "A" !1!aec'a ec'ae | "B7" d'bc'a !2!b!2!gaf | "E" e^def e=dcB |
-"A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | "E" A2{g}a2 "A" A2a2 ||
+"A" Acec aec'a | "B7" Bege !2!bed'c' | "E" ba!2!gf edcB | A2{g}a2 "A" A2a2 ||
 "E" gebe gb(e!1!a | "A" c')(aec') aec'a | "B7" (d'bc')(a bg (3fgf) | "E" e^def e=dcB |
-"A" Acec aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | "E" Aaec "A" A2a2 |]
+"A" Acec aec'e | "B7" (B^d)(fd) bfd'c' | "E" bagf edcB | Aaec "A" A2a2 |]
 %
 %
-%%text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
+% text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
 %
 
 X: 1759096619
@@ -361,17 +348,17 @@ K: Dmaj
 [P:{A}] 
 Ac|:\
 "D" d2 dc dfed | "A7" c2A2 A2AB | "C" =c2cB cedc | "G" B2G2 G2FG |
-"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" AFDA, DFAa |  fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
 "D" (Ad)(dc) dfed | "A7" (3(cdc) Ac ecAB | "C" =cGEG cedc | "G" BGDB, G,2 FG |
-"D" AGFD FAde | "D" fdAF "G" G2FG | "D" AFED "A7" EFGE | "D" F(DDE)  D2 (3(DEF) |
+"D" AGFD FAde | fdAF "G" G2FG | "D" AFED "A7" EFGE | "D" F(DDE)  D2 (3(DEF) |
 %
 [P:{B}] 
-"D" AFDF AFDF | "D" AGFE D2EF | "C" GE=CE GECE | "C" GFED =C2FG |
-"D" AFDA, DFAa | "D" fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
-"D" AFDA, DFAF | "D" AGFE DCDE | "C" GE=CG, CEGE | "C" G=cAG E=CEG |
-"D" AFDA, DFAe | "D" fdAF "G" GDFG | "D" AFDF "A7" EFGE | "D" F(DDE)  D2 (3(ABc) :|
+"D" AFDF AFDF  | AGFE D2EF | "C" GE=CE GECE | GFED =C2FG |
+"D" AFDA, DFAa | fdAF "G" G2FG | "D" AFDF "A7" EFGE | "D" F2D2  D2 FG |
+"D" AFDA, DFAF | AGFE DCDE | "C" GE=CG, CEGE | G=cAG E=CEG |
+"D" AFDA, DFAe | fdAF "G" GDFG | "D" AFDF "A7" EFGE | "D" F(DDE)  D2 (3(ABc) :|
 %%
-%%text Chords: D A7 C G | D D/G D/A7 D :|   D D C C | D D/G D/A7 D :|
+% text Chords: D A7 C G | D D/G D/A7 D :|   D D C C | D D/G D/A7 D :|
 %
 X: 1773532536
 T: The Democratic Hornpipe
@@ -388,7 +375,7 @@ K: Emin
 %
 [P:{A}]
 EF|:\
-"Em" GFGA BABd | e^def efge | "G" dBge dBAB | "G" GFED EDB,D |
+"Em" GFGA BABd | e^def efge | "G" dBge dBAB | GFED EDB,D |
 "Em" E2EF GAGE | "D" D2DE FEDB, | "B7" EFGA BAGF | "Em" G2E2E2B2:|
 %
 [P:{B}]
@@ -396,7 +383,7 @@ EF|:\
 "G" GDBG "D" FDcA | "G" GDBG "D" FDcA | "B7" B^def gfe=d | "Em" B2e2e2B2 :|
 %
 %
-%%text Chords: Em Em G G | Em D B7 Em :|   Em Em G D | G/D G/D B7 Em :|
+% text Chords: Em Em G G | Em D B7 Em :|   Em Em G D | G/D G/D B7 Em :|
 %
 X: 1762287681
 T: The Derry Reel
@@ -410,17 +397,17 @@ K: Amaj
 %
 [P:{A}] 
 "A" c3B AecA | "E" BEcB AFEF | "A" ABce aAgA | "D" faec BEAB | 
-"A" c3B AecA | "E" BEcB AFEF | "A" ABce afec | "E" (3B=cB GB "A" A^de=d |
-"A" c3B ABcA | "E" BAcB AFEF | "A" ABce aege | "D" (3fga ec ~B2AB
+"A" c3B AecA | "E" BEcB AFEF | "A" ABce afec | "E" BAGB "A" A2AB |
+"A" c3B ABcA | "E" BAcA BAFA | "A" ABce aege | "D" (3fga ec ~B2AB
 "A" c3B ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" fdge "A" a2ag ||
 %
 [P:{B}] 
 "F#m" f2af cfaf | "E" geBe gbag | "F#m" f2af cfaf | "E" gfeg "F#m" fbag |
 "A" aece AecA | "E" BEcB AFEF | "A" ABce fece | "E" fAgA "A" a2ga |
 "F#m" f2fe cfaf | "E" geBe (3gab ag | "F#m" f2fe cfaf | "E" gfeg "F#m" f2 (3efg | 
-"A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" AGAB :|
+"A" aecB ABcA | "E" BAcA BAFA | "A" EAce (3fga ec | "E" BEGB "A" A^de=d :|
 %
-%%text Chords: A E A D | A E A E/A :|   F#m E F#m E/F#m | A E A E/A :|
+% text Chords: A E A D | A E A E/A :|   F#m E F#m E/F#m | A E A E/A :|
 %
 X: 1783649378
 T: The Durham Hornpipe
@@ -434,18 +421,20 @@ Q: 1/2=105
 K: Emaj
 %
 [P:{A}]
-ga|\
-bgaf egfe | defd BcBA | GBeB cAfe | defd B2ga |
-bgaf egfe | defd BcBA | GBeB cafd | e2g2e2 :|
+"E"ga|:\
+"E"bgaf "F#m"egfe | "B7"defd "A"BcBA | "E"GBeB "A"cAfe  | "B7"defd B2ga |
+"E"bgaf "F#m"egfe | "B7"defd "A"BcBA | "E"GBeB "B7"cafd |1 "E"e2g2e2ga :|2 "E"e2g2e2de ||
 %
 [P:{B}]
-de|\
-fB~B2 fBaf | gB~B2 gBbg | fagf edc^B | c^E[^Ec]2[^Ec]2 =BA |
-GBeB cAfe | dBge fcaf | gbeg | fa!4!df |e2g2e2 :|
+|:\
+"B7"fB~B2 fBaf  | "E"gB~B2 gBbg | "G#m"fagf edc^B | "C#7"c^E[^Ec]2[^Ec]2 =BA |
+"E"GBeB "A"cAfe | "B7"dBge "A"fcaf | "E"gbeg "B7"fa!4!df |1 "E"e2g2e2de :|2 "E"e2g2e4 |]
 %
 %
-%%text Chords: 
+% text A-part: E/F#m B7/A E/A B7  |  E/F#m B7/A E/B7 E :| 
+% text B-part: B7 E G#m C#7  |  E/A B7/A E/B7 E :|
 %
+
 X: 1773483966
 T: Fisher's Hornpipe (D)
 C: Trad.
@@ -471,7 +460,7 @@ K: Dmaj
 "A" ecAc ef (3gfe | "D" fdAd fagf | "A" ecAc eagf | "A" (3efe (3dcB A2 dc|
 "G" BGDG B2 (3dcB | "D" AFDF AFdA | "A" BdcB AGFE | "D" (3DED CE D2 Ac :|
 %
-%%text Chords: D/G D/G D/G D/A | D/G D/G A D :|   A D A A | G D A D :|
+% text Chords: D/G D/G D/G D/A | D/G D/G A D :|   A D A A | G D A D :|
 %
 X: 1773483937
 T: Fisher's Hornpipe (F)
@@ -505,9 +494,9 @@ cde|:\
 "F" c'd'c'b afac' | "Bb" bd'2b d'c'bc' | "F" abc'a d'c'ba | "C" efge c2 (3ABc |
 "Bb" dBFB dBfd | "F" cAFA =BcAc | "C" bgec =Bceg | "F" f2a2 f2 ef :|
 %
-%%text A-part: F/Bb F/Bb F/Bb F/C | F/Bb F/Bb C F :|
-%%text B-part: C F  C C | Bb F C F :|
-%%text C-part: F Bb F C | Bb F C F :|
+% text A-part: F/Bb F/Bb F/Bb F/C | F/Bb F/Bb C F :|
+% text B-part: C F  C C | Bb F C F :|
+% text C-part: F Bb F C | Bb F C F :|
 %
 X: 1772921022
 T: Gin Rickshaw
@@ -530,7 +519,7 @@ K: Dmaj
 "D" FdAF dAFA | "G" GdBG dBGB | "D"  FddF dAFA | "A7" GAFA E2E=F |
 "D" FdAF dAFA | "G" (3Bcd BG dBGB | "A7" Acea fecA | "D"  dfec d2 (3(ABc) :||
 %
-%%text Chords: D Em D/G D/A | D Em D/G A/D :|   D G D A7 | D G A7 D :|
+% text Chords: D Em D/G D/A | D Em D/G A/D :|   D G D A7 | D G A7 D :|
 %
 X: 1776899514
 T: Hummingbird Reel
@@ -542,18 +531,18 @@ Q: 1/2=105
 K: Amaj
 %
 [P:{A}]AB|:\
-"A" c2a2 "E" B2b2 | "A" A2ce agfe | "E" E2GB eBcd | "E" cBAc BGAB |
+"A" c2a2 "E" B2b2 | "A" A2ce agfe | "E" E2GB eBcd | cBAc BGAB |
 "A" c2a2 "E" B2b2 | "A" A2ce agfe | "E" E2GB eBcd | "A" cBAG A2AB |
-"A" Acea "E" B^dfb | "A" Aceg afeF | "E" E2GB eBcd | "E" {cd}cBAc BGAB |
+"A" Acea "E" B^dfb | "A" Aceg afeF | "E" E2GB eBcd | {cd}cBAc BGAB |
 "A" caac "E" B2bB | "A" A2 (3(efg) agfe | "E" E2GB eBcd | "A" cBAG A2FD ||
 %
 [P:{B}]
-"A" EFED CDCB, | "A" A,CEA cBAF | "E" EGBe gagf | "E" efed cBAF |
-"A" EFED CDCB, | "A" A,CEA cBAF | "E" EGB^d efe=d | "A" cBAG A2E2 | 
-"A" EFED CDCB, | "A" A,CEA cBAF | "E" E2GB eBcd | "E" {cd}cBAc BAFD |
-"A" EFED CDCB, | "A" A,CEA cBAF | "E" EEGB eBcd | "A" cBAG A2AB :| 
+"A" EFED CDCB, | A,CEA cBAF | "E" EGBe gagf | efed cBAF |
+"A" EFED CDCB, | A,CEA cBAF | "E" EGB^d efe=d | "A" cBAG A2E2 | 
+"A" EFED CDCB, | A,CEA cBAF | "E" E2GB eBcd | {cd}cBAc BAFD |
+"A" EFED CDCB, | A,CEA cBAF | "E" EEGB eBcd | "A" cBAG A2AB :| 
 %
-%%text Chords: A/E A E E | A/E A E A :|   A A E E | A A E A :|
+% text Chords: A/E A E E | A/E A E A :|   A A E E | A A E A :|
 %
 X: 1773445417
 T: The Humours of Tulla
@@ -576,14 +565,14 @@ K: Dmaj
 "D" af ~f2 df ~f2 | "D" af ~f2 "G" g2fg | "D" af ~f2 dfed | "G" (3Bcd ef "A7" g2fg |
 "D" afdf bfdf | "D" afdf "G" geBA | "D" afdf edBc | "G" defa "A7" [dg]2fe :|
 %
-%%text Chords: D D/Em D G/A7 :|   D D/G D G/A7 :|
+% text Chords: D D/Em D G/A7 :|   D D/G D G/A7 :|
 %
 X: 1757437278
 T: The Kitchen Girl
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
+Q: 1/2=110
 S: _Kentucky Open Band Contra Tunes_, with some original variations. 
 Z: Cameron Cross
 N: Great jam tune.  For inspiration, see https://youtu.be/912wUcMXG_0?feature=shared
@@ -608,7 +597,7 @@ K:Amin
 |: "Am" cBAc "G" BdcB | "Am" ABAG EDCG, | "Am" A,CEG Acd^d | "E7" ege^d e=dcB |
    "Am" AGED "G" CDCG, | "Am" A,B,CD EGcA | "Am" cBAc "G" BAGB | "Am" A(A A)B A4 :|
 %
-%%text Chords: A/G A A E7 | A/G A G/E7 A :|   Am/G Am Am E7 | Am/G Am Am G/Am 
+% text Chords: A/G A A E7 | A/G A G/E7 A :|   Am/G Am Am E7 | Am/G Am Am G/Am 
 %
 X: 1776895667
 T: Miller's Reel
@@ -620,14 +609,14 @@ Q: 1/2=105
 K: Amaj
 %
 [P:{A}]
-"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | "E" BEcB AFEC |
-"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | "E" ecB^G "A" A2c2 :|
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" BEcE dEcE | BEcB AFEC |
+"A" A,CEC "D" DFAF | "E" EGBG "A" ABcA | "E" Bcde fgaf | ecB^G "A" A2c2 :|
 %
 [P:{B}]
 "A" a2ec Aceg | "B7" b2f^d Bdfd | "E" efge bege | "B7" fe^df e=dcB |
-"A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | "E" cBAG "A" A2c2 :|
+"A" Aaga faec | "D" dcdf ecAF | "E" EGB^d efe=d | cBAG "A" A2c2 :|
 %
-%%text Chords: A/D E/A E E | A/D E/A E E/A :|   A B7 E B7 | A D E E/A :|
+% text Chords: A/D E/A E E | A/D E/A E E/A :|   A B7 E B7 | A D E E/A :|
 %
 X: 1758382483
 T: Money Musk
@@ -659,8 +648,8 @@ f|:\
 [P:D-part]
 |: "A" ABcA "D" d3 B | "A" ABcA "E7" B2 cB | "A" ABcd "D" ecea | "E7" gefg "A" a2 A2 :|
 %
-%%text A-part: A/D A/E A/D E/A :|   B-part: A  A/E7 A  E7/A :|   
-%%text C-part: A Bm/E7 A/D E/A :|   D-part: A/D A/E A/D E/A :|
+% text A-part: A/D A/E A/D E/A :|   B-part: A  A/E7 A  E7/A :|   
+% text C-part: A Bm/E7 A/D E/A :|   D-part: A/D A/E A/D E/A :|
 %
 X: 1759096488
 T: The Morpeth Rant
@@ -687,7 +676,7 @@ K: Dmaj
 "D" dfaf bfaf | "G" geBe "Em" [Bg]3 e  | "A" gfed cdeg | "D" {fg}fefg {fg}fedc  |
 "D" dfaf dfaf | "G" gfef "Em" g2 ef | "A" gfed ceag | "D" fedc dABc :|
 %
-%%text Chords: D G/A D/G A7 | D G/A D/G A/D :|   D G/Em A D | D G/Em A D :|
+% text Chords: D G/A D/G A7 | D G/A D/G A/D :|   D G/Em A D | D G/Em A D :|
 %
 X: 1759096619
 T: The Old Morpeth Rant
@@ -697,7 +686,7 @@ Z: Cameron Cross
 S: Stewart Hardy, https://youtu.be/d0AWDc_zuK0?si=Nra7JSgGlfhzKS1A.
 N: More regional interest: the rant is a local form, connected with the Rapper Sword dance; 
 N: "musically it is similar to a reel, though somewhat slower, and with more of a lilt." 
-N: (https//en.wikipedia.org/wiki/Music_of_Northumbria)
+N: (https//en.wikipedia.org/wiki/Music_of_Northumbria). Some also play it in Bb.
 M: 4/4
 Q: 1/2=105
 K: Gmaj
@@ -713,15 +702,15 @@ DF|:\
 [1 "C" E2CE cBAG | "D7" F2DF dcBA | "G" Ggfg "D7" ecAF | A2G2 "G" G2 Bd :|]
 [2 "C" ECEG cBAG | "D7" FDFA dcBA | "G" Ggfg "D7" ecAF | GFAF "G" G2G2 |]
 %
-%%text Chords: G C/G G/Am D7 | G C/G D7 D7/G :|   G D7 C/Am D7 | C D7 G/D7 D7/G
+% text Chords: G C/G G/Am D7 | G C/G D7 D7/G :|   G D7 C/Am D7 | C D7 G/D7 D7/G
 %
-%%vskip 0.5cm
-%%text It is also played in Bb!  Here is the skeleton version:
+% %vskip 0.5cm
+% text It is also played in Bb!  Here is the skeleton version:
 %
-K: Bbmaj
-|: "Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | d2cd "F7" edcB | F2B2 "Bb" B2d2 :|
-|: "Bb" bagf d2Bd | "F7" edcB A2F2 | "Eb" G2EG "Cm" edcB | "F7" A2F2 F2BA |
-   "Eb" GEGB edcB | "F7" AFAc fedc | "Bb" Bbab "F7" gecA | BAcA "Bb" B2B2 :|]
+% K: Bbmaj
+% |: "Bb" B2FD B,DFD | "Eb" B,EGE "Bb" B,DFB | d2cd "F7" edcB | F2B2 "Bb" B2d2 :|
+% |: "Bb" bagf d2Bd | "F7" edcB A2F2 | "Eb" G2EG "Cm" edcB | "F7" A2F2 F2BA |
+%    "Eb" GEGB edcB | "F7" AFAc fedc | "Bb" Bbab "F7" gecA | BAcA "Bb" B2B2 :|]
 %
 X: 1776527480
 T: The Mortgage Burn 
@@ -731,6 +720,7 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: _Ho-Ro-Gheallaidh vol. 3_; https://thesession.org/tunes/2047
+N: Wild chord changes in the {B} part!  Love it!
 K: Amaj
 %
 AB\
@@ -742,8 +732,8 @@ AB\
 [2 "A" AFEF "F#m" AFAB | "C#m" cBce "D" f2af | "A" ecAc "F#m" BcAF | "E" EFAB "A" A2A2 ||
 %
 %%
-%%text A-part: A A Bm Bm/E7 | A A Bm E7/A :|
-%%text B-part: A/C#m D/A Bm/F#m E/A (x3):| A/F#m C#m/D A/F#m E/A
+% text A-part: A A Bm Bm/E7 | A A Bm E7/A :|
+% text B-part: A/C#m D/A Bm/F#m E/A (x3):| A/F#m C#m/D A/F#m E/A
 %
 X: 1752894096
 T: New Reel
@@ -764,7 +754,7 @@ K: Gmix
 "G" G,B,D^F G3 D | "F" FEFG AGFG | "G" D^FGA Bdea | "D" f2ed "G" BG G2 |
 "G" G,B, (3(DE^F G2) GE | "F" FEFG AGEF | "D" GECE GBcd | eafd "G" BG [BG]2 :|
 %
-%%text A-part: G/F C/G C D/G :|   G F G D/G | G F D D/G :|
+% text A-part: G/F C/G C D/G :|   G F G D/G | G F D D/G :|
 %
 X: 1752894096
 T: da New Rigged Ship + Shelder Geo
@@ -787,7 +777,7 @@ eg\
 %
 |: "Am" cdec "G" BcdB | "Am" ABAF "Em" GEFG | "Am" cdec "G" BcdB | "Am" c2A2 A4 :|
 %
-%%text Chords: A A G D :|   A/E7 A/E7 A/E7 A :|   Am/G Am/Em Am/G Am :|
+% text Chords: A A G D :|   A/E7 A/E7 A/E7 A :|   Am/G Am/Em Am/G Am :|
 %%vskip 1cm
 %
 [P:Shelder Geo]
@@ -795,7 +785,7 @@ eg\
 |: "C" =cdef gagf | "C" e=cgc ecgc | "C" =cdef gage  | "D" ^fdad fdad |
    "C" =cdeg gagf | "C" e=cgc ecce | "C" a^fge fde^c | "D" Add^c d4 :|
 %
-%%text Chords: D C/G D G/D :|   C C C D :|
+% text Chords: D C/G D G/D :|   C C C D :|
 %
 X: 1752893820
 T: The Nine Points of Roguery
@@ -803,40 +793,42 @@ T: a.k.a. The Black Mare of Fanad
 C: Trad.
 R: reel
 M: 4/4
-Q: 1/2=105
-S: Ho-ro-gheallaidh vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
+Q: 1/2=100
+S: _Ho-ro-gheallaidh_ vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
 Z: Cameron Cross
-N: It seems many versions of this tune place an Em chord in the fourth bar of both parts.
-N: Maggie goes to a C instead, and I like that.
+N: Maggie plays over a C chord on the 4th measure of every part; I really like that, but it seems that going to Em 
+N: is far more common.  Plus it makes the C really pop when we get to the {B} part.
 K: Dmaj
 %
-%%text Basic tune
-"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FD GEFA|"Em"BE~E2 BEGE|
-"D"D2FD GEFD|"D"DEFG ABAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
-|:\
-"C"=c3A"G"B3G|"D"A2AB AGFE|"D"D2FD GEFA|"Em"BE~E2 BEGB|
-"C"=c3A"G"B3G|"D"Adcd fdAF|"D"D2FA "A7"GAce|"D"d2dc d4:|
-|:\
-"D"d2fd gefe|"D"defg abaf|"D"d2fd gefa|"Em"be~e2 bege|
-"D"d2fd gefe|"D"defg abaf|"D"d2fa "A7"gece|"D"d2dc d4:|
+[P:{A}] A,2 |:\
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFA | "Em"BE (3EEE BEGE | 
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
-%%vskip 1cm
-%%text Variations (w/ alternate chords)
-|:\
-"D"D2FD "G"GFED|"D"AdAF ABAF|"D"D2FD "Bm"GFEd|"C"=cEEc "Em"cEGE|
-"D"D2FD "G"ADFE|"D"DEFG ABAF|"D"DEFG "A7"ABcA|"D"dAFA D2A2:|
-|:\
-"C"[G,=cE]4"G"[B,GB]4|"D"[A,FA]4ABAF|"D"DA,DF GFEd|"C"=cE[Ec]2"Em"BEGB|
-"C"=cdcA "G"BdBG|"D"Adcd fdAF|"D"DEFA "A7"GABc|"D"dfec d2A2:|
-|:\
-"D"d2fd "G"gefg|"D"[da]2ad' agfe|"D"dAdf "Bm"gfed'|"C"=c'e[ec'][bd]"G"[bd]2(3(ABc)|
-"D"d2fa "G"gfec|"D"defg abaf|"D"defa "A7"gfeg|"D"fdge fd[fd]2:|
-|:\
-"C"[A,G=c]4"G"[B,BG]4|"D"[A,DA]4zdAF|"D"D4DA,GA|"C"=c4"Em"cEGB|
-"C"=cEGc "G"BGDB,|"D"A,FAd fdAF|"D"DEFG ABcA|"A7"dAFA "D"D2A2:|
+[P:{B}]
+"C"=c3A "G"B3G   | "D"A2AB AGFE | D2FD "Bm"GEFA | "Em"BE (3EEE B,EGB |
+"C"=cBAc "G"BAGB | "D"Adcd fdAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
-%%text Chords: D/G D D/Bm C/Em | D/G D D A7/D :|   C/G D D/Bm C/Em | C/G D D A7/D :|
+[P:{A'}]
+"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "Em"be (3eee bege |
+"D"d2fd "G"gefe | "D"defg abaf | defg "A7"agfe | "D"egfe f(d[fd]2) :|
 %
+[P:{B}]
+"C"[=c'e]4 "G"[bd]4 | "D"[af]4 abaf | dAdf "Bm"gfea | "Em"beeb [be]2ab |
+"C"=c'bac' "G"bd'af | "D"dAcd fdAF | D2FA "A7" GAce | "D"dfec d2A2 :|
+%
+%%vskip 0.5cm
+[P:Variation 1]
+"D"D2FD "G"GFED | "D"AdAF ABAF | D2FD "Bm"GFEA | "Em"BEEB BEGE |
+"D"D2FD "G"GFED | "D"AdAF AdAF | D2FD "A7"GFEc | "D"dDDA, D2A,B, :|
+%
+"C"=C2[E=c]2 "G"B,2[BG]2 | "D"A,2[Fd]2 dAFE | DA,DF "Bm"GFEA |"Em"BEB=c BGAB |
+"C"=c2(3dcA "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
+%
+"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | d2(de) "Bm"fabd'| "Em"(be)(ab) bege | 
+"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A2 :|
+%
+"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BEGA BGAB |
+"C"=cdcA "G"BGDB, | "D"A,DAd fdAF | DEFA "A7"G2[Gc]2 | "D"d3c d4 :|
 X: 1759581014
 T: Old Joe Clark
 C: Trad.
@@ -856,9 +848,9 @@ K: Amix
 "A" A2 AB cBcd | "A" efed cB A2 | "A" A2 AB cB A2 | "G" G8 | 
 "A" A2 AB cBcd | "A" efed cB A2 | "A" cBAc "G" BA G2 | "A" A8 :|
 %
-%%text A-part == | B-part ==
-%%text A A A · E | A A A · G
-%%text A A A/G A | A A A/G A
+% text A-part == | B-part ==
+% text A A A · E | A A A · G
+% text A A A/G A | A A A/G A
 %
 X: 1752807675
 T: Old Straw Bonnet
@@ -876,17 +868,17 @@ ef \
    "G" gdBd gbag | "F" =fcAc fga^f | "G" gdgb agfd | "C" gd (3(BdB) "D" G2 |1 ef :|2 (3(DEF) ||
 %
 [P:{B}]
-|: "G" GFGA BGBc | "G" dedc BGBd | "F" cA=Fc A=FAB | "F" cABG AG (3(DEF) |
-   "G" GFGA BGBc | "C" dedc BGE^C | "D" DEFA Bage | "D" dBAF "G" G2 (3(DEF) :|
+|: "G" GFGA BGBc | dedc BGBd | "F" cA=Fc A=FAB | cABG AG (3(DEF) |
+   "G" GFGA BGBc | "C" dedc BGE^C | "D" DEFA Bage | dBAF "G" G2 (3(DEF) :|
 %
 [P:{C}]
 K: Gmin \
-|: "Gm" g,2 BG ABcA | "Gm" BcdB cBA^F | "Gm" G2 BG ABcA | "D7" d^cde d=cB^F |
-   "Gm" g,2 BG ABcA | "Gm" BcdB cBAF | "D7" GFDG FDCF | "D7" DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
+|: "Gm" g,2 BG ABcA | BcdB cBA^F | G2 BG ABcA | "D7" d^cde d=cB^F |
+   "Gm" g,2 BG ABcA | BcdB cBAF  | "D7" GFDG FDCF | DC (3(A,B,A,) |1 "Gm" G,2 DF :|2 G,4 |]
 %
-%%text A-part === | B-part == | C-part ====
-%%text G F G D7 · | G G F F · | Gm Gm Gm⠀D7
-%%text G F G D7/G | G C D D/G | Gm Gm D7 D7/Gm
+% text A-part === | B-part == | C-part ====
+% text G F G D7 · | G G F F · | Gm Gm Gm⠀D7
+% text G F G D7/G | G C D D/G | Gm Gm D7 D7/Gm
 %
 X: 1760025996
 T: Opera Reel 
@@ -917,9 +909,9 @@ A,2|:\
 "D" defd "A" efge | "D" faec "G" dcBA | "D" defd "G" efge | "A" faec "D" d2 (3ABc |
 "D" defd "A" efge | "D" faec "G" dcBA | "D" afdf "G" gecA | "A" dfec "D" d4  :|
 %
-%%text A-part ==== | B-part ========
-%%text D D/A D G/A | D/A D/G D/G A/D
-%%text D D/A D G/A | D/A D/G D/G A/D
+% text A-part ==== | B-part ========
+% text D D/A D G/A | D/A D/G D/G A/D
+% text D D/A D G/A | D/A D/G D/G A/D
 %
 X: 1772914944
 T: Peerless Hornpipe
@@ -942,7 +934,7 @@ K: Cmaj
 "G" dBGB dBgf | "C" ecGc ecag | "D7" ^fdAd fdba | "G" gafg "G7" efde |
 "C" cGEG CGEG | "G7" FGDG FGDG | "C" EGcd "F" edcB | "G7" c2 cB "C" c4 :|
 %%
-%%text Chords: G C/G G/Am D7 | G C/G D7 D7/G :|   G D7 C/Am D7 | C D7 G/D7 D7/G :|
+% text Chords: G C/G G/Am D7 | G C/G D7 D7/G :|   G D7 C/Am D7 | C D7 G/D7 D7/G :|
 %
 X: 1
 T: Petronella
@@ -993,7 +985,7 @@ FE \
    "E" edcB "A" A2 cd | "A" ecAc EAce         |  "D" fdAd FAdf  | 
    "G" gbag "A" fedc  |1 "D" d2 f2 d2 cd     :|2 "D" d2 f2 d4   |]
 %
-%%text Chords: D A D/G D/A | D A D/G A/D :|   A D G/E E/A | A D G/A D :|
+% text Chords: D A D/G D/A | D A D/G A/D :|   A D G/E E/A | A D G/A D :|
 %
 X: 1773528837
 T: Rackety Jack's Reel
@@ -1013,7 +1005,7 @@ K: Gmaj
 "G" gdBd gdBd | "C" eafa gfed | "G" cBcd edef | "D" gfge d^def |
 "G" gdBd gdBd | "C" eafa gfed | "D" cBcd edef | "D" gdcA "G" G2B2 :|
 %%
-%%text Chords: G C G D | G C D/G :|
+% text Chords: G C G D | G C D/G :|
 %
 X: 1773615941
 T: The Rights of Man
@@ -1035,7 +1027,7 @@ GA|:\
 "C" edef gfga | "Am" bgaf "Em" gfef | "Am" gfed "D" Bgfg | "Em" e2 E2 E2 ga :|
 %
 %
-%%text Chords: Em Em G/D C/Bm | Em Em G/D Em :|   G/Em G/Em D Bm | C Am/Em Am/D Em :|
+% text Chords: Em Em G/D C/Bm | Em Em G/D Em :|   G/Em G/Em D Bm | C Am/Em Am/D Em :|
 %
 X: 1777744420
 T: Roxburgh Castle
@@ -1055,7 +1047,7 @@ K: Gmaj
 "G" gdBd edBd | gdBd edBd | "C" cdec "G" BcdB | "Am" c2 A2 "D7" AcBA |
 "G" GFGB dBGB | "C" cBce "G" dBGB | dgfe "D7" dcBA | "G" B2G2 G2B2  :|
 %%
-%%text Chords: G C/G C Am/D7 | G C G/D7 G :|   G G C/G Am/D7 | G C G/D7 G :|
+% text Chords: G C/G C Am/D7 | G C G/D7 G :|   G G C/G Am/D7 | G C G/D7 G :|
 %
 X: 1759264360
 T: Rye Straw (D)
@@ -1082,9 +1074,9 @@ K: Dmaj
 "D" d2 de fgaf | "G" gfga (3(fgf) ec | "D" defg afdf | "A" gfed cABc | "D" defg agfd |
 "G" gfga (3(fgf) ec | "A" e3 f e2 Ac | "D" defa fedf | "A" e2 ef afed  | "A" cAB^G "D" A4 !D.C.! |]
 %
-%%text A-part ======== | B-part ==== | C-part ====
-%%text A/D A/D A/D E/A | A D A · G/D | D G D A
-%%text A/D A/D A/D E/A | A D A/D E/A | D G A D [A A/D]
+% text A-part ======== | B-part ==== | C-part ====
+% text A/D A/D A/D E/A | A D A · G/D | D G D A
+% text A/D A/D A/D E/A | A D A/D E/A | D G A D [A A/D]
 %
 X: 1777324332
 T: Rye Straw (D) v.2
@@ -1123,7 +1115,7 @@ K: G
 |: "G" d3d d2B2 | "C" c2 d2 ecec | "D" d2ge =fedf | "G" ecdc BG [BG]2 |
    "G" Bd2 B d2 B(c | "C" [cE])Bcd e^d=dc | "D" d2 [dg]2 =f^fed | "G" BGAc BG [BG]2 :|
 %
-%%text Chords: G/C G/C G/C D/G :|   G C D G :|
+% text Chords: G/C G/C G/C D/G :|   G C D G :|
 %
 X: 1760211998
 T: Saint Anne's Reel
@@ -1149,9 +1141,9 @@ de|\
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Acea | "D" ba^gb a2 de |
 "D" f2 fg fedc | "G" Bggf g2 gf | "A" edcB Aceg | "D" fddc d2 d2 ||
 %
-%%text A-part ==== | B-part=
-%%text D/A D G · D | D G A D
-%%text D/A D G/A D | D G A D
+% text A-part ==== | B-part=
+% text D/A D G · D | D G A D
+% text D/A D G/A D | D G A D
 %
 X: 1774471871
 T: Sally Growler
@@ -1171,7 +1163,7 @@ ef|:\
 "G" gdBd GBdg | "G" bgdg Bdgb | "D7" afd^c =cdfa | "G" g2 (3(gaf) gdef :|
 %
 %
-%%text Chords: G C/G C/G A/D | G C/G C/G D/G :|   G G D7 D7 | G G D7 G :|
+% text Chords: G C/G C/G A/D | G C/G C/G D/G :|   G G D7 D7 | G G D7 G :|
 %
 X: 1753559315
 T: Salt Creek
@@ -1194,7 +1186,7 @@ E2\
 |: "A" [ae]2 aa a2 ab | "A" c'abc' a2 e2 | "G" [=ge]2 gg g2 ga | "G" b=gab g2 e2  | 
    "A" [ae]2 aa a2 ab | "A" c'abc' a2 ef | "A" =gfga gfef      | "E" edcB "A" A4 :| 
 %
-%%text Chords: A A/D G G/E | A A/D A E/A :|   A A G G | A A A E/A :|
+% text Chords: A A/D G G/E | A A/D A E/A :|   A A G G | A A A E/A :|
 %
 X: 1779917681
 T: Salt River
@@ -1227,8 +1219,8 @@ K: Amix
 "A" EAGA "G" BGAG | "A" EAGA "G" BGAG | "A" EDFD "G" GEDG | "E" FGBG AGED |
 "A" EA2G "G" BGAG | "A" EA2G "G" [GB]2(3(BAG) | "E" EFGE AEGF | "E" EDCB, "A" G,A, A,2 :|
 %
-%%text A-part: A A G G | A D E E/A
-%%text B-part: A/G A/G A/G E | A/G A/G E E/A
+% text A-part: A A G G | A D E E/A
+% text B-part: A/G A/G A/G E | A/G A/G E E/A
 %
 X: 1756153504
 T: Saratoga Hornpipe
@@ -1236,7 +1228,6 @@ C: Trad.
 R: hornpipe
 Z: Cameron Cross 
 S: Assembled from versions by Chris Daring, Terry Morris, Christine King, and Tom Weisgerber.
-N: Great tune. So many great ways to play it.
 M: 4/4
 Q: 1/2=105
 K: Fmaj
@@ -1267,9 +1258,9 @@ AB|\
 "Dm" aAAa gAAg | "Dm" fAAf eAAf | "A7" eA^ce agfe | "A7" fgef defg |
 "Dm" a2 (3(gag) f2 e2 | "Dm" fefg fedf | "A7" eA^ce agfe | "Dm" de_de "C" c2 AB ||
 %
-%%text A-part ======= | B-part =========
-%%text F/Bb F B/F G/C | Dm Dm A7 A7 (3x)
-%%text F/Bb F G/C F · | Dm Dm A7 Dm/C
+% text A-part ======= | B-part =========
+% text F/Bb F B/F G/C | Dm Dm A7 A7 (3x)
+% text F/Bb F G/C F · | Dm Dm A7 Dm/C
 %
 X: 1774303809
 T: Shetland Set
@@ -1280,8 +1271,7 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: See, e.g. Aly Bain and Tom Anderson, _The Silver Bow: The Fiddle Music of Shetland_ (2016). 
-N: Some Shetland reels.  I was originally going to list these separately, but they seem often to 
-N: be grouped in a set.
+N: This is a common set.
 K: Dmaj
 %
 [P:Ferry Reel]
@@ -1323,9 +1313,9 @@ K: Dmaj
 "D" f2 af bfaf | "G" gfed "A" Bcde | "D" fa a2 bfaf | "G" gfed "A" B2 A2 |
 "D" fa2 f bfaf | "G" gfed "A" Bdef | "G" g3 e "D" f3 e | "G"dfed "D" B2 AG :|
 %
-%%text A-/B-parts == 
-%%text D G/A D · G/A  
-%%text D G/A G/D G/A 
+% text A-/B-parts == 
+% text D G/A D · G/A  
+% text D G/A G/D G/A 
 %
 X: 1774300851
 T: Sleep Soond i da Moarnin'
@@ -1352,9 +1342,9 @@ K: Gmaj
 "Am" cAeA cAeA | "G" BcdB G2AB | "Am" AB^cd efga | "G" gedB "Am" A2 z2 :|
 %
 %
-%%text A-part ======== | B-part =====
-%%text Am G/Em Am G/Am | Am G Am G/Am
-%%text Am G/Em Am G/Am | Am G Am G/Am
+% text A-part ======== | B-part =====
+% text Am G/Em Am G/Am | Am G Am G/Am
+% text Am G/Em Am G/Am | Am G Am G/Am
 %
 X: 1752938353
 T: Smith's Reel
@@ -1363,8 +1353,7 @@ R: reel
 M: 4/4
 Q: 1/2=105
 S: Cameron Cross and Joey McKensie
-N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it 
-N: sounds a little off.
+N: I've seen some versions where the first chord in the A-part is Bm. I want to like it, but it sounds a little off.
 K: Dmaj
 %
 [P:{A}](3(fg^g)|\
@@ -1383,15 +1372,14 @@ K: Dmaj
 |: "D" aead' bafe | "G" defd edBd | "D" (3(ABc) "Bm" df edef | "E7" (3(ABc) "A7" df edf2 |
    "D" aead' bafe | "G" defd edBd | "D" AFAd "Bm" Bcde | "A7" fdec "D" d4 :|
 %
-%%text Chords: D G D A | D G A/AD :|              Bm G D A | Bm G A A/D
-%%text Alt.:   D G D/Bm E7/A7 | D G D/Bm A7/D :|  D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D :|
+% text Chords: D G D A | D G A/AD :|              Bm G D A | Bm G A A/D
+% text Alt.:   D G D/Bm E7/A7 | D G D/Bm A7/D :|  D/Bm G D/Bm E7/A7 | D/Bm G D/Bm A7/D :|
 %
 X: 1779191980
 T: The Spinning Dogs (of Carrowkennedy)
 C: Damian Caisley
 Z: Cameron Cross
-N: I've made very minute changes to the original music as it was given me to better
-N: accommodate my playing style.
+N: I've made very minute changes to the original music as it was given me to better fit my playing style.
 R: reel
 M: 4/4
 Q: 1/2=105
@@ -1405,9 +1393,6 @@ dc |:\
 |:\
 "D" a3f gfec | ~d2 fd Adfd | "A" ceef efgf | "A7" edcB A2 (3(efg) |
 "D" a3f gfec | ~d2 fd Adfd | "A" ceeg fedc | "Bm" dBBA B3 f :|
-%
-%
-%%text Chords: Bm Em A A | Bm Em A Bm :|   D D A A7 | D D A Bm :|
 
 X: 1773272029
 T: The Stage Hornpipe
@@ -1429,7 +1414,7 @@ dc|:\
 "G"gag!0!e !2!d!1!g!3!b!2!d | "Am"!2!cfac "G"Bdgd | "G"BGdB "Am"cAag | "Am"(fg)(ef) "D"defd |
 "G"(gag)e dgbd | "Am"cfac "G"Bdgd | "G"eg db "Am"caBg | "D7"ecAF "G"G2G,2 :|
 %
-%%text Chords: G G Am D7 | G C D7 D7/G :| G Am/G G/Am Am/D7 | G Am/G G/Am D7/G :|
+% text Chords: G G Am D7 | G C D7 D7/G :| G Am/G G/Am Am/D7 | G Am/G G/Am D7/G :|
 %
 X: 1760203499
 T: The Twenty-Eighth of January
@@ -1458,8 +1443,8 @@ K: Ador
 "Am" [A,E]2 [ca]3 a eg | "Am" abag agef      | "G" gg[G,D][Bg] [Bg]3 a | "G" bgab ageg |
 "Am" abag e^d=dc       | "Am" {^d}edcA GEDC  | "G" DEGF GAcd | "Em" edcB "Am" A4  :|
 %
-%%text A-part: A/D A/D Am/G F/Em | A/D A/D Am Em/Am
-%%text B-part: Am Am G G/Em | Am Am G Em/Am
+% text A-part: A/D A/D Am/G F/Em | A/D A/D Am Em/Am
+% text B-part: Am Am G G/Em | Am Am G Em/Am
 %
 X: 1752894186
 T: Westmoreland's Hornpipe
@@ -1469,8 +1454,7 @@ M: 4/4
 Q: 1/2=105
 Z: Cameron Cross
 S: Terry Morris, _Touch of Texas_ (1976)
-N: Very pretty tune. I've marked alternating closed and open strings to give it more
-N: tonal variety.
+N: Very pretty tune. I've marked alternating closed and open strings to give it more tonal variety.
 K: Dmaj
 %noswing
 %
@@ -1486,7 +1470,7 @@ K: Dmaj
 |: "D" fdad fadf | "Em" begb egbg | "D" fdad fadf  | "A" edcB AGFE |
    "D" (!4!AF)(!0!AD) FADF | "Em" BEGB EGBG | "A" (FG)(!4!AF) (A,C)(EC) | "A" DFAc "D" d2 ag :|
 %
-%%text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
+% text Chords: D Em D A | D Em A A/D :|   D G D A | D Em A D :|
 %
 
 X: 1773528439
@@ -1501,26 +1485,26 @@ Q: 1/2=105
 K: Dmaj
 %
 [P:{A}] 
-"D" D2F2 FA2(A | "D" A)BAG FDEF | "G" G2BG "D" F2AF | "Em" EDEF "A" EA,CE |
-"D" DEFG A2FG  | "D" ABAG  FDEF | "G" GABG "D" FAFD | "A7" EDCE "D" D3E :|
+"D" D2F2 FA2(A |  A)BAG FDEF | "G" G2BG "D" F2AF | "Em" EDEF "A" EA,CE |
+"D" DEFG A2FG  |  ABAG  FDEF | "G" GABG "D" FAFD | "A7" EDCE "D" D3E :|
 %
 [P:{B}]
-"D" DFAc     d2Ac | "D" defd     dcBA | "Em" (B e2)B eBef| "A7" gfed cABc |
+"D" DFAc     d2Ac |     defd     dcBA | "Em" (B e2)B eBef| "A7" gfed cABc |
 "D" d2fd "A" c2ec | "G" BABc "D" dAFA | "G" GABG "D" F2AF | "A" EDEF "D" DGFE :|
 %
 [P:{A}]
-"D" DFDF ADF(A  | "D" A)BAG FDEF | "G" GABG "D" F2 (3AGF | "Em" EDEF "A" EA,CE |
-"D" DFAF [Fd]3A | "D" ABAG  FEDF | "G" GABG     FdAF     | "A7" EDCE "D" DGFE :|
+"D" DFDF ADF(A  |  A)BAG FDEF | "G" GABG "D" F2 (3AGF | "Em" EDEF "A" EA,CE |
+"D" DFAF [Fd]3A |  ABAG  FEDF | "G" GABG     FdAF     | "A7" EDCE "D" DGFE :|
 %
 [P:{B}]
-"D" (3DEF (3ABc dAFA | "D" dfed cBAF  | "Em" EB,G,B, EBef | "A7" gfed cABc |
+"D" (3DEF (3ABc dAFA |     dfed cBAF  | "Em" EB,G,B, EBef | "A7" gfed cABc |
 "D" dafd "A" caec | "G" BABc "D" dBAF | "G" GdBG "D" FdAF | "A" EA,CE "D" D4 :|
 %%
-%%text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
+% text Chords: D D G/D Em/A | D D G/D A7/D :|   D D Em A7 | D/A G/D G/D A/D :|
 %
 %%newpage
 X: 1783479262
-T:*JIGS AND SLIPJIGS
+T: ---JIGS AND SLIPJIGS---
 
 X: 1777756298
 T: The Ballykeal Jig
@@ -1670,7 +1654,7 @@ K: Gmaj
 %
 %%newpage
 X: 1783479299
-T:*TUNES OF CHOICE
+T: ---TUNES OF CHOICE---
 
 X: 1758443799
 T: The Blackbird (Set Dance)
@@ -1764,7 +1748,7 @@ B,|:\
 
 %%newpage
 X: 1783479313
-T:*WALTZES
+T: ---WALTZES---
 
 X: 1783045225
 T: 11.30 in Mallaig
@@ -1878,3 +1862,23 @@ ed|:\
 "A"A2 (3(Bcd) (3(efg) |"^II"a4 c'b | ag e2 c2 | "D"(3(def) e2 d2 | "A"c3 A "E"(3(BAG) | "A"A6 |]
 %
 
+X: 1779314600
+T: Two Rivers
+C: Larry Unger (1986)
+Z: Cameron Cross
+R: waltz
+M: 3/4
+Q: 1/4=180
+S: _The Curvy Road to Corinth_ by Larry Unger.
+N: Written at a campsite on Lake Michigan in Two Rivers, WI.
+K: Dmaj
+dc |:\
+"Bm"B4 BA | Bc dB AF | "F#m"F2 A2 AB | A4 dc |
+"Bm"B4 BA | Bc dc de | "G"f4 B2 | "A"f4 fe |
+"D" d4 dc | de fd fg | "F#m"a2 f2 d2 | f4 ba |
+"Bm"f3d ef | "A"e2d2 BA |1 "G"B6- | B2 z2 dc :|2 "G"B6- | B2 Bc de ||
+|:\
+"Bm"f2B2f2 | f2B2f2 | "A"e2A2e2 | e2 Bc de | 
+"Bm"f2B2f2 | f2B2f2 | "G"a4 c2 | "A"a4 a2 | "Bm"b3 d' ba |
+"Bm"f2d2d2 | "G"Bf fB ff | "A"e2c2A2 | "Bm" B3 d BA |
+"F#m"F4 ED |1 "G"E6- | "A"E2 Bc de :|2 "G"E6- | "A"E2 z4 |]

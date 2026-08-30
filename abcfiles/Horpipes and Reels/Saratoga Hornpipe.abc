@@ -5,7 +5,6 @@ C: Trad.
 R: hornpipe
 Z: Cameron Cross 
 S: Assembled from versions by Chris Daring, Terry Morris, Christine King, and Tom Weisgerber.
-N: Great tune. So many great ways to play it.
 M: 4/4
 Q: 1/2=105
 K: Fmaj
@@ -36,7 +35,7 @@ AB|\
 "Dm" aAAa gAAg | "Dm" fAAf eAAf | "A7" eA^ce agfe | "A7" fgef defg |
 "Dm" a2 (3(gag) f2 e2 | "Dm" fefg fedf | "A7" eA^ce agfe | "Dm" de_de "C" c2 AB ||
 %
-%%text A-part ======= | B-part =========
-%%text F/Bb F B/F G/C | Dm Dm A7 A7 (3x)
-%%text F/Bb F G/C F · | Dm Dm A7 Dm/C
+% text A-part ======= | B-part =========
+% text F/Bb F B/F G/C | Dm Dm A7 A7 (3x)
+% text F/Bb F G/C F · | Dm Dm A7 Dm/C
 %

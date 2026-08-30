@@ -12,13 +12,13 @@ N: Ashley plays it in Bb, but the standard key is A Dorian.  I like his accident
 K: Ador
 %
 [P:{A}]           |:\
-   "Am" A2(BA) GAAB  | "Am" A2(BA) "G" eddB | "G" G2(BA) BGGA | "G"  (B^c) (BA) BGGB   |
-   "Am" A2(BA) GAAB  | "Am" A2(BA) "Em" edda | "G" gedB   GABd | "Em" e2 (dB) "Am"eAAB :|
+   "Am" A2(BA) GAAB  | A2(BA) "G" eddB | G2(BA) BGGA | (B^c) (BA) BGGB   |
+   "Am" A2(BA) GAAB  | A2(BA) "Em" edda | "G" gedB   GABd | "Em" e2 (dB) "Am" eAAB :|
 %
 [P:{B}]           |:\
-   "Am" A2a2   A2g2  | "Am" Aage "G" ageg   | "G" G2(BA) BGGA | "G" (B^c) (BA) BGGB    |
-[1 "F" A2a2  A2g2    | "F" Aage "C" agea   | "Em" gedB GABd   | "Em" e2(dB) "Am" eAAB :|]
-[2 "Am" A2(BA) GAAB  | "Am" A2(BA) "G" edda | "G" gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
+   "Am" A2a2   A2g2  | Aage "G" ageg   | G2(BA) BGGA | (B^c) (BA) BGGB    |
+[1 "F" A2a2  A2g2    | Aage "C" agea   | "Em" gedB GABd  | e2(dB) "Am" eAAB :|]
+[2 "Am" A2(BA) GAAB  | A2(BA) "G" edda | gedB GABd   | "Em" e2(dB) "Am" eAA2  |]
 %
-%%text A-part: Am Am/G G G | Am Am/Em G Em/A :|
-%%text B-part: Am Am G G | F F/C Em Em/A | <repeat A-part once>
+% %text A-part: Am Am/G G G | Am Am/Em G Em/A :|
+% %text B-part: Am Am G G | F F/C Em Em/A | <repeat A-part once>
