@@ -12,17 +12,17 @@ K: Gmaj
 [P:{A}]ga|\
 "G"bgdg edBe | "C"dBGB AGEG | "G"DB,DG Bdge | "D"dBA^G A2ga |
 "G"bgdg edBe | "C"dBGB AGEG | "D"DB,DG EFGA | "G"BGAG [G2B2][G,2D2] |
-gedg edBd | gage dBGE | G,B,DG EFGA | BdB^G A2b^a |
-bgdg edBe | dBGB AGEG | (3(DEF) GA Bdge | dBAG [G2B2] GE ||
+"G"gedg edBd | "C"gage dBGE | "G"G,B,DG EFGA | "D"BdB^G A2b^a |
+"G"bgdg edBe | "C"dBGB AGEG | "D"(3(DEF) GA Bdge | "G"dBAG [G2B2] GE ||
 [P:{B}]
-DB,2D B,DGF | EC2E CEGE | DB,DG Bdge | dBA^G A2 (3(GFE) |
-DB,G,A, B,GFG | ECG,C EFGE | DB,DG Bdge | dBAF G2ge |
-dBGB dgfg | ecBc efge | dBGB dega | bgag fage |
-dBGA Bgfg | ecBc efge | dBGA Bdga | bgaf g2[G,2D2] ||
+"G"DB,2D B,DGF   | "C"EC2E CEGE | "G"DB,DG Bdge | "D"dBA^G A2 (3(GFE) |
+"G"DB,G,A, B,GFG | "C"ECG,C EFGE| "D"DB,DG Bdge | "G"dBAF G2ge |
+"G"dBGB dgfg     | "C"ecBc efge | "G"dBGB dega |  "D"bgag fage |
+"G"dBGA Bgfg     | "C"ecBc efge | "D"dBGA Bdga |  "G"bgaf g2[G,2D2] ||
 %%vskip 0.5cm
 [P:{A} (var.)]
-G2g2 dedc | BGAG [E3A3](G | DB,)vDF GABe | dBAG A2G2 |
-G,2g2 dedc | BGAG EFGE | DB,DF GABe|dBAF G2g2 |
-gage dged | gded Bcd2  | gage dged | BGAF EGGD |
-G,age dged | gded Bddg | gage dged | BGAF G4 ||
+"G"G2g2 dedc  | "C"BGAG [E3A3](G | "G"DB,)vDF GABe | "D"dBAG A2G2 |
+"G"G,2g2 dedc | "C"BGAG EFGE     | "D"DB,DF GABe   | "G"dBAF G2g2 |
+"G"gage dged  | "C"gded Bcd2     | "G"gage dged    | "D"BGAF EGGD |
+"G"G,age dged | "C"gded Bddg     | "D"gage dged    | "G"BGAF G4 ||
 %

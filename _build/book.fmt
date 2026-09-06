@@ -1,17 +1,19 @@
 infoline 1
 writefields CSN
 breaklimit  0.6
-leftmargin  2cm
-rightmargin 2cm
-topmargin 0.5cm
-botmargin 0.5cm
+leftmargin  0.85in 
+rightmargin 0.85in
+topmargin   0.5in
+botmargin   0.5in
+topspace    16.0
 
-staffsep    32.0
-maxstaffsep 38.0
+staffsep    36.0
+maxstaffsep 42.0
+splittune   0
 
 historyfont    Helvetica 12.0
-titlefont      Times-Bold 18.0
-titlespace     2.0
+titlefont      Times-Bold 24.0
+titlespace     4.0
 annotationfont Times-Roman 12.0
 subtitlefont   Times-Italic 18.0
 composerfont   Times-Italic 14.0
