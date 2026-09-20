@@ -338,6 +338,31 @@ K: Amaj
 % text Chords: A A B7 E | A D E7 E/A :|   E A B7 E | A B7 E E/A :|
 %
 
+X: 1789523502
+T: The Come Hither Stare
+C: Trad.
+R: hornpipe
+Z: Cameron Cross 
+S: Eliot Grasso & Dave Cory (2020) - North by NorthWest
+M: 4/4
+Q: 1/2=105
+K: Dmaj
+%noswing
+%
+[P:{A}]
+Adde fedc | dAGA FAAB | A2 de d=cBc | (3A=cA GE =CDEG | 
+Adde fd (3gfe | agec cdcB | (3ABA FA GBAG | F2 D2 DE FG |
+Adde fedc | dAGA FAGB | Adde d=cBc | (3A=cA GE =CD (3EFG | 
+Adde fd (3gfe | agec cdcB | (3ABA FA GBAG | F2 D2 DE FG ||
+%
+[P:{B}]
+A=FAB G=cBc | AG (3ABc ddec | d=cAG EFGE | (3FED GE =CDEC |
+DDEE =FFGE | ABcA ddcB | (3ABA FA GBAG | F2 D2 DE FG |
+A=FAB cEBc | AGAc cddc | d=cAG EFGE | (3FED GE =CDEC |
+~D2~E2 ~=F2GE | AB (3cBA ddcB | (3ABA FA GBAG | F2 D2 DE FG |
+
+
+
 X: 1759096619
 T: Cuckoo's Nest
 C: Trad.
@@ -790,6 +815,23 @@ eg\
 %
 % text Chords: D C/G D G/D :|   C C C D :|
 %
+X: 1789934848
+T: Nichol Caisley's
+C: Damian Caisley
+R: reel
+M: 4/4
+Q: 1/2=105
+Z: Cameron Cross
+K: Dmaj
+%
+[P:{A}] Ade|:\
+"D"vfA (3AAA u(gf)ed | "G"(3(Bcd) eg "D"fddA | "G"B2dB "D"ABdf | "A7"(3(fed) eg eAde |
+"D"fA (3AAA u(gf)ed | "G"(3(Bcd) eg "D"fddA | "G"B2dB "D"ABdf |1 "A7"edef "D"dAde :|2 "A7"edef "D"d2 cd || 
+%
+[P:{B}] |:\
+"A"e2u(ed) cA (3AAA | u(EA)cd ecde | "D"vfuA (3AAA (fA)(gA) | "A"ua2 af "G"gfed |
+"A"e2u(ed) cA (3AAA | u(EA)cd efge | "D"f3 (f "G"gf)ed |1 "A7"(3(Bcd) (ec) "D"d2(cd) :|2 "A7"cdec "D"d4 |]
+%
 X: 1752893820
 T: The Nine Points of Roguery
 T: a.k.a. The Black Mare of Fanad
@@ -830,8 +872,11 @@ K: Dmaj
 "D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | d2(de) "Bm"fabd'| "Em"(be)(ab) bege | 
 "D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A2 :|
 %
-"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BEGA BGAB |
+"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BE [E=c]3 GAB |
 "C"=cdcA "G"BGDB, | "D"A,DAd fdAF | DEFA "A7"G2[Gc]2 | "D"d3c d4 :|
+
+
+% Damnit, here's a version that does the C in the low part and the Em in the high part: https://youtu.be/C7xbibkafvo?si=aYWfckPbnfq77tfC . So much to research!
 X: 1759581014
 T: Old Joe Clark
 C: Trad.
@@ -1758,6 +1803,45 @@ B,|:\
 "Em" B,>D EF G>F GA | "Em" B2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "Bm" FG/F/ ED "Em" E2 ed   |
 "Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2B  | "D" A>^G AB d>c de    | "D" dB AB "Bm" de/d/ BA    |
 "Em" B2 e2 e2 de    | "Em" f2 e2 "G" dB2A  | "Em" G>F GB "D" AF DE | "Bm" FG/F/ ED "Em" E2 GF  :|
+
+X: 1789849737
+T: The Princess Royal
+C: Turlough O'Carolan
+R: set dance
+Z: Cameron Cross
+S: Eliot Grasso and Dave Cory, North by NorthWest (2020)
+M: 4/4
+Q: 1/4=160
+K: Bmin
+%
+[P:{A}]
+fe |:\
+"Bm"d2cdB2 fg | fedc B2 (3f^ga | "E"^g2e2e2 ga | "Bm"fedc "F#m" cdcB | 
+"A"c2a2c2 dc | "Bm" BcBA "F#m"F2 fe | "Bm"cd (3Bcd "A"cBAc |1 "Bm"B2 BA B2 fe :|2 "Bm"B2 BA B2 de ||
+%
+[P:{B}]
+|:\
+"Bm"fbba b3c' | bafe f2 fe | "E"(3f^ga gb agaf | "Bm"edcB "F#m"A2 Bc |
+"D"d2cd "E"e2^de | "A"f^gaf "B"b3 a | "F#"^g2B2g2 ag | "E"f2B2 e2 fe |
+"Bm"(3dfd cd Bcde | f2F2 F2 fe | "Bm" cdBd "A"cBAc |1 "Bm"B2 BA B2 de :|2 "Bm"B2 BA B2 fe |]
+
+X: 1780131624
+T: Rodney's Glory
+T: a.k.a. Five in a Line
+C: Trad.
+R: set dance
+Z: Cameron Cross
+S: Eliot Grasso & Dave Cory (North by NorthWest, 2020)
+M: 4/4
+Q: 1/4=130
+K: Gmaj
+ed|\
+"Am"c2Bc ABcA|"G"BGEF G2cd|"Am"e=fed "D"^cde^f|"G" gage dfed|
+"Am"(3cdc Bc ABcA|"G"BGEF G2ed|"Am"(3cdc BA GABG|"A"A4 A2:|:Bd||
+eaab aged|efed c2A2|g2(3gfg age^c|dcAF G2E2|
+AGAB cBcd|efge a3b|aged cdef|ged^c dfed|
+(3cdc Bc ABcA|BGEF G2ed|(3cdc BA GABG|A2AG A2:|Bd||
+
 
 %%newpage
 X: 1783479313
