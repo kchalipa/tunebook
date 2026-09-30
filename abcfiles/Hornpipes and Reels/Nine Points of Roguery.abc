@@ -6,41 +6,45 @@ C: Trad.
 R: reel
 M: 4/4
 Q: 1/2=100
-S: _Ho-ro-gheallaidh_ vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
+S: Loosely from Maggie Sansone (Mist and Stone, 1990) and _Ho-ro-gheallaidh vol. 1_.
 Z: Cameron Cross
-N: Maggie plays over a C chord on the 4th measure of every part; I really like that, but it seems that going to Em 
-N: is far more common.  Plus it makes the C really pop when we get to the {B} part.
+N: It's common to play an Em in the 4th bar of this tune (both A and B parts), but I've also seen it done with C
+N: and I really like how that sounds. Those who want to play the melody over an Em chord can substitute a B note 
+N: for the C at that measure.
 K: Dmaj
 %
 [P:{A}] A,2 |:\
-"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFA | "Em"BE (3EEE BEGE | 
-"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFd | "C"=cEEc "G"BEGE | 
+"D"D2FD "G"GEFE | "D"DEFG AdAF | DEFA "A7"GAce | "D"dDDA, D2A2 :|
 %
 [P:{B}]
-"C"=c3A "G"B3G   | "D"A2AB AGFE | D2FD "Bm"GEFA | "Em"BE (3EEE B,EGB |
+"C"[=c3E]A "G"[GB]3[A,F] | "D"[FA]2AB AGFE | D2FD "Bm"GEFA | "C"=cE (3EEE "G"=CEGB |
 "C"=cBAc "G"BAGB | "D"Adcd fdAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
 [P:{A'}]
-"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "Em"be (3eee bege |
+"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "C"!4!=c'ee!4!c' "G"!4!bege |
 "D"d2fd "G"gefe | "D"defg abaf | defg "A7"agfe | "D"egfe f(d[fd]2) :|
-%
 [P:{B}]
-"C"[=c'e]4 "G"[bd]4 | "D"[af]4 abaf | dAdf "Bm"gfea | "Em"beeb [be]2ab |
-"C"=c'bac' "G"bd'af | "D"dAcd fdAF | D2FA "A7" GAce | "D"dfec d2A2 :|
+"C"=cedc B2 (3dcB | "D" A2AB AGFE | DEFA "Bm"GFEd | "C"=cEEc "G"cEEB |
+"C"=cAAc "G"BAGB | "D"Adce fdAF | DEFA "A7"GAce | "D"d2 dc d2A2 :|
 %
-%%vskip 0.5cm
-[P:Variation 1]
-"D"D2FD "G"GFED | "D"AdAF ABAF | D2FD "Bm"GFEA | "Em"BEEB BEGE |
-"D"D2FD "G"GFED | "D"AdAF AdAF | D2FD "A7"GFEc | "D"dDDA, D2A,B, :|
 %
-"C"=C2[E=c]2 "G"B,2[BG]2 | "D"A,2[Fd]2 dAFE | DA,DF "Bm"GFEA |"Em"BEB=c BGAB |
-"C"=c2(3dcA "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
+%%vskip 1cm
+[P:Variation]
+"D"D2FD "G"GFED | "D"AdAF AdAF | DA,DF "Bm"GFEd | "C"=cE [cE][Ed] "G"[cE]2GE |
+"D"DDFD "G"GFED | "D"AdAF ABAF | D2FD "A7"GFEc | "D"dD [dD][Ed] D2A,2 :|
 %
-"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | d2(de) "Bm"fabd'| "Em"(be)(ab) bege | 
-"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A2 :|
+"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]4 AdAF | D2[AD]2- "Bm"[AD]F AB |"C"[=cE]4- "G"[cE]GAB |
+"C"=cGEc "G"BGDB, | "D"A,Dde fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
 %
-"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BE [E=c]3 GAB |
-"C"=cdcA "G"BGDB, | "D"A,DAd fdAF | DEFA "A7"G2[Gc]2 | "D"d3c d4 :|
+"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | dAdf "Bm"gfed'| "C"(=c'e)[c'e][d'e] "G"[c'e]2 (3ABc | 
+"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A,2 :|
+%
+"C"=C[EC]2[EC] "G"[B,D][B,G][B,D][G,D] | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "C"=cE [Ec]3 "G"GAB |
+"C"=cBAc "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dAFA D2A,2 :|
 
 
-% Damnit, here's a version that does the C in the low part and the Em in the high part: https://youtu.be/C7xbibkafvo?si=aYWfckPbnfq77tfC . So much to research!
+
+% With Em: https://youtu.be/QaSyWh39Uv8?si=bHjxNgsaiIOtb9XH
+% With C: https://youtu.be/vMziNZQrUnc?si=PpVt6Y5JkHdXntAj
+% With both: https://youtu.be/C7xbibkafvo?si=iXhoJ3q3Cq0_iwNt

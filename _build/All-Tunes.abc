@@ -526,6 +526,24 @@ cde|:\
 % text B-part: C F  C C | Bb F C F :|
 % text C-part: F Bb F C | Bb F C F :|
 %
+X: 1790478251
+T: Frosty Rushes
+C: Martin Matthews
+R: hornpipe
+S: _Colpitts to Elm Tree_, slightly modified
+M: 4/4
+Q: 1/2=95
+Z: Cameron Cross
+K: Fmaj
+%
+[P:{A}] !3!c'b |:\
+"F"!1!a!3!fa!3!c' "Bb"!1!d!3!Bd!3!f | "C"!0!e!2!ceg "F"fefg | afge fagf | "C7"e2 c2 c2 c'b |
+"F"afac' "Bb"dBdf | "C"eceg "F"fefg | afge "C7"fdcB |1 "F"A2 F2 F2 c'b :|2 "F"A2 F2 F2 de ||
+%
+[P:{B}] |:\
+"Dm"fddf AdFA | fd~d2 AdFA | "A7"ge^cg ecge | a2ab agfe |
+|1 "Dm"fddf AdFA | fd~d2 AdFA | "A7"d^cde fgfe | fde^c d2 de :|
+|2 "F"af ~f2 cfAf | af fa c2 fa | "Gm"bgaf gefd | "C7"ec (3(=Bcd) c4 |]
 X: 1772921022
 T: Gin Rickshaw
 C: Trad.
@@ -817,7 +835,7 @@ eg\
 %
 X: 1789934848
 T: Nichol Caisley's
-C: Damian Caisley
+C: Damian Caisley (2007)
 R: reel
 M: 4/4
 Q: 1/2=105
@@ -825,13 +843,14 @@ Z: Cameron Cross
 K: Dmaj
 %
 [P:{A}] Ade|:\
-"D"vfA (3AAA u(gf)ed | "G"(3(Bcd) eg "D"fddA | "G"B2dB "D"ABdf | "A7"(3(fed) eg eAde |
-"D"fA (3AAA u(gf)ed | "G"(3(Bcd) eg "D"fddA | "G"B2dB "D"ABdf |1 "A7"edef "D"dAde :|2 "A7"edef "D"d2 cd || 
+"D"vfA (3AAA "G"u(gf)ed | "A"(3(Bcd) eg "D"fddA | "Bm"B2dB "Em"ABdf | "G"(3(fed) eg "A"eAde |
+"D"fA (3AAA "G"u(gf)ed | "A"(3(Bcd) eg "D"fddA | "G"B2dB "D"ABdf |1 "A7"edef "D"dAde :|2 "A7"edef "D"d2 cd || 
 %
 [P:{B}] |:\
-"A"e2u(ed) cA (3AAA | u(EA)cd ecde | "D"vfuA (3AAA (fA)(gA) | "A"ua2 af "G"gfed |
+"A"e2u(ed) cA (3AAA | u(EA)cd ecde | "D"vfuA (3AAA "G"(fA)(gA) | "D"ua2 af gfed |
 "A"e2u(ed) cA (3AAA | u(EA)cd efge | "D"f3 (f "G"gf)ed |1 "A7"(3(Bcd) (ec) "D"d2(cd) :|2 "A7"cdec "D"d4 |]
 %
+
 X: 1752893820
 T: The Nine Points of Roguery
 T: a.k.a. The Black Mare of Fanad
@@ -839,44 +858,49 @@ C: Trad.
 R: reel
 M: 4/4
 Q: 1/2=100
-S: _Ho-ro-gheallaidh_ vol. 1; Maggie Sansone (Mist and Stone, 1990); my own additions.
+S: Loosely from Maggie Sansone (Mist and Stone, 1990) and _Ho-ro-gheallaidh vol. 1_.
 Z: Cameron Cross
-N: Maggie plays over a C chord on the 4th measure of every part; I really like that, but it seems that going to Em 
-N: is far more common.  Plus it makes the C really pop when we get to the {B} part.
+N: It's common to play an Em in the 4th bar of this tune (both A and B parts), but I've also seen it done with C
+N: and I really like how that sounds. Those who want to play the melody over an Em chord can substitute a B note 
+N: for the C at that measure.
 K: Dmaj
 %
 [P:{A}] A,2 |:\
-"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFA | "Em"BE (3EEE BEGE | 
-"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
+"D"D2FD "G"GEFE | "D"DEFG ABAF | D2FD "Bm"GEFd | "C"=cEEc "G"BEGE | 
+"D"D2FD "G"GEFE | "D"DEFG AdAF | DEFA "A7"GAce | "D"dDDA, D2A2 :|
 %
 [P:{B}]
-"C"=c3A "G"B3G   | "D"A2AB AGFE | D2FD "Bm"GEFA | "Em"BE (3EEE B,EGB |
+"C"[=c3E]A "G"[GB]3[A,F] | "D"[FA]2AB AGFE | D2FD "Bm"GEFA | "C"=cE (3EEE "G"=CEGB |
 "C"=cBAc "G"BAGB | "D"Adcd fdAF | D2FA "A7"GAce | "D"d2 dc d2A2 :|
 %
 [P:{A'}]
-"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "Em"be (3eee bege |
+"D"d2fd "G"gefe | "D"defg abaf | d2fd "Bm"gefa | "C"!4!=c'ee!4!c' "G"!4!bege |
 "D"d2fd "G"gefe | "D"defg abaf | defg "A7"agfe | "D"egfe f(d[fd]2) :|
-%
 [P:{B}]
-"C"[=c'e]4 "G"[bd]4 | "D"[af]4 abaf | dAdf "Bm"gfea | "Em"beeb [be]2ab |
-"C"=c'bac' "G"bd'af | "D"dAcd fdAF | D2FA "A7" GAce | "D"dfec d2A2 :|
+"C"=cedc B2 (3dcB | "D" A2AB AGFE | DEFA "Bm"GFEd | "C"=cEEc "G"cEEB |
+"C"=cAAc "G"BAGB | "D"Adce fdAF | DEFA "A7"GAce | "D"d2 dc d2A2 :|
 %
-%%vskip 0.5cm
-[P:Variation 1]
-"D"D2FD "G"GFED | "D"AdAF ABAF | D2FD "Bm"GFEA | "Em"BEEB BEGE |
-"D"D2FD "G"GFED | "D"AdAF AdAF | D2FD "A7"GFEc | "D"dDDA, D2A,B, :|
 %
-"C"=C2[E=c]2 "G"B,2[BG]2 | "D"A,2[Fd]2 dAFE | DA,DF "Bm"GFEA |"Em"BEB=c BGAB |
-"C"=c2(3dcA "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
+%%vskip 1cm
+[P:Variation]
+"D"D2FD "G"GFED | "D"AdAF AdAF | DA,DF "Bm"GFEd | "C"=cE [cE][Ed] "G"[cE]2GE |
+"D"DDFD "G"GFED | "D"AdAF ABAF | D2FD "A7"GFEc | "D"dD [dD][Ed] D2A,2 :|
 %
-"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | d2(de) "Bm"fabd'| "Em"(be)(ab) bege | 
-"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A2 :|
+"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]4 AdAF | D2[AD]2- "Bm"[AD]F AB |"C"[=cE]4- "G"[cE]GAB |
+"C"=cGEc "G"BGDB, | "D"A,Dde fdAF | DEFG "A7"ABcA | "D"dfec d2A2 :|
 %
-"C"[A,E=c]4 "G"[G,DB]4 | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "Em"BE [E=c]3 GAB |
-"C"=cdcA "G"BGDB, | "D"A,DAd fdAF | DEFA "A7"G2[Gc]2 | "D"d3c d4 :|
+"D"d2(fd) "G"ge(fg | "D"!1!a2)(a!4!d') agfe | dAdf "Bm"gfed'| "C"(=c'e)[c'e][d'e] "G"[c'e]2 (3ABc | 
+"D"d2(fd) "G"gefg | "D"!1!(ad'a)(f ab)af | defg "A7"abc'a | "D"d'afa d2A,2 :|
+%
+"C"=C[EC]2[EC] "G"[B,D][B,G][B,D][G,D] | "D"[A,DA]2 AB AGFE | D2DE "Bm" FGAd | "C"=cE [Ec]3 "G"GAB |
+"C"=cBAc "G"BdBG | "D"(3DEF (3ABd fdAF | DEFG "A7"ABcA | "D"dAFA D2A,2 :|
 
 
-% Damnit, here's a version that does the C in the low part and the Em in the high part: https://youtu.be/C7xbibkafvo?si=aYWfckPbnfq77tfC . So much to research!
+
+% With Em: https://youtu.be/QaSyWh39Uv8?si=bHjxNgsaiIOtb9XH
+% With C: https://youtu.be/vMziNZQrUnc?si=PpVt6Y5JkHdXntAj
+% With both: https://youtu.be/C7xbibkafvo?si=iXhoJ3q3Cq0_iwNt
+
 X: 1759581014
 T: Old Joe Clark
 C: Trad.
@@ -1957,6 +1981,41 @@ ed|:\
 "E"BGE GBc | d3c (3(dcB) | "A"c3 Bcf | e4 "^II"c'b | ag e2 c2 |
 "D"(3(def) e2 d2 | "A"c3 d (3(edc) | "E"B4 ed | "A"cAcA (3(BAG) | "A"A4 (3(EFG) |
 "A"A2 (3(Bcd) (3(efg) |"^II"a4 c'b | ag e2 c2 | "D"(3(def) e2 d2 | "A"c3 A "E"(3(BAG) | "A"A6 |]
+%
+
+X: 1790208375
+T: Tvihuga (Mixed Feelings)
+C: Sturla Eide
+S: Sturla Eide, Murru (2006). https://youtu.be/CdXmH3nog9w?si=_6Wh9K9-J2iFgw1y
+Z: Cameron Cross
+R: waltz
+M: 3/4
+Q: 1/4=130
+K: Gmaj
+%swing .5
+[P:{A}]
+D GA |:\
+"G"B3 c BG | "D"A3 A GF | "C"EG GE GB | "D"AF D[FB,] [GG,]A | 
+"G"B3 c BG | "D"A3 A GF | "C"EG GD "D"FA |1 "G"G2G D GA :|2 "G"G2 G dgf ||
+%
+[P:{B}]
+|:\
+"C"e3 f ed | "Em"B3 BAG | "D"A3 G AB | "Em"AG E2 gf |
+"C"e3 f ed | "Em"B3 BAG | "D"A3 G AB | "Em"AG E2 ED |
+"C"[EC]D EF GA | "D"B[df] [eg]B AB | "G"G3 A BA |1 G2g3f :|2 G3 =F _Bc ||
+%
+%%vskip 1cm
+K: Bbmaj
+[P:{A}]
+|:\
+"Bb"d3 e dB | "F"c3 c BA | "Eb"GB BG Bd | "F"cA F[DA] [B,B]c | 
+"Bb"d3 e dB | "F"c3 c BA | "Eb"GB BF "F"Ac |1 "Bb"B2B F Bc :|2 "Bb"B2 B fba ||
+%
+[P:{B}]
+|:\
+"Eb"g3 a gf | "Gm"d3 dcB | "F"c3 B cd | "Gm"cB G2 ba |
+"Eb"g3 a gf | "Gm"d3 dcB | "F"c3 B cd | "Gm"cB G2 GF |
+"Eb"[EG]F GA Bc | "F"d[fa] [gb]d cd | "Bb"B3 c dc |1 B2b3a :|2 B6 |]
 %
 
 X: 1779314600

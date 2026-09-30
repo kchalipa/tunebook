@@ -1,0 +1,19 @@
+%abc-2.1
+X: 1790478251
+T: Frosty Rushes
+C: Martin Matthews
+R: hornpipe
+S: _Colpitts to Elm Tree_, slightly modified
+M: 4/4
+Q: 1/2=95
+Z: Cameron Cross
+K: Fmaj
+%
+[P:{A}] !3!c'b |:\
+"F"!1!a!3!fa!3!c' "Bb"!1!d!3!Bd!3!f | "C"!0!e!2!ceg "F"fefg | afge fagf | "C7"e2 c2 c2 c'b |
+"F"afac' "Bb"dBdf | "C"eceg "F"fefg | afge "C7"fdcB |1 "F"A2 F2 F2 c'b :|2 "F"A2 F2 F2 de ||
+%
+[P:{B}] |:\
+"Dm"fddf AdFA | fd~d2 AdFA | "A7"ge^cg ecge | a2ab agfe |
+|1 "Dm"fddf AdFA | fd~d2 AdFA | "A7"d^cde fgfe | fde^c d2 de :|
+|2 "F"af ~f2 cfAf | af fa c2 fa | "Gm"bgaf gefd | "C7"ec (3(=Bcd) c4 |]

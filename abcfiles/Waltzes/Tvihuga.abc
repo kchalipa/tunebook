@@ -1,0 +1,35 @@
+%abc-2.1
+X: 1790208375
+T: Tvihuga (Mixed Feelings)
+C: Sturla Eide
+S: Sturla Eide, Murru (2006). https://youtu.be/CdXmH3nog9w?si=_6Wh9K9-J2iFgw1y
+Z: Cameron Cross
+R: waltz
+M: 3/4
+Q: 1/4=130
+K: Gmaj
+%swing .5
+[P:{A}]
+D GA |:\
+"G"B3 c BG | "D"A3 A GF | "C"EG GE GB | "D"AF D[FB,] [GG,]A | 
+"G"B3 c BG | "D"A3 A GF | "C"EG GD "D"FA |1 "G"G2G D GA :|2 "G"G2 G dgf ||
+%
+[P:{B}]
+|:\
+"C"e3 f ed | "Em"B3 BAG | "D"A3 G AB | "Em"AG E2 gf |
+"C"e3 f ed | "Em"B3 BAG | "D"A3 G AB | "Em"AG E2 ED |
+"C"[EC]D EF GA | "D"B[df] [eg]B AB | "G"G3 A BA |1 G2g3f :|2 G3 =F _Bc ||
+%
+%%vskip 1cm
+K: Bbmaj
+[P:{A}]
+|:\
+"Bb"d3 e dB | "F"c3 c BA | "Eb"GB BG Bd | "F"cA F[DA] [B,B]c | 
+"Bb"d3 e dB | "F"c3 c BA | "Eb"GB BF "F"Ac |1 "Bb"B2B F Bc :|2 "Bb"B2 B fba ||
+%
+[P:{B}]
+|:\
+"Eb"g3 a gf | "Gm"d3 dcB | "F"c3 B cd | "Gm"cB G2 ba |
+"Eb"g3 a gf | "Gm"d3 dcB | "F"c3 B cd | "Gm"cB G2 GF |
+"Eb"[EG]F GA Bc | "F"d[fa] [gb]d cd | "Bb"B3 c dc |1 B2b3a :|2 B6 |]
+%
